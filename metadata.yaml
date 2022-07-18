@@ -1,0 +1,25 @@
+composer:
+  last: Eybler
+  first: Joseph Leopold Edler von
+title: Missa Sancti Michaelis
+id: HerEy 2
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: F4.Baden.70
+    url: https://data.onb.ac.at/rec/AC14265869
+    license: public domain
+    principal: true
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (E-16)
+    date: 1813–1850
+    rism: 455039865
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_E16/
+    license: public domain
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
