@@ -13,7 +13,7 @@ sources:
     url: https://data.onb.ac.at/rec/AC14265869
     license: public domain
     principal: true
-  B2:
+  D1:
     siglum: D-NATk
     shelfmark: NA/SP (E-16)
     date: 1813–1850
@@ -23,3 +23,5 @@ sources:
 imslp:
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
+extra_abbreviations:
+  rip: ripieno

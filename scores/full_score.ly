@@ -7,7 +7,15 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 3\cm }
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      indent = 3\cm
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -23,16 +31,6 @@
             }
           >>
         >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \partCombine \KyrieClarinoI \KyrieClarinoII
-          >>
-        >>
-        \new Staff {
-          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          \KyrieTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
@@ -51,6 +49,33 @@
           }
         >>
         \new ChoirStaff <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "S O L I" \hspace #11 }
+          \new Staff {
+            \incipitSoprano
+            \new Voice = "SopranoSolo" { \dynamicUp \KyrieSopranoSolo }
+          }
+          \new Lyrics \lyricsto SopranoSolo \KyrieSopranoSoloLyrics
+
+          \new Staff {
+            \incipitAlto
+            \new Voice = "AltoSolo" { \dynamicUp \KyrieAltoSolo }
+          }
+          \new Lyrics \lyricsto AltoSolo \KyrieAltoSoloLyrics
+
+          \new Staff {
+            \incipitTenore
+            \new Voice = "TenoreSolo" { \dynamicUp \KyrieTenoreSolo }
+          }
+          \new Lyrics \lyricsto TenoreSolo \KyrieTenoreSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "BassoSolo" { \dynamicUp \KyrieBassoSolo }
+          }
+          \new Lyrics \lyricsto BassoSolo \KyrieBassoSoloLyrics
+        >>
+        \new ChoirStaff <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "T U T T I" \hspace #11 }
           \new Staff {
             \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
@@ -85,7 +110,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 45 }
     }
   }
 }
