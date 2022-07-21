@@ -7,6 +7,10 @@
 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
+tempoGloria = \tempoMarkup "Allegro vivace"
+  tempoQuiTollis = \tempoMarkup "Adagio"
+  tempoQuoniam = \tempoMarkup "Allegro"
+  tempoCumSancto = \tempoMarkup "Più mosso"
 
 
 \include "notes/ob1.ly"
@@ -17,8 +21,12 @@ tempoKyrie = \tempoMarkup "Andante sostenuto"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
-\include "notes/S.ly"
-\include "notes/A.ly"
-\include "notes/T.ly"
-\include "notes/B.ly"
+\include "notes/S_solo.ly"
+\include "notes/S_tutti.ly"
+\include "notes/A_solo.ly"
+\include "notes/A_tutti.ly"
+\include "notes/T_solo.ly"
+\include "notes/T_tutti.ly"
+\include "notes/B_solo.ly"
+\include "notes/B_tutti.ly"
 \include "notes/org.ly"
