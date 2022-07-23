@@ -689,14 +689,14 @@ CumSanctoOrgano = {
       e'4. e8 c4 a
       fis'2 d4 h
       g'2 e4 c
-      c h8 c d4 c %295
+      a h8 c d4 c %295
       h
     } \\ {
       e, c r g'~
       g e r a~
       a fis r h~
-      h g r c
-      a2 fis %295
+      h g r c~
+      c a fis2 %295
       g4
     } >> h, c a'
     r c, d h'
@@ -706,7 +706,7 @@ CumSanctoOrgano = {
     \clef "treble_8" c4 e, g e'
     r g, a fis'
     r a, h g'
-    r a, h g
+    r h, c a
     fis2 d %305
     \clef bass g e4 c
     a'4. a8 f4 d
@@ -722,7 +722,7 @@ CumSanctoOrgano = {
     r h, c a'
     r c, d h'
     gis2 e
-    a r4 d,~ %320
+    \clef "treble_8" a \clef bass r4 d,~ %320
     d b r e~
     e c r f~
     f d r g~
@@ -800,7 +800,7 @@ CumSanctoOrgano = {
     f' d h g' %395
     e c a' f~
     f d2 e8 f
-    <g g,>1~
+    <g g,>1~-\tastoE
     q~
     q~ %400
     q~
@@ -816,11 +816,11 @@ CumSanctoOrgano = {
     q~
     q4 c, g'2
     c,4 r r2
-    r4 c'\p c c
+    r4 \mvTr c'\p-\soloE c c
     c2 c, %415
-    r4 c' c c
+    r4 c'\cresc c c
     c2 c,
-    r4 c' c c
+    r4 c'\f c c
     \mvTr f,,8\ff-\tutti f' f f a, a' a a
     d, d' d d g,, g' g g %420
     c g e c g'4 g,
@@ -831,7 +831,7 @@ CumSanctoOrgano = {
 }
 
 CumSanctoBassFigures = \figuremode {
-  r %286
+  r1 %286
   r
   r
   r
@@ -848,9 +848,9 @@ CumSanctoBassFigures = \figuremode {
   <5>2 <8>4 <7> %300
   r1
   r4 <6>2.
-  r4 <6\\>2.
+  r4 <6\\> <[5+]>2
   r4 <6>2.
-  <5>2 <8>4 <7> %305
+  <5>2 \bo <8 [_+]>4 \bc <7 [\t]> %305
   r2 <6>4 q
   r2 <6>4 q
   <5>2 <6>4 q
@@ -859,8 +859,8 @@ CumSanctoBassFigures = \figuremode {
   q2. q4
   q2. q4
   q2. q4
-  q <\t> <_+>2
-  <[6]>4 <6>2. %315
+  q <\t> <_+> <\t>
+  <[6]> <6>2. %315
   r4 <6> <5>2
   r4 <6>2.
   r4 <6>2 <5>4
@@ -870,33 +870,33 @@ CumSanctoBassFigures = \figuremode {
   <6>1
   q2. <_->4
   <8 6 4+> <\t \t \t> <6>2
-  <9>4 <8> <6-> <\t>8 <5> %325
-  <9 5->4 <8 \t> <6>2
+  <9>4 <8> <6-> <\tllur>8 <5> %325
+  <9 5->4 <8 \t> <6> \bo <[\tllur]>8 \bc <[5-]>
   r2 <5>4 <6>
-  r2 <6>4 q
+  r2 <6>4 <6 [_-]>
   <5->2 <6>4 q
   r2 <6->4 <6> %330
   <6 _-> <\t \t>2.
-  r1
-  <6 _->4 <\t \t>2.
+  <[6]>1
+  <6 _->4 <[5-]>2.
   <6> <_->4
   <6>2. q4 %335
-  <4> <6> <7> <6>
+  <4!> <6> <7> <6>
   r2. <6>4
   r2. <6>4
   <_!>2. <6>4
   r1 %340
   <7>4 <6>8 <5> <6 4>4 <7 5>
   r2 <6>
-  r <6\\>4 <\t>
-  <_+>2 <6>
+  r <6\\>
+  <_+> <6>
   r <6> %345
-  <6> <_+>4 <\t>
-  <6>2.. <6 5>8
+  <6> \bo <[5+] _+>4 \bc <[\t] \t>
+  <6>2. <\tllur \tllur>8 <6 5!>
   <5>4 <\t> <5> <\t>
-  <_+>2.. <6 5>8
-  <3>4 <\t> <4> <4 _!> %350
-  r2.. <6 5->8
+  <_+>2. <\tllur \tllur>8 <6 5!>
+  <3>4 <\t> <3> <4 _!> %350
+  r2. <\tllur \tllur>8 <6 5->
   r1
   <_->2 <5->
   r1
@@ -909,12 +909,12 @@ CumSanctoBassFigures = \figuremode {
   <8>4 <5> <6> q
   <8> <5> <6> <6 _->
   <8> <5> <6> q
-  <8 _-> <5 \t> <6 \t> <6>
+  <8 _-> \bassFigureExtendersOn <5 _-> <6 _-> \bassFigureExtendersOff <6>
   <5> <\t> <6>2 %365
-  <_!>2 <6>
-  r <6>
+  <[5] _!>2 <6 \t>
+  <[5]> <6>
   r1
-  r
+  <[6]>
   r2. <6>4 %370
   r1
   r
@@ -925,19 +925,19 @@ CumSanctoBassFigures = \figuremode {
   r
   r
   r2 <5>
-  <_+>1 %380
-  r
+  \bo <[7] _+>2 \once \bassFigureExtendersOn <7 _+>4 \bc <[6\\]> %380
+  r1
   r2 <5>
-  <_!>1
+  <5! _!>1
   r2 <5>
   r1 %385
   r
   r2 <6 _->4 \once \bassFigureExtendersOn q8 <10 5>
-  r2 <7 _->4 \bassFigureExtendersOn <6 _->8 <5 _-> \bassFigureExtendersOff
+  <[6 5]>2 <7 _->4 \bassFigureExtendersOn <6 _->8 <5 _-> \bassFigureExtendersOff
   <4+>4 <6> <7> <6\\>
   r2 <_->4 <5-> %390
   r1
-  r2 <5>
+  r2 <5->
   r <5>
   r1
   r2 <5> %395
@@ -957,17 +957,17 @@ CumSanctoBassFigures = \figuremode {
   r
   r %410
   r
-  r
-  r
+  r2 \bo <[4]>4 \bc <[3]>
+  r1
   r
   r %415
   r
   r
   r
-  r
-  r %420
-  r
-  r
-  r
+  r2 \bo <[7 _+]>
+  <_+> <7!> %420
+  r <4>4 <3>
+  r2 <6>
+  r1
   r %424 finis
 }

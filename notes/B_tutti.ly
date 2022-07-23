@@ -460,3 +460,272 @@ QuoniamBassoLyrics = \lyricmode {
   De -- i Pa --
   tris. %279 finis
 }
+
+CumSanctoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    g'2\fE e4 c
+    a'4. a8 f4 d
+    h'2 g4 e
+    c'2 a4 f
+    d e8 f g4 f %290
+    e c r g'~
+    g e r a~
+    a fis r h~
+    h g r c~
+    c a fis2 %295
+    g4 h,( c) a'
+    r c,( d) h'
+    r d,( e) c'
+    r e,( f) d'
+    h2 g %300
+    R1*5 %305
+    g2 e4 c
+    a'4. a8 f4 d
+    h'2 g4 e
+    c'2 a4 f
+    d e8 f g4 f %310
+    e c r a'(
+    f) d r g(
+    e) c r f(
+    d) h e( d)
+    c gis'( a) f %315
+    r a,( h) g'
+    r h,( c) a'
+    r c,( d) h'
+    gis2 e
+    r r4 d~ %320
+    d b r e~
+    e c r f~
+    f d r g~
+    g e cis h!8[ cis]
+    d2. cis8[ d] %325
+    e2. d8[ e]
+    f2 f,
+    R1*4 %331
+    r2 r4 b'(
+    g) e r a(
+    f) d r g(
+    e) c r f~ %335
+    f e d2
+    c r
+    R1*4 %341
+    a'2 g!4 e
+    c'4. c8 a4 fis
+    d'2 h4 g
+    e'2 c4 a %345
+    fis g8 a h4 a
+    g fis e fis8[ gis]
+    a4 g fis e
+    d2. e8[ fis]
+    g4 f e d %350
+    c2. d8[ e]
+    f4 e d e8[ f]
+    g4 f e f8[ g]
+    a4 g f g8[ a]
+    b4 b,( d) g %355
+    r c,( e) a
+    r d,( f) b
+    r e,( g) c
+    r f,( a) d
+    h!2 g %360
+    r4 c2 a4
+    r b2 g4
+    r a2 f4
+    r g2 e4
+    r f2 d4 %365
+    g2. e4
+    a2. f4
+    d e8[ f] g4 f
+    e c r a'(
+    f) d r h'!( %370
+    g) e r c'(
+    a) f r d'(
+    h) g r2
+    c a
+    f d %375
+    h' g
+    e c
+    a' f
+    d h
+    e4( d c h) %380
+    a2 r
+    R1
+    e'2 c4 a
+    f'4. f8 d4 h
+    g'2 e4 c %385
+    a'2 f4 d
+    b'4 b8 a g([ f]) e([ d])
+    cis4 d g2~
+    g4 f e2
+    d4 r g( e) %390
+    c r f( d)
+    b r e( c)
+    a r d( h)
+    g e'( c) a
+    f'( d) h g'( %395
+    e) c a' f~
+    f d2 e8[ f]
+    g2 r
+    g e4 c
+    a'4. a8 f4 d %400
+    h' h8 h g4 e
+    c'2 a
+    h g
+    a f
+    g e %405
+    f d
+    g e
+    a f
+    h g
+    c a %410
+    f d
+    h4 c g'2
+    c,4 r r2
+    r4 c'\p c c
+    c4. c,8 c2 %415
+    r4 c'\cresc c c
+    c4. c,8 c2
+    r4 c'\f c c8 c
+    f,2\ff a
+    d, g %420
+    c,4 c' g2
+    c,4 r h'2
+    c4 r g2
+    c,4 r r2\fermata \bar "|." %424 finis
+  }
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+  Cum San -- cto %286
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in
+  glo -- ri -- a De -- i %290
+  Pa -- tris, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %295
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %300
+
+  cum San -- cto %306
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in
+  glo -- ri -- a De -- i %310
+  Pa -- tris, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men, %315
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- %320
+  men, a --
+  men, a --
+  men, a --
+  men, a -- _
+  _ _ %325
+  _ _
+  _ men,
+
+  a -- %332
+  men, a --
+  men, a --
+  men, a -- %335
+  men, a --
+  men,
+
+  cum San -- cto %342
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in %345
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- _
+  _ _ _ _
+  _ _
+  _ _ _ _ %350
+  _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  men, a -- men, %355
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %360
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %365
+  a -- _
+  _ _
+  _ _ _ _
+  _ men, a --
+  men, a -- %370
+  men, a --
+  men, a --
+  men,
+  a -- _
+  _ men, %375
+  a -- _
+  _ men,
+  a -- _
+  _ men,
+  a -- %380
+  men,
+
+  cum San -- cto
+  Spi -- ri -- tu in
+  glo -- ri -- a %385
+  De -- i, in
+  glo -- ri -- a De -- i __
+  Pa -- tris, a --
+  _ _
+  men, a -- %390
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men,
+  a -- men, a -- %395
+  men, a -- _
+  _ _
+  men,
+  cum San -- cto
+  Spi -- ri -- tu in %400
+  glo -- ri -- a De -- i
+  Pa -- tris,
+  a -- _
+  _ _
+  _ _ %405
+  _ _
+  _ _
+  _ _
+  _ _
+  _ _ %410
+  _ men,
+  a -- men, a --
+  men,
+  cum San -- cto
+  Spi -- ri -- tu, %415
+  cum San -- cto
+  Spi -- ri -- tu
+  in glo -- ri -- a
+  De -- i
+  Pa -- tris, %420
+  a -- men, a --
+  men, a --
+  men, a --
+  men. %424 finis
+}

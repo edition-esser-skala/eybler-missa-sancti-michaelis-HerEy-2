@@ -148,3 +148,84 @@ QuoniamClarinoII = {
     g2 r\fermata \bar "||" %285 finis
   }
 }
+
+CumSanctoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*20 %305
+    \pa g'2\f e4 c \pd
+    R1*3
+    r2 g' %310
+    c, r
+    R1*2
+    r2 \pa e~
+    e c \pd %315
+    R1*10 %325
+    r2 c~
+    c r
+    R1*3 %330
+    r2 c
+    \pao c_\critnote r
+    R1*4 %336
+    \pao c2 r
+    R1*9 %346
+    r2 \pa e4. e8
+    e4 \pd r r2
+    R1
+    r2 g, %350
+    c4 r r2
+    R1*2
+    c2 r
+    b' r %355
+    g r
+    R1
+    c,
+    \pao c2_\critnote r
+    g'1 %360
+    \once \partCombineChords c,4 r r2
+    R1*6 %367
+    r2 g'
+    c r
+    R1*3 %372
+    r2 g,4. g8
+    c2 r
+    R1*5 %379
+    r2 \pa e~ %380
+    e c \pd
+    R1*3
+    g2 r %385
+    R1*4
+    r2 g %390
+    c r
+    R1*2
+    g2 r
+    R1 %395
+    g2 r
+    R1
+    g2 r
+    g r
+    R1 %400
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r %405
+    R1
+    g2 r
+    R1
+    g2 r
+    R1*2 %411
+    g'4 c2 g4
+    e r r2
+    R1*4 %417
+    r4 c8\fE c c4 c
+    c2\ffE r
+    r g' %420
+    \once \partCombineChords c,4 c'2 g4
+    e r g r
+    c r g r
+    e r r2\fermata \bar "|." %424 finis
+  }
+}

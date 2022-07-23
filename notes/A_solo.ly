@@ -122,3 +122,39 @@ GloriaAltoSoloLyrics = \lyricmode {
   ra -- mus
   te. %118 finis
 }
+
+CumSanctoAltoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*127 %412
+    r4 e\pE e e
+    e2 g
+    r4 g\cresc g g %415
+    g4. c8 c2
+    r4 c\f c c
+    c2 c4 c
+    c2\ff cis
+    d h %420
+    c!4 e, g2
+    g4 r g2
+    g4 r g2
+    e4 r r2 \bar "|." %424 finis
+  }
+}
+
+CumSanctoAltoSoloLyrics = \lyricmode {
+  Tu so -- lus %413
+  san -- ctus,
+  tu so -- lus %415
+  Do -- mi -- nus,
+  so -- lus al --
+  tis -- si -- mus,
+  Je -- su
+  Chri -- ste, %420
+  Je -- su Chri --
+  ste, a --
+  men, a --
+  men. %424 finis
+}

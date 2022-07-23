@@ -214,6 +214,38 @@ QuoniamSopranoSoloLyrics = \lyricmode {
   ste. %269 finis
 }
 
+CumSanctoSopranoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*127 %412
+    r4 c8[(\p e)] e([ g)] g([ c)]
+    c2 g
+    r4 e8([\cresc g)] g([ c)] c([ e)] %415
+    e4. c8 c2
+    r4 g8([\f c)] c([ e)] e([ g)]
+    g2 f8([ e)] d([ c)]
+    a'2\ff g
+    fis f %420
+    e4 e d2
+    c4 r g'2
+    e4 r d2
+    c4 r r2\fermata \bar "|." %424 finis
+  }
+}
 
-
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+CumSanctoSopranoSoloLyrics = \lyricmode {
+  Tu __ so -- lus %413
+  san -- ctus,
+  tu __ so -- lus %415
+  Do -- mi -- nus,
+  so -- lus al --
+  tis -- si -- mus,
+  Je -- su
+  Chri -- ste, %420
+  Je -- su Chri --
+  ste, a --
+  men, a --
+  men. %424 finis
+}

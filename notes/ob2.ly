@@ -241,3 +241,128 @@ QuoniamOboeII = {
     h2 r\fermata \bar "||"
   }
 }
+
+CumSanctoOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*15 %300
+    c'2\fE h4 g
+    e'4. e8 c4 a
+    fis'2 d4 h
+    g'2 e4 c
+    a h8 c d4 c %305
+    h g r c~
+    c a r d~
+    d h r e~
+    e c r f~
+    f d h2 %310
+    c4 e c a
+    r d h g
+    r c a f
+    r d'2 c8 h
+    a4 h c2 %315
+    R1*4
+    a2 f4 d %320
+    b'4. b8 g4 e
+    c'2 a4 f
+    d'2 b4 g
+    e f8 g a4 g
+    f g8 a b4 a %325
+    g a8 b c4 b
+    a f2 d'4
+    r4 f, g e'
+    r g, a f'
+    r a, b g' %330
+    e2 c
+    r4 f d b
+    r e c a
+    r d b g
+    r c a d %335
+    g, a8 g f4 g8 f
+    e4 r c'2
+    a4 f d'4. d8
+    h!4 g e'4. e8
+    c4 a f' f~ %340
+    f e8 d c4 h
+    c a r e'~
+    e c r fis~
+    fis d r g~
+    g e r a~ %345
+    a fis dis2
+    e r
+    R1*6 %353
+    c2 a4 f
+    d'4. d8 b4 g %355
+    e'2 c4 a
+    f'2 d4 b
+    g'4. f8 e d c b
+    a4 c r2
+    r r4 g'~ %360
+    g e r f~
+    f d r e~
+    e c r d~
+    d b r c~
+    c a d2~ %365
+    d4 h! e2~
+    e4 c f2~
+    f4 d2 h4
+    c2 r4 c
+    a f r d' %370
+    h! g r e'
+    c a r f'
+    d h r g'~
+    g e2 c4~
+    c a r f'~ %375
+    f d2 h4~
+    h g r e'~
+    e c2 a4~
+    a f r d'~
+    d c8 h e4 d %380
+    c a c2
+    a4 f d'4. d8
+    h!4 g e'2
+    c4 a f'2
+    d4 h g'2 %385
+    e4 c a'2
+    f4 d e f
+    g f2 e8 d
+    cis4 d g2
+    f4 r r g %390
+    e c r f
+    d b r e
+    c a r d
+    h! g e' c
+    a f' d h %395
+    g' e c a
+    a' f d c
+    h2 d
+    h4 g e'2^\critnote
+    c4 a f'2 %400
+    d4 h g'2
+    e4 g, a f'
+    r f, g e'
+    r e, f d'
+    r d, e c'~ %405
+    c a r d~
+    d h r e~
+    e c r f~
+    f d r g~
+    g e2 c4~ %410
+    c a2 d4~
+    d c h2\trill
+    c4 r r2
+    r4 e,\p e e
+    e1 %415
+    r4 e\cresc e e
+    e2 c'
+    r4 c\f d8 c d e
+    f2\ff e
+    d h %420
+    c4 c2 h4
+    c r d r
+    c r h r
+    c r r2\fermata \bar "|." %424 finis
+  }
+}

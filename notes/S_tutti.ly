@@ -427,3 +427,247 @@ QuoniamSopranoLyrics = \lyricmode {
   Je -- su Chri --
   ste. %279 finis
 }
+
+CumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*15 %300
+    c'2\fE h4 g
+    e'4. e8 c4 a
+    fis'2 d4 h
+    g'2 e4 c
+    a h8 c d4 c %305
+    h g r c~
+    c a r d~
+    d h r e~
+    e c r f~
+    f d h2 %310
+    c4 e( c) a
+    r d( h) g
+    r c( a) f
+    r d'2 c8[ h]
+    a4 h c2 %315
+    R1*4
+    a2 f4 d %320
+    b'4. b8 g4 e
+    c'2 a4 f
+    d'2 b4 g
+    e f8 g a4 g
+    f( g8[ a] b4) a %325
+    g( a8[ b] c4 b)
+    a f2 d'4
+    r4 f,( g) e'
+    r g,( a) f'
+    r a,( b) g' %330
+    e2 c
+    r4 f( d) b
+    r e( c) a
+    r d( b) g
+    r c( a) d %335
+    g,( a8[ g] f4 g8[ f)]
+    e4 r c'2
+    a4 f d'4. d8
+    h!4 g e'4. e8
+    c4 a f' f8 f %340
+    f4 e8([ d)] c4 h
+    c a r e'~
+    e c r fis~
+    fis d r g~
+    g e r a~ %345
+    a fis dis2
+    e r
+    R1*6 %353
+    c2 a4 f
+    d'4. d8 b4 g %355
+    e'2 c4 a
+    f'2 d4 b
+    g' g8 f e([ d)] c([ b)]
+    a4 c r2
+    r r4 g'~ %360
+    g e r f~
+    f d r e~
+    e c r d~
+    d b r c~
+    c a d2~ %365
+    d4 h! e2~
+    e4 c f2~
+    f4 d2 h4
+    c2 r4 c(
+    a) f r d'( %370
+    h!) g r e'(
+    c) a r f'(
+    d) h r g'~
+    g e2 c4~
+    c a r f'~ %375
+    f d2 h4~
+    h g r e'~
+    e c2 a4~
+    a f r d'~
+    d c8[ h] e4 d %380
+    c a c2
+    a4 f d'4. d8
+    h!4 g e'2
+    c4 a f'2
+    d4 h g' g8 g %385
+    e4 c a'2
+    f4 d e f
+    g f2 e8[ d]
+    cis4 d g2
+    f4 r r g( %390
+    e) c r f(
+    d) b r e(
+    c) a r d(
+    h!) g e'( c)
+    a f'( d) h %395
+    g'( e) c a(
+    a') f d( c)
+    h2 d
+    h4 g e'4. e8
+    c4 a f' f8 f %400
+    d4 h g'2
+    e4 g,( a) f'
+    r f,( g) e'
+    r e,( f) d'
+    r d, e c'~ %405
+    c a r d~
+    d h r e~
+    e c r f~
+    f d r g~
+    g e2 c4~ %410
+    c a2 \once \tieDashed f'4~
+    f e d2
+    c4 r r2
+    r4 g\p g g
+    g4. c8 c2 %415
+    r4 c\cresc c c
+    c4. e8 e2
+    r4 c\f d8([ e)] f g
+    a2\ff g
+    fis f %420
+    e4 e d2
+    c4 r g'2
+    e4 r d2
+    c4 r r2\fermata \bar "|." %424 finis
+  }
+}
+
+CumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- cto %301
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in
+  glo -- ri -- a De -- i %305
+  Pa -- tris, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %310
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- _
+  _ _ men, %315
+
+  cum San -- cto %320
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in
+  glo -- ri -- a De -- i
+  Pa -- tris, %325
+  a --
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %330
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %335
+  a --
+  men, cum
+  San -- cto Spi -- ri --
+  tu in glo -- ri --
+  a, in glo -- ri -- a %340
+  De -- i __ Pa -- tris,
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a -- %345
+  men, a --
+  men,
+
+  cum San -- cto %354
+  Spi -- ri -- tu in %355
+  glo -- ri -- a
+  De -- i, in
+  glo -- ri -- a De -- i __
+  Pa -- tris,
+  a -- %360
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %365
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %370
+  men, a --
+  men, a --
+  men, a --
+  _ _
+  men, a -- %375
+  _ _
+  men, a --
+  _ _
+  men, a --
+  _ _ _ %380
+  _ men, cum
+  San -- cto Spi -- ri --
+  tu in glo --
+  ri -- a De --
+  i, in glo -- ri -- a %385
+  De -- i Pa --
+  tris, a -- _ _
+  _ _ _
+  _ _ _
+  men, a -- %390
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men, %395
+  a -- men, a --
+  men, a --
+  men, cum
+  San -- cto Spi -- ri --
+  tu in glo -- ri -- a %400
+  De -- i Pa --
+  tris, a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a -- %405
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  _ _ %410
+  men, a --
+  men, a --
+  men,
+  cum San -- cto
+  Spi -- ri -- tu, %415
+  cum San -- cto
+  Spi -- ri -- tu
+  in glo -- ri -- a
+  De -- i
+  Pa -- tris, %420
+  a -- men, a --
+  men, a --
+  men, a --
+  men. %424 finis
+}

@@ -426,3 +426,263 @@ QuoniamTenoreLyrics = \lyricmode {
   Je -- su Chri --
   ste. %279 finis
 }
+
+CumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*5 %290
+    c2\fE h4 g
+    e'4. e8 c4 a
+    fis'2 d4 h
+    g'2 e4 c
+    a h8 c d4 c %295
+    h g r c~
+    c a r d~
+    d h r e~
+    e c r f~
+    f d h2 %300
+    c4 e,( g) e'
+    r g,( a) fis'
+    r a,( h) g'
+    r h,( c) a
+    fis2 d %305
+    R1*5 %310
+    r4 g( a) f'
+    r f,( g) e'
+    r e,( f) d'
+    h2 gis
+    r r4 a~ %315
+    a f r h~
+    h g r c~
+    c a r d~
+    d h gis2
+    a r %320
+    R1*5 %325
+    r2 c~
+    c a4 f
+    d'4. d8 b4 g
+    e'2 c4 a
+    f'2 d4 b %330
+    g a8 b c4 b
+    a f r d'(
+    b) g r c(
+    a) f r b(
+    g) e r2 %335
+    r r4 d(
+    e) c' r e,(
+    f) d' r f,(
+    g) e' r g,
+    a f'8[ e] d[ c h a] %340
+    gis4 gis gis2
+    a4 c( h) g
+    r e'( c) a
+    r fis'( d) h
+    r g'( e) c %345
+    r2 \once \tieDashed h~
+    h4 cis8[ dis] e4 d
+    c h a2~
+    a4 h8[ cis] d4 c
+    h a g2~ %350
+    g4 a8[ h] c4 b
+    a g f g8[ a]
+    b4 a g a8[ b]
+    c4 r r f~
+    f d2 b4 %355
+    g c r2
+    R1*2
+    r4 a c f~
+    f d h!2 %360
+    c r4 c(
+    d) b r b(
+    c) a r a(
+    b) g r g(
+    a) f r2 %365
+    R1*2
+    d'2 h!4 g
+    e'4. e8 c4 a
+    f' f8 f d4 h %370
+    g'2 e4 r
+    R1
+    r4 g2 e4~
+    e c2 a4
+    r f'2 d4~ %375
+    d h2 g4
+    r e'2 c4~
+    c a2 f4
+    r d'2 h4
+    gis2. a8[ h] %380
+    c2 a
+    f4 d h'4. h8
+    g!4 e c'2
+    a4 f d'2
+    h4 g e' e8 e %385
+    c4 a f'2
+    d r
+    r4 a g g'8[ f]
+    e4 d2 cis4
+    d r r2 %390
+    g4( e) c r
+    f( d) b r
+    e( c) a r
+    r h!( c) c
+    c( d) d d( %395
+    e) e e( f)
+    c d8[( e] f4 e)
+    d2 h
+    g4 e c'4. c8
+    a4 f d'^\critnote d8 d %400
+    h4 g e'2
+    c4 e( c) a
+    r d( h) g
+    r c( a) f
+    r h( g) e %405
+    r a( f) d
+    h' g r g(
+    c) a r a(
+    d) h r h
+    e c2 a4~ %410
+    a f2 d'4~
+    d c c( h)
+    c r r2
+    r4 c\p c c
+    c4. e8 e2 %415
+    r4 e\cresc e e
+    e4. g8 g2
+    r4 e\f d8([ c)] d e
+    f2\ff e
+    d d %420
+    c4 c c( h)
+    c r d2
+    c4 r h2
+    c4 r r2\fermata \bar "|." %424 finis
+  }
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+  Cum San -- cto %291
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in
+  glo -- ri -- a De -- i %295
+  Pa -- tris, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %300
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %305
+
+  a -- men, %311
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- %315
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, %320
+
+  cum __ %326
+  San -- cto
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i, in %330
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a --
+  men, a --
+  men, %335
+  a --
+  men, a --
+  men, a --
+  men, a --
+  _ _ _ %340
+  _ men, a --
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %345
+  a --
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %350
+  _ _ _
+  _ _ _ _
+  _ _ _ _
+  men, a --
+  _ _ %355
+  _ men,
+
+  a -- _ _ %359
+  men, a -- %360
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, %365
+
+  cum San -- cto %368
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i %370
+  Pa -- tris,
+
+  a -- _
+  _ men,
+  a -- _ %375
+  _ men,
+  a -- _
+  _ men,
+  a -- _
+  _ _ %380
+  men, cum
+  San -- cto Spi -- ri --
+  tu in glo --
+  ri -- a De --
+  i, in glo -- ri -- a %385
+  De -- i Pa --
+  tris,
+  a -- _ _
+  _ _ _
+  men, %390
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a -- %395
+  men, a --
+  men, a --
+  men, cum
+  San -- cto Spi -- ri --
+  tu in glo -- ri -- a %400
+  De -- i Pa --
+  tris, a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %405
+  a -- men,
+  a -- men, a --
+  men, a --
+  men, a --
+  _ _ _ %410
+  men, a --
+  men, a --
+  men,
+  cum San -- cto
+  Spi -- ri -- tu, %415
+  cum San -- cto
+  Spi -- ri -- tu
+  in glo -- ri -- a
+  De -- i
+  Pa -- tris, %420
+  a -- men, a --
+  men, a --
+  men, a --
+  men. %424 finis
+}

@@ -345,3 +345,143 @@ QuoniamViola = {
     g'4 g, r2\fermata \bar "||" %285 finis
   }
 }
+
+CumSanctoViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*5 %290
+    c2\fE h4 g
+    e'4. e8 c4 a
+    fis'2 d4 h
+    g'2 e4 c
+    a h8 c d4 c %295
+    h g r c~
+    c a r d~
+    d h r e~
+    e c r f~
+    f d h2\trill %300
+    c4 e,( g) e'
+    r g, a fis'
+    r a, h g'
+    r h, c a
+    fis2 d %305
+    r4 g'2 e4~
+    e a2 f4~
+    f h2 g4~
+    g c2 a4
+    h2 g %310
+    r4 g, a f'
+    r f, g e'
+    r e, f d'
+    r2 e~
+    e c4 a %315
+    f'4. f8 d4 h
+    g'2 e4 c
+    a'2 f4 d
+    h c8 d e4 d
+    c a d f %320
+    r d e g
+    r e f a
+    r f g b
+    cis,2 e~
+    e4 d f2~ %325
+    f4 d g2
+    c, r4 f~
+    f d r g~
+    g e r a~
+    a f r b~ %330
+    b g e2
+    f4 g8 a b4 d,
+    e f8 g a4 c,
+    d e8 f g4 b,
+    c d8 e f4 a, %335
+    h! c2 h4
+    c e2 c4
+    r f2 d4
+    r g2 e4
+    r a8 g f e d c %340
+    h4 c8 d e4 d
+    c2 r
+    R1*4 %346
+    r2 e~
+    e4 fis8 g a4 g
+    fis e d2~
+    d4 e8 f g4 f %350
+    e d c2~
+    c4 d8 e f4 e
+    d e8 f g4 f
+    e f8 g a4 r
+    R1 %355
+    g2 e4 c
+    a'4. a8 f4 d
+    b'2 g4 e
+    c'2 a4 f
+    d e8 f g4 f %360
+    e c a' f
+    r f g e
+    r e f d
+    r d e c
+    r2 r4 f %365
+    d g r g
+    e a r a
+    f2 d
+    g e4 c
+    a'4. a8 f4 d %370
+    h'!2 g4 e
+    c'2 a4 f
+    d'4. c8 h a g f
+    e4 g r2
+    a f %375
+    d h
+    g' e
+    c a
+    f' d
+    h r %380
+    e c4 a
+    f'4. f8 d4 h
+    g'2 e4 c
+    a'2 f4 d
+    h'2 g4 e %385
+    c'2 a4 f
+    d'4. c8 b a g f
+    e4 f b2
+    a r
+    r4 d b g %390
+    r c a f
+    r b g e
+    r a f d
+    d e2 e4
+    f f2 g4~ %395
+    g g a a~
+    a a2 a4
+    g2 r
+    h g4 e
+    c'4. c8 a4 f %400
+    d'2 h4 g
+    e' c r c
+    d h r h
+    c a r a
+    h g r g %405
+    a c, f a
+    r d, g h
+    r e, a c
+    r f, h d
+    r g, c, e %410
+    r f a a
+    g g2 g4
+    e c r2
+    r4 c\p c c
+    c2 r %415
+    r4 <c c,>\cresc q q
+    q2 r
+    r8. g'16\f g8.\trill f32 g f8 e d c
+    c'\ff c c c cis cis cis cis
+    d d d d h h h h %420
+    g g g g g4 <g g,>
+    <e g,> r <h' d, g,> r
+    <c e, g,> r <h d, g,> r
+    <c e, g, c,> r r2\fermata \bar "|." %424 finis
+  }
+}

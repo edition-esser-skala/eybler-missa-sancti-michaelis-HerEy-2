@@ -137,3 +137,39 @@ GloriaTenoreSoloLyrics = \lyricmode {
   ra -- mus
   te. %118 finis
 }
+
+CumSanctoTenoreSolo = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*127 %412
+    r4 c\pE c c
+    c2 e
+    r4 e\cresc e e %415
+    c4. e8 e2
+    r4 e\f e e
+    e2 d8([ c)] d([ e)]
+    f2\ff e
+    d d %420
+    c4 c c( h)
+    c r d2
+    c4 r h2
+    c4 r r2\fermata \bar "|." %424 finis
+  }
+}
+
+CumSanctoTenoreSoloLyrics = \lyricmode {
+  Tu so -- lus %413
+  san -- ctus,
+  tu so -- lus %415
+  Do -- mi -- nus,
+  so -- lus al --
+  tis -- si -- mus,
+  Je -- su
+  Chri -- ste, %420
+  Je -- su Chri --
+  ste, a --
+  men, a --
+  men. %424 finis
+}

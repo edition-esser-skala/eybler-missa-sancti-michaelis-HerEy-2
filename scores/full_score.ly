@@ -309,95 +309,199 @@
   %     \midi { \tempo 2 = 45 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Quoniam tu solus sanctus"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuoniamOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuoniamOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine \QuoniamClarinoI \QuoniamClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         \QuoniamTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuoniamViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuoniamViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuoniamViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S solo"
+  %           \new Voice = "SopranoSolo" { \dynamicUp \QuoniamSopranoSolo }
+  %         }
+  %         \new Lyrics \lyricsto SopranoSolo \QuoniamSopranoSoloLyrics
+  %       >>
+  %       \new ChoirStaff <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \QuoniamAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \QuoniamTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \QuoniamBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuoniamOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuoniamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 80 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Quoniam tu solus sanctus"
+    \subsection "Cum Sancto Spiritu"
     \addTocEntry
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuoniamOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuoniamOboeII
-            }
-          >>
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine \CumSanctoOboeI \CumSanctoOboeII
+          }
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \QuoniamClarinoI \QuoniamClarinoII
+            \partCombine \CumSanctoClarinoI \CumSanctoClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          \QuoniamTimpani
+          \CumSanctoTimpani
         }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \QuoniamViolinoI
+              \CumSanctoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \QuoniamViolinoII
+              \CumSanctoViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuoniamViola
+            \CumSanctoViola
           }
         >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S solo"
-            \new Voice = "SopranoSolo" { \dynamicUp \QuoniamSopranoSolo }
-          }
-          \new Lyrics \lyricsto SopranoSolo \QuoniamSopranoSoloLyrics
-        >>
-        \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
+        \new ChoirStaff \with { \setGroupDistance #12 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
+            \new Voice = "SopranoSolo" { \dynamicUp \CumSanctoSopranoSolo }
           }
-          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+          \new Lyrics \lyricsto SopranoSolo \CumSanctoSopranoSoloLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuoniamAlto }
+            \new Voice = "AltoSolo" { \dynamicUp \CumSanctoAltoSolo }
           }
-          \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+          \new Lyrics \lyricsto AltoSolo \CumSanctoAltoSoloLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuoniamTenore }
+            \new Voice = "TenoreSolo" { \dynamicUp \CumSanctoTenoreSolo }
           }
-          \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+          \new Lyrics \lyricsto TenoreSolo \CumSanctoTenoreSoloLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuoniamBasso }
+            \new Voice = "BassoSolo" { \dynamicUp \CumSanctoBassoSolo }
           }
-          \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+          \new Lyrics \lyricsto BassoSolo \CumSanctoBassoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #12 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \CumSanctoSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \CumSanctoAlto }
+          }
+          \new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \CumSanctoTenore }
+          }
+          \new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \CumSanctoBasso }
+          }
+          \new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuoniamOrgano
+            \CumSanctoOrgano
           }
         >>
-        \new FiguredBass { \QuoniamBassFigures }
+        \new FiguredBass { \CumSanctoBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 2 = 80 }
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

@@ -148,3 +148,84 @@ QuoniamClarinoI = {
     g'2 r\fermata \bar "||" %285 finis
   }
 }
+
+CumSanctoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*20 %305
+    g'2\f e4 c
+    R1*3
+    r2 d' %310
+    c r
+    R1*2
+    r2 e,~
+    e c %315
+    R1*10 %325
+    r2 c'~
+    c r
+    R1*3 %330
+    r2 g
+    c, r
+    R1*4 %336
+    c2 r
+    R1*9 %346
+    r2 e4. e8
+    e4 r r2
+    R1
+    r2 g %350
+    e4 r r2
+    R1*2
+    c'2 r
+    d r %355
+    e r
+    R1
+    g,
+    c,2 r
+    c' d %360
+    e4 r r2
+    R1*6 %367
+    r2 d
+    e r
+    R1*3 %372
+    r2 g,4. g8
+    e2 r
+    R1*5 %379
+    r2 e~ %380
+    e c
+    R1*3
+    g'2 r %385
+    R1*4
+    r2 g %390
+    c r
+    R1*2
+    g2 r
+    R1 %395
+    g2 r
+    R1
+    g2 r
+    g2 r
+    R1 %400
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r %405
+    R1
+    g2 r
+    R1
+    g2 r
+    R1*2 %411
+    d'4 e d2
+    c4 r r2
+    R1*4 %417
+    r4 c8\fE c c4 c
+    c2\ffE r
+    r d %420
+    e4 e d2
+    c4 r d r
+    e r d r
+    c r r2\fermata \bar "|." %424 finis
+  }
+}

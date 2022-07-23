@@ -215,3 +215,39 @@ QuiTollisBassoSoloLyrics = \lyricmode {
   no --
   bis. %182 finis
 }
+
+CumSanctoBassoSolo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*127 %412
+    r4 c'\pE c c
+    c2 c,
+    r4 c'\cresc c c %415
+    c4. c,8 c2
+    r4 c'\f c c
+    c2 c4 c
+    f,2\ff a
+    d, g %420
+    c,4 c' g2
+    c,4 r h'2
+    c4 r g2
+    c,4 r r2\fermata \bar "|." %424 finis
+  }
+}
+
+CumSanctoBassoSoloLyrics = \lyricmode {
+  Tu so -- lus %413
+  san -- ctus,
+  tu so -- lus %415
+  Do -- mi -- nus,
+  so -- lus al --
+  tis -- si -- mus,
+  Je -- su
+  Chri -- ste, %420
+  Je -- su Chri --
+  ste, a --
+  men, a --
+  men. %424 finis
+}

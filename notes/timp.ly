@@ -124,3 +124,63 @@ QuoniamTimpani = {
     g r r2\fermata \bar "||" %285 finis
   }
 }
+
+CumSanctoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    R1*20 %305
+    g2\f c
+    R1*3
+    r2 g %310
+    c r
+    R1*25 %336
+    c2 r
+    R1*12 %349
+    r2 g4. g8 %350
+    c4 r r2
+    R1*6 %357
+    c4 c8 c c4. c8
+    c2 r
+    R1*8 %368
+    r2 g
+    c r %370
+    R1*3
+    r2 g4. g8
+    c2 r
+    R1*10
+    g2 r
+    R1*4
+    r2 g
+    c r
+    R1*2
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r
+    R1*2
+    g4 c g2
+    c4 r r2
+    R1*4
+    r4 c8\f c c4 c
+    c2\ffE r
+    r g
+    c4 c g2
+    c4 r r2
+    r g4 r
+    c r r2\fermata \bar "|."
+  }
+}
