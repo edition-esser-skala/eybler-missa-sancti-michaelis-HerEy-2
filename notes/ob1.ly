@@ -389,3 +389,298 @@ CumSanctoOboeI = {
     \pao c r r2\fermata \bar "|." %424 finis
   }
 }
+
+CredoOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCredo
+    g'2 a4 h
+    c2 e
+    d1
+    g,2 r
+    g h4 c %5
+    d2 f
+    e1
+    c2 c
+    a c
+    f a %10
+    g h,
+    c e
+    g,1~
+    g2 f
+    e r %15
+    R1
+    e'1
+    d
+    c~
+    c %20
+    d
+    c
+    \once \tieDashed h~
+    h
+    c %25
+    h
+    e
+    d
+    c2 h
+    a1 %30
+    g2 r
+    R1
+    d'
+    d
+    h2. c4 %35
+    d2 g~
+    g e
+    d c
+    h r
+    R1 %40
+    h
+    h
+    c2 g
+    c e
+    g1~ %45
+    g2 f
+    e e,
+    g c
+    e1~
+    e2 f %50
+    e d
+    d1
+    d
+    e2 d
+    d c %55
+    c r
+    a'1~
+    a~
+    a
+    g4 f e d %60
+    c1
+    h
+    a2 r
+    R1
+    a %65
+    h
+    a2 r
+    R1
+    h
+    c %70
+    h2 r
+    R1
+    c
+    d
+    e %75
+    c
+    f
+    e
+    d2 r
+    R1 %80
+    h
+    h
+    c2 e~
+    e g
+    g4 f e d %85
+    c2 b
+    a1
+    c2 r
+    es1~
+    es %90
+    d2 f
+    e!4 d c b
+    a1
+    g
+    f2 r %95
+    R1
+    a
+    cis
+    d2 r
+    R1 %100
+    g,
+    h
+    c2 r
+    r g'~
+    g f~ %105
+    f e~
+    e d~
+    d c
+    h c
+    d e %110
+    d r
+    g1
+    g~
+    g~
+    g2 g %115
+    g g
+    g1~
+    g
+    g2 h,~
+    h h %120
+    c1
+    d2 e
+    f1
+    g2 a
+    g1 %125
+    h,
+    c2 e
+    f1
+    g
+    a %130
+    h2 \once \tieDashed d~
+    d f,
+    e1
+    d
+    c2 r %135
+    r r4 r8 es
+    \once \tieDashed es1~
+    es\fermata \bar "||" %138 finis
+  }
+}
+
+EtIncarnatusOboeI = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #139
+    R2.*25 %163
+    \key c \major f'2.\f
+    f8. e16 e4 r8 e %165
+    e4 d c
+    c h h
+    h4. c8 d h
+    c2.
+    d2~ d8 c %170
+    h2 f'4
+    e2 e4~\fz
+    e d c~\p
+    c b a
+    a gis r %175
+    R2.*5 %180
+    R2.\fermata \bar "||" %181 finis
+  }
+}
+
+EtResurrexitOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    c'2.\f
+    d
+    d
+    e %185
+    f
+    g4 e c
+    g2 f4
+    e r r
+    e'2 fis4 %190
+    g4. fis8 e d
+    d2 c4
+    h r r
+    c2.
+    e %195
+    g2 e4
+    d r r
+    c2.
+    h4 d g
+    h,2 a4 %200
+    \pao g r d'
+    e2.
+    fis4 a c,
+    h a2\trill
+    \pao g4 r r %205
+    R2.*5 %210
+    c2.\f
+    es\fz
+    g2\ff es4
+    c r r
+    es2.~\p %215
+    es~
+    es~
+    es~
+    es
+    d4 d\f d %220
+    e!2.
+    f
+    e4 d2\trill
+    \pao c4 e2~
+    e4 c2~ %225
+    c4 a2~
+    a4 \once \tieDashed f'2~
+    f8[ e] d2\trill
+    \pao c2.
+    e\cresc %230
+    f8\! r r4 r
+    R2.*25 %256
+    r4 c2~\fE
+    c4 a c
+    \once \tieDashed d2.~
+    d4 h d %260
+    e2~ e8 d
+    c4 h2\trill
+    c2.
+    e
+    e %265
+    e4 r e
+    c2.
+    c
+    c
+    c4 r c %270
+    a2.
+    a
+    a
+    a4 r r
+    r a d %275
+    f2 e4
+    es d c
+    h d d
+    e!2.
+    d %280
+    g4 e \pao c
+    d g h,
+    c2.~
+    c4 d2~
+    d4 e2~ %285
+    e4 f2~
+    f4 g2
+    g e4
+    es2.
+    d4 r r %290
+    R2.*3
+    r4 r \pao g,\fE
+    e'2 c4 %295
+    h8 d f4 r
+    f2 h,4
+    c8 e g4 r
+    e f g
+    a2 f4 %300
+    d e f
+    g2 e4
+    c d e
+    f g a
+    g2 h,4 %305
+    c g' e
+    d2 f4
+    e a8( g f e)
+    d2 f4
+    e r e %310
+    d8 c c4 f
+    e8 d d4 g,
+    g'2.
+    fis4 f e
+    d2 f4 %315
+    e r r
+    R2.*3
+    r4 r e\f %320
+    d8 c c4 f
+    e8 d d4 \pa g,~
+    g \pd c e
+    g4. f8 e4
+    d2. %325
+    \pao c4 c\ff c
+    c2.
+    e
+    g4 r r
+    h2. %330
+    c4 \pa c, c
+    c \pd r r\fermata \bar "|." %332 finis
+  }
+}

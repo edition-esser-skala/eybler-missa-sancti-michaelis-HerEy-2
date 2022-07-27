@@ -366,3 +366,298 @@ CumSanctoOboeII = {
     c r r2\fermata \bar "|." %424 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCredo
+    e1\f
+    g2 c
+    h1
+    g2 r
+    g2. a4 %5
+    h2 d
+    c1
+    c2 c
+    f,1
+    f' %10
+    e2 d
+    c g
+    d1~
+    d
+    c2 r %15
+    R1
+    g'
+    gis
+    a~
+    a %20
+    d,
+    fis
+    \once \tieDashed g~
+    g
+    g %25
+    g
+    g
+    g
+    fis2 g~
+    g fis %30
+    g r
+    R1
+    h
+    a
+    g2. a4 %35
+    h2 d
+    e c
+    fis,1
+    g2 r
+    R1 %40
+    g
+    g
+    g~
+    g2 c
+    d1 %45
+    h2 d
+    c c,
+    e g
+    c1
+    c %50
+    h
+    h
+    h
+    h
+    a %55
+    a2 r
+    a1~
+    a~
+    a~
+    a2 h %60
+    a1
+    gis
+    a2 r
+    R1
+    a %65
+    gis
+    a2 r
+    R1
+    r2 e~
+    e a %70
+    gis r
+    R1
+    a
+    h
+    c %75
+    g
+    d'
+    c
+    h2 r
+    R1 %80
+    d,
+    d
+    e2 c'~
+    c c
+    c a %85
+    g1
+    f
+    a2 r
+    c1~
+    c %90
+    b?
+    b?2 g
+    f1
+    e
+    f2 r %95
+    R1
+    f
+    g
+    f2 r
+    R1 %100
+    g
+    f
+    e2 r
+    R1
+    c' %105
+    h
+    a
+    g
+    g2 g
+    g g %110
+    g r
+    g g
+    g1~
+    g~
+    g2 g %115
+    g g
+    g1~
+    g
+    g2 \once \tieDashed g~
+    g g %120
+    g1~
+    g2 g
+    a f'
+    e dis
+    e1 %125
+    f,
+    e2 c'
+    a d
+    h e
+    c f %130
+    d f~
+    f d
+    c1~
+    c2 h
+    c r %135
+    r r4 r8 g
+    g1~
+    g\fermata \bar "||" %138 finis
+  }
+}
+
+EtIncarnatusOboeII = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #139
+    R2.*25 %163
+    \key c \major gis'2\f d'4
+    h8. c16 c4 r8 c %165
+    gis2 a4
+    a gis gis
+    gis4. a8 h gis
+    a2.
+    f2 a4 %170
+    g2 h4
+    c2 c4~\fz
+    c h a\p
+    f2 fis4
+    e2 r4 %175
+    R2.*5 %180
+    R2.\fermata \bar "||" %181 finis
+  }
+}
+
+EtResurrexitOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    e2.\f
+    g4 h2
+    h2.
+    c %185
+    c
+    c4 g e
+    d2.
+    c4 r r
+    g'2 a4 %190
+    h2.
+    a
+    g4 r r
+    g2.
+    c %195
+    e2 c4
+    h r r
+    a2.
+    g2 h4
+    g2 fis4 %200
+    g r g~
+    g c a~
+    a fis' a,
+    g2 fis4
+    g r r %205
+    R2.*5 %210
+    es2.\f
+    c'\fz
+    es2\ff c4
+    es, r r
+    c'2.~\p %215
+    c~
+    c~
+    c~
+    c
+    h4 h\f h %220
+    c2.
+    d
+    c2 h4
+    c c2~
+    c4 a2~ %225
+    a4 f2~
+    f4 d'4. c8
+    h c c4 h
+    c2.
+    b\cresc %230
+    a8\! r r4 r
+    R2.*25 %256
+    r4 e\fE g
+    a2.~
+    a4 f a
+    h2.~ %260
+    h4 gis h
+    a2 gis4
+    a2.
+    h
+    c %265
+    h4 r h
+    a2.
+    g
+    a
+    g4 r g %270
+    f2.
+    e
+    f
+    e4 r r
+    r f a %275
+    d2 c4
+    a2.
+    g4 h h
+    c2.
+    h %280
+    g2 c4
+    h g g
+    g2.
+    a
+    h %285
+    c
+    d
+    e2 c4
+    c2.
+    h4 r r %290
+    R2.*3
+    r4 r g\fE
+    g2 e4 %295
+    d8 h' d4 r
+    h2 f4
+    e8 c' e4 r
+    c d e
+    f2 a,4 %300
+    h c d
+    e2 g,4
+    a h cis
+    d e f
+    e e, f %305
+    e e' c
+    h2 d4
+    c f8( e d c)
+    h2 d4
+    c r h %310
+    a2 a8 d
+    c h h4 d
+    c f e
+    es d c
+    a2 h4 %315
+    c r r
+    R2.*3
+    r4 r h\f %320
+    a2 a8 d
+    c h h4 g~
+    g g c
+    d2 c4
+    c2 h4 %325
+    c e,\ff e
+    e2.
+    c'
+    h4 r r
+    f'2. %330
+    e4 c c
+    c r r\fermata \bar "|." %332 finis
+  }
+}

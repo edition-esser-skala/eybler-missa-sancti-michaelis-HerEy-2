@@ -184,3 +184,150 @@ CumSanctoTimpani = {
     c r r2\fermata \bar "|."
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoCredo
+    c2\f r
+    c r
+    r g4. g8
+    g2 g
+    g r %5
+    g r
+    r c4. c8
+    c2 c
+    c1\startTrillSpan
+    c %10
+    c2\stopTrillSpan r
+    R1*15 %26
+    c4 c8 c c4 c
+    g2 r
+    R1*2 %30
+    g2 r
+    R1*4 %35
+    r2 g
+    c r
+    R1
+    g2 r
+    R1*5 %44
+    g1~\startTrillSpan %45
+    g
+    c2\stopTrillSpan r
+    R1*26 %73
+    g1
+    c2 r %75
+    r c
+    g g
+    c1\trill
+    g2 r
+    R1*3 %82
+    r2 c4. c8
+    c2 c
+    c r %85
+    R1*23 %108
+    r2 c
+    g c %110
+    g r
+    R1*3
+    r2 g4. g8 %115
+    g2 g
+    g1\startTrillSpan
+    g
+    g2 r\stopTrillSpan
+    R1*2 %121
+    r2 c
+    c1\startTrillSpan
+    c
+    g2\stopTrillSpan g4. g8 %125
+    g2 g
+    c r
+    R1*3 %130
+    r2 g4. g8
+    g2 g
+    c r
+    r g
+    c r %135
+    R1*2
+    R1\fermata \bar "||" %138 finis
+  }
+}
+
+EtResurrexitTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    c4\f c c
+    g r r
+    g g g
+    c r r %185
+    c8 c16 c c8 c c c
+    c4 r r
+    g r8 g16 g g8 g
+    c4 r r
+    R2.*4 %193
+    c4 r8 c16 c c8 c
+    c4 r8 c16 c c8 c %195
+    c c16 c c8 c c c
+    g4 r r
+    R2.*3 %200
+    g4 r r
+    R2.*9 %210
+    c4\f r8 c16 c c8 c
+    c4\fzE r8 c16 c c8 c
+    c\ff c16 c c8 c c c
+    c4 r r
+    R2.*7 %221
+    r4 g\fE r
+    c g2\trill
+    c4 r r
+    c r r %225
+    c r r
+    R2.*2
+    c2.\startTrillSpan
+    c %230
+    c4\stopTrillSpan r r
+    R2.*35 %266
+    c4\f r8 c16 c c8 c
+    c4 r8 c16 c c8 c
+    c4 c c
+    c r r %270
+    R2.*8 %278
+    c8 c16 c c8 c c c
+    g g16 g g8 g g g %280
+    c c16 c c8 c c c
+    g4 r r
+    R2.*4 %286
+    r4 g g
+    c r r
+    c8 c16 c c8 c c c
+    g4 r r %290
+    R2.*4
+    c4\fE r8 c16 c c8 c %295
+    g4 r8 g16 g g8 g
+    g4 r8 g16 g g8 g
+    c4 r8 c16 c c8 c
+    c4 r r
+    R2.*5 %304
+    g4 r8 g16 g g8 g %305
+    c4 r r
+    r g g
+    c r r
+    r g g
+    c r r %310
+    R2.*4
+    r4 r g %315
+    c r r
+    R2.*7 %323
+    g2\trill\fE c4
+    r r g %325
+    c r r
+    c\ff r8 c16 c c8 c
+    c4 r8 c16 c c8 c
+    g4 r r
+    g2.\startTrillSpan %330
+    c4\stopTrillSpan c c
+    c r r\fermata \bar "|." %332 finis
+  }
+}

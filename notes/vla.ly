@@ -485,3 +485,358 @@ CumSanctoViola = {
     <c e, g, c,> r r2\fermata \bar "|." %424 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 2/2 \tempoCredo
+    c4\f c' g e
+    c g' e c
+    g h d g
+    h g d h
+    g g' d h %5
+    g d' h g
+    c e g c
+    e c g e
+    f a f c
+    a c a f %10
+    c' e g f
+    e g e c
+    h d g h
+    g, h d g
+    c, c' e c %15
+    g c e, g
+    c, e g c
+    h, d gis h
+    a, c e a
+    c a e c %20
+    h d g! h
+    a, c fis a
+    g, h d g
+    g d' h g
+    e g c e, %25
+    d g h d,
+    c e g c,
+    h d g h
+    a a, g g'
+    c, a d d, %30
+    g g' h g
+    d g h, d
+    g, h d g
+    fis a d, fis
+    g, h d g %35
+    h, d h g
+    c e g c
+    d, fis a d
+    g,, g' h g
+    d g h, d %40
+    g, h d g
+    f,! h d f
+    e g c g
+    e g e c
+    h d g h %45
+    d h g h
+    c, c' e c
+    g c e, g
+    c, e g c
+    a, c f a %50
+    h, h' d h
+    f h d, f
+    h, d f h
+    gis, h e gis
+    a, a' c a %55
+    e a c, e
+    a, c e a
+    g,! cis e a
+    f, a d f
+    d f h d %60
+    e c a c
+    e d e e,
+    a, a' c a
+    e a c, e
+    a, e'' c a %65
+    e h' gis e
+    a, c e a
+    c e c a
+    gis h gis e
+    a e c a %70
+    e e' gis h
+    e h gis e
+    a, c e a
+    g,! h d g
+    c, e g c %75
+    e, g c e
+    h, d g h
+    c g e c
+    g g' h g
+    d g h, d %80
+    g, h d g
+    f, h d f
+    e c' g e
+    c g' e b
+    a c f a %85
+    e g e c
+    f a f c
+    a f' c a
+    f a c f
+    a, c f a %90
+    b, b' f d
+    b d g b
+    c a f a
+    c b c c,
+    f, f' a f %95
+    c f a, c
+    f, a c f
+    e g cis e
+    d, f a d
+    f d a f %100
+    e g c! e
+    d, f h d
+    c, e g c
+    e c g e
+    a, a' c a %105
+    g, g' h g
+    f, f' a f
+    e, e' g e
+    d g e g
+    h, g' c, g' %110
+    g, h d g
+    h g d h
+    g c e g
+    c g e c
+    g h d g %115
+    h g d h
+    g c e g
+    c g e c
+    g g' h d
+    f d h f %120
+    e g e c
+    h h' b, b'
+    a, f' c a
+    g g' fis, fis'
+    g, c e c %125
+    g h d g
+    c, g c e
+    d a d f
+    e h e g
+    f c f a %130
+    d, d' h g
+    d h g h'
+    c g a e
+    f d g g,
+    c2 r %135
+    r r4 r8 <des es,>
+    q1~
+    q\fermata \bar "||" %138 finis
+  }
+}
+
+EtIncarnatusViola = {
+  \relative c' {
+    \clef alto
+    \key as \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #139
+    r8 \mvTr as\pE-\pizz r es r es
+    r c c r r4 %140
+    r8 as' as r r as-\arco
+    g4( as8) r r4
+    r8 es es es es es
+    r es es es as( c)
+    f, r f r r f %145
+    es2 r4
+    r8 g( as) r as r
+    r g g r r4
+    r8 g( as) r as r
+    r g g r r4 %150
+    r8 es-! as-! c-! es-! c-!
+    r f,-! f-! as-! c-! f-!
+    f,2\> es8\! g
+    as r b r b r
+    b r r4 b~\> %155
+    b8\! r r4 b~\>
+    b8\! r r4 r8 es,
+    es4. r8 r c'
+    g8.( f16) f8 r r4
+    R2. %160
+    r4 r r8 h\f
+    h[ a] gis r fis\p r
+    e8 e e e e e
+    \key c \major e16\f e e e e e e e e e e e
+    e e e e e e' e e e e e e %165
+    gis gis gis gis gis gis gis gis a e e e
+    dis dis dis dis e e e e e e e e
+    d d d d d d c c h h d d
+    c e e e e e e e e e e e
+    d d d d d d d d f f f f %170
+    d d d d d d d d d d d d
+    e g g g g g g g g g g g
+    f\fz f f f f f f f e\p e e e
+    e e e e d d d d c c c c
+    c c c c h h h h h h h h %175
+    c\decresc c c c c c c c c c c c
+    as as as as as as as as as as as as
+    g8\pp g g g g g
+    f4 a!( c)
+    f,2 f4 %180
+    f2.\fermata \bar "||"
+  }
+}
+
+EtResurrexitViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    r4 <c, g' e'>\f g''
+    r <g, d' h'> d''
+    r <h, g' d'> d
+    r <c, g' e' e'> e' %185
+    r <c f a> c'
+    r <g, e' c'> g'
+    r <d, h' g'> d''
+    r <c,, g' e' e'> c'
+    r <c, g' e' c'> fis' %190
+    r <g, d' h'> d''
+    r <d, fis a> a
+    r <g d' h'> d''
+    r <g,, e' c'> c
+    r <g e' c'> c %195
+    r <g e' c'> c
+    r <d, h' g'> d'
+    r <d fis a> a
+    r <g d' h'> d''
+    r <h, g' d'> d, %200
+    r <g d' h'> d'
+    r <c, c' e> e''
+    r <d,, a' fis' c'> d''
+    d,8 g, e' c a d
+    g,16\sfp g g g g g g g g g g g %205
+    as as as as as as as as as as as as
+    a\cresc a a a a a a a a a a a
+    b b b b b b b b b b b b
+    h h h h h h h h h h h h
+    c c c c es es es es g g g g %210
+    c,\f c c c c c c c c c c c
+    <g g'>\fz q q q q q q q q q q q
+    <es' c'>\ff q q q q q q q q q q q
+    q q q q g g g g es es es es
+    <c es>2.~\p %215
+    q~
+    q~
+    q~
+    q
+    <h d>4 <g d' h'>\f d'' %220
+    r <g,, e' c'> g'
+    r <g, f' d'> d'
+    c8 e g4 g,
+    r <g e' c'> g'
+    r <a, e' a> e' %225
+    r <f, c' f> c'
+    r <a f' d'> a'
+    d,8 c a' f d f
+    e <e g, c,> r q r q
+    r q r q r q %230
+    f4 <c a>2~\p
+    q2.
+    <b d>
+    <f d'>
+    <g e'> %235
+    <a f'>4. a8( <b d> <a c>)
+    q2 <g b>4\trill
+    <f a> r8 a4 <g b>8
+    <a~ c>2.
+    <a cis>8 <b d> d2 %240
+    <d f> <b d>4
+    <gis h>8( <a c>) q2
+    r4 <f a> <g h>~
+    <g c>8 r r4 r
+    r <g d'> <c e> %245
+    <h d>2.~
+    <c d>
+    <d f>
+    <c e>
+    <h d>2 <c e>4 %250
+    <d f>2.
+    <c e>2 <a c>4
+    <g h>2 <h d>4
+    <g g'>2 <d' f>4
+    <c e> <h g'> c %255
+    <d f> <c e> <h d>
+    c <g e' c'>\f g'
+    r <c, f a> c
+    r <a f' d'> a'
+    r <g, d' h'> d' %260
+    r <e, h' gis'> h''
+    e,8 c f d h8 h'
+    c4 <c e, a,> e
+    r <e,, h' gis'> h''
+    r <a, e' c'> e' %265
+    r <e, h' gis'> h''
+    r <c, f a> c'
+    r <c,, g' e' c'> g''
+    r <c, f a> c'
+    r <c,, g' e' c'> g'' %270
+    r <a, f' a> a
+    r <cis e a> e
+    r <a, f' a> a
+    r <cis e a> a
+    r <a f' d'> a' %275
+    r <g, g' d'> g'
+    r <a, fis' d'> a'
+    r <h, g' d'> g
+    r <g e' c'> e'
+    r <g, d' h'> g %280
+    r <g e' c'> e'
+    r <g, g' d'> g
+    r <c, g' e'> g''
+    r <a, f' d'> f'
+    r <g, e' h'> g' %285
+    r <a, f' c'> a'
+    r <g, g' d'> h'
+    r <c,, g' e' e'> c''
+    r <es, c'> <c es>
+    <h d> <g g'> r %290
+    g\p r r
+    g r r
+    fis r r
+    g <d h' g'>\f g
+    r <g e' c'> g' %295
+    r <g, g' h> h
+    r <g f' h> d''
+    r <g,, e' c'> c
+    r <g f' h> g
+    r <c f a> f, %300
+    r <g e' e'> h
+    r <h g' e'> e
+    r <f d'> a,
+    r <a g' e'> a
+    r <g g'> <g f'> %305
+    <g e'> c, e
+    \once \tieDashed g2.~
+    g4-\critnote c, e
+    g2.~
+    g4 r e' %310
+    e2 a4
+    g,2 d'8( h)
+    g g( f') f( e) e
+    es16 es es es d d d d g, g g g
+    a a a a d d d d f f f f %315
+    e4 c,\p e
+    g2.~
+    g4 c, e
+    \once \tieDashed g2.~
+    g4 r e'16\f e e e %320
+    e e e e e e e e f f f f
+    g g g g g g g g h, h h h
+    g' g g g g g g g g g g g
+    g g g g g g g g g g g g
+    a a a a a a a a f f f f %325
+    e4 <e g, c,>\ff q
+    q q q
+    q <c' e, g,> q
+    <h d, g,> r g,16 a h c
+    d e f e d c h a g f e d %330
+    c4 <c g' e' c'> q
+    q r r\fermata \bar "|." %332 finis
+  }
+}

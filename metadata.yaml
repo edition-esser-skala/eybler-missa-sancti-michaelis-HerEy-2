@@ -4,7 +4,7 @@ composer:
 title: Missa Sancti Michaelis
 id: HerEy 2
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, vlc, vlne, org
+scoring: S, A, 2 T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, vlc, vlne, org
 license: cc-by-sa-4.0
 sources:
   B1:

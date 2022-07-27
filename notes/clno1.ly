@@ -229,3 +229,177 @@ CumSanctoClarinoI = {
     c r r2\fermata \bar "|." %424 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCredo
+    g'2\f r
+    c r
+    d g,4. g8
+    g2 g
+    g r %5
+    d' r
+    e c4. c8
+    c2 c
+    \once \tieDashed c1~
+    c %10
+    c2 d
+    e r
+    R1*4 %16
+    e2 e4. e8
+    e2 e
+    e r
+    R1 %20
+    d
+    d
+    d2 r
+    R1*3 %26
+    c1
+    d2 r
+    R1*2 %30
+    g,2 r
+    R1*4 %35
+    r2 d'
+    e r
+    R1
+    g,2 r
+    R1*3 %42
+    r2 \pao g
+    c \once \partCombineChords e
+    d1~ %45
+    d
+    e2 \pa c
+    g e
+    c \pd r
+    R1*11 %60
+    \pa e2 e4. e8
+    e2 e
+    e \pd r
+    R1*9 %72
+    c'1^\critnote
+    d
+    e2 r %75
+    r c
+    d^\critnote d
+    e1
+    d2 r
+    R1*3 %82
+    r2 c4. c8
+    c2^\critnote c
+    c r %85
+    R1*23 %108
+    r2 c
+    d e %110
+    d r
+    R1
+    c
+    e
+    d %115
+    R
+    c
+    e
+    d
+    d %120
+    c2 r
+    r c
+    c1~
+    c
+    e %125
+    d
+    c2 r
+    R1*3 %130
+    r2 d4. d8
+    d2 d
+    e1
+    d
+    c2 r %135
+    R1
+    b1~
+    b\fermata \bar "||" %138 finis
+  }
+}
+
+EtResurrexitClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    c'4\f c c
+    d r r
+    d d d
+    e r r %185
+    c8 c16 c c8 c c c
+    c4 r r
+    d2.
+    c4 \pa g e
+    c \pd r r %190
+    R2.*3
+    \pao c4 r8 \pa c16 c c8 c \pd
+    e4 r8 e16 e e8 e %195
+    g4 c \once \partCombineChords e
+    d r r
+    R2.*3 %200
+    g,4 r r
+    R2.*9 %210
+    c,4\f r8 c16 c c8 c
+    c4\fzE^\critnote r8 c16 c c8 c
+    c\ffE c16 c c8 c c c
+    c4 r r
+    R2.*7 %221
+    r4 d'\fE r
+    e d2
+    c4 r r
+    c r r %225
+    c r r
+    R2.*2
+    g2.
+    g %230
+    R2.*36 %266
+    c4\f r8 c16 c c8 c
+    c4 r8 c16 c c8 c
+    c4 c c
+    c r r %270
+    R2.*8 %278
+    c8 c16 c c8 c c c
+    d d16 d d8 d d d %280
+    \once \partCombineChords e2 c4
+    d r r
+    R2.*4 %286
+    r4 d d
+    e2 c4
+    c8 c16 c c8 c c c
+    g4 r r %290
+    R2.*4
+    c2.\fE %295
+    r4 d d
+    d2.
+    r4 e c
+    g r r
+    R2.*5 %304
+    c4 e d %305
+    c r r
+    d2.
+    e4 r r
+    d2.
+    e4 r8 \pa e,16 e e8 e %310
+    e4 \pd r r
+    R2.*3
+    r4 \pao d' d %315
+    e r r
+    R2.*3
+    r4 r8 \pa e,16\f e e8 e %320
+    e4 \pd r r
+    r r g
+    \pao g c \once \partCombineChords e
+    d2 e4
+    r r d %325
+    c r r
+    \pao c,\ff r8 \pa c16 c c8 c \pd
+    e4 r8 e16 e e8 e
+    g4 r r
+    d'2. %330
+    c4 \pa c, c
+    c \pd r r\fermata \bar "|." %332 finis
+  }
+}

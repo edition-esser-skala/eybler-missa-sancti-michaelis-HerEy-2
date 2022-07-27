@@ -158,3 +158,41 @@ CumSanctoAltoSoloLyrics = \lyricmode {
   men, a --
   men. %424 finis
 }
+
+EtResurrexitAltoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    R2.*64 %245
+    r4 g'\p g
+    fis2 fis4
+    f f f
+    e4. e8 e4
+    r h c %250
+    d8([ f)] f4 r8 f
+    e([ g c)] h a d
+    h4 g r
+    r g g
+    g4. f8 e4 %255
+    a8 f e4( d)
+    c r r
+    R2.*74 %331
+    R2.\fermata \bar "|." %332 finis
+  }
+}
+
+EtResurrexitAltoSoloLyrics = \lyricmode {
+  Qui cum %246
+  Pa -- tre
+  si -- mul et
+  Fi -- li -- o
+  ad -- o -- %250
+  ra -- tur et
+  con -- glo -- ri -- fi --
+  ca -- tur:
+  qui lo --
+  cu -- tus est %255
+  per Pro -- phe --
+  tas. %257 finis
+}

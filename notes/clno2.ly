@@ -229,3 +229,177 @@ CumSanctoClarinoII = {
     e r r2\fermata \bar "|." %424 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCredo
+    c2\f r
+    e r
+    g g,4. g8
+    g2 g
+    g r %5
+    g' r
+    c c,4. c8
+    c2 c
+    c1~
+    c %10
+    e2 g
+    c r
+    R1*4 %16
+    e,2 e4. e8
+    e2 e
+    e r
+    R1 %20
+    g
+    c
+    g2 r
+    R1*3 %26
+    e1
+    g2 r
+    R1*2 %30
+    g,2 r
+    R1*4 %35
+    r2 g'
+    c r
+    R1
+    g,2 r
+    R1*3 %42
+    r2 g'
+    e c
+    g'1~ %45
+    g
+    c2 c
+    g e
+    c r
+    R1*11 %60
+    e2 e4. e8
+    e2 e
+    e r
+    R1*9 %72
+    e1
+    g
+    c2 r %75
+    r e,
+    g g
+    c1
+    g2 r
+    R1*3 %82
+    r2 c,4. c8
+    c2 c
+    c r
+    R1*23 %108
+    r2 e
+    g c %110
+    g r
+    R1
+    e
+    c'
+    g %115
+    R
+    e
+    c'
+    g
+    g %120
+    c,2 r
+    r c
+    c1~
+    c
+    c'1 %125
+    g
+    e2 r
+    R1*3 %130
+    r2 g4. g8
+    g2 g
+    c1
+    c2 g
+    e r %135
+    R1
+    g~
+    g\fermata \bar "||" %138 finis
+  }
+}
+
+EtResurrexitClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    e4\f e e
+    g r r
+    g g g
+    c r r %185
+    c,8 c16 c c8 c c c
+    c4 r r
+    g'2.
+    e4 g e
+    c r r %190
+    R2.*3
+    c4 r8 c16 c c8 c
+    c4 r8 c16 c c8 c %195
+    e2 c4
+    g' r r
+    R2.*3 %200
+    g,4 r r
+    R2.*9 %210
+    c4\f r8 c16 c c8 c
+    c4\fzE r8 c16 c c8 c
+    c\ffE c16 c c8 c c c
+    c4 r r
+    R2.*7 %221
+    r4 g'\fE r
+    c2 g4
+    e r r
+    c r r %225
+    c r r
+    R2.*2
+    e2.
+    c %230
+    R2.*36 %266
+    c4\f r8 c16 c c8 c
+    c4 r8 c16 c c8 c
+    c4 c c
+    c r r %270
+    R2.*8 %278
+    e8 e16 e e8 e e e
+    g g16 g g8 g g g %280
+    c,2 e4
+    g r r
+    R2.*4 %286
+    r4 g g
+    c2 e,4
+    c8 c16 c c8 c c c
+    g4 r r %290
+    R2.*4
+    e'2.\fE %295
+    r4 g g
+    g2.
+    r4 c g
+    e r r
+    R2.*5 %304
+    e4 c' g %305
+    e r r
+    g2.
+    c4 r r
+    g2.
+    c4 r8 e,16 e e8 e %310
+    e4 r r
+    R2.*3
+    r4 d' g, %315
+    c r r
+    R2.*3
+    r4 r8 e,16\f e e8 e %320
+    e4 r r
+    r r g,
+    g' e c
+    g'2 c4
+    r r g %325
+    e r r
+    c\ff r8 c16 c c8 c
+    c4 r8 c16 c c8 c
+    g4 r r
+    g'2. %330
+    e4 c c
+    c r r\fermata \bar "|." %332 finis
+  }
+}
