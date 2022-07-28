@@ -331,3 +331,42 @@ EtResurrexitTimpani = {
     c r r\fermata \bar "|." %332 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*7 %7
+    c4\fE r r
+    g r r
+    g2.~\f\startTrillSpan %10
+    g4\stopTrillSpan r r
+    g2.~\pp\startTrillSpan
+    g4\stopTrillSpan r r \noBreak
+    R2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni g8.\f g32 g g8 g \noBreak %15
+    g8. g32 g g8 g
+    g g16 g c8 c
+    g4 r
+    R2*2 %20
+    r4 g
+    c r
+    R2*5 %27
+    r4 c8 r
+    c r g r
+    c4 r %30
+    R2*3
+    r4 g
+    c r %35
+    r8 g16 g g8 g
+    g4 r
+    R2*4 %41
+    r4 c
+    g8 g16 g g8 g
+    c4 r
+    R2*2 %46
+    g8 g16 g g8 g
+    c4 c8. c16
+    c4 r\fermata \bar "|." %49 finis
+  }
+}

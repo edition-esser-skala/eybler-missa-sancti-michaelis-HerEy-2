@@ -288,13 +288,6 @@ EtResurrexitSopranoSoloLyrics = \lyricmode {
   tas. %257 finis
 }
 
-% ## Sanctus
-%
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-%
-%
 % ## Benedictus
 %
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.

@@ -1643,3 +1643,105 @@ EtResurrexitBassFigures = \figuremode {
   r
   r %332 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    \once \slurDashed \mvTr c4(\pE-\tuttiE-\senzaOrg e c)
+    \parOn h-\parenthesize-! \parOff g'-\parenthesize-! r
+    \once \slurDashed b,( g' b,)
+    \parOn a-\parenthesize-!\crescE \parOff a'-\parenthesize-! r
+    \once \slurDashed a( f cis) %5
+    d8\fE d d' d gis, gis
+    a a a, a g! g
+    f f f' f d d
+    g4 g, r
+    g8\fE g' g g g g %10
+    g4 r r
+    g,8\pp g g g g g
+    g4 g g \noBreak
+    g2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni g8\fE h d g \noBreak %15
+    g, c e g
+    h, h' c c,
+    g' g, g' f
+    e e, e e'
+    f d e f %20
+    g g, g g'
+    c, c' r c,-\solo
+    d d' r d,
+    e e' r e,
+    f f' r f, %25
+    g a h c
+    d e f d
+    e r e, r
+    f r g r
+    c,4 r %30
+    R2*2
+    r4 g8-\tutti g'
+    e g h, g'
+    c, c' f,, f' %35
+    g, g' d h
+    g4 r
+    R2*3 %40
+    r4 d'8 d'
+    g,, g' c, c'
+    g f g g,
+    c g' e c
+    g d' h g %45
+    c g' e c
+    g d'' h g
+    c4 c,16(-\unisono h c h)
+    c4 r\fermata \bar "|." %49 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2.
+  r
+  r
+  r
+  r %5
+  r2 <7>4
+  r2 <7 _->8 <6 \t>
+  r2.
+  <_!>
+  <7+ 6- 4 2> %10
+  <8 3>
+  <7+ 4 2>
+  <8 3>
+  r
+  r2 %15
+  <6 4>
+  <[6 5]>
+  r
+  <6>4 <6\\ 5->
+  <9 6>8 <10 \t> <8 6> <6> %20
+  <6 4>4 <7 [3]>
+  r4. \bo <[6]>8
+  <9> <8>4 <6>8
+  <9> <8>4 <6>8
+  <9> <8>4 <6>8 %25
+  r <6\\> <5!>4
+  r8 <6> <5>4
+  <6> <\t>
+  r \bc <[7]>
+  r2 %30
+  r2*2
+  r2
+  <6>4 <6 [5]>
+  r <6> %35
+  r2
+  r
+  r2*3 %40
+  r4 <5>
+  <7> <3>
+  <4> <3>
+  r2
+  r %45
+  r
+  r
+  r
+  r %49 finis
+}

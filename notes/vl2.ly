@@ -838,3 +838,57 @@ EtResurrexitViolinoII = {
     q r r\fermata \bar "|." %332 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    c4(\p e c)
+    h-! g'-! r
+    b,(\cresc g' b,)
+    a-! f'-! r
+    a( f cis) %5
+    d8\f a' a a h h
+    c c c c b b
+    a16( gis a gis) a( g f e) f( e d c)
+    \appoggiatura c h( a h c) d g,( h d) g( h d g)
+    fis(\f es c a) fis( a c es) fis( es c a) %10
+    h(\decresc d, h' a) g( fis e d) c( h a g)
+    a(\pp h c h) a( h c h) a( c h a)
+    g8.[ a16 h8. c16 h8. c16] \noBreak
+    h2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni
+      h16\f d d g g h h d \noBreak %15
+    c, e e g g c c e
+    d f f d c e e c
+    h g g d d g g h
+    c g g e e g g b
+    a a, a a' a g g f %20
+    e c' c e, d8 h'
+    c,16 h c dis e h c e
+    a, cis d e f cis d f
+    h, dis e fis g dis e g
+    c, e f gis a e f a %25
+    d, h c a d h e c
+    f d g e a f h g
+    c8 r <g c> r
+    <f c' a'> r <g, d' h'> r
+    <g e' c'>4-\critnote r %30
+    R2*2
+    r4 d'16 g g h
+    e, g g c g h h d
+    g, c c e a, d d f %35
+    d8 g,16( fis g fis g fis)
+    g4 r
+    R2*3 %40
+    r4 a16 d d f
+    f d d h c e e c
+    d c' c d, g,8 h'
+    c, c,16( e) e( g) g( c)
+    h8 d,16 g g h h d %45
+    c8 e,16 g g c c e
+    g8 h,16 d d g g h
+    c4 c,,16( h c h)
+    c4 r\fermata \bar "|." %49 finis
+  }
+}

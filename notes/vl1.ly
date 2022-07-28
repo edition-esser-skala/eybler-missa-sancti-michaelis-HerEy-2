@@ -833,3 +833,57 @@ EtResurrexitViolinoI = {
     q r r\fermata \bar "|." %332 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    c4(\p e c)
+    h-! g'-! r
+    b,(\cresc g' b,)
+    a-! f'-! r
+    a( f cis) %5
+    d8\f f' f f f f
+    e e e e f g
+    a16( gis a gis) a( g f e) d( c h a)
+    \appoggiatura c h( a h c) d g,,( h d) \slurDashed g( h d g)
+    fis(\f c' a fis) es( c a fis) \slurSolid a( c es fis) %10
+    g(\decresc d h' a) g( fis e d) c( h a g)
+    fis(\pp g a h) c( h a g) fis( e d c)
+    h8.[ c16 d8. e16 d8. e16] \noBreak
+    d2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni
+      d'16\f h h g g d d h \noBreak %15
+    e' c c g g e e c
+    f' d d g, e' c c g
+    d' h h g g h h d
+    g e e c g' e e b
+    a g' g f f e e d %20
+    c e, e c' d,8 h'
+    c16 dis e h c gis a e
+    f e' f cis d a h f
+    g fis' g dis e h c g
+    a gis' a e f cis d a %25
+    h g c a d h e c
+    f d g e a f h g
+    c8 r <g, c> r
+    <f c' a'> r <g, d' h'> r
+    <g e' c'>4 r %30
+    R2*2
+    r4 h'16 g g d
+    c' g g e d' h h g
+    e' c c g f' d d a %35
+    h8 g'16( fis g fis g fis)
+    g4 r
+    R2*3 %40
+    r4 f16 d d a
+    h d d^\critnote f e g g c
+    c d, d c' g,8 h'
+    c,,16( e) e( g) g( c) c( e)
+    d, g g h h d d g %45
+    e, g g c c e e g
+    h, d d g g h h d
+    c4 c,,16( h c h)
+    c4 r\fermata \bar "|." %49 finis
+  }
+}

@@ -1203,3 +1203,99 @@ EtResurrexitAltoLyrics = \lyricmode {
   %330
   men. %331 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoSanctus
+    R2.
+    \mvTr d2.\p^\tutti
+    e4 r r
+    f2.\cresc
+    f4 r r %5
+    a2\f h4
+    c4. c8 b4
+    a2 a4
+    g8. g16 g4 r
+    c2.\f %10
+    h4 r r
+    fis2.\pp
+    g4 r r \noBreak
+    R2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni g4\f g8 g \noBreak %15
+    g4 g8 g
+    g4 g8 g
+    g h r4
+    c b
+    a g8 f %20
+    e4( \grace g8 f4)
+    e r
+    R2*6 %28
+    r4 g
+    e4. c'8 %30
+    c4. e8
+    e4.( d8)
+    h4 g
+    g g
+    g a %35
+    g g
+    r g
+    e4. e8
+    f([ g)] a([ b)]
+    c4.( a8) %40
+    a4 a(
+    g) g
+    g2
+    e4 r
+    g4. g8 %45
+    g4 g
+    g4. g8
+    g4 g
+    R2\fermata \bar "|." %49 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- %2
+  ctus,
+  san --
+  ctus, %5
+  san -- ctus
+  Do -- mi -- nus
+  De -- us
+  Sa -- ba -- oth,
+  san -- %10
+  ctus,
+  san --
+  ctus.
+
+  Ple -- ni sunt %15
+  coe -- li, sunt
+  coe -- li et
+  ter -- ra
+  glo -- _
+  _ ri -- a %20
+  tu --
+  a.
+
+  O -- %29
+  san -- na %30
+  in ex --
+  cel --
+  sis, o --
+  san -- na
+  in ex -- %35
+  cel -- sis,
+  o --
+  san -- na
+  in __ ex --
+  cel -- %40
+  sis, in __
+  ex --
+  cel --
+  sis,
+  in ex -- %45
+  cel -- sis,
+  in ex --
+  cel -- sis. %48 finis
+}

@@ -840,3 +840,56 @@ EtResurrexitViola = {
     q r r\fermata \bar "|." %332 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoSanctus
+    c4(\p e c)
+    h-! g'-! r
+    b,(\cresc g' b,)
+    a-! f'-! r
+    a( f cis) %5
+    d8\f d' d d d d
+    c c, c c d e
+    f f f f f f
+    d d h h g g
+    <a' c>\f q q q q q %10
+    <g h>4 r r
+    <d, c'>8\pp q q q <d a'> fis
+    g4 g g \noBreak
+    g2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni g'8\f d h g \noBreak %15
+    g' e c g
+    g' g, g g'
+    g d h g
+    c c' cis cis,
+    d f g a %20
+    g g, g g'
+    c, r e4~\fz
+    e8 d f4~
+    f8 e g4~
+    g8 f a4 %25
+    g8 fis f e
+    d c c f
+    e r <g, g'> r
+    <c f a> r <g d' h'> r
+    <c, g' e' c'>4 r %30
+    R2*2
+    r4 g''8\f g,
+    g g' g g,
+    g g' a, a' %35
+    g g, h d
+    g4 r
+    R2*3 %40
+    r4 d'8 d,
+    d' d, c c'
+    g f g g,
+    c g' e c
+    g d' h g %45
+    c g' e c
+    g d'' h g
+    c4 c,16( h c h)
+    c4 r\fermata \bar "|." %49 finis
+  }
+}
