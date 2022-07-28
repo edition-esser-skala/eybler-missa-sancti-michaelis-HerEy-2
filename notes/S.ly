@@ -944,7 +944,7 @@ EtIncarnatusSoprano = {
     \key as \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #139
     R2.*25 %163
-    \key c \major r8 f'4\f f8 f f
+    \key c \major r8 \mvTr f'4\f^\tutti f8 f f
     f8. e16 e4 r8 e %165
     e4 d c
     c h r
@@ -989,7 +989,7 @@ EtResurrexitSoprano = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    c'4\f c c
+    \mvTr c'4\f^\tutti c c
     d2 d4
     d d d
     e2 e4 %185
@@ -1019,8 +1019,21 @@ EtResurrexitSoprano = {
     f r f
     e8 e d2
     c4 r r
-    R2.*37 %261
-    r4 r e
+    R2.*21 %245
+    r4 \mvTr g\p^\solo g
+    a2 a4
+    h h h
+    c4. g8 g4
+    r d' e %250
+    f8([ a,)] a4 h
+    c4. d8 e fis
+    g4 g, r
+    r g' f!
+    e4. d8 c4 %255
+    a8 d c4( h)
+    c r r
+    R2.*4 %261
+    r4 r \mvTr e\f^\tutti
     e2 e4
     e e e %265
     e2 e4
@@ -1125,6 +1138,19 @@ EtResurrexitSopranoLyrics = \lyricmode {
   non, non
   e -- rit fi --
   nis.
+
+  Qui cum %246
+  Pa -- tre
+  si -- mul et
+  Fi -- li -- o
+  ad -- o -- %250
+  ra -- tur et
+  con -- glo -- ri -- fi --
+  ca -- tur:
+  qui lo --
+  cu -- tus est %255
+  per Pro -- phe --
+  tas. %257 finis
 
   Et %262
   u -- nam
@@ -1319,7 +1345,7 @@ BenedictusSoprano = {
     d'8.([ h16)] g8 g %50
     f'4 d8 h
     c16([ d e fis)] g([ e)] c([ a)]
-    \mvSrf g4.\turn a8
+    \once \override Script.X-offset = #5 g4.\turn a8
     h c\fE d16([ e)] fis g
     \appoggiatura g8 g,4. \appoggiatura h16 a8 %55
     g4 r

@@ -958,8 +958,32 @@ EtIncarnatusTenore = {
     \clef "treble_8"
     \key as \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #139
-    R2.*25 %163
-    \key c \major r8 gis4\f gis8 gis gis
+    \mvTr c4\pE^\markup \remark "T 2 solo" as g
+    as8([ es c)] es as b %140
+    c4~ c8[ es] des c
+    c8.([ b16)] as8 r r4
+    b b b
+    es8. c16 as8 b c16([ des)] es e
+    f8([ c)] des b f16([ f')] es des %145
+    c8.([ \grace { des32[ c b c] } des16)] b4 es16([ d)] c([ b)]
+    b2 b4
+    b~ b16[ es] g([ d)] f([ es)] d([ c)]
+    b2.~
+    b4~ b16[ as] g([ as)] b([ c)] d([ es)] %150
+    es8.([\fz c16)] as4 r8 c
+    c8.([\fzE as16)] f8 r r as'16([ f)]
+    d2(\ff es16[\pE d)] c([ b)]
+    b([ as)] g([ f)] es8([ g] d16[ f)] f([ as)]
+    g4 r f'16([ d)] b([ as)] %155
+    g8. b16 es8 g f16([ d)] b as
+    g8.([ \grace { as32[ g f g] } as16)] b8 r g b
+    b8.([ as16)] as8 as16([ c)] c([ b)] as([ g)]
+    \appoggiatura { f32[ g as] } g8. f16 f8 r d'8.([\p es16)]
+    es2 es4 %160
+    es2.\cresc
+    e16[\f h] cis([ a)] gis4( fis8.)\pE fis16
+    e4 r r
+    \key c \major r8 \mvTr gis4\f^\markup \remark "T tutti" gis8 gis gis
     d'8. c16 c4 r8 c %165
     c4 h a
     dis e r
@@ -981,7 +1005,32 @@ EtIncarnatusTenore = {
 }
 
 EtIncarnatusTenoreLyrics = \lyricmode {
-  Cru -- ci -- fi -- xus %164
+  Et in -- car -- %139
+  na -- tus est de %140
+  Spi -- ri -- tu
+  San -- cto,
+  et in -- car --
+  na -- tus est de Spi -- ri -- tu
+  San -- cto, de Spi -- ri -- tu %145
+  San -- cto, in -- car --
+  na -- tus
+  est, __ et __ in -- car --
+  na --
+  tus est et __ %150
+  ho -- mo, et
+  ho -- mo, et __
+  ho -- mo,
+  ho -- mo fa -- ctus
+  est, in -- car -- %155
+  na -- tus est de Spi -- ri -- tu
+  San -- cto ex Ma --
+  ri -- a, Ma -- ri -- a
+  Vir -- gi -- ne, et __
+  ho -- mo, %160
+  ho --
+  _ mo fa -- ctus
+  est.
+  Cru -- ci -- fi -- xus
   e -- ti -- am pro %165
   no -- bis, pro
   no -- bis,
@@ -1004,7 +1053,7 @@ EtResurrexitTenore = {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    g4\f g g
+    \mvTr g4\f^\tutti g g
     h2 h4
     h h h
     c2 c4 %185
@@ -1039,8 +1088,25 @@ EtResurrexitTenore = {
     d r d
     c8 c c4( h)
     c r r
-    R2.*37 %261
-    r4 r e\f
+    R2.*6 %230
+    r4 \mvTr c\p^\solo c
+    c4. b8 a4
+    r d d
+    d4. c8 b4
+    r e e %235
+    f4. a,8 d c
+    c2( b4)\trillE
+    a r r
+    c2 es4
+    cis8([ d)] d4 r %240
+    f4.( d8) f([ d)]
+    h!([ c)] c4 r
+    r a h!
+    c8([ d)] d([ e)] e([ f)]
+    f2( e4) %245
+    d r r
+    R2.*15 %261
+    r4 r \mvTr e\f^\tutti
     e2 e4
     e e e
     e2 e4 %265
@@ -1150,6 +1216,23 @@ EtResurrexitTenoreLyrics = \lyricmode {
   non, non
   e -- rit fi --
   nis.
+
+  Et in %231
+  Spi -- ri -- tum
+  San -- ctum,
+  Do -- mi -- num
+  San -- ctum %235
+  et vi -- vi -- fi --
+  can --
+  tem,
+  qui ex
+  Pa -- tre %240
+  Fi -- li --
+  o -- que,
+  Fi -- li --
+  o -- que pro --
+  ce -- %245
+  dit. %246 finis
 
   Et %262
   u -- nam

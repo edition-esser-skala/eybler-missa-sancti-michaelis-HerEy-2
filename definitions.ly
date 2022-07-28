@@ -2,12 +2,8 @@
 
 #(define option-movement-title-format "number-title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-
-
-mvSrf = \once \override Script.X-offset = #5
-mvSrt = \once \override Script.X-offset = #3
 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"

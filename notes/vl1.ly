@@ -909,7 +909,7 @@ BenedictusViolinoI = {
     r g-\arco \once \slurDashed g( fis) %15
     g( d g h)
     d4. e8
-    \mvSrt a,8._\turn h16 c8 d
+    \once \override Script.X-offset = #3 a,8._\turn h16 c8 d
     g,4 a16( h c a)
     g8( fis) r a16( h) %20
     c8. a16 fis8 d

@@ -946,11 +946,35 @@ CredoAltoLyrics = \lyricmode {
 
 EtIncarnatusAlto = {
   \relative c' {
-    \clef treble
+    \clef "treble_8"
     \key as \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #139
-    R2.*25 %163
-    \key c \major r8 h'4\f h8 h h
+    \mvTr es4\pE^\markup \remark "T 1 solo" c b
+    as4. b8 c des %140
+    es8.([ f32 g] as8[ g)] f es
+    es8.([ des16)] c8 r f16([ es)] c([ as)]
+    \afterGrace g8. { as32[ g f g] } b16 des8 r es16([ des)] b([ g)]
+    \afterGrace as8. { b32[ as g as] } c16 es8 r r as
+    as4~ as16[ e g f] es[( des)] c([ b)] %145
+    as8.[( \grace { b32[ as g as] } b16]) g4 r
+    r8 es'8.([ d16)] f([ es)] d([ c)] b([ as)]
+    g8. as16 b4 r
+    r8 es8.([ d16)] as'([ f)] d([ b)] c([ as)]
+    g8.[( \grace { as32[ g f g] } as16]) b4 r %150
+    r8 c es8.([\fz c16)] c8 r
+    r as c8.([\fz as16)] as8 f'
+    as2(\ff g16[\pE f)] es([ d)]
+    d([ c)] b([ as)] g8( b4) d,8
+    es4 r b'8 b %155
+    g'8. es16 b8 b c16([ d)] es f
+    g8.([ es16]) b8 r g'16([ f)] es([ d)]
+    d8.([ c16)] c8 c16([ as')] as([ g)] f([ es)]
+    \appoggiatura { d32[ es f] } es8. d16 d8 r f8.([\p ges16)]
+    ges2 ges4 %160
+    ges2.\cresc
+    gis16[\f e] cis[( fis)] e4( dis8.)\pE dis16
+    e4 r r
+    \clef treble \key c \major r8 \mvTr h'4\f^\markup \remark "A tutti" h8 h h
     gis8. a16 a4 r8 a %165
     gis4 gis a
     a gis r
@@ -972,6 +996,32 @@ EtIncarnatusAlto = {
 }
 
 EtIncarnatusAltoLyrics = \lyricmode {
+  Et in -- car -- %139
+  na -- tus est de %140
+  Spi -- ri -- tu
+  San -- cto, in -- car --
+  na -- tus est, in -- car --
+  na -- tus est de
+  Spi -- ri -- tu %145
+  San -- cto
+  ex __ Ma -- ri -- a
+  Vir -- gi -- ne
+  de __ Spi -- ri -- tu
+  San -- cto, %150
+  et ho -- mo,
+  et ho -- mo, et
+  ho -- mo,
+  ho -- mo fa -- ctus
+  est, in -- car -- %155
+  na -- tus est de Spi -- ri -- tu
+  San -- cto ex Ma --
+  ri -- a, Ma -- ri -- a
+  Vir -- gi -- ne, et __
+  ho -- mo, %160
+  ho --
+  _ mo fa -- ctus
+  est. %163 finis
+
   Cru -- ci -- fi -- xus %164
   e -- ti -- am pro %165
   no -- bis, pro
@@ -995,7 +1045,7 @@ EtResurrexitAlto = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    e4\f e e
+    \mvTr e4\f^\tutti e e
     g2 g4
     g g g
     g2 g4 %185
@@ -1025,8 +1075,21 @@ EtResurrexitAlto = {
     g r g
     g8 g g2
     e4 r r
-    R2.*37 %261
-    r4 r e\f
+    R2.*21 %245
+    r4 \mvTr g\p^\solo g
+    fis2 fis4
+    f f f
+    e4. e8 e4
+    r h c %250
+    d8([ f)] f4 r8 f
+    e([ g c)] h a d
+    h4 g r
+    r g g
+    g4. f8 e4 %255
+    a8 f e4( d)
+    c r r
+    R2.*4 %261
+    r4 r \mvTr e\f^\tutti
     e2 e4
     e e e
     e2 e4 %265
@@ -1131,6 +1194,19 @@ EtResurrexitAltoLyrics = \lyricmode {
   non, non
   e -- rit fi --
   nis.
+
+  Qui cum %246
+  Pa -- tre
+  si -- mul et
+  Fi -- li -- o
+  ad -- o -- %250
+  ra -- tur et
+  con -- glo -- ri -- fi --
+  ca -- tur:
+  qui lo --
+  cu -- tus est %255
+  per Pro -- phe --
+  tas. %257 finis
 
   Et %262
   u -- nam

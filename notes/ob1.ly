@@ -744,7 +744,7 @@ BenedictusOboeI = {
     h4\fE r
     R2*18 %24
     \mvTr d,4.\pE-\solo e8 %25
-    \mvSrt a,8._\turn h16 c8 d
+    \once \override Script.X-offset = #3 a,8._\turn h16 c8 d
     g,4 a16( h c a)
     g8( fis) r \once \slurDashed a16( h)
     c8. a16 fis8 d

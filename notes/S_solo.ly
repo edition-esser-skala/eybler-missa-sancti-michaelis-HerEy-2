@@ -250,44 +250,6 @@ CumSanctoSopranoSoloLyrics = \lyricmode {
   men. %424 finis
 }
 
-EtResurrexitSopranoSolo = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
-      \set Score.currentBarNumber = #182
-    R2.*64 %245
-    r4 g'\p g
-    a2 a4
-    h h h
-    c4. g8 g4
-    r d' e %250
-    f8([ a,)] a4 h
-    c4. d8 e fis
-    g4 g, r
-    r g' f!
-    e4. d8 c4 %255
-    a8 d c4( h)
-    c r r
-    R2.*74 %331
-    R2.\fermata \bar "|." %332 finis
-  }
-}
-
-EtResurrexitSopranoSoloLyrics = \lyricmode {
-  Qui cum %246
-  Pa -- tre
-  si -- mul et
-  Fi -- li -- o
-  ad -- o -- %250
-  ra -- tur et
-  con -- glo -- ri -- fi --
-  ca -- tur:
-  qui lo --
-  cu -- tus est %255
-  per Pro -- phe --
-  tas. %257 finis
-}
-
 AgnusSopranoSolo = {
   \relative c' {
     \clef treble
