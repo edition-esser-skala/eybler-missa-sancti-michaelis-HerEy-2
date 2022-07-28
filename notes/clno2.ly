@@ -443,3 +443,30 @@ SanctusClarinoII = {
     c4 \pd r\fermata \bar "|." %49 finis
   }
 }
+
+BenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    R2*63 \bar "||" %63
+    \tempoOsanna R2*6 %69
+    r4 c8\f r %70
+    c r g r
+    c4 r
+    R2*2
+    r4 g' %75
+    e g
+    c d
+    g, g,8. g16
+    g4 r
+    R2*4 %83
+    g'4 c
+    c g %85
+    e r
+    \pa g8 g16 g g8 g \pd
+    e4 \once \partCombineChords c
+    g' g8 g
+    e4 \pa c8. c16 %90
+    c4 \pd r\fermata \bar "|." %91 finis
+  }
+}

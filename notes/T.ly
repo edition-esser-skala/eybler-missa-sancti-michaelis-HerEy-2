@@ -1318,3 +1318,122 @@ SanctusTenoreLyrics = \lyricmode {
   in ex --
   cel -- sis. %48 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
+    R2*24 %24
+    \mvTr d4.\pE^\solo e8 %25
+    a,8.([ h16)] c8 d
+    g,4 a16([ h)] c([ a)]
+    g8 fis r a16([ h)]
+    c8. a16 fis8 d
+    d'8.([ cis16)] c([ h)] a([ e')] %30
+    \appoggiatura e8 g,4. \appoggiatura h16 a8
+    g d16([ g)] g([ h)] h([ d)]
+    r8 d16 d h8 gis
+    r c a fis
+    g([ a16 h] c[ d)] e([ c)] %35
+    h8([ a)] c16([ h)] a([ g)]
+    fis([ g a h)] c([ a)] a([ fis)]
+    h8([ g)] e c'
+    h4. \appoggiatura d16 c8
+    h4 r %40
+    R2
+    r8 h4 h16([ d)]
+    d8.([ c16)] h([ a)] g([ fis)]
+    g8 h r h16 h
+    d([ c)] h8 r h16 h %45
+    d([ c)] h8 r g
+    g'4 fis16([ e)] d([ c)]
+    h16. a32 a8 r4
+    r8 a16 a c8 a
+    r h16 h d8 h %50
+    r d h d
+    g, c r c
+    h([ ais h)] d
+    d c\fE h ais16 ais
+    h4. c8 %55
+    h4 r
+    R2*7 \bar "||" %63
+    \key c \major \tempoOsanna R2*7 %70
+    r4 \mvTr g\fE^\tuttiE
+    c4. e8
+    e4. g8
+    g4.( f8)
+    d4 d %75
+    g, f'
+    e d
+    h g
+    r g
+    g'4. e8 %80
+    c4. e8
+    f2
+    f4 d(
+    h) c
+    c( h) %85
+    c r
+    h4. h8
+    c4 c
+    h4. h8
+    c4 e %90
+    R2\fermata \bar "|." %91 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %25
+  di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne %30
+  Do -- mi --
+  ni, qui ve -- nit,
+  be -- ne -- di -- ctus,
+  qui ve -- nit,
+  be -- ne -- %35
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi --
+  ni, %40
+
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit, be -- ne --
+  di -- ctus, be -- ne -- %45
+  di -- ctus, in
+  no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, %50
+  qui ve -- nit,
+  ve -- nit in
+  no -- mi --
+  ne, in no -- mi -- ne
+  Do -- mi -- %55
+  ni.
+
+  O -- %71
+  san -- na
+  in ex --
+  cel --
+  sis, o -- %75
+  san -- na
+  in ex --
+  cel -- sis,
+  o --
+  san -- na %80
+  in ex --
+  cel --
+  sis, in __
+  ex --
+  cel -- %85
+  sis,
+  in ex --
+  cel -- sis,
+  in ex --
+  cel -- sis. %90 finis
+}

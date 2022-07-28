@@ -6,6 +6,10 @@
 \include "ees.ly"
 
 
+mvSrf = \once \override Script.X-offset = #5
+mvSrt = \once \override Script.X-offset = #3
+
+
 tempoKyrie = \tempoMarkup "Andante sostenuto"
 tempoGloria = \tempoMarkup "Allegro vivace"
   tempoQuiTollis = \tempoMarkup "Adagio"
@@ -16,6 +20,8 @@ tempoCredo = \tempoMarkup "Allegro vivace"
   tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro vivace"
+tempoBenedictus = \tempoMarkup "Andante"
+  tempoOsanna = \tempoMarkup "Allegro vivace"
 
 
 \include "notes/ob1.ly"
@@ -27,11 +33,11 @@ tempoSanctus = \tempoMarkup "Adagio"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
 \include "notes/S_solo.ly"
-\include "notes/S_tutti.ly"
 \include "notes/A_solo.ly"
-\include "notes/A_tutti.ly"
 \include "notes/T_solo.ly"
-\include "notes/T_tutti.ly"
 \include "notes/B_solo.ly"
-\include "notes/B_tutti.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
 \include "notes/org.ly"

@@ -1299,3 +1299,138 @@ SanctusAltoLyrics = \lyricmode {
   in ex --
   cel -- sis. %48 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
+    R2*16 %16
+    \mvTr d'4.\pE^\solo e8
+    a,8.([ h16)] c8 d
+    g,4 a16([ h)] c([ a)]
+    g8 fis r a16([ h)] %20
+    c8. a16 fis8 d
+    d'8.([ cis16)] c([ h)] a([ e')]
+    \appoggiatura e8 g,4. \appoggiatura h16 a8
+    g8 d16([ g)] g([ h)] h([ d)]
+    r8 d16 d h8 gis %25
+    r c a fis
+    g([ a16 h] c[ d)] e([ c)]
+    h8([ a)] c16([ h)] a([ g)]
+    fis([ g a h)] c([ a)] a([ fis)]
+    h8([ g)] e c' %30
+    h4. \appoggiatura d16 c8
+    h h16([ g)] g([ d)] d([ h)]
+    h([ h')] h8 r e,16 e
+    c'8 a r d,
+    h' g r4 %35
+    r8 c16([ h)] a([ g)] fis e
+    d4~ d16[ fis] fis([ a)]
+    g4 r8 c,
+    d16([ g)] g h d8. fis,16
+    g8 d'([ h)] g %40
+    fis([ a)] d, c'
+    h g r4
+    R2
+    r8 g16 g a8 g
+    r g a g %45
+    r4 r8 dis
+    e c16 c a8 e'
+    d4 r8 fis16 g
+    a8.([ fis16)] d8 d16 d
+    h'8.([ g16)] d8 r %50
+    r g g g
+    g g r e
+    d([ cis d)] fis
+    g g\fE g e16 e
+    d4. fis8 %55
+    g4 r
+    R2*7 \bar "||" %63
+    \key c \major \tempoOsanna R2*7 %70
+    r4 \mvTr g\fE^\tuttiE
+    e4. c'8
+    c4. e8
+    e4.( d8)
+    h4 g %75
+    g g
+    g a
+    g g
+    r g
+    e4. e8 %80
+    f([ g)] a([ b)]
+    c4.( a8)
+    a4 a(
+    g) g
+    g2 %85
+    e4 r
+    g4. g8
+    g4 g
+    g4. g8
+    g4 g %90
+    R2\fermata \bar "|." %91 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %17
+  di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit in %20
+  no -- mi -- ne, in
+  no -- mi -- ne
+  Do -- mi --
+  ni, qui ve -- nit,
+  be -- ne -- di -- ctus, %25
+  qui ve -- nit,
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit in %30
+  no -- mi --
+  ne, qui ve -- nit,
+  ve -- nit, be -- ne --
+  di -- ctus, qui
+  ve -- nit %35
+  in no -- mi -- ne
+  Do -- mi --
+  ni, in
+  no -- mi -- ne Do -- mi --
+  ni, be -- ne -- %40
+  di -- ctus, qui
+  ve -- nit,
+
+  be -- ne -- di -- ctus,
+  qui ve -- nit %45
+  in
+  no -- mi -- ne Do -- mi --
+  ni, be -- ne --
+  di -- ctus, be -- ne --
+  di -- ctus, %50
+  qui ve -- nit,
+  ve -- nit in
+  no -- mi --
+  ne, in no -- mi -- ne
+  Do -- mi -- %55
+  ni.
+
+  O -- %71
+  san -- na
+  in ex --
+  cel --
+  sis, o -- %75
+  san -- na
+  in ex --
+  cel -- sis,
+  o --
+  san -- na %80
+  in __ ex --
+  cel --
+  sis, in __
+  ex --
+  cel -- %85
+  sis,
+  in ex --
+  cel -- sis,
+  in ex --
+  cel -- sis. %90 finis
+}

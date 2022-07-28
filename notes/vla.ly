@@ -876,7 +876,7 @@ SanctusViola = {
     <c f a> r <g d' h'> r
     <c, g' e' c'>4 r %30
     R2*2
-    r4 g''8\f g,
+    r4 g''8 g,
     g g' g g,
     g g' a, a' %35
     g g, h d
@@ -891,5 +891,100 @@ SanctusViola = {
     g d'' h g
     c4 c,16( h c h)
     c4 r\fermata \bar "|." %49 finis
+  }
+}
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key g \major \time 2/4 \tempoBenedictus
+    r8 d\pE h'4
+    e,8.( fis32 g) a8 c,
+    h( g') e16( d c e)
+    d4 r8 c16( h)
+    a( g fis e) d8\cresc d %5
+    d16(\fE g h d) g8 r
+    r \once \slurDashed e(\decresc d c)
+    c4( h8)\pE r
+    r8 d,-\pizz h' e
+    r c, a' d %10
+    h g r c
+    h a r4
+    r8 a a a
+    r g r c
+    r h-\arco h( c) %15
+    h( d h g)
+    d h'4 h8
+    c a4 c8
+    h g e'16( d c e)
+    d,8. e16 fis( g c h) %20
+    a( g fis g) a( fis) fis( a)
+    r h( d g) r c,( e a)
+    r d,( g h) g( h, c fis)
+    g8 d16( h) h( g) g( d)
+    r8 h'' gis e~ %25
+    e a fis d
+    r e c a
+    r d~ d16( e fis g)
+    a( c a fis) d( fis) fis( a)
+    g( d h g) e( e' c a) %30
+    r d( h g) \once \slurDashed d( h' a fis')
+    g8 \tuplet 3/2 8 { h16( g) g-! g[( d) d]-! d( h) h-! }
+    g8 r \tuplet 3/2 8 { r16 e' e e[ e e] }
+    a8 r \tuplet 3/2 8 { r16 d, d d[ d d] }
+    g8 r \tuplet 3/2 8 { r16 a a a[ a a] } %35
+    d,8 r \tuplet 3/2 8 { r16 d, d d[ d d] }
+    d8 r \tuplet 3/2 8 { r16 d' d d[ d d] }
+    d8 r \tuplet 3/2 8 { r16 a' a a[ a a] }
+    g8 r \tuplet 3/2 8 { r16 d d d[ d d] }
+    h8 <g h>4 q8 %40
+    <fis a>4. <a c>8
+    <g h> q4 q8
+    <fis a>4. <a c>8
+    <g h> d'4 d8
+    r d4 d8 %45
+    r4 r8 g,16( g')
+    g4 e8 c
+    \once \slurDashed h( a) r4
+    r8 a fis a
+    r d h g %50
+    r g4 g8
+    g4 r8 c
+    h( ais h) d
+    d <g, g'>4\f <g e'>8
+    <g d'> d'4 fis8 %55
+    g g,\pE e'4
+    r8 a, fis'4
+    r8 h, g'4
+    r8 c,4 \once \slurDashed h16( a)
+    d4 r8 c16( h) %60
+    a( g fis e) d8\cresc d
+    d16(\f g h d) g8 r \noBreak
+    r e(\decresc d c) \bar "||"
+    \key c \major \tempoOsanna h4\pE r8 g16(\f a \noBreak
+    h4) r8 h16( c %65
+    d4) r8 g,16( a
+    h8) c-! d-! e-!
+    f!4 r8 d16( e
+    f8) g-! a-! h-!
+    c r <g g,> r %70
+    <c, f a> r <g d' h'> r
+    <c, g' e' c'>4 r
+    R2*2
+    r4 g''8 g, %75
+    g g' g g,
+    g g' a, a'
+    g g, h d
+    g4 r
+    R2*3 %82
+    r4 d'8 d,
+    d' d, c c'
+    g f g g, %85
+    c g' e c
+    g d' h g
+    c g' e c
+    g d'' h g
+    c4 c,16( h c h) %90
+    c4 r\fermata \bar "|." %91 finis
   }
 }

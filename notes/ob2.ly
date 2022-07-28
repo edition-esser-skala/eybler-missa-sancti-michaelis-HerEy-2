@@ -710,3 +710,64 @@ SanctusOboeII = {
     c4 r\fermata \bar "|." %49 finis
   }
 }
+
+BenedictusOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoBenedictus
+    R2*3
+    r4 r8 \once \slurDashed d16(\pE e)
+    fis( g a h) c(\cresc d e fis) %5
+    g4\fE r
+    R2*25 %31
+    r8 d,4\pE g8
+    r h4 gis8
+    r a4 fis8
+    r g a16( h c a) %35
+    \once \slurDashed g8( fis) d16( e fis g)
+    r8 a4 fis8
+    h r a-\critnote r
+    g h4 a8
+    g g4 g8 %40
+    fis4. a8
+    g h4 g8
+    fis4. a8
+    g r r g(
+    a g) r g( %45
+    a g) r4
+    R2
+    r8 d~ d16( e fis g)
+    a8 r r4
+    R2 %50
+    h4. d8
+    c r r4
+    R2
+    r8 g4\f g8
+    g r r4 %55
+    R2*4
+    r4 r8 \once \slurDashed d16(\pE e) %60
+    fis( g a h) c(\cresc d e fis)
+    g4\fE r \noBreak
+    R2 \bar "||"
+    \key c \major \tempoOsanna R2*6 %69
+    r4 c,8\fE r %70
+    c r f, r
+    e4 r
+    R2*2
+    r4 g %75
+    g g
+    g a
+    h h8. h16
+    h4 r
+    R2*3 %82
+    r4 d
+    h c~
+    c h %85
+    c r
+    h2
+    c4 r
+    h2
+    c4 c,8. c16 %90
+    c4 r\fermata \bar "|." %49 finis
+  }
+}

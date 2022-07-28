@@ -733,3 +733,71 @@ SanctusOboeI = {
     c4 r\fermata \bar "|." %49 finis
   }
 }
+
+BenedictusOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoBenedictus
+    R2*3
+    r4 r8 \once \slurDashed fis16(\p g)
+    a( h c d) e(\cresc fis g a) %5
+    h4\fE r
+    R2*18 %24
+    \mvTr d,4.\pE-\solo e8 %25
+    \mvSrt a,8._\turn h16 c8 d
+    g,4 a16( h c a)
+    g8( fis) r \once \slurDashed a16( h)
+    c8. a16 fis8 d
+    \once \slurDashed d'8.( cis16) c( h a e') %30
+    \appoggiatura e8 g,4. \appoggiatura h16 a8
+    g8 d g h
+    r d4 e8
+    r c4 d8
+    r h c16( d e c) %35
+    \once \slurDashed h8( a) fis16( g a h)
+    r8 c4 a8
+    d r c r
+    h d4 fis,8
+    g h4 h8 %40
+    a4. c8
+    h d4 h8
+    a4. c8
+    h r r h(
+    c h) r h( %45
+    c h) r4
+    R2
+    r8 fis~ fis16( g a h)
+    c8 r r4
+    R2 %50
+    f!4 d8 h
+    c8 r r4
+    R2
+    r8 c(\fE h ais)
+    h r r4 %55
+    R2*4
+    r4 r8 \once \slurDashed fis16(\pE g) %60
+    a( h c d) e(\cresc fis g a)
+    h4\fE r \noBreak
+    R2 \bar "||"
+    \key c \major \tempoOsanna R2*6 %69
+    r4 g8\fE r %70
+    a r h, r
+    c4 r
+    R2*2
+    r4 h %75
+    c d
+    e f
+    d g8. g16
+    g4 r
+    R2*3 %82
+    r4 f~
+    f e
+    d2\trill %85
+    c4 r
+    d2
+    e4 r
+    g2
+    e4 c,8. c16 %90
+    c4 r\fermata \bar "|." %49 finis
+  }
+}

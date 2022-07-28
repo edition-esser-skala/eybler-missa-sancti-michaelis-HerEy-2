@@ -1745,3 +1745,190 @@ SanctusBassFigures = \figuremode {
   r
   r %49 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \major \time 2/4 \tempoBenedictus
+    r8 \mvTr h'\pE-\solo gis e
+    r a fis d
+    r e c a
+    d d' d, r
+    r d~ d16(\crescE c h a) %5
+    g8\fE g' r g,
+    c\decrescE c' d d,
+    g d g,\pE r
+    r h' gis e
+    r a fis d %10
+    r e c a
+    d d' d, r
+    r d d c
+    r h r c
+    r d d d %15
+    g,4 r
+    r8 h' gis e
+    r a fis d
+    r e c a
+    d d' d, r %20
+    r d d c
+    r h r c
+    r d d d,
+    g4 r
+    h'8 r e, r %25
+    a r d, r
+    e r a, r
+    d r d, r
+    d' r c r
+    h r c r %30
+    d r d, r
+    g g'd h
+    g h' gis e
+    r a fis d
+    r e c a %35
+    d d' d, r
+    r d d c
+    r h r c
+    r d d d,
+    g r g' r %40
+    d, r d' r
+    g, r g' r
+    d, r d' r
+    g, g'([ fis g)]
+    r g( fis g) %45
+    r4 r8 h,
+    c e a c
+    d, d' d, r
+    r d d c
+    h h' r4 %50
+    r8 g, g' f
+    e c r c
+    d( es d) d,
+    g e'(\f d cis)
+    d r d, r %55
+    g r r g\pE
+    a a' r a,
+    h h' r h,
+    c c' r c,
+    d d' d, r %60
+    r \once \tieDashed d~ d16(\crescE c h a)
+    g8\fE g' r g, \noBreak
+    c\decrescE c' d d, \bar "||"
+    \key c \major \tempoOsanna g4\pE r8 \slurDashed \mvTr g,16(\f-\unisonoE a \noBreak
+    h4) r8 h16( c %65
+    d4) r8 g,16( a
+    h8) \parOn c-\parenthesize-! d-! \parOff e-\parenthesize-!
+    f!4 r8 d16( e
+    f8) \slurSolid \parOn g-\parenthesize-! a-! \parOff h\parenthesize-!
+    c r e, r %70
+    f r g r
+    c,4 r
+    R2*2
+    r4 g8-\tutti g' %75
+    e g h, g'
+    c, c' f,, f'
+    g, g' d h
+    g4 r
+    R2*3 %82
+    r4 d'8 d'
+    g,, g' c, c'
+    g f g g, %85
+    c g' e c
+    g d' h g
+    c g' e c
+    g d'' h g
+    c4 c,16(-\unisono h c h) %90
+    c4 r\fermata \bar "|." %91 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r8 <3> <6 5> <_+>
+  <4> <3> <6 5> <7>
+  r4 <6>
+  <6 4>8 <5 3>4.
+  r2 %5
+  r
+  <9 7>8 <8 6> <6 4> <5 3>
+  <7 4> <\t \t> <8 3>4
+  r8 <3> <6 5> <_+>
+  r4 <6 5> %10
+  r <6>
+  <6 4>8 <5 3>4.
+  r8 <7>4 <2>8
+  r <6>4 q8
+  r <6 4>4 <5 3>8 %15
+  r2
+  r8 <3> <6 5> <_+>
+  r4 <6 5>
+  r <6>
+  <6 4>8 <5 3>4. %20
+  r8 <7>4 <2>8
+  r <6>4 q8
+  r <6 4>4 <5 3>8
+  r2
+  <3>4 <7 _+> %25
+  r <7>
+  r2
+  <6 4>8 <5 3>4.
+  <7>4 <2>
+  <6>2 %30
+  <6 4>4 <\t \t>8 <5 3>
+  r2
+  r8 <6> <6 5> <_+>
+  r4 <6 5>
+  r <6> %35
+  <6 4>8 <5 3>4.
+  r8 <7>4 <2>8
+  r <6>4 q8
+  r <6 4>4 <5 3>8
+  r2 %40
+  r
+  r
+  r
+  r4 <6>
+  r q %45
+  r4. <6 _+>8
+  r4 <6 4>16 <5 3> <9 7> <8 6>
+  <6 4>8 <5 3>4.
+  r8 <7>4 <2>8
+  <6>2 %50
+  r8 <7!>4 <2>8
+  <6>2
+  <6 4>8 <6\\ 4+> <6 4> <5 3>
+  r <6> <6 4> <6\\>
+  <6 4>4 <\t \t>8 <7 3> %55
+  r4. <6>8
+  <7>16 <6> r4 <\t>8
+  <7>16 <6> r4 <\t>8
+  <7>16 <6> r4 <\t>8
+  <6 4> <5 3>4. %60
+  r2
+  r
+  <9 7>8 <8 6> <6 4> <5 3>
+  r2
+  r %65
+  r
+  r
+  <2>
+  r
+  r4 <6> %70
+  r <7>
+  r2
+  r
+  r
+  r %75
+  <6>4 <6 [5]>
+  r <6>
+  r2
+  r
+  r2*3 %82
+  r2
+  <7>4 <3>
+  <4> <3> %85
+  r2
+  r
+  r
+  r
+  r %90
+  r %91 finis
+}

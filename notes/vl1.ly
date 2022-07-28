@@ -879,11 +879,106 @@ SanctusViolinoI = {
     r4 f16 d d a
     h d d^\critnote f e g g c
     c d, d c' g,8 h'
-    c,,16( e) e( g) g( c) c( e)
+    c,,16 e e g g c c e
     d, g g h h d d g %45
     e, g g c c e e g
     h, d d g g h h d
     c4 c,,16( h c h)
     c4 r\fermata \bar "|." %49 finis
+  }
+}
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoBenedictus
+    d'4.\p e8
+    d c4 d8
+    g,4 a16( h c a)
+    g8( fis) r fis16( g)
+    a( h c d) e(\cresc fis g a) %5
+    h8.\f a16 g( fis e d)
+    d(\decresc c e c) c( h) h( a)
+    a4( g8)\pE r
+    r d-\pizz h gis'
+    r c, a fis' %10
+    r g e a
+    g fis r4
+    r8 fis fis fis
+    r g r a
+    r g-\arco \once \slurDashed g( fis) %15
+    g( d g h)
+    d4. e8
+    \mvSrt a,8._\turn h16 c8 d
+    g,4 a16( h c a)
+    g8( fis) r a16( h) %20
+    c8. a16 fis8 d
+    d'8.( cis16 c h) a e'
+    \appoggiatura e8 g,4. \appoggiatura h16 a8
+    g8 d16( g) g( h) h( d)
+    r d,( d' c) h( a gis e') %25
+    r e,( c' h) a( g fis d')
+    r g,( a h) c( d e c)
+    r d,( c' h) a( g fis e)
+    r d( fis a) c( a) a( fis)
+    r d( d' cis) c( h a e') %30
+    r h,( d g) h( d c a)
+    g8 \tuplet 3/2 8 { h,16( d) d-! d([ g) g]-! g( h) h-!
+    h[ d d] d d d d[ h h] h gis gis
+    e[ c' c] c c c c[ a a] a fis fis
+    h,[ g' g] g g g e[ e' e] e c a %35
+    g[ h g] fis a fis d[ e fis] g a h
+    c[ c c] c a fis d[ fis g] a h c
+    d[ h g] g g g e[ a c] c c c
+    d,[ g h] d d d d[ h d] c a fis] }
+    g8 d16( g) g( h) h( d) %40
+    d8.( c16) h( a g fis)
+    g( d h d) g( h d g)
+    d8.( c16) h( a g fis)
+    g8-! h( c h)
+    r h( c h) %45
+    r \once \slurDashed g16( g') g4~
+    g16 dis( fis e) d( c h a)
+    \slurDashed g8( fis) r a16( h) \slurSolid
+    c( d, fis a) c( a fis d)
+    r d( g h) d( h g d) %50
+    g'( d h g) \once \slurDashed f( d h d)
+    c8 g''~ g16 e( c a)
+    g8 g4 a16.(\trill g64 a)
+    h8 c\trill\fE d16( e fis g)
+    r h,,( d g) h( d c a) %55
+    g8-! e'16(\pE d c h a g)
+    g( fis fis' e d c h a)
+    a( g g' fis e d c h)
+    h( a gis a) h( c d e)
+    \slurDashed g,8( fis) r fis16( g) %60
+    a( h c d) e(\cresc fis g a) \slurSolid
+    h8.\f a16 g( fis e d) \noBreak
+    \slurDashed d(\decresc c e c) c( h) h( a) \slurSolid \bar "||"
+    \key c \major \tempoOsanna g4\pE r8 g,16(\f a \noBreak
+    h4) r8 h16( c %65
+    d4) r8 g,16( a
+    h8) c-! d-! e-!
+    f!4 r8 d16( e
+    f8) g-! a-! h-!
+    c r <g e' c'> r %70
+    <f c' a'> r <g, d' h'> r
+    <g e' c'>4 r
+    R2*2
+    r4 h'16 g g d %75
+    c' g g e d' h h g
+    e' c c g f' d d a
+    h8 g'16( fis g fis g fis)
+    g4 r
+    R2*3 %82
+    r4 f16 d d a
+    h d d f e g g c
+    c d, d c' g,8 h' %85
+    c,,16 e e g g c c e
+    d, g g h h d d g
+    e, g g c c e e g
+    h, d d g g h h d
+    c4 c,,16( h c h) %90
+    c4 r\fermata \bar "|." %91 finis
   }
 }
