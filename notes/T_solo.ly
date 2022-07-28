@@ -345,3 +345,39 @@ EtResurrexitTenoreSoloLyrics = \lyricmode {
   ce -- %245
   dit. %246 finis
 }
+
+AgnusTenoreSolo = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.
+    \mvTr g4(\pE^\solo es') h
+    h8.([ c16)] c4 r8 c
+    d16([ es f g)] as8 g16([ f)] f([ es)] d([ c)]
+    c8 h r4 d16([ f)] d([ h)] %5
+    as!8.([ g16)] g8 r d'8. f,16
+    f8 es es'4~\fz es16[ d] c([ b)]
+    b([ a)] c([ a)] g4( a)
+    g r r
+    R2.*22 %31
+    c8\pE d \afterGrace es4( { f16[ es] } d8) c
+    \once \tieDashed g2~ g8[ c]
+    h4 r r
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+AgnusTenoreSoloLyrics = \lyricmode {
+  A -- gnus %2
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- %5
+  re -- re, A -- gnus
+  De -- i, no -- bis
+  mi -- se -- re --
+  re.
+
+  Do -- na no -- bis %32
+  pa --
+  cem. %34 finis
+}

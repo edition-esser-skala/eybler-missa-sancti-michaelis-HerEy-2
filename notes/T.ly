@@ -1437,3 +1437,225 @@ BenedictusTenoreLyrics = \lyricmode {
   in ex --
   cel -- sis. %90 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*7 %7
+    r4 r d8\p d
+    b4 b a8\f es'
+    d4 g, d'8\pp d %10
+    c c b4( fis)
+    g r r
+    R2.*7 %19
+    r4 r b8\p b %20
+    ges4 ges f8\f ces'
+    b4 es, es8\pp b'
+    as16([ c)] b([ as)] g8([ es d f)]
+    es4 r r
+    R2.*10 %34
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  Mi -- se -- %8
+  re -- re, A -- gnus
+  De -- i, mi -- se -- %10
+  re -- re no --
+  bis. %12
+
+  Mi -- se -- %20
+  re -- re, A -- gnus
+  De -- i, mi -- se --
+  re -- re no --
+  bis. %24 finis
+}
+
+DonaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #36
+    \mvTr h4.\pE^\solo c8
+    d4 f
+    e c
+    c h
+    \mvTr g\p^\tutti f' %40
+    e e
+    d\cresc c
+    c8([ h)] h4
+    c\f c
+    c8([ cis)] d([ f)] %45
+    e4( h)
+    c r
+    \mvTr c2\pE^\solo
+    a
+    d %50
+    c
+    \mvTr e4\f^\tutti e
+    d f
+    h, h
+    a8([ c)] e4 %55
+    \mvTr fis4.\pE^\solo fis8
+    g4 d
+    d2
+    d
+    \mvTr d4\f^\tutti d %60
+    c g
+    d' d
+    d d
+    \mvTr fis,4.\pE^\solo g8
+    d'4. c8 %65
+    h4. a8
+    g4 g
+    \mvTr g\f^\tutti g
+    a h
+    c c %70
+    d d
+    a4.\p a8
+    g([ h)] a([ c)]
+    h4( \grace d8 c4)
+    h r %75
+    c2
+    d4 r
+    g,2\cresc
+    h4 r
+    c4.\f c8 %80
+    h([ d)] c4
+    h8([ d)] c4
+    c h
+    c\p f
+    e e %85
+    d\cresc c
+    c8([ h)] h4
+    c\f cis
+    cis8([ d)] e([ f)]
+    e4( h) %90
+    c r
+    \mvTr c\pE^\solo d
+    g,8([ c)] c4
+    c d
+    g,8([ c)] c4 %95
+    r \mvTr g'~\f^\tutti
+    g e
+    e d
+    d h
+    \mvTr c2\pE^\solo %100
+    h
+    c
+    h
+    \mvTr a4\f^\tutti c
+    d e %105
+    f a,
+    h c
+    d8([ e]) f([ e)]
+    d4 c
+    c( h) %110
+    c r
+    g4.(\fz c8)
+    c4 r
+    c4.(\fz e8)
+    e4 r %115
+    d2~\ff
+    d
+    e4 r
+    R2
+    d,~\pp %120
+    d
+    c4 r
+    R2
+    R\fermata \bar "|." %124 finis
+  }
+}
+
+DonaTenoreLyrics = \lyricmode {
+  Do -- na, %36
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na, %40
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis %45
+  pa --
+  cem,
+  do --
+  na
+  no -- %50
+  bis,
+  do -- na,
+  \xE do -- na
+  no -- bis \x
+  pa -- cem, %55
+  do -- na
+  \xE no -- bis \x
+  pa --
+  cem,
+  do -- na, %60
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  pa -- cem, %65
+  no -- bis
+  pa -- cem,
+  do -- na
+  \xE pa -- cem, \x
+  no -- bis %70
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa --
+  cem, %75
+  pa --
+  cem,
+  pa --
+  cem,
+  do -- na, %80
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  pa -- cem, %85
+  no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- %90
+  cem,
+  do -- na
+  pa -- cem,
+  no -- bis
+  pa -- cem, %95
+  do --
+  na
+  no -- bis
+  pa -- cem,
+  do -- %100
+  na
+  pa --
+  cem,
+  do -- na
+  no -- bis, %105
+  \xE no -- bis \x
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- %110
+  cem,
+  do --
+  na,
+  do --
+  na %115
+  no --
+
+  bis
+
+  pa -- %120
+
+  cem. %122 finis
+}

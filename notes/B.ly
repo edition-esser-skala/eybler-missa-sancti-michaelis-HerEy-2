@@ -1514,3 +1514,225 @@ BenedictusBassoLyrics = \lyricmode {
   in ex --
   cel -- sis. %90 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*7 %7
+    r4 r d8\p d
+    es4 e fis8\f fis
+    g4 es b8\pp b %10
+    c c d2
+    g,4 r r
+    R2.*7 %19
+    r4 r b8\p b %20
+    ces4 c d8\f d
+    es4 c g8\pp g
+    as as b2
+    es4 r r
+    R2.*10 %34
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  Mi -- se -- %8
+  re -- re, A -- gnus
+  De -- i, mi -- se -- %10
+  re -- re no --
+  bis. %12
+
+  Mi -- se -- %20
+  re -- re, A -- gnus
+  De -- i, mi -- se --
+  re -- re no --
+  bis. %24 finis
+}
+
+DonaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #36
+    \mvTr g'4\pE^\solo g
+    g g
+    g g
+    g g,
+    \mvTr c\p^\tutti gis' %40
+    a a,
+    d\cresc fis
+    g g,
+    e'\f e
+    f d %45
+    g( g,)
+    c r
+    \mvTr c2\pE^\solo
+    d
+    e %50
+    f
+    \mvTr c4\f^\tutti c
+    d d
+    e e
+    a, a' %55
+    \mvTr c\pE^\solo c
+    h h
+    fis2
+    g4 r
+    \mvTr h,4\f^\tutti h %60
+    c h
+    a g
+    d' d
+    \mvTr d\pE^\solo d
+    d d %65
+    d d
+    g g,
+    \mvTr e'\f^\tutti e
+    d d
+    c c' %70
+    h h
+    a\p d,
+    g c,
+    d2
+    g,4 r %75
+    g'2
+    g4 r
+    g2\cresc
+    g4 r
+    g\fE g %80
+    g g
+    g g
+    g g,
+    c\p gis'
+    a a, %85
+    d\cresc fis
+    g g,
+    e'\f e
+    f f
+    g2 %90
+    c,4 r
+    \mvTr c\pE^\solo c
+    c c
+    c c
+    c c %95
+    \mvTr e'2\f^\tutti
+    c
+    a4 fis
+    g g,
+    \mvTr as'2\pE^\solo %100
+    g
+    as
+    g
+    \mvTr a!\f^\tutti
+    g %105
+    f
+    e
+    f8([ e)] d([ c)]
+    h4 c
+    g'2 %110
+    c,4 r
+    c2\fz
+    c4 r
+    c'2\fz
+    c4 r %115
+    g2~\ff
+    g
+    c4 r
+    R2
+    g,~\pp %120
+    g
+    c4 r
+    R2
+    R\fermata \bar "|." %124 finis
+  }
+}
+
+DonaBassoLyrics = \lyricmode {
+  Do -- na, %36
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na, %40
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis %45
+  pa --
+  cem,
+  do --
+  na
+  no -- %50
+  bis,
+  do -- na,
+  \xE do -- na \x
+  no -- bis
+  pa -- cem, %55
+  do -- na
+  no -- bis
+  pa --
+  cem,
+  do -- na, %60
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  \xE pa -- cem, \x %65
+  no -- bis
+  pa -- cem,
+  do -- na
+  pa -- cem,
+  no -- bis %70
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa --
+  cem, %75
+  \xE pa --
+  cem,
+  pa --
+  cem, \x
+  do -- na, %80
+  do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  \xE pa -- cem, \x %85
+  no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- %90
+  cem,
+  do -- na
+  \xE pa -- cem, \x
+  no -- bis
+  pa -- cem, %95
+  do --
+  na
+  no -- bis
+  pa -- cem,
+  do -- %100
+  na
+  pa --
+  cem,
+  do --
+  na %105
+  no --
+  bis,
+  do -- na
+  no -- bis
+  pa -- %110
+  cem,
+  do --
+  na,
+  do --
+  na %115
+  no --
+
+  bis
+
+  pa -- %120
+
+  cem. %122 finis
+}

@@ -982,3 +982,142 @@ BenedictusViolinoI = {
     c4 r\fermata \bar "|." %91 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoAgnus
+    \mvTr c8\f-\markup \remark "con sordino" r g' r es r
+    c\p g' g g h h
+    h h c c c c
+    c c c c c c
+    c h h h h h %5
+    as! as  g g g g
+    g g c\fz c b!\p b
+    a a g g fis fis
+    g g g\cresc g a\f a
+    a\decresc a g g g\pp g %10
+    as as g g fis fis
+    g b(\cresc a d b es)
+    d[ \afterGrace g16.\f { a32[ g fis g] } a32] b16( g d b) a( es' d fis,)
+    g8 g\p g g fis fis
+    fis fis g g g g %15
+    g g g g g g
+    g fis fis fis fis fis
+    es es d d d d
+    d d es'\fz es des\p des
+    c as g g f f %20
+    es es ges\cresc ges f\f f
+    f\decresc f es es b'\pp b
+    c as g( es d f)
+    es g(\cresc f as! g c)
+    b[ \afterGrace es16.\f { f32[ es d es] } f32] g16( es b g) f( c' b d,) %25
+    es8 es\p g g f f
+    d d es es b' b
+    c as g g f f
+    fis g g g g c
+    c c h h f' f %30
+    d d es es d d
+    \once \slurDashed c16( b! as! g) fis8 fis4 fis8
+    g8 d'( es h c fis,)
+    g4 <g g,> q
+    q2.\fermata \bar "||" %35 finis
+  }
+}
+
+DonaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDona
+      \set Score.currentBarNumber = #36
+    r8 d'-!\p d( e)
+    r f f f
+    r e e e
+    r e( d) d-!
+    r e r d %40
+    r c c c
+    r f\crescE r e
+    r d d d
+    c16\f d e f g e c b
+    a gis' a e f e f d %45
+    c d e c h c d h
+    c e d c h a g f
+    e8\p e' e e
+    r f f f
+    r gis, gis gis %50
+    r a a a
+    a16\f h c d e fis gis a
+    f g a f d e f d
+    h a gis a h c d e
+    c a' e c a e c a %55
+    r8 fis'\p fis fis
+    r g g g
+    r a a a
+    r h h h
+    g16\f a h c d e fis g %60
+    e c g c e fis g d
+    d c d, c' c h d, h'
+    h g d h' a d, fis a
+    c8\p c-! c( h)
+    r a a a %65
+    r d-! d( c)
+    r h h h
+    c16\f g e g c e g e
+    fis c a c h d fis d
+    e h g h a c e c %70
+    d a fis a g h d h
+    c\p d c h c e d c
+    h d c h a c h a
+    g h a g fis a g fis
+    g d h d h d g h %75
+    a fis c fis c fis a c
+    h f d f d f h d
+    c\cresc g e g e g c e
+    d h g h g h d f!
+    e\f c g c g c e g %80
+    h, d g f e g e c
+    h d g f e g e c
+    e, g c e d h g f
+    e8\p e' r d
+    r16 c( h c) h( c d e) %85
+    r8 f\crescE r e
+    r16 d( cis d) cis( d e f)
+    g\f f e f g a b g
+    a a, f' e g f e d
+    c g c e h g h d %90
+    c e g e c g e c
+    r8 a'-!\p a( h)
+    r c-! c( e)
+    r a,-! a( h)
+    r c-! c( e) %95
+    g16\f e c e g, c e g
+    e c g c e, g c e
+    c a h c d e c d
+    h g d h g h d g
+    r8 c\p c c %100
+    r h h h
+    r c c c
+    r h h h
+    f'!16\f c a c f, a c f
+    f d h d e h g e %105
+    e' c a c d a f d
+    d' h g h c g e c
+    h' d c e d f e g
+    f d' d d e, c' c c
+    d, c' c c d,8 h' %110
+    c, c,16\ff e e g g c
+    c4 r
+    r8 e,16 g g c c e
+    e4 r
+    r8 g,16 c c e e g %115
+    g4~ g16 f( e d)
+    c( h a g) fis( g a h)
+    c8 r r4
+    R2
+    <d, h>~\pp %120
+    q
+    <c e>8 r r4
+    e4 r
+    e2\fermata \bar "|." %124 finis
+  }
+}

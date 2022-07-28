@@ -196,3 +196,21 @@ EtResurrexitAltoSoloLyrics = \lyricmode {
   per Pro -- phe --
   tas. %257 finis
 }
+
+AgnusAltoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*31 %31
+    es8\pE d c4 c
+    g'2~ g8[ es]
+    d4 r r
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+AgnusAltoSoloLyrics = \lyricmode {
+  Do -- na no -- bis %32
+  pa --
+  cem. %34 finis
+}

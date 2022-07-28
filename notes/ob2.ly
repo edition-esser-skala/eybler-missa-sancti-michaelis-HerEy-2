@@ -771,3 +771,94 @@ BenedictusOboeII = {
     c4 r\fermata \bar "|." %49 finis
   }
 }
+
+AgnusOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoAgnus
+    R2.*7 %7
+    r4 r fis\p
+    << { \oneVoice g2 a4~ a8. g16 g4 r } \\
+       { s4 s\cresc s\f s2\decresc s4\! } >> %10
+    R2.
+    r4 r r8 fis
+    g b4\f g8 a fis
+    g4 r r
+    R2.*5 %19
+    r4 r d\p %20
+    << { \oneVoice es2 f4~ f8. es16 es4 r } \\
+       { s4 s\cresc s\f s2\decresc s4\! } >>
+    R2.
+    r4 r r8 d
+    es es4\f es8 f d %25
+    es4 r r
+    R2.*8 %34
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+DonaOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDona
+      \set Score.currentBarNumber = #36
+    R2*8 %43
+    c'4\f b
+    a8 cis d f %45
+    e4 h
+    c r
+    R2*4 %51
+    a2~\f
+    a4 h
+    gis2
+    a %55
+    R2*4
+    g2\f %60
+    g
+    fis4 g
+    g fis
+    R2*4 %67
+    c'2~\f
+    c4 h~
+    h a~ %70
+    a g
+    R2*3
+    g2\p %75
+    fis4 r
+    f2
+    e4 r
+    h'2\cresc
+    c4.\f c8 %80
+    h4 c
+    h c
+    c h
+    R2*4 %87
+    c4\f b
+    a8 d e f
+    e4 h %90
+    c r
+    R2*4 %95
+    g2\f
+    g
+    a
+    d,
+    R2*4 %103
+    c'2\f
+    h %105
+    a
+    g~
+    g4 h8 c
+    d4 c~
+    c h %110
+    c8 c,\ffE e g
+    c4 r
+    r8 c, e g
+    c4 r
+    r8 e, g c %115
+    h2~\decresc
+    h
+    c8\! r r4
+    R2*5 %123
+    R2\fermata \bar "|." %124 finis
+  }
+}

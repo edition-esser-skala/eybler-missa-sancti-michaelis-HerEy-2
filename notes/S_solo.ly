@@ -288,17 +288,32 @@ EtResurrexitSopranoSoloLyrics = \lyricmode {
   tas. %257 finis
 }
 
-% ## Benedictus
-%
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-%
-%
-% ## Agnus Dei
-%
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSopranoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*25 %25
+    b'4(\pE g') d
+    f8.([ es16)] es4 r8 es
+    f16([ es)] d c c([ b)] as g f([ c')] b([ as)]
+    fis8 g r4 es'16([ g)] es([ c)]
+    c8.([ h16)] h4 g8. f'16 %30
+    f8.([ d16)] es4 d8^\critnote d
+    c16([ b!)] as!([ g)] fis4 fis
+    g2~ g8[ fis]
+    g4 r r
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+AgnusSopranoSoloLyrics = \lyricmode {
+  A -- gnus %26
+  De -- i, qui
+  tol -- lis, qui tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, A -- gnus %30
+  De -- i, do -- na,
+  do -- na no -- bis
+  pa --
+  cem. %34 finis
+}

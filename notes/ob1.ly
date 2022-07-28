@@ -801,3 +801,94 @@ BenedictusOboeI = {
     c4 r\fermata \bar "|." %49 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoAgnus
+    R2.*7 %7
+    r4 r d'~\p
+    d8. cis16 cis4\crescE c~\fE
+    c8.\decresc b16 b4\! r %10
+    R2.
+    r4 r r8 es8
+    d( cis\f d b c a)
+    g4 r r
+    R2.*5 %19
+    r4 r b~\p %20
+    b8. a16 a4\cresc \once \tieDashed as~\f
+    as8.\decresc g16 g4\! r
+    R2.
+    r4 r r8 c
+    b( a\f b g as f) %25
+    es4 r r
+    R2.*8 %34
+    R2.\fermata \bar "||" %35 finis
+  }
+}
+
+DonaOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDona
+      \set Score.currentBarNumber = #36
+    R2*8 %43
+    g''4.\f gis8
+    a e f d %45
+    c4 \appoggiatura e8 d4
+    c r
+    R2*4 %51
+    a'4\f e
+    f d
+    h e
+    c a %55
+    R2*4
+    d2\f %60
+    e4. d8
+    d c c h
+    h4 a
+    R2*4 %67
+    g'2\f
+    fis
+    e %70
+    d4 g,
+    R2*3
+    g2\p %75
+    a4 r
+    h2
+    c4 r
+    d2\cresc
+    e4.\f e8 %80
+    g f e4
+    g8 f e4
+    e d
+    R2*4 %87
+    g2~\fE
+    g8 f e d
+    c4 \appoggiatura e8 d4 %90
+    c r
+    R2*4 %95
+    g'2\f
+    e
+    c4 d
+    h g
+    R2*4 %103
+    \once \tieDashed f'2~\f
+    f4 e~ %105
+    e d~
+    d c
+    h8 c d e
+    f4 e
+    d2\trill %110
+    c8 c,\ffE e g
+    c4 r
+    r8 e, g c
+    e4 r
+    r8 g, c e %115
+    g2~\decresc
+    g
+    e8\! r r4
+    R2*5 %123
+    R2\fermata \bar "|." %124 finis
+  }
+}
