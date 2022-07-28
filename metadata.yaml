@@ -22,8 +22,6 @@ sources:
     url: https://data.onb.ac.at/rec/AC14265869
     license: public domain
     notes: parts for S (2×), A (2×), T (2×), B (2×), ob 1, ob 2, cl (not used), clno 1, clno 2, timp, vl 1, vl 2 (2×), vla, vlc, vlne, org
-imslp:
+imslp: Missa_Sancti_Michaelis,_HV_2_(Eybler,_Joseph)
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
-extra_abbreviations:
-  rip: ripieno

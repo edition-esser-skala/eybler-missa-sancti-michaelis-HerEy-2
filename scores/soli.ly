@@ -7,10 +7,46 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      systems-per-page = #1
+      indent = 2\cm
+    }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "S O L I" \hspace #11 }
+          \new Staff {
+            \set Staff.instrumentName = "Soprano"
+            \new Voice = "SopranoSolo" { \dynamicUp \KyrieSopranoSolo }
+          }
+          \new Lyrics \lyricsto SopranoSolo \KyrieSopranoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Alto"
+            \new Voice = "AltoSolo" { \dynamicUp \KyrieAltoSolo }
+          }
+          \new Lyrics \lyricsto AltoSolo \KyrieAltoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Tenore"
+            \new Voice = "TenoreSolo" { \dynamicUp \KyrieTenoreSolo }
+          }
+          \new Lyrics \lyricsto TenoreSolo \KyrieTenoreSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "BassoSolo" { \dynamicUp \KyrieBassoSolo }
+          }
+          \new Lyrics \lyricsto BassoSolo \KyrieBassoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "T U T T I" \hspace #11 }
           \new Staff {
             \set Staff.instrumentName = "Soprano"
             \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
@@ -46,9 +82,45 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      systems-per-page = #1
+    }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "SopranoSolo" { \dynamicUp \GloriaSopranoSolo }
+          }
+          \new Lyrics \lyricsto SopranoSolo \GloriaSopranoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "AltoSolo" { \dynamicUp \GloriaAltoSolo }
+          }
+          \new Lyrics \lyricsto AltoSolo \GloriaAltoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "TenoreSolo" { \dynamicUp \GloriaTenoreSolo }
+          }
+          \new Lyrics \lyricsto TenoreSolo \GloriaTenoreSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "BassoSolo" { \dynamicUp \GloriaBassoSolo }
+          }
+          \new Lyrics \lyricsto BassoSolo \GloriaBassoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
@@ -81,9 +153,22 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #2
+    }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff  \with { \setGroupDistance #13 #15 } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "B" "solo" }
+            \new Voice = "BassoSolo" { \dynamicUp \QuiTollisBassoSolo }
+          }
+          \new Lyrics \lyricsto BassoSolo \QuiTollisBassoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \QuiTollisSoprano }
@@ -116,9 +201,22 @@
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #2
+    }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "S" "solo" }
+            \new Voice = "SopranoSolo" { \dynamicUp \QuoniamSopranoSolo }
+          }
+          \new Lyrics \lyricsto SopranoSolo \QuoniamSopranoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
@@ -151,9 +249,45 @@
   \bookpart {
     \subsection "Cum Sancto Spiritu"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      systems-per-page = #1
+    }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "SopranoSolo" { \dynamicUp \CumSanctoSopranoSolo }
+          }
+          \new Lyrics \lyricsto SopranoSolo \CumSanctoSopranoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "AltoSolo" { \dynamicUp \CumSanctoAltoSolo }
+          }
+          \new Lyrics \lyricsto AltoSolo \CumSanctoAltoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "TenoreSolo" { \dynamicUp \CumSanctoTenoreSolo }
+          }
+          \new Lyrics \lyricsto TenoreSolo \CumSanctoTenoreSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "BassoSolo" { \dynamicUp \CumSanctoBassoSolo }
+          }
+          \new Lyrics \lyricsto BassoSolo \CumSanctoBassoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \CumSanctoSoprano }
@@ -361,9 +495,45 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      systems-per-page = #1
+    }
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "SopranoSolo" { \dynamicUp \AgnusSopranoSolo }
+          }
+          \new Lyrics \lyricsto SopranoSolo \AgnusSopranoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "AltoSolo" { \dynamicUp \AgnusAltoSolo }
+          }
+          \new Lyrics \lyricsto AltoSolo \AgnusAltoSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "TenoreSolo" { \dynamicUp \AgnusTenoreSolo }
+          }
+          \new Lyrics \lyricsto TenoreSolo \AgnusTenoreSoloLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "BassoSolo" { \dynamicUp \AgnusBassoSolo }
+          }
+          \new Lyrics \lyricsto BassoSolo \AgnusBassoSoloLyrics
+        >>
+        \new ChoirStaff \with { \setGroupDistance #13 #15 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \AgnusSoprano }
