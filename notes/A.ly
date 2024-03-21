@@ -8,28 +8,28 @@ KyrieAlto = {
     r2 g8.\fz g16 g4
     r r8 d\p g([ f)] e4
     r8 h c([ d)] c4 r
-    r a'(\f f8) f d d %5
-    d16([\p c]) c8 r4 r2
-    r2 e8.\f e16 c8 c
-    c16([\p h)] h8 r4 r2
-    r8 d d d r d d d
-    r d d16([ fis)] a8 g8.\f g16 a8 h %10
+    r a'(\f f8) f d d\p %5
+    d16([ c]) c8 r4 r2
+    r4 g'!(\f e8.) e16 c8 c\p
+    c16([ h)] h8 r4 r2
+    r8 d\pp d d r d d d
+    r d d16([ fis)] a8 g8.\fE g16 a8 h %10
     d,([ fis)] g r r c,\p h([ c)]
     h4 r fis'4. fis8
     g4 r r8 fis a([ c,)]
     h4 r r2
     R1*4 %18
     r8 g'\pE g g r g g g
-    r d d d f4.(\fzE es8) %20
-    h! c d([ fis)] g r r4
+    r d d d f4.(\fz es8) %20
+    h!\decresc c d([ fis)] g\! r r4
     r2 f8.\fz f16 f4
     r2 g8.\fz g16 g4
     R1
-    r2 r8 d\pE d16([ g)] g8 %25
+    r2 r8 d\pp d16([ g)] g8 %25
     r g g g r d d'16([ h)] g8
     g8.\f g16 f8 e d([ h')] c r
     r f,\p e([ f)] e r r4
-    h4. h8 c4 r
+    h!4. h8 c4 r
     r8 h' d([ f,)] e4 r %30
     R1\fermata \bar "|." %31 finis
   }
@@ -52,8 +52,8 @@ KyrieAltoLyrics = \lyricmode {
   son.
 
   E -- lei -- son, e -- lei -- son, %19
-  e -- lei -- son, \xE Chri -- %20
-  ste \x e -- lei -- son.
+  e -- lei -- son, Chri -- %20
+  ste e -- lei -- son.
   Ky -- ri -- e,
   Ky -- ri -- e
 

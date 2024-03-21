@@ -7,7 +7,7 @@ KyrieAltoSolo = {
     R1*5 %5
     r4 r8 a'\pE g!([ f)] e d'
     c16([ h)] a8 r4 r2
-    r4 r8 h,\pE c([ f)] e e
+    r4 r8 h,\pE c([ f!)] e e
     d d r d d d r d
     d d r4 r2 %10
     R1*7 %17

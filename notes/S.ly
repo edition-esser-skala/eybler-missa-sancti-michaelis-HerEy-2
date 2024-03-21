@@ -8,26 +8,26 @@ KyrieSoprano = {
     r2 g'8.\fz e16 c4
     r r8 h\p c([ d)] e4
     r8 g, g([ f)] e4 r
-    r e'4.\f d8 f gis, %5
-    gis16([\p a)] a8 r4 r2
-    r4 d4.\f c8 e fis,
-    fis16([\p g)] g8 r4 r2
-    r8 fis a16([ fis)] fis8 r g h16([ g)] g8
-    r a c16([ a)] a8 g'8.\f g16 fis8 e %10
+    r e'4.\f d8 f gis,\p %5
+    gis16([ a)] a8 r4 r2
+    r4 d4.\f c8 e fis,\p
+    fis16([ g)] g8 r4 r2
+    r8 d\pp a'16([ fis)] d8 r d h'16([ g)] d8
+    r d c'16([ a)] fis8 g'8.\f g16 fis8 e %10
     d([ c)] h r r e,\p d([ fis)]
     g4 r d'~ d16[ c] h([ a)]
     g4 r r8 a c([ fis,)]
     g4 r r2
     R1*3 %17
     R1
-    r8 d'\pE d16([ h)] h8 r es es16([ c)] c8
-    r g' g16([ f)] f8 as4.(\fz g8) %20
-    f es d([ c)] h! r r4
+    r8 g\pE d'16([ h)] g8 r g es'16([ c)] g8
+    r g g16([ h!)] d([ f)] as4.(\fz g8) %20
+    f\decresc es d([ c)] h!\! r r4
     r2 f'8.\fz d16 h4
-    r2 g'8.\fz e16 c4
+    r2 g'8.\fz e!16 c4
     R1
-    r2 r8 d\pE h16([ d)] d8 %25
-    r e c16([ e)] e8 r d d16([ h)] h8
+    r2 r8 g\pp d'16([ h)] g8 %25
+    r g e'16([ c)] g8 r g f'16([ d)] h8
     c8.\f c16 d8 e g([ f)] e r
     r a,\p g([ h)] c r r4
     R1
@@ -53,8 +53,8 @@ KyrieSopranoLyrics = \lyricmode {
   son.
 
   E -- lei -- son, e -- lei -- son, %19
-  e -- lei -- son, \xE Chri -- %20
-  ste \x e -- lei -- son.
+  e -- lei -- son, Chri -- %20
+  ste e -- lei -- son.
   Ky -- ri -- e,
   Ky -- ri -- e
 

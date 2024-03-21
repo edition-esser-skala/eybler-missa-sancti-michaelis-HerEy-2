@@ -8,11 +8,11 @@ KyrieTenore = {
     r2 d8.\fz c16 e4
     r r8 f\p e([ d)] c4
     r8 g g4 g r
-    r c4.\f h8 d h %5
-    h16([\p a)] a8 r4 r2
-    r4 h4.\f a8 c a
-    a16([\p g)] g8 r4 r2
-    r8 fis fis16([ a)] c8 r g g16([ h)] d8
+    r c4.\f h8 d h\p %5
+    h16([ a)] a8 r4 r2
+    r4 h4.\f a8 c a\p
+    a16([ g)] g8 r4 r2
+    r8 fis\pp fis16([ a)] c8 r g g16([ h)] d8
     r a fis16([ a)] d8 d8.\fE d16 c8 h %10
     a4 g8 r r e\p g([ a)]
     g4 r r r8 d'
@@ -20,12 +20,12 @@ KyrieTenore = {
     g4 r r2
     R1*4 %18
     r8 h!\pE h16([ d)] f8 r c c16([ es)] g8
-    r h,! h16([ d)] f([ d)] h!4.(\fzE c8) %20
-    d c h!([ es)] d r r4
+    r h,! h16([ d)] f([ d)] h!4.(\fz c8) %20
+    d\decresc c h!([ es)] d\! r r4
     r2 c8.\fz h16 d4
-    r2 d8.\fzE c16 e4
+    r2 d8.\fz c16 e4
     R1
-    r2 r8 h\pE h16([ d)] f8 %25
+    r2 r8 h\pp h16([ d)] f8 %25
     r c c16([ e)] g8 r h, h16([ d)] d8
     c8.\f c16 h8 c d4 c8 r
     r a\p c([ d)] c r r4
