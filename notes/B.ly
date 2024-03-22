@@ -69,7 +69,7 @@ GloriaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
-    c4\fE c8 c c c
+    c4\f c8 c c c
     c4( e) g
     c2( g4)
     c, r r
@@ -99,13 +99,15 @@ GloriaBasso = {
     R2.*3 %30
     g4\f h d
     h g r
-    R2.*2
-    r4 g\p r %35
-    r g r
-    R2.*2
-    c,4\f c c
+    R2.
+    r4 r g\f
+    g g g8 g %35
+    g8. g16 g4 c,8\p c
+    d2 dis4
+    e r r
+    c4\f c c
     c'2 c,4 %40
-    d d d
+    d! d d
     g r r
     R2.*12 %54
     h,4.\p h8 h4 %55
@@ -136,11 +138,13 @@ GloriaBasso = {
     f f a
     c2 c,8 c
     f4 r r
-    R2.*15 %114
-    r4 g\p r %115
-    r g r
-    R2.*2
-    e4\f d c
+    R2.*14 %113
+    r4 r c\f
+    g' g c,8 e %115
+    g8. g16 g4 e8\p c
+    h2 c4
+    g' r r
+    e\f d c
     a' g fis %120
     g2 g,4
     c r r
@@ -181,8 +185,11 @@ GloriaBassoLyrics = \lyricmode {
   glo -- ri -- fi -- %31
   ca -- mus,
 
-  te,
-  te,
+  lau --
+  da -- mus, be -- ne -- %35
+  di -- ci -- mus, ad -- o --
+  ra -- mus
+  te.
 
   glo -- ri -- fi -- %39
   ca -- mus, %40
@@ -216,11 +223,13 @@ GloriaBassoLyrics = \lyricmode {
   ra -- mus
   te, be -- ne --
   di -- ci -- mus,
-  te.
-
-  Te, %115
   te,
 
+  lau -- %114
+  da -- mus, be -- ne -- %115
+  di -- ci -- mus, ad -- o --
+  ra -- mus
+  te,
   glo -- ri -- fi --
   ca -- mus, lau -- %120
   da -- mus

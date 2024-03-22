@@ -4,7 +4,7 @@ GloriaClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoGloria
-    c8\fE c16 c c8 c c c
+    c8\f c16 c c8 c c c
     c4 e g
     e8 e16 e e8 e g g
     c,4 r8 c16 c c8 c
@@ -20,12 +20,12 @@ GloriaClarinoII = {
     R2.*4 %30
     g4\f r r
     R2.*2
-    r4 g\fE r
+    r4 g\f r
     r g r %35
     r g r
     R2.*2
     c8\f c16 c c8 c c c
-    c c16 c c8 c c c %40
+    c c16 c c8 c e c %40
     g'4 r r
     g, r r
     R2.*3 %45
@@ -36,25 +36,25 @@ GloriaClarinoII = {
     r c g'
     e r r %75
     r e c
-    g'2 g4
-    c r r
+    g'2.
+    c4 r r
     R2.*6 %84
-    e,2\fE g4 %85
+    e,2\f g4 %85
     e r r
     c2.
     R2.*16 %103
-    g'2\p c,4
+    g'2\pp c,4
     R2.*5 %109
     r4 g\pp g %110
-    g2.
-    g
+    g2.~
+    g~
     g4 r r
-    r g\fE r
+    r g\f r
     r g r %115
     r g r
     g'2\pp c,8 e
     g4 r r
-    c,\fE r r
+    c,\f r r
     c8 c16 c c8 c c c %120
     e2 g4
     e r r

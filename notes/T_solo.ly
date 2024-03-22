@@ -48,19 +48,17 @@ GloriaTenoreSolo = {
     R2.*10 %10
     R2.\fermata
     R2.*15 %26
-    r4 d\p h
+    r4 d\pE h
     a2 a4
     g r r
     R2.*2 %31
-    r4 e'8([\p d)] c([ h)]
+    r4 e'8([\pE d)] c([ h)]
     a4.( e'8) d c
-    h4 r c\f
-    h h c8 c %35
-    h8. h16 h4 e8\p c
-    a2 a4
-    g r r
-    R2.*49 %87
-    c4.\p b8 a4
+    h4 r r
+    r g' r %35
+    r g r
+    R2.*51 %87
+    c,4.\pE b8 a4
     d8([ f)] f4 r
     g,4.( d'8) c([ b)] %90
     a8. b16 c4 r
@@ -69,27 +67,25 @@ GloriaTenoreSolo = {
     c2( b4)
     a r r %95
     R2.*3
-    r4 a\p a8 a
+    r4 a\pE a8 a
     a([ f')] f4 r %100
     r g, g8 g
     g([ e')] e4 r
-    d4.( h8) c([ e)]
+    d4.( h!8) c([ e)]
     g4.( f8) e4
     a,8([ d)] f([ a)] f([ d)] %105
     c4 h r
-    h2 d4
+    h2\ppE d4
     f8([ e)] e4 r
     d2 h4
     h8([ c)] c4 r %110
     e2 dis4
     d c h
     c( h) c
-    h r c\f
-    h h c8 c %115
-    h8. h16 h4 c8\p c
-    d2 c4
     h r r
-    R2.*7 %125
+    r g' r %115
+    r g r
+    R2.*9 %125
     R2.\fermata \bar "||" %126 finis
   }
 }
@@ -101,10 +97,8 @@ GloriaTenoreSoloLyrics = \lyricmode {
 
   be -- ne -- %32
   di -- ci -- mus
-  te, lau --
-  da -- mus, be -- ne -- %35
-  di -- ci -- mus, ad -- o --
-  ra -- mus
+  te,
+  te, %35
   te.
 
   Do -- mi -- ne %88
@@ -131,11 +125,9 @@ GloriaTenoreSoloLyrics = \lyricmode {
   ad -- o --
   ra -- mus, lau --
   da -- mus
-  te, lau --
-  da -- mus, be -- ne -- %115
-  di -- ci -- mus, ad -- o --
-  ra -- mus
-  te. %118 finis
+  te,
+  te, %115
+  te. %116 finis
 }
 
 CumSanctoTenoreSolo = {

@@ -6,7 +6,7 @@ GloriaTimpani = {
     \key c \major \time 3/4 \tempoGloria
     c8\f c16 c c8 c c c
     c c16 c c8 c c c
-    c c16 c c8 g c g
+    c c16 c c8 c g g
     c4 r8 c16 c c8 c
     c4 r8 c16 c c8 c %5
     c4 r8 c16 c c8 c
@@ -14,13 +14,13 @@ GloriaTimpani = {
     g4 r8 g16 g g8 g
     g4 r8 g16 g g8 g
     g g16 g g8 g g g %10
-    g2.\fermata
+    g2.\trill\fermata
     R2.*14 %25
     g4\f r r
     R2.*4 %30
-    g4\fE r r
+    g4\f r r
     R2.*2
-    r4 g\fE r
+    r4 g\f r
     r g r %35
     r g r
     R2.*2
@@ -39,10 +39,10 @@ GloriaTimpani = {
     g8 g16 g g8 g g g
     c4 r r
     R2.*6 %84
-    g8\fE g16 g g8 g g g
+    g8\f g16 g g8 g g g
     c4 r r
     R2.*27 %113
-    r4 g\fE r
+    r4 g\f r
     r g r %115
     r g r
     R2.*2

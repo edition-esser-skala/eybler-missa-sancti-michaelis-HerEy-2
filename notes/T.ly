@@ -69,7 +69,7 @@ GloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
-    g4\fE c,8 e g c
+    g4\f c,8 e g c
     e2 c4
     g'2( h,4)
     c r r
@@ -90,7 +90,7 @@ GloriaTenore = {
     c2 cis4
     d d r %20
     d2 d4
-    c2 e4
+    c!2 e4
     d2( fis,4)
     g r r
     R2. %25
@@ -99,11 +99,13 @@ GloriaTenore = {
     R2.*3 %30
     g,4\f h d
     g g, r
-    R2.*2
-    r4 g'\p r %35
-    r g r
-    R2.*2
-    c,4\f c c
+    R2.
+    r4 r c\f
+    h h c8 c %35
+    h8. h16 h4 e8\p c
+    a2 a4
+    g r r
+    c\f c c
     e2 c4 %40
     h d c
     h r r
@@ -135,11 +137,13 @@ GloriaTenore = {
     f8([ c)] c4 r
     c2 e4
     f8. c16 c4 r
-    R2.*15 %114
-    r4 g'\p r %115
-    r g r
-    R2.*2
-    c,4\f h b
+    R2.*14 %113
+    r4 r c\f
+    h h c8 c %115
+    h8. h16 h4 c8\p c
+    d2 c4
+    h r r
+    c\f h b
     a c c %120
     c( e) d
     c r r
@@ -180,8 +184,11 @@ GloriaTenoreLyrics = \lyricmode {
   glo -- ri -- fi --
   ca -- mus,
 
-  te,
-  te, %35
+  lau --
+  da -- mus, be -- ne -- %35
+  di -- ci -- mus, ad -- o --
+  ra -- mus
+  te.
 
   glo -- ri -- fi --
   ca -- mus, %40
@@ -214,11 +221,13 @@ GloriaTenoreLyrics = \lyricmode {
   Ad -- o -- %96
   ra -- mus,
   be -- ne --
-  di -- ci -- mus.
+  di -- ci -- mus,
 
-  Te, %115
+  lau -- %114
+  da -- mus, be -- ne -- %115
+  di -- ci -- mus, ad -- o --
+  ra -- mus
   te,
-
   glo -- ri -- fi --
   ca -- mus, lau -- %120
   da -- mus

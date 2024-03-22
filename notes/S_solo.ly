@@ -45,26 +45,24 @@ GloriaSopranoSolo = {
     r4 d'\p h
     a2 c4
     h r r
-    R2.*4 %33
-    r4 r e\f
-    d g, e'8 e %35
-    d8. g,16 g4 g'8\p e
-    d2 c4
-    h r r
-    R2.*68 %106
-    d2\p h4
+    R2.*2 %31
+    r4 e8([\pE d)] c([ h)]
+    a4.( e'8) d c
+    h4 r r
+    r g' r %35
+    r g r
+    R2.*70 %106
+    d2\pp h4
     h8([ c)] c4 r
     f2 d4
     dis8([ e)] e4 r %110
     g2 fis4
     f e d
     c( d) e
-    d r e\f
-    d g, e'8 e %115
-    d8. g,16 g4 c8\p e
-    g4( f) e
     d r r
-    R2.*7 %125
+    r g r %115
+    r g r
+    R2.*9 %125
     R2.\fermata \bar "||" %126 finis
   }
 }
@@ -74,10 +72,10 @@ GloriaSopranoSoloLyrics = \lyricmode {
   ra -- mus
   te,
 
-  lau -- %34
-  da -- mus, be -- ne -- %35
-  di -- ci -- mus, ad -- o --
-  ra -- mus
+  be -- ne -- %33
+  di -- ci -- mus
+  te, %35
+  te,
   te.
 
   Ad -- o -- %107
@@ -87,11 +85,9 @@ GloriaSopranoSoloLyrics = \lyricmode {
   ad -- o --
   ra -- mus, lau --
   da -- mus
-  te, lau --
-  da -- mus, be -- ne -- %115
-  di -- ci -- mus, ad -- o --
-  ra -- mus
-  te. %118 finis
+  te,
+  te, %115
+  te. %116 finis
 }
 
 QuoniamSopranoSolo = {

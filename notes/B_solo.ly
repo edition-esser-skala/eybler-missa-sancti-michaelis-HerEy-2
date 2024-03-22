@@ -50,19 +50,17 @@ GloriaBassoSolo = {
     R2.*10 %10
     R2.\fermata
     R2.*15 %26
-    r4 h'\p g
+    r4 h'\pE g
     d2 d4
     g r r
     R2.*2 %31
-    r4 c8([\p h)] a([ g)]
+    r4 c8([\pE h)] a([ g)]
     d4.( c'8) h a
-    g4 r g\f
-    g g g8 g %35
-    g8. g16 g4 c,8\p c
-    d2 dis4
-    e r r
-    R2.*32 %70
-    c'2\ff c8 c
+    g4 r r
+    r g r %35
+    r g r
+    R2.*34 %70
+    c2\f c8 c
     c4 c, r
     c'2 c4
     e c r
@@ -71,19 +69,17 @@ GloriaBassoSolo = {
     g2 f4
     e r r
     R2.*28 %106
-    r4 g\p g
+    r4 g\pp g
     g2 g4
     r g g
     g2 g4 %110
     g2 g4
     g g f
     e( d) c
-    g' r c,\f
-    g' g c,8 e %115
-    g8. g16 g4 e8\p c
-    h2 c4
     g' r r
-    R2.*7 %125
+    r g r %115
+    r g r
+    R2.*9 %125
     R2.\fermata \bar "||" %126 finis
   }
 }
@@ -95,10 +91,8 @@ GloriaBassoSoloLyrics = \lyricmode {
 
   be -- ne -- %32
   di -- ci -- mus
-  te, lau --
-  da -- mus, be -- ne -- %35
-  di -- ci -- mus, ad -- o --
-  ra -- mus
+  te,
+  te, %35
   te.
 
   Do -- mi -- ne
@@ -110,18 +104,16 @@ GloriaBassoSoloLyrics = \lyricmode {
   mni -- po --
   tens.
 
-  Ad -- o -- %106
+  Ad -- o -- %107
   ra -- mus,
   te lau --
-  da -- mus,
-  ad -- o -- %110
+  da -- mus, %110
+  ad -- o --
   ra -- mus, lau --
   da -- mus
-  te, lau --
-  da -- mus, be -- ne -- %115
-  di -- ci -- mus, ad -- o --
-  ra -- mus
-  te. %118 finis
+  te,
+  te, %115
+  te. %116 finis
 }
 
 QuiTollisBassoSolo = {

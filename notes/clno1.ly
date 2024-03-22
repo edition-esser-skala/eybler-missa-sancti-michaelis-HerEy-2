@@ -4,13 +4,13 @@ GloriaClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoGloria
-    c8\fE c16 c c8 c c c
+    c8\f c16 c c8 c c c
     c4 e g
     c8 c16 c c8 c d d
-    \once \partCombineChords e4 r8 c16 c c8 c
+    e4 r8 c16 c c8 c
     c4 r8 c16 c c8 c %5
     c4 r8 c16 c c8 c
-    d4 c \once \partCombineChords e
+    d4 c e
     d r8 d16 d d8 d
     e4 r8 e16 e e8 e
     d d16 d d8 d d d %10
@@ -20,12 +20,12 @@ GloriaClarinoI = {
     R2.*4 %30
     g4\f r r
     R2.*2
-    r4 g\fE r
+    r4 g\f r
     r g r %35
     r g r
     R2.*2
     c,8\f c16 c c8 c c c
-    c c16 c c8 c c c %40
+    c c16 c c8 c e c %40
     g'4 r r
     g r r
     R2.*3 %45
@@ -36,25 +36,25 @@ GloriaClarinoI = {
     r e, \pao g
     c r r %75
     r g c
-    d2 d4
-    e r r
+    d2.
+    e4 r r
     R2.*6 %84
-    c2\fE d4 %85
+    c2\f d4 %85
     c r r
     g2.
     R2.*16 %103
-    d'2\p \once \partCombineChords e4
+    d'2\pp e4
     R2.*5 %109
     r4 g,\pp g %110
-    g2.
-    g
+    g2.~
+    g~
     g4 r r
-    r g\fE r
+    r g\f r
     r g r %115
     r g r
-    d'2\pp \partCombineChords e8 c \pd
+    d'2\pp e8 c \pd
     d4 r r
-    c\fE r r
+    c\f r r
     c8 c16 c c8 c c c %120
     c2 d4
     c r r
@@ -101,7 +101,7 @@ QuoniamClarinoI = {
     d'1\f
     e4 r r2
     R1*5 %213
-    c4\f c8 c c4 \once \partCombineChords e
+    c4\f c8 c c4 e
     d r r2 %215
     R1*2
     g,4\fE r r2
@@ -266,7 +266,7 @@ CredoClarinoI = {
     g,2 r
     R1*3 %42
     r2 \pao g
-    c \once \partCombineChords e
+    c e
     d1~ %45
     d
     e2 \pa c
@@ -337,7 +337,7 @@ EtResurrexitClarinoI = {
     R2.*3
     \pao c4 r8 \pa c16 c c8 c \pd
     e4 r8 e16 e e8 e %195
-    g4 c \once \partCombineChords e
+    g4 c e
     d r r
     R2.*3 %200
     g,4 r r
@@ -363,7 +363,7 @@ EtResurrexitClarinoI = {
     R2.*8 %278
     c8 c16 c c8 c c c
     d d16 d d8 d d d %280
-    \once \partCombineChords e2 c4
+    e2 c4
     d r r
     R2.*4 %286
     r4 d d
@@ -391,7 +391,7 @@ EtResurrexitClarinoI = {
     r4 r8 \pa e,16\f e e8 e %320
     e4 \pd r r
     r r g
-    \pao g c \once \partCombineChords e
+    \pao g c e
     d2 e4
     r r d %325
     c r r

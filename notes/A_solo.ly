@@ -47,19 +47,17 @@ GloriaAltoSolo = {
     R2.*10 %10
     R2.\fermata
     R2.*15 %26
-    r4 h'\p g
+    r4 h'\pE g
     fis2 fis4
     g r r
     R2.*2 %31
-    r4 c8([\p h)] a([ g)]
+    r4 c8([\pE h)] a([ g)]
     fis4.( c'8) h a
-    g4 r g\f
-    g g g8 g %35
-    g8. g16 g4 g8\p g
-    fis2 fis4
-    g r r
-    R2.*8 %46
-    h4.(\p a8) g fis
+    g4 r r
+    r g r %35
+    r g r
+    R2.*10 %46
+    h4.(\pE a8) g fis
     e8. fis16 g4 r
     h4.( a8) g fis
     e([ fis)] g4 r %50
@@ -68,7 +66,7 @@ GloriaAltoSolo = {
     h4. a8 g4
     g fis r
     R2.*51 %105
-    r4 g\p g
+    r4 g\pp g
     g2 g4
     r g g
     g2 g4
@@ -76,12 +74,10 @@ GloriaAltoSolo = {
     g2 a4
     h c g
     g2 g4
-    g r \mvTr g\f^\critnote
-    g g g8 g %115
-    g8. g16 g4 g8 g
-    g2 g4
     g r r
-    R2.*7 %125
+    r g r %115
+    r g r
+    R2.*9 %125
     R2.\fermata \bar "||" %126 finis
   }
 }
@@ -93,11 +89,10 @@ GloriaAltoSoloLyrics = \lyricmode {
 
   be -- ne -- %32
   di -- ci -- mus
-  te, lau --
-  da -- mus, be -- ne -- %35
-  di -- ci -- mus, ad -- o --
-  ra -- mus
-  te.
+  te,
+
+  te,
+  te, %35
 
   Gra -- ti -- as, %47
   gra -- ti -- as
@@ -116,11 +111,9 @@ GloriaAltoSoloLyrics = \lyricmode {
   ra -- _
   _ mus, lau --
   da -- mus
-  te, \xE lau --
-  da -- mus, be -- ne -- %115
-  di -- ci -- mus, ad -- o --
-  ra -- mus
-  te. %118 finis
+  te,
+  te, %115
+  te. %116 finis
 }
 
 CumSanctoAltoSolo = {

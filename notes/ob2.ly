@@ -35,7 +35,7 @@ GloriaOboeII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoGloria
-    c4.\fE c8( e g)
+    c4.\f c8 e g
     e'2 c4
     g2 h4
     c r r
@@ -53,16 +53,16 @@ GloriaOboeII = {
     a2 g4
     fis r r
     R2.
-    r8 d-! e( fis g a) %20
+    r8 d( e fis g a) %20
     h4 r r
     R2.*2
-    r8 g'(\f fis e d c)
-    h-! e( d c h a) %25
+    r8 g'\f fis e d c
+    h e d c h a %25
     g4 h d
     g r r
     R2.
-    r8 g(\f fis e d c)
-    h-! e( d c h a) %30
+    r8 g\f fis e d c
+    h e d c h a %30
     g4 h d
     g r r
     R2.
@@ -70,26 +70,26 @@ GloriaOboeII = {
     h2 c4 %35
     h2 r4
     R2.*2
-    c4\fE c c
+    c4\f c c
     e2 c4 %40
     h h a
-    h8 h( c a d h)
-    e( c fis d g e)
-    a( fis g c,) d4
+    h8 h c a d h
+    e c fis d g e
+    a fis g c, d4
     c h a %45
     g r r
     R2.*12 %58
     e2.~\p
     e~ %60
-    e~\crescE
+    e~\cresc
     e~
-    e
+    e\!
     e'\f
-    h %65
-    g4 r8 g'( h g)
-    c( a h g a fis)
-    g( e fis dis e h)
-    c( fis) e4 dis
+    h~ %65
+    h4 r8 g' h g
+    c a h g a fis
+    g e fis dis e h
+    c fis e4 dis
     e e\ff f %70
     e r r
     r e d
@@ -108,17 +108,17 @@ GloriaOboeII = {
     e r r
     b'2.
     a8 r r4 r
-    b4.(\pE a8 g f)
+    b4.(\p a8 g f)
     e2 g4 %90
     f8( g a b g a)
     b4 r r
     R2.*12 %104
-    r4 r d %105
-    c h r
+    r4 r d(\pp %105
+    c h) r
     R2.*4 %110
     g2 a4
-    h c h
-    g h c
+    h c d
+    g, h c
     h r c\f
     h2 c4 %115
     h r r

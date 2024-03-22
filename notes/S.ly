@@ -70,7 +70,7 @@ GloriaSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
-    c4\fE e8 g c e
+    c4\f e8 g c e
     g2 e4
     c2( d4)
     e2 r4
@@ -100,10 +100,12 @@ GloriaSoprano = {
     R2.*3 %30
     g,4\f h d
     g g, r
-    R2.*2
-    r4 g'\p r %35
-    r g r
-    R2.*2
+    R2.
+    r4 r e'\f
+    d g, e'8 e %35
+    d8. g,16 g4 g'8\p e
+    d2 c4
+    h r r
     e4\f e e
     g2 e4 %40
     d h a
@@ -126,8 +128,8 @@ GloriaSoprano = {
     c8([ g)] g4 r %80
     g'4.( f8) d([ h)]
     c8. g16 g4 c
-    a( h) cis
-    d\cresc e f
+    a h cis
+    d(\cresc e) f
     g2\f h,4 %85
     c r r
     R2.*8 %94
@@ -136,11 +138,13 @@ GloriaSoprano = {
     a d8([ c)] b([ a)]
     g4.( d'8) c b
     a4 r r
-    R2.*15 %114
-    r4 g'\p r %115
-    r g r
-    R2.*2
-    c,4\f d e
+    R2.*14 %113
+    r4 r e'\f
+    d g, e'8 e %115
+    d8. g,16 g4 c8\p e
+    g4( f) e
+    d r r
+    c\f d e
     f g a %120
     g2 h,4
     c r r
@@ -181,9 +185,11 @@ GloriaSopranoLyrics = \lyricmode {
   glo -- ri -- fi -- %31
   ca -- mus,
 
+  lau --
+  da -- mus, be -- ne -- %35
+  di -- ci -- mus, ad -- o --
+  ra -- mus
   te,
-  te,
-
   glo -- ri -- fi -- %39
   ca -- mus, %40
   lau -- da -- mus
@@ -206,8 +212,8 @@ GloriaSopranoLyrics = \lyricmode {
   ra -- mus, %80
   be -- ne --
   di -- ci -- mus, lau --
-  da -- mus,
-  glo -- ri -- fi --
+  da -- mus, glo --
+  ri -- fi --
   ca -- mus %85
   te.
 
@@ -215,11 +221,13 @@ GloriaSopranoLyrics = \lyricmode {
   ra -- mus
   te, be -- ne --
   di -- ci -- mus,
-  te.
-
-  Te, %115
   te,
 
+  lau -- %114
+  da -- mus, be -- ne -- %115
+  di -- ci -- mus, ad -- o --
+  ra -- mus
+  te,
   glo -- ri -- fi --
   ca -- mus, lau -- %120
   da -- mus

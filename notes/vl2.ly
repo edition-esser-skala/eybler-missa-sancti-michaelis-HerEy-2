@@ -59,23 +59,23 @@ GloriaViolinoII = {
     h,( g' h, g' fis a) %15
     g( h g h g h)
     fis( a fis a g h)
-    a( c, fis d g d)
+    a( d, fis d g d)
     e( c e c e a,)
     fis'( d e fis g a) %20
     d,( e fis g a g)
     fis( e d c h a)
-    h( d g, h d c)
+    \once \slurDashed h( d g, h d c)
     h g'16\f a fis g e fis d e c d
     h8 e16 fis d e c d h c a h %25
-    g8-![ r16 g32( a)] h8-![ r16 h32( c)] d8-![ r16 \tuplet 3/2 16 { d32( e fis)] }
+    g8[ r16 g32( a)] h8[ r16 h32( c)] d8[ r16 \tuplet 3/2 16 { d32( e fis)] }
     g4 r r
     r8 a,\p a a fis' fis
     g g16\f a fis g e fis d e c d
     h8 e16 fis d e c d h c a h %30
-    g8-![ r16 g32( a)] h8-![ r16 h32( c)] d8-![ r16 \tuplet 3/2 16 { d32( e fis)] }
+    g8[ r16 g32( a)] h8[ r16 h32( c)] d8[ r16 \tuplet 3/2 16 { d32( e fis)] }
     g4 r r
-    r8 a,\p a a h c
-    h16 g\f h d g a h g e fis g e
+    r8 a,\p a a( h c)
+    h16\f g h d g a h g e fis g e
     d g, h d g a h g e fis g e %35
     d g, h d g a h g e\p fis g e
     e d cis d cis d e d h c d c
@@ -101,19 +101,19 @@ GloriaViolinoII = {
     e e e e e e
     dis dis dis dis fis fis
     h, h h h h h
-    c c c c c c %60
-    d\cresc d d d d d
+    c! c c c c c %60
+    d!\cresc d d d d d
     e e e e e e
     g g g g g g
     e'16\f h e h e h e h e h e h
-    e h e h e h e h dis h dis h %65
+    e h e h e h e h dis h \hA dis h %65
     e dis e h g fis g e h' a h g
     c h c a h a h g a g a fis
     g fis g e fis e fis dis e dis e h
     c h c a g h e g h8 <a h,>
-    <g h,>4 <g' c, e,>\ff <f! d d, g,> %70
+    <g h,>4 \mvDlh <g' c, e,>\ff <f! d d, g,> %70
     <e c e, g,> r r
-    r <e c g> <g h, d,>
+    r \mvDl <e c g>\f <g h, d,>
     <e c e, g,> r r
     r <e c g> <g h, d,>
     <e c e, g,> r r %75
@@ -132,7 +132,7 @@ GloriaViolinoII = {
     f8 a,\p a a a a
     r b b b b b
     r g g g b b %90
-    a g( a b g a)
+    a( g a b g a)
     r b b b c c
     c4 r r
     r8 a a a b b
@@ -147,7 +147,7 @@ GloriaViolinoII = {
     r d d d e e
     r d d d c c
     a4 r a' %105
-    r8 e d d d d
+    r8 e( d) d d d
     r h h h f' f
     r e e e e e
     r d d d g g
@@ -155,11 +155,11 @@ GloriaViolinoII = {
     r g g g a a
     h h c c h h
     c c h h c c
-    h16 g,\f h d g fis g h, c h c e
+    h16\f g, h d g fis g h, c h c e
     d g, h d g fis g h, c h c e %115
     d g, h d g fis g h, c\p h c e
     g fis a g f e g f e d f e
-    d8 g,16\f a h c d e f g a h
+    d8 \mvDl g,16\f a h c d e f g a h
     c e, e e f h h h g b b b
     f c' c c e, c' c c es, c' c c %120
     e, e' e e g, e' e e g, d' d d

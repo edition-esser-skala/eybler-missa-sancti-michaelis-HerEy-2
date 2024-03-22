@@ -69,7 +69,7 @@ GloriaAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
-    e4\fE g8 c, e g
+    e4\f g8 c, e g
     c2 g4
     e2( g4)
     g r r
@@ -99,10 +99,12 @@ GloriaAlto = {
     R2.*3 %30
     g4\f h d
     h g r
-    R2.*2
-    r4 g\p r %35
-    r g r
-    R2.*2
+    R2.
+    r4 r g\f
+    g g g8 g %35
+    g8. g16 g4 g8\p g
+    fis2 fis4
+    g r r
     g4\f g g
     g2 g4 %40
     g g fis
@@ -136,10 +138,12 @@ GloriaAlto = {
     f b8([ a)] g([ f)]
     e4.( b'8) a g
     f4 r r
-    R2.*15 %114
-    r4 g\p r %115
-    r g r
-    R2.*2
+    R2.*14 %113
+    r4 r g\f
+    g g g8 g %115
+    g8. g16 g4 g8\p g
+    g2 g4
+    g r r
     e4\f f g
     f e a %120
     e( g) f
@@ -181,8 +185,11 @@ GloriaAltoLyrics = \lyricmode {
   glo -- ri -- fi --
   ca -- mus,
 
+  lau --
+  da -- mus, be -- ne -- %35
+  di -- ci -- mus, ad -- o --
+  ra -- mus
   te,
-  te, %35
 
   glo -- ri -- fi --
   ca -- mus, %40
@@ -216,11 +223,13 @@ GloriaAltoLyrics = \lyricmode {
   ra -- mus
   te, be -- ne --
   di -- ci -- mus,
-  te.
-
-  Te, %115
   te,
 
+  lau -- %114
+  da -- mus, be -- ne -- %115
+  di -- ci -- mus, ad -- o --
+  ra -- mus
+  te,
   glo -- ri -- fi --
   ca -- mus, lau -- %120
   da -- mus
