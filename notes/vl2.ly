@@ -187,7 +187,7 @@ QuiTollisViolinoII = {
     r c\p g e' %135
     f r c r
     c8 r c r b r b r
-    a4( g) r2
+    a4 g r2
     r8 e' e e r e r fis
     r g g g r g g g %140
     r f! f f r e r gis
@@ -206,8 +206,8 @@ QuiTollisViolinoII = {
     d r c8 r g' r
     f r f r a r a r %155
     e4( d) r2
-    d2~\sfp d16( c h c d[ e f fis)]
-    g2~\sfp g16 e( d c h[ a g h)]
+    d2~\fp d16 c( h c d[ e f fis)]
+    g2~\fp g16 e( d c h[ a g h)]
     c8 c c c d d d d
     c c c c c c c c %160
     c c c c a a a a
@@ -217,7 +217,7 @@ QuiTollisViolinoII = {
     as as as as as as as as %165
     as as as as r a a a
     r b( des) des r d d d
-    r c( g'!) g r b,( c) des
+    r c( g'!) g r b,( c des)
     r c c c r c c c
     <d h>2:32\f q: %170
     <es c>: q:

@@ -136,30 +136,30 @@ QuiTollisBassoSolo = {
     e2.( f8[ e)] %145
     e4 r r2
     R1*5 %151
-    r2 r4 g\pE
+    r2 r4 g
     e'2~ e8[ h] c e,
     g4.( f8) e4 r
     r a f d' %155
     c h r2
     d4.\fz h8 g4 r
     e'4.\fz c8 g4 r
-    e\pE e e e
+    e e e e
     f2 e %160
     c( d)
     e r
     R1*7 %169
-    r2 r4 g\fE %170
+    r2 r4 g %170
     g2 es4 c
     g' g, r g'
     c2 es4 c
     h g r2
-    g~\pE g8[ f] e!([ d)] %175
+    g~ g8[ f] e!([ d)] %175
     d4.( cis8) cis4 r
     b'2. a8([ g)]
     f4.( \grace a16 g8) f4 r
     a,2. es''4
     cis8([ d a b] fis[ g)] b([ d)] %180
-    \appoggiatura d8 f,2.( a8[ g)]
+    \appoggiatura d4 f,2.( a8[ g)]
     f4 r r2
     R1*5 %187
     r2 r4\fermata \bar "||" %188 finis
@@ -203,7 +203,7 @@ QuiTollisBassoSoloLyrics = \lyricmode {
   mi -- se --
   re -- re,
   mi -- se --
-  re -- re %180
+  re -- re __ %180
   no --
   bis. %182 finis
 }

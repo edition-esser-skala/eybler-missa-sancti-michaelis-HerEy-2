@@ -65,7 +65,7 @@ QuiTollisTimpani = {
     g~\fp
     g~\fp
     g\fp
-    g4\stopTrillSpan g r2
+    g4\f g\stopTrillSpan-! r2
     R1*13 %187
     r2 r4\fermata \bar "||" %188 finis
   }

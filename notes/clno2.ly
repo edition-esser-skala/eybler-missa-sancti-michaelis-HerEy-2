@@ -70,7 +70,7 @@ QuiTollisClarinoII = {
       \set Score.currentBarNumber = #127
       \partial 4 r4 R1*3 %129
       r4 c\p c c %130
-      c1\sfp
+      \after 2. \! c1\>
       R1*6 %137
       r4 c\p c c
       c r r2
@@ -83,7 +83,7 @@ QuiTollisClarinoII = {
       g\fp r8 g16 g g4 g
       g\fp r8 g16 g g4 g
       g\fp r8 g16 g g4 g
-      g4 g r2
+      g4\f g r2
       R1*13 %187
       r2 r4\fermata \bar "||" %188 finis
   }

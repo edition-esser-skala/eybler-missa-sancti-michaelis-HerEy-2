@@ -182,9 +182,9 @@ QuiTollisViolinoI = {
     \clef treble
     \twotwotime \key f \major \time 2/2 \tempoQuiTollis
       \set Score.currentBarNumber = #127
-    \partial 4 d'8.(\sf^\markup \remark "con sordino" c16) c2~\pE c8 b( g e)
+    \partial 4 d'8.(\sf^\markup \remark "con sordino" c16) c2~\pE c8( b g e)
     f4 r8. fis16( g4) r8. gis16(
-    a8[) r16 h]( c8[) r16 cis]( d8[) r16 d,]( b'8[) r16 g16]
+    a8[) r16 h]( c8^[) r16 cis]( d8[) r16 d,]( b'8[) r16 g16]
     f4( \grace { g16[ f] } e4) r2 %130
     g'2~\sfp g16[ f( e f] g a b h)
     c4~\sfp c16[ b( a g] f[ e g f] e d c b)
@@ -210,23 +210,23 @@ QuiTollisViolinoI = {
     r f f f r e r d
     c4 e e e
     g4 r8. f16( e8[) r16 f]( g8[) r16 gis](
-    a8[) r16 h]( c8[) r16 cis]( d8[) r16 e]( f8[) r16 d]( %155
-    c4)( h) r2
-    d~\sfp d16 c( h c d e f fis)
-    g2~\sfp g16 e( d c h a g f)
+    a8[) r16 h]( c8[) r16 cis]( d8[) r16 e]( f8[) r16 d] %155
+    c4( h) r2
+    d~\fp d16 c( h c d e f fis)
+    g2~\fp g16 e( d c h a g f)
     e8 e e e e e e e
     f f f f e e e e %160
     e e e e d d d d
     e e e e e e e e
     e\pp e e e e e e e
     f f f f as( ges f es)
-    des des des des des des-\critnote c c %165
+    des des des des des des c c %165
     des f f f r es es es
-    r des( ges) ges r ges f f
-    r e!( des') des r des( c) b
+    r des( ges) ges r ges( f) f
+    r e!( des') des r des( c b)
     r as as as r c c c
-    h4\f <g' h, d,> r <g h, d, g,> %170
-    <c, es, g,> <c' es, g,> r <c, es, g,>
+    h4\f <g' h, d,> r <h, d, g,> %170
+    <c es, g,> <c' es, g,> r <c, es, g,>
     <h d, g,> <g' h, d, g,> r <h, d, g,>
     <c es, g,> <c' es, g,> r <c, es, g,>
     <h d, g,> <g' h, d,> r2
@@ -236,7 +236,7 @@ QuiTollisViolinoI = {
     r f f f r f f f
     r f f f r a a a
     b4 r r g %180
-    r8 f f f r f e e
+    r8 f f f r f( e) e
     r f(\mf a) a r a( f') f
     r d r c r b r a
     r g\p g g r g g g

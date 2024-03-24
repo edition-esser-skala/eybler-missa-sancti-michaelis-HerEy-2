@@ -232,3 +232,97 @@ GloriaBassi = {
     c4 r r\fermata \bar "||" %126 finis
   }
 }
+
+QuiTollisBassi = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \major \time 2/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #127
+    \partial 4 r4 r c\p c c
+    d4 r e r
+    f8 r a, r b r g r
+    c4 c' c, r %130
+    b8\sfp b' b b b4 r
+    a,8\sfp a' a a a r b r
+    r8 c( a f) c4 c
+    f, c' f r
+    r c\p c c %135
+    d r e r
+    f8 r a, r b r g r
+    c4 c, r2
+    c'4-\pizz r b8 r a r
+    g4 r b r %140
+    d r c8 r h r
+    a4 r c r
+    e r d8 r c r
+    h r gis r a r f' r
+    e4 r e, r %145
+    a\mf^\arco r a' r
+    d,8 r e r f r fis r
+    g4\p r g, r
+    c, r c' r
+    d, r d' r %150
+    e, r e' r
+    f,8 r f' r g r g, r
+    c,4 c' c c
+    h r c8 r e r
+    f r a r f r d r %155
+    g4 g, r2
+    f8\fp f' f f f4 r
+    e,8\fp e' e e e4 r
+    c8\p c c c h h h h
+    a a a a c c c c %160
+    f, f f f f' f f f
+    e e e e e e e e
+    c\pp c c c c c c c
+    des des des des b b ges ges
+    as as as as as as as as %165
+    << {
+      des8^\vlc des des des r c c c
+      r b b b r h h h
+      r c e! e r e e e
+      r f f f r as as as
+    } \\ {
+      des,4_\bassi r c r %166
+      b r h r
+      c r e! r
+      f r as r
+    } >>
+    g8.[\mf g,16 h8. d16] g8.[ h16 d8. h16] %170
+    g8.[ g,16 c8. es16] g8.[ c16 es8. c16]
+    g8.[ g,16 h8. d16] g8.[ h16 d8. h16]
+    g8.[ g,16 c8. es16] g8.[ c16 es8. c16]
+    g4-! g,-! r2
+    << {
+      r8 b!^\vlc b b r b b b %175
+      r a a a r a a a
+      r \hA cis cis cis r \hA cis cis cis
+      r d d d r d d d
+      r c c c r c c c
+      b4 \oneVoice r r \voiceOne b %180
+      r8 c c c r c c c
+    } \\ {
+      \mvTr b!4\p_\bassi r b r %175
+      a! r a r
+      cis r \hA cis r
+      d r d r
+      c! r c r
+      b s s b %180
+      c r c r
+    } >>
+    f,\mf r d' r
+    g,8 r a r b r h r
+    c4\p r c, r
+    << {
+      f8^\vlc f' f f r cis cis cis %185
+      r d d d r b b b
+      r c(^\sfp f a) c4 c,
+      f( c) f,\fermata
+    } \\ {
+      f_\bassi r cis' r %185
+      d r b r
+      c! r c c
+      f,2.\fermata \bar "||" %188 finis
+    } >>
+  }
+}

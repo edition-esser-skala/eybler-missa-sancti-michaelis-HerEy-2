@@ -8,7 +8,7 @@
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
 tempoGloria = \tempoMarkup "Allegro vivace"
-  tempoQuiTollis = \tempoMarkup "Adagio"
+  tempoQuiTollis = \tempoMarkup "Adagio [mà non tanto]"
   tempoQuoniam = \tempoMarkup "Allegro"
   tempoCumSancto = \tempoMarkup "Più mosso"
 tempoCredo = \tempoMarkup "Allegro vivace"

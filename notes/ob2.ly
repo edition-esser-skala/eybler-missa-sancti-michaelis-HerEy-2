@@ -139,7 +139,7 @@ QuiTollisOboeII = {
       \set Score.currentBarNumber = #127
     \partial 4 r4 R1*3
     r4 e'\p e e %130
-    e1\sfp
+    \after 2. \! e1\>
     r2 r8 e16( d c b a g)
     f8 r r4 r2
     R1*4 %137

@@ -343,8 +343,8 @@ QuiTollisOrgano = {
     d4 r e r
     f8 r a, r b r g r
     c4 c' c, r %130
-    b8\fpE b' b b b4 r
-    a,8\fpE a' a a a r b r
+    b8 b' b b b4 r
+    a,8 a' a a a r b r
     c4 r c, r
     f c f, r
     r c' c c %135
@@ -358,10 +358,10 @@ QuiTollisOrgano = {
     e r d8 r c r
     h r gis r a r f' r
     e4 r e, r %145
-    \mvTrr a\mf-\tuttiE r a' r
+    a\mf r a' r
     d,8 r e r f r fis r
     g4\p r g, r
-    c, r c'-\soloE r
+    c, r c' r
     d, r d' r %150
     e, r e' r
     f,8 r f' r g r g, r
@@ -371,35 +371,35 @@ QuiTollisOrgano = {
     g4 g, r2
     f8\fp f' f f f4 r
     e,8\fp e' e e e4 r
-    c8 c c c h h h h
+    c8\p c c c h h h h
     a a a a c c c c %160
     f, f f f f' f f f
     e e e e e e e e
-    \mvTrr c\ppE-\tuttiE c c c c c c c
+    c\pp c c c c c c c
     des des des des b b ges ges
     as as as as as as as as %165
-    des4 r c-\soloE r
+    des4r c r %166
     b r h r
     c r e! r
     f r as r
-    g8.[\fE g,16 h8. d16] g8.[ h16 d8. h16] %170
+    g8.[\mfE g,16 h8. d16] g8.[ h16 d8. h16] %170
     g8.[ g,16 c8. es16] g8.[ c16 es8. c16]
     g8.[ g,16 h8. d16] g8.[ h16 d8. h16]
     g8.[ g,16 c8. es16] g8.[ c16 es8. c16]
     g4 g, r2
     b!4\p r b r %175
     a! r a r
-    cis r cis r
+    cis r \hA cis r
     d r d r
     c! r c r
     b r r b %180
     c r c, r
-    \mvTrr f\mfE-\tuttiE r d' r
+    f\mf r d' r
     g,8 r a r b r h r
     c4\p r c, r
-    f r cis'-\soloE r %185
+    f r cis' r %185
     d r b r
-    c r c c
+    c! r c c
     f,2.\fermata \bar "||" %188 finis
   }
 }

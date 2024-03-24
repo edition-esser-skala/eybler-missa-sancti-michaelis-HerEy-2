@@ -186,10 +186,15 @@ QuiTollisViola = {
     a8 r f r f r d' r
     c2 r %130
     r8 <e g,>\sfp q q q4 r
-    r8 <f a,>\sfp q q q e16( d c b a g)
-    f8 r \once \tieDashed <a c>4~\sfp q8 <f a> <e g> <c' e>
-    q2( f4) r
-    r g,\p c b %135
+    r8 <f a,>\sfp q q q e16 d c( b a g)
+    f8 r << {
+      c'4~ c8 a g e'
+      e2 f4
+    } \\ {
+      a,4~\sfp a8 f e c'
+      c2.
+    } >> r4
+    r g\p c b %135
     a r b r
     a8 r f r f r d' r
     c2 r
@@ -200,20 +205,20 @@ QuiTollisViola = {
     r e e e r e r e
     r f r e r e r a,
     r a a a r h h h %145
-    a\mfE e' e e r a a a
+    a\mf e' e e r a a a
     r a r a r d, r a
     r c\p h a r h h h
     c g g g g g g g
     r g g g g g g g %150
     r b! b b b b b b
-    r a a a r g r g
+    r a a a r g r f
     e4 g g g
     g r g8 r c r
     c r c r f r f r %155
     g2 r
-    r8 <g h,>\sfp q q q4 r
-    r8 <g c,>\sfp q q q4 r
-    g,8 g g g gis gis gis gis
+    r8 <g h,>\fp q q q4 r
+    r8 <g c,>\fp q q q4 r
+    g,8\p g g g gis gis gis gis
     a a a a g g g g %160
     a a a a a a a a
     h h h h gis gis gis gis
@@ -228,21 +233,26 @@ QuiTollisViola = {
     q: q:
     q: q:
     q: q:
-    g4 g r2
+    q4 q r2
     r8 g,\p g g r g g g %175
-    r a a a r a a a
+    r a! a a r a a a
     r e' e e r b! b b
     r a a a r a a a
     r a a a r f' f f
     f4 r r b, %180
-    r8 a a a r b b b
+    r8 a a a r a( b) b
     r a(\mf f) f r f'( d) d
-    r <b g> r <c a> r <d b> r d
+    r << { b } \\ { g } >> r << { c } \\ { a } >> r << { d } \\ { b } >> r << { d } \\ { d } >>
     r g,(\p c) c r c,( c') c
     a c c c r a a a %185
     r a a a r b b b
-    f' r \once \tieDashed <c a>4~\sfp q8 <a f> <g e> <e' c>
-    q2( f4)\fermata \bar "||" %188 finis
+    f' r << {
+      c4~ c8 a( g e')
+      e2 f4\fermata
+    } \\ {
+      a,4~\sfp a8 f( e c')
+      c2.\fermata
+    } >> \bar "||" %188 finis
   }
 }
 

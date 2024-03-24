@@ -152,7 +152,7 @@ QuiTollisOboeI = {
       \set Score.currentBarNumber = #127
     \partial 4 r4 R1*3 %129
     r4 g''\p g g %130
-    g1\sfp
+    \pao \after 2. \! g1\>
     r2 r8 g16( f e d c b)
     a8 r r4 r2
     R1*4 %137
@@ -163,7 +163,8 @@ QuiTollisOboeI = {
     h4 f'2\fp e8 d %150
     cis4 b'!2\fp a8 g
     g( f e d) c4 h\trill
-    R1*3 %155
+    c^\critnote r r2
+    R1*2 %155
     r4 d\p d d
     d1\fp
     e\fp
@@ -171,7 +172,7 @@ QuiTollisOboeI = {
     r4 f2\sfp^\solo es4\trill
     des ges2\sfp f4\trill
     e! des'2\sfp c8 b
-    b( as) g-! f-! f( es) d!-! c-!
+    b( as) g!-! f-! f( es) d!-! c-!
     h4 d2\sfp d4 %170
     r es2\sfp es4
     r d2\sfp d4
