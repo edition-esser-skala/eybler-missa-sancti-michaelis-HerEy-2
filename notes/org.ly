@@ -486,7 +486,7 @@ QuoniamOrgano = {
     e g e c
     h\p g a h
     c8.[ c'16-!\f h8.-! a16]-! g8.[-! f16-! e8.-! d16]-! %200
-    c4 \mvTr c\p-\solo c c
+    c4 \mvTr c\p-\soloE c c
     r d d d
     r h h h
     r c c c
@@ -494,16 +494,16 @@ QuoniamOrgano = {
     e g e c
     g d' h g
     c8.[ c16-! d8.-! e16]-! f8.[-! g16-! a8.-! h16]-!
-    c4 \mvTr c,\p-\solo r c'
+    \mvTr c4\p-\solo c, r c'
     h d h g %210
     fis a fis d
     g d h g
-    c c' g \mvTr e\f-\tutti
-    c c'8 h c4 c,
+    c c' g e
+    \mvTr c\f-\tutti c'8 h c4 c,
     \mvTr h\p-\solo r h r %215
     c r c' r
     d r d, r
-    g \mvTr d'\f-\tutti h g
+    \mvTr g\fE-\tutti d' h g
     d a' fis d
     g d' h g %220
     d a' fis d
@@ -524,7 +524,7 @@ QuoniamOrgano = {
     \mvTr h\f-\tutti h'8 a h4 h,
     c c'8 h c4 c,
     d\p fis a fis
-    g g,\f f'! f,
+    g\f g, f'! f,
     e \mvTr e'\p-\solo e e %240
     r c c c
     h2. a4
@@ -533,7 +533,7 @@ QuoniamOrgano = {
     e e'8 dis e4 d %245
     c gis a f'
     e e' e, d
-    c \mvTr c'8\p-\solo h c4 c,
+    \mvTr c\p-\solo c'8 h c4 c,
     d d' a f
     d d'8 c d4 d, %250
     e e' h g
@@ -551,7 +551,7 @@ QuoniamOrgano = {
     c c, c' b
     a a, a \mvTr a'\f-\tutti
     f f, f f' %265
-    e4 r \mvTr e\p-\solo r
+    \mvTr e4\p-\solo r e r
     f r f r
     e a g g,
     c \mvTr g'\f-\tutti e c
@@ -561,7 +561,7 @@ QuoniamOrgano = {
     c c' g e
     c e g c
     f, f, g g' %275
-    a r g\p r
+    a\p r g r
     f2 e4 d
     e a g g,
     c \mvTr c'\f-\solo r e,
@@ -575,13 +575,13 @@ QuoniamOrgano = {
 }
 
 QuoniamBassFigures = \figuremode {
-  r4 \bo <[_+]> <6> q %189
-  r2 <6> %190
-  r q4 \bc <[6]>
-  r1
+  r1 %189
+  r %190
+  r
+  r
   r
   <7>4 <\t> <6>2
-  <[6 5]>1 %195
+  r4 <[6 5]>2. %195
   <9 4>4 <\t \t> <8 3>2
   r2. <6>4
   q q q q
@@ -589,28 +589,28 @@ QuoniamBassFigures = \figuremode {
   r1 %200
   r
   <7>4 <\t> <6>2
-  <[6 5]>1
+  r4 <[6 5]>2.
   <9 4>4 <\t \t> <8 3>2
   r2. <6>4 %205
   q2. \once \bassFigureExtendersOn q4
   r1
   r
   r2. <4\+>4
-  <6>2. \bassFigureExtendersOn q4 %210
-  <6\!>2 <6>4 \bassFigureExtendersOff <7 [_+]>4
+  <6>1 %210
+  q2. <7 [_+]>4
   r1
   r
   r
   <6> %215
   r2 <5>4 <6>
-  <6 4>2 <\t \t>4 <[5] _+>
-  r1
-  <7 _+>2. \bassFigureExtendersOn q4
-  r1 %220
-  q2. q4
-  r1
-  <7!>2. q4 \bassFigureExtendersOff
-  r1
+  <6 4>2 <\t \t>4 <5 _+>
+  <\l>2. \once \bassFigureExtendersOn q4
+  <7 _+>1
+  r %220
+  q
+  r
+  <7!>
+  r
   <6>4 q <6 4> <[7] _+> %225
   r2. \bo <[6 _]>4
   r2. <6 5>4
@@ -624,47 +624,47 @@ QuoniamBassFigures = \figuremode {
   <9 4>4 <\t \t> <8 3> <\t 3> %235
   <6>1
   r2. <6>4
-  <_+>2. \once \bassFigureExtendersOn q4
-  r2 <6>4 <6\\>
+  <_+>1
+  r2 <6\\>
   <_+>1 %240
   <6>
   <6\\ 5!>2. <6!>4
   <6> <\t>8 <5> <3>2
-  <6\\>2. \bassFigureExtendersOn q4
-  <_+>2. q4 \bassFigureExtendersOff %245
+  <6\\>1
+  <_+>2. <4\+>4 %245
   <6> q2 q4
-  <_+>2. \bassFigureExtendersOn q4
-  <6>2. q4
-  <5>1
-  q4 <6>2 q4 %250
-  <5>1
-  q4 <6>2 q4 \bassFigureExtendersOff
+  <_+>1
+  <6>
+  <5>2. \once \bassFigureExtendersOn q4
+  q <6>2. %250
+  <5> \once \bassFigureExtendersOn q4
+  q <6>2.
   r4 <4> <6> q
   r2 <6>8 <5> <6> <5>
-  \bo <[5 3]>1 \bassFigureExtendersOn %255
-  <5 3>2. \bc <[5 3]>4
-  <6 4>1
-  q2. q4
-  <7>1
-  q2. q4 \bassFigureExtendersOff %260
-  <[6]>1
+  r1 %255
+  r
+  <6 4>
+  <\t \t>
+  <7>
+  r %260
+  <[6]>
   <6>2 \once \bassFigureExtendersOn q4 <5>
-  r2. <\t>4
-  <6>1
-  r %265
+  r2. <[\t]>4
+  <6>2. q4
+  r1 %265
   <6>
   <5>2 <\t>4 <4 2>
   <6> <6\\ 5-> <6! 4> <7 [3]>
-  r1
-  <7>2. \bassFigureExtendersOn q4 %270
-  r1
-  <7>2. q4
-  r1
-  <7->2. q4 \bassFigureExtendersOff
-  r2 <8 6>4 <7 5> %275
+  <\l>2. \once \bassFigureExtendersOn q4
+  <7>1 %270
+  <\l>2. \once \bassFigureExtendersOn q4
+  <7>1
+  r
+  <7->
+  r2 <6 _!>4 <7> %275
   r2 <6 4\+ _->
   <\t \t 3>4 <8 6 \t> <8 3> <5>
-  <6!> <6\\ 5-> <6! 4> <7 [3]>
+  <6[!]> <6\\ 5-> <6! 4> <7 [3]>
   r2. \bo <[6 5-]>4
   <9> <8>2 <6>4 %280
   <9 _!> <8 \t>2 <6 5>4

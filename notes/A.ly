@@ -325,7 +325,7 @@ QuoniamAlto = {
     R1*4 %243
     dis2\f r4 dis
     e e r e %245
-    a( h) c d
+    a h c d
     e4. e,8 e2
     R1
     r4 f\pp f f
@@ -338,7 +338,7 @@ QuoniamAlto = {
     r4 g' g g
     g4. e8 c2
     r4 g' g g
-    g4.^\critnote f8 d2 %260
+    g4. f8 d2 %260
     R1*3
     r2 r4 f\f
     c'4. a8 a2 %265
@@ -351,8 +351,8 @@ QuoniamAlto = {
     r h h h
     c4. g8 g4 r
     r g g g
-    a2 h4 h %275
-    c2\p b
+    a2 h!4 h %275
+    c2\pE b
     a g4( f)
     e fis g2
     e4 r r2
@@ -395,8 +395,8 @@ QuoniamAltoLyrics = \lyricmode {
 
   tu, tu %244
   so -- lus, tu %245
-  so -- lus al --
-  tis -- si -- mus,
+  so -- lus, so -- lus
+  Do -- mi -- nus,
   tu so -- lus
   san -- ctus,
   tu so -- lus %250

@@ -261,10 +261,10 @@ QuoniamViola = {
     \clef alto
     \twotwotime \key c \major \time 2/2 \tempoQuoniam
       \set Score.currentBarNumber = #189
-    r4 \parOn a'-\parenthesize-!\f f-! cis-!
-    d-! d'-! h-! h,-! %190
-    c-! c'-! a-! f-!
-    g-! \parOff g,-\parenthesize-! r2
+    r4 a'\f f cis
+    d d' h h, %190
+    c c' a f
+    g g, r2
     r4 g\p g g
     r f f f
     r g g g %195
@@ -281,11 +281,11 @@ QuoniamViola = {
     e g2 g4
     g d h g
     c8.[ c16 d8. e16] f8.[ g16 a8. h16]
-    c4 c,\p r a
+    c4\p c, r a
     d d2 h8 g %210
     a4 d2 d4
     d d2 g4~
-    g g, \once \slurDashed g8( c e g)
+    g g,~ g8 c e g
     c(\f g) e-! c-! g'( e) c-! g-!
     g'4\p d r d %215
     r c r e
@@ -310,8 +310,8 @@ QuoniamViola = {
     r <d a'>( g) c, %235
     d\f g2 g,4~
     g g'2 e4
-    a,\p d2 d4~
-    d g\f a a,
+    a,\p d2 d4
+    d\f g a a,
     h h\p h h %240
     r c c c
     f!2. a4
@@ -320,7 +320,7 @@ QuoniamViola = {
     h e2 e4~ %245
     e e2 a4
     h h2 e,4
-    e e2\p e4
+    e\p e2 e4
     d d2 d4
     d f2 f4 %250
     g e2 e4
@@ -332,7 +332,7 @@ QuoniamViola = {
     c4 <e g,>2 q4~
     q8 g( g, c) e( c g e')
     d4 <h d>2 q4~
-    q \once \slurDashed d,8( g) h( d h d) %260
+    q d,8 g h( d h d) %260
     g,4 <c e>2 q4
     <d g,>1
     <e g,>4 <e c>2 q4
@@ -355,7 +355,7 @@ QuoniamViola = {
     c a2 d4~ %280
     d d h d
     g, h c gis
-    a d g, g
+    a d g, g~
     g g' e4.\trill d16 c
     g'4 g, r2\fermata \bar "||" %285 finis
   }

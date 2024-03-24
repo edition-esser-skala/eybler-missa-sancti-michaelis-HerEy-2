@@ -326,3 +326,124 @@ QuiTollisBassi = {
     } >>
   }
 }
+
+QuoniamBassi = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoQuoniam
+      \set Score.currentBarNumber = #189
+    r4 a'\f f cis
+    d d' h h, %190
+    c! c' a f
+    g g, r2
+    r4 c\p c c
+    r d d d
+    r h h h %195
+    r c c c
+    f,\f f'8 e f4 d
+    e g e c
+    h\p g a h
+    c8.[ c'16\f h8. a16] g8.[ f16 e8. d16] %200
+    c4 c\p c c
+    r d d d
+    r h h h
+    r c c c
+    f,\f f'8 e f4 d %205
+    e g e c
+    g d' h g
+    c8.[ c16 d8. e16] f8.[ g16 a8. h16]
+    c4\p c, r c'
+    h d h g %210
+    fis a fis d
+    g d h g
+    c c' g e
+    c\f c'8 h c4 c,
+    << {
+      h4^\vlc h r h
+      r c r c
+      r d r d,
+    } \\ {
+      \mvTr h'\p_\bassi r h r %215
+      c r c' r
+      d r d, r
+    } >>
+    g\fE d' h g
+    d a' fis d
+    g d' h g %220
+    d a' fis d
+    g, g' d h
+    g h d g
+    c, c' r c,
+    h c d d, %225
+    g g' r h,
+    c c' r cis,
+    d d' r fis,,
+    g a h c
+    d e fis d %230
+    g e c d
+    g, g'\p g g
+    r c, c c
+    r d d d
+    r g, g a %235
+    h\f h'8 a h4 h,
+    c c'8 h c4 c,
+    d\p fis a fis
+    g\f g, f'! f,
+    e e'\p e e %240
+    r c c c
+    h2. a4
+    gis gis' a a,
+    f\f f'8 e f4 f,
+    e e'8 dis e4 d %245
+    c gis a f'
+    e e' e, d
+    c\p c'8 h c4 c,
+    d d' a f
+    d d'8 c d4 d, %250
+    e e' h g
+    e e'8 d e4 e,
+    f f' e h
+    c c, a' fis
+    g g d h %255
+    g g' g g
+    g g e c
+    g g' g g
+    g g d h
+    g h d f %260
+    e r c r
+    h d g h
+    c c, c' b
+    a a, a a'\f
+    f f, f f' %265
+    << {
+      e^\vlc e r e
+      r f r f
+    } \\ {
+      \mvTr e4\p_\bassi r e r
+      f r f r
+    } >>
+    e a g g,
+    c g'\f e c
+    g d' h g %270
+    c g' e c
+    g d' h g
+    c c' g e
+    c e g c
+    f, f, g g' %275
+    << {
+      a^\vlc a r g
+      r f( e d)
+    } \\ {
+      \mvTr a'\p_\bassi r g r
+      f2 e4 d
+    } >>
+    e a g g,
+    c c'\f r e,
+    f f, r fis' %280
+    g g, r h'
+    c gis a e
+    f f' e h
+    c g e4.\trill d16 c
+    g'4 g, r2\fermata \bar "||" %285 finis
+  }
+}

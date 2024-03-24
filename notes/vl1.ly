@@ -253,35 +253,35 @@ QuoniamViolinoI = {
     \twotwotime \key c \major \time 2/2 \tempoQuoniam
       \set Score.currentBarNumber = #189
     a'4.(\f h16 cis) d4-! e-!
-    f4.(\trill e16 f) d4-! g-! %190
-    e4.(\trill d16 e) f4-! d-!
-    h-! <d, h' g'>-! r2
-    r4 e\p e e
+    f4.\trill e16 f d4-! g-! %190
+    e4.\trill d16 e f4-! d-!
+    h-! <g' h, d, g,>-! r2
+    r4 e,\p e e
     r f f f
     r f f f %195
-    r f( e8.) g16 g8.(\trill f32 g)
+    r f( e8.) g16 g8.\trill f32 g
     a8.\f[ a,16 c8. f16] a8.[ c16 h8. d16]
     c8.[ d16 e8. h16] c8.[ g16 a8. e16]
-    g2.\p f4\trill
+    g2.\p f8.-\trill e32 f
     e8.[ e'16\f d8. c16] h8.[ a16 g8. f16] %200
     e4 e\p e e
     r f f f
     r f f f
-    r f( e8.) g16 g8.(\trill f32 g)
+    r f( e8.) g16 g8.\trill f32 g
     a8.[\f a,16 c8. f16] a8.[ c16 h8. d16] %205
     c8.[ g16 a8. h16] c8.[ d16 e8. f16]
     g8.[ g,16 h8. d16] g8.[ h16 d8. f,16]
     e8.[ e,16 f8. g16] a8.[ h16 c8. d16]
-    e8. e,16\p e8.(\trill d32 e) e'8( c a fis)
+    e8.\p e,16 e8.\trill d32 e e'8( c a fis)
     g( d h d) g( h d g) %210
     d( d, fis a) d( fis a c,)
     h( d g, h) d,( g h, d)
-    e8. c16 c8.(\trill h32 c) e8( g c e)
-    g(\f e) c-! g-! e'( c) g-! e-!
+    e8. c16 c8.\trill h32 c e8( g c e)
+    g(\f e) c-! g-! e'( c) g! e-!
     d4\p d' r d %215
     r e( c a)
     r g r fis
-    g h8\f c \tuplet 3/2 4 { d e fis g[ a h] }
+    g \tuplet 3/2 4 { h8[\f c d] d e fis g[ a h] }
     c4 \tuplet 3/2 4 { c,8 d c a'[ g fis] e d c }
     h4 \tuplet 3/2 4 { g,8 h d g[ h d] g h d } %220
     c4 \tuplet 3/2 4 { fis,8 g fis a[ g fis] e d c }
@@ -294,30 +294,30 @@ QuoniamViolinoI = {
     fis4 \tuplet 3/2 4 { a8 g fis e[ d cis] d e c }
     \tuplet 3/2 4 { h a g c[ h a] d[ c h] e d c }
     \tuplet 3/2 4 { fis e d g[ fis e] a[ g fis] e d c } %230
-    \tuplet 3/2 4 { h c d e[ fis g] } a,8. fis'16 fis8.(\trillE e32 fis)
+    \tuplet 3/2 4 { h c d e[ fis g] } a,8. fis'16 fis8.\trill e32 fis
     g4 d\p d d
     r e e c
     r a a d
-    r c h8. c16 c8.(\trill h32 c) %235
+    r c h8. c16 c8.\trill h32 c %235
     h8.[\f g,16 h8. d16] g8.[ h16 d8. g16]
     e8.[ c,16 e8. g16] c8.[ e16 c8. g16]
-    fis4\p a8( fis) d( fis a c)
-    h8. d16\f d8.(\trill c32 d) a8. dis16 dis8.(\trill cis32 dis)
+    fis4\p a8( fis d fis a c)
+    h8.\f d16 d8.\trill c32 d a8. dis16 dis8.\trill cis32 dis
     e4 h\p h e %240
     r e c a
     gis h d f!
     e4. d8 c8.[ c,16 e8. a16]
-    c8.\f a16 a8.(\trill gis32 a) c'8. a16 a8.(\trill gis32 a)
+    c8.\f a16 a8.\trill gis32 a c'8. a16 a8.\trill gis32 a
     gis8.[ e16 h8. gis16] e8.[ gis16 h8. gis16] %245
     a8.[ e16 h'8. e,16] c'8.[ a16 d8. a16]
     gis8.[ e16 gis8. h16] e8.[ gis16 h8. gis16]
-    a8.[ e16\p c8. a16] e'8.[ c16 a8. e16]
+    a8.[\p e16 c8. a16] e'8.[ c16 a8. e16]
     f8.[ d16 f8. a16] d8.[ f,16 a8. d16]
     f8.[ d16 h8. f16] d'8.[ h16 f8. d16] %250
     g8.[ e16 g8. h16] e8.[ g,16 h8. e16]
     g8.[ e16 c8. g16] e'8.[ c16 g8. e16]
-    a8. h16 h8.(\trill a32 h) c8. d16 d8.(\trill c32 d)
-    e8. g16 g8.(\trill f32 g) f8.[ e16 d8. c16]
+    a8. h16 h8.\trill a32 h c8. d16 d8.\trill c32 d
+    e8. g16 g8.\trill f32 g f8.[ e16 d8. c16]
     h8.[ h,16 d8. g16] h8.[ d,16 g8. h16] %255
     d8( h f' d) h( g d' f,)
     e8.[ c16 e8. g16] c8.[ e,16 g8. c16]

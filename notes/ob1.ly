@@ -199,7 +199,7 @@ QuoniamOboeI = {
     a,2\f r4 h
     c e r2
     R1
-    c2\fE d4.\trill c16 d %200
+    c2\f d4.\trill c16 d %200
     e4 r r2
     R1*3
     a,2\f r4 h %205
@@ -207,7 +207,7 @@ QuoniamOboeI = {
     g2. f4
     e r r2
     R1*4 %212
-    r2 r4 c\f
+    r2 r4 \pao c\f
     g'4. e8 e2
     R1*3 %217
     r4 h2\f h4
@@ -218,13 +218,13 @@ QuoniamOboeI = {
     f!1
     e4 g fis e
     d c h a %225
-    g d' g2~
+    \pa g d' g2~
     g4 e a2~
     a4 fis a c,
     h c d e
     fis g a c %230
     h2 a
-    g4 r r2
+    g4 \pd r r2
     R1*3 %235
     d2\f r4 d
     e c r2
@@ -233,8 +233,8 @@ QuoniamOboeI = {
     e r r2 %240
     R1*3
     a,1\f
-    gis2 r4 e %245
-    a h c d
+    gis2 \pa r4 e %245
+    a \pd h c d
     e h2 h4
     c r r2
     R1*7 %255
@@ -242,11 +242,11 @@ QuoniamOboeI = {
     e4 r r2
     e1
     f4 r r2
-    f2. d8 h %260
-    c4 c e g
+    f2. \pa d8 h %260
+    g4 \pd c e g
     g r r2
     R1
-    r2 r4 c,\f
+    r2 r4 \pao c,\f
     a'4. f8 f2 %265
     R1*3
     r4 e2\f e4
@@ -258,11 +258,11 @@ QuoniamOboeI = {
     a2 g4 f %275
     e r r2
     R1*2
-    r4 e\fE g2~
+    \pa r4 e\f g2~
     g4 f a2~ %280
-    a4 g d' f,
+    a4 g d' \pd f,
     e d c h
-    a h c d
+    \pao a h c d
     e g c e,
     d2 r\fermata \bar "||" %285 finis
   }

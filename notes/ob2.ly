@@ -196,7 +196,7 @@ QuoniamOboeII = {
     e2. e4
     fis a, fis a
     g c d e
-    fis g \once \tieDashed a2~ %230
+    fis g a2~ %230
     a4 g2 fis4
     g r r2
     R1*3 %235
@@ -217,7 +217,7 @@ QuoniamOboeII = {
     c1
     d4 r r2
     d2. h8 d %260
-    g,4 g c e
+    c4 g c e
     d r r2
     R1
     r2 r4 c\f
@@ -232,7 +232,7 @@ QuoniamOboeII = {
     f2 e4 d %275
     c r r2
     R1*2
-    r2 r4 b\fE
+    r2 r4 b\f
     a2. c4 %280
     h!2. d4
     c h a gis

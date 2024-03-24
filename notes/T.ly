@@ -334,7 +334,7 @@ QuoniamTenore = {
     R1*4 %243
     a2\f r4 a
     h gis r e %245
-    a( h) c d
+    a h c d
     e4. e,8 e4 r
     R1
     r4 d'\pp d d
@@ -361,7 +361,7 @@ QuoniamTenore = {
     c4. e8 e2
     r4 e g c,
     c( f) e d %275
-    c2\p \once \tieDashed cis~
+    c2\pE cis~
     cis4 d e( f)
     c c c( h)
     c r r2
@@ -404,8 +404,8 @@ QuoniamTenoreLyrics = \lyricmode {
 
   tu, tu %244
   so -- lus, tu %245
-  so -- lus al --
-  tis -- si -- mus,
+  so -- lus, so -- lus
+  Do -- mi -- nus,
   tu so -- lus
   san -- ctus,
   tu so -- lus %250

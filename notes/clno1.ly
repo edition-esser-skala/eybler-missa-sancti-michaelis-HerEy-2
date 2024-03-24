@@ -104,7 +104,7 @@ QuoniamClarinoI = {
     c4\f c8 c c4 e
     d r r2 %215
     R1*2
-    g,4\fE r r2
+    g,4\f r r2
     R1
     g4 r r2 %220
     R1
@@ -138,7 +138,7 @@ QuoniamClarinoI = {
     e r r2
     r4 d d d
     e c8 c c4 c
-    c1~^\critnote
+    c1~
     c4 r r2 %275
     R1*3
     c4\fE r r2

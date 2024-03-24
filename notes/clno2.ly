@@ -104,7 +104,7 @@ QuoniamClarinoII = {
     e,4\f e8 e e4 c
     g' r r2 %215
     R1*2
-    g,4\fE r r2
+    g,4\f r r2
     R1
     g4 r r2 %220
     R1

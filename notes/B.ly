@@ -326,7 +326,7 @@ QuoniamBasso = {
     R1*4 %243
     f2\f r4 f
     e e r e %245
-    a( h) c d
+    a h c d
     e4. e,8 e2
     R1
     r4 d\pp d d
@@ -352,8 +352,8 @@ QuoniamBasso = {
     g'4. g,8 g2
     r4 c c c8 c
     b'2 e,
-    f g %275
-    a(\p g)
+    f( g) %275
+    a\pE g
     f e4 d
     e a g2
     c,4 r r2
@@ -395,8 +395,8 @@ QuoniamBassoLyrics = \lyricmode {
 
   tu, tu %244
   so -- lus, tu %245
-  so -- lus al --
-  tis -- si -- mus,
+  so -- lus, so -- lus
+  Do -- mi -- nus,
   tu so -- lus
   san -- ctus,
   tu so -- lus %250
@@ -420,8 +420,8 @@ QuoniamBassoLyrics = \lyricmode {
   Spi -- ri -- tu
   in glo -- ri -- a
   De -- i
-  Pa -- tris, %275
-  in __
+  Pa -- %275
+  tris, in
   glo -- ri -- a
   De -- i Pa --
   tris. %279 finis

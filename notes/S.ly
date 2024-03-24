@@ -334,7 +334,7 @@ QuoniamSoprano = {
     R1*4 %243
     c2\f r4 a
     gis h r e, %245
-    a( h) c d
+    a h c d
     e4. e,8 e2
     R1
     r4 a\pp a a
@@ -361,7 +361,7 @@ QuoniamSoprano = {
     e4. g8 g4 r
     r c, c c
     a'2 g4 f %275
-    e1~\p
+    e1~\pE
     e4 f g( a)
     g c, e( d)
     c r r2
@@ -404,8 +404,8 @@ QuoniamSopranoLyrics = \lyricmode {
 
   tu, tu %244
   so -- lus, tu %245
-  so -- lus al --
-  tis -- si -- mus,
+  so -- lus, so -- lus
+  Do -- mi -- nus,
   tu so -- lus
   san -- ctus,
   tu so -- lus %250

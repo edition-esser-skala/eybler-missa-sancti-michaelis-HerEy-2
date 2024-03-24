@@ -114,7 +114,7 @@ QuoniamTimpani = {
     c r r2
     r4 g g g
     c c8 c c4 c
-    c1\startTrillSpan
+    c1~\startTrillSpan
     c4\stopTrillSpan r r2 %275
     R1*3
     c4\fE r r2
