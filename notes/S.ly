@@ -501,7 +501,7 @@ CumSanctoSoprano = {
     c a d2~ %365
     d4 h! e2~
     e4 c f2~
-    f4 d2 h4
+    f4 d2 h!4
     c2 r4 c(
     a) f r d'( %370
     h!) g r e'(
@@ -524,7 +524,7 @@ CumSanctoSoprano = {
     g f2 e8[ d]
     cis4 d g2
     f4 r r g( %390
-    e) c r f(
+    e) c! r f(
     d) b r e(
     c) a r d(
     h!) g e'( c)
@@ -544,7 +544,7 @@ CumSanctoSoprano = {
     e c r f~
     f d r g~
     g e2 c4~ %410
-    c a2 \once \tieDashed f'4~
+    c a2 f'4
     f e d2
     c4 r r2
     r4 g\p g g
@@ -621,7 +621,7 @@ CumSanctoSopranoLyrics = \lyricmode {
   men, a -- %365
   men, a --
   men, a --
-  men, a --
+  _ _
   men, a --
   men, a -- %370
   men, a --
@@ -658,14 +658,14 @@ CumSanctoSopranoLyrics = \lyricmode {
   tris, a -- men,
   a -- men,
   a -- men,
-  a -- men, a -- %405
+  a -- _ _ %405
   men, a --
   men, a --
   men, a --
   men, a --
   _ _ %410
-  men, a --
-  men, a --
+  _ men,
+  a -- men, a --
   men,
   cum San -- cto
   Spi -- ri -- tu, %415

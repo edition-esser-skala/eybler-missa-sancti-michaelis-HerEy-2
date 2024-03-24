@@ -403,7 +403,7 @@ CumSanctoViola = {
     cis,2 e~
     e4 d f2~ %325
     f4 d g2
-    c, r4 f~
+    c,! r4 f~
     f d r g~
     g e r a~
     a f r b~ %330

@@ -307,7 +307,7 @@ CumSanctoOboeII = {
     c a d2~ %365
     d4 h! e2~
     e4 c f2~
-    f4 d2 h4
+    f4 d2 h!4
     c2 r4 c
     a f r d' %370
     h! g r e'
@@ -330,7 +330,7 @@ CumSanctoOboeII = {
     g f2 e8 d
     cis4 d g2
     f4 r r g %390
-    e c r f
+    e c! r f
     d b r e
     c a r d
     h! g e' c
@@ -338,7 +338,7 @@ CumSanctoOboeII = {
     g' e c a
     a' f d c
     h2 d
-    h4 g e'2^\critnote
+    h4 g e'4. e8
     c4 a f'2 %400
     d4 h g'2
     e4 g, a f'
@@ -351,8 +351,8 @@ CumSanctoOboeII = {
     f d r g~
     g e2 c4~ %410
     c a2 d4~
-    d c h2\trill
-    c4 r r2
+    d c2 c4
+    c r r2
     r4 e,\p e e
     e1 %415
     r4 e\cresc e e

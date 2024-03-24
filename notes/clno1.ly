@@ -155,7 +155,7 @@ CumSanctoClarinoI = {
     \key c \major \time 2/2 \tempoCumSancto
       \set Score.currentBarNumber = #286
     R1*20 %305
-    g'2\f e4 c
+    g'2\fE e4 c
     R1*3
     r2 d' %310
     c r
@@ -182,8 +182,8 @@ CumSanctoClarinoI = {
     e r
     R1
     g,
-    c,2 r
-    c' d %360
+    c,4 r r2
+    d'1 %360
     e4 r r2
     R1*6 %367
     r2 d

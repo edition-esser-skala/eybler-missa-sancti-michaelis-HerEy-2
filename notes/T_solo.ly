@@ -145,9 +145,9 @@ CumSanctoTenoreSolo = {
     f2\ff e
     d d %420
     c4 c c( h)
-    c r d2
-    c4 r h2
-    c4 r r2\fermata \bar "|." %424 finis
+    c r r2
+    R1
+    R\fermata \bar "|." %424 finis
   }
 }
 
@@ -161,9 +161,7 @@ CumSanctoTenoreSoloLyrics = \lyricmode {
   Je -- su
   Chri -- ste, %420
   Je -- su Chri --
-  ste, a --
-  men, a --
-  men. %424 finis
+  ste. %422 finis
 }
 
 AgnusTenoreSolo = {

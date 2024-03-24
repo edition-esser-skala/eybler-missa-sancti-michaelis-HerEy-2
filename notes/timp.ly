@@ -131,7 +131,7 @@ CumSanctoTimpani = {
     \key c \major \time 2/2 \tempoCumSancto
       \set Score.currentBarNumber = #286
     R1*20 %305
-    g2\f c
+    g2\fE c
     R1*3
     r2 g %310
     c r
@@ -141,47 +141,49 @@ CumSanctoTimpani = {
     r2 g4. g8 %350
     c4 r r2
     R1*6 %357
-    c4 c8 c c4. c8
-    c2 r
-    R1*8 %368
+    c4 c8 c c4 c
+    c r r2
+    g1\trill %360
+    c4 r r2
+    R1*6 %367
     r2 g
-    c r %370
-    R1*3
+    c r
+    R1*3 %372
     r2 g4. g8
     c2 r
-    R1*10
-    g2 r
+    R1*10 %384
+    g2 r %385
     R1*4
-    r2 g
+    r2 g %390
     c r
     R1*2
     g2 r
-    R1
+    R1 %395
     g2 r
     R1
     g2 r
     g2 r
-    R1
+    R1 %400
     g2 r
     R1
     g2 r
     R1
-    g2 r
+    g2 r %405
     R1
     g2 r
     R1
     g2 r
-    R1*2
+    R1*2 %411
     g4 c g2
     c4 r r2
-    R1*4
-    r4 c8\f c c4 c
+    R1*4 %417
+    r4 c8\fE c c4 c
     c2\ffE r
-    r g
+    r g %420
     c4 c g2
     c4 r r2
     r g4 r
-    c r r2\fermata \bar "|."
+    c r r2\fermata \bar "|." %424 finis
   }
 }
 

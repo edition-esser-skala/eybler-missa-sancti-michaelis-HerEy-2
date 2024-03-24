@@ -358,7 +358,7 @@ CumSanctoViolinoI = {
     \key c \major \time 2/2 \tempoCumSancto
       \set Score.currentBarNumber = #286
     R1*15 %300
-    c'2\f h4 g
+    c'2\fE h4 g
     e'4. e8 c4 a
     fis'2 d4 h
     g'2 e4 c
@@ -370,7 +370,7 @@ CumSanctoViolinoI = {
     f'8 e f d h8. g'16 g8.\trill fis32 g %310
     g,8 fis g e' c8. c,16 c8.\trill h32 c
     a'8 gis a f' d8. h,16 h8.\trill a32 h
-    g'8 f g e' c8. a,16 a8.\trill g32 a
+    g'8 fis g e' c8. a,16 a8.\trill g32 a
     f'8 e f d h8. gis'16 gis8.\trill f32 gis
     a8 gis a h c8. a,16 a8.\trill g32 a %315
     f'8 e f a d8. h,16 h8.\trill a32 h
@@ -404,7 +404,7 @@ CumSanctoViolinoI = {
     fis8 e fis fis' d8. h16 h8.\trill a32 h
     g8 fis g g' e8. c16 c8.\trill h32 c %345
     a8 fis' e fis dis8. fis,16 fis8.\trill e32 fis
-    h8 h' a h g8. e,16 e8.\trill d32 e
+    h8 h' a h g8. e,16 e8.\trill d!32 e
     c8 c' d e a,8. g'16 g8.\trill fis32 g
     fis8 a g a fis8. c,16 c8.\trill h32 c
     h8 d' e f g8. h,16 h8.\trill a32 h %350
@@ -439,7 +439,7 @@ CumSanctoViolinoI = {
     f8 e f a d,8. h'16 h8.\trill a32 h
     gis8 h c d e8. gis,16 gis8.\trill fis32 gis %380
     a8 e c e a8. c16 c8.\trill h32 c
-    a8 g a f d8. d'16 d8.\trill c32 d
+    a8 g a f! d8. d'16 d8.\trill c32 d
     h8 a h g e8. e'16 e8.\trill d32 e
     c8 h c a f8. f'16 f8.\trill e32 f
     d8 c d h g8. g'16 g8.\trill f32 g %385
@@ -459,7 +459,7 @@ CumSanctoViolinoI = {
     h8 a h g c8. e,16 e8.\trill d32 e
     c'8 h c a d8. f,16 f8.\trill e32 f %400
     d'8 c d h e8. g,16 g8.\trill f32 g
-    e'8 d e c a8. f'16 f8.\trill e32 f
+    e'8 d e g, a8. f'16 f8.\trill e32 f
     d8 c d f, g8. e'16 e8.\trill d32 e
     c8 h c e, f8. d'16 d8.\trill c32 d
     h8 a h d, e8. c'16 c8.\trill h32 c %405
@@ -479,7 +479,7 @@ CumSanctoViolinoI = {
     a8.\ff f,16 f8.\trill e32 f e8. g'16 g8.\trill fis32 g
     fis8. a,16 a8.\trill g32 a h8. f'16 f8.\trill e32 f %420
     e8. c'16 c8.\trill h32 c d,8 c' g, h'
-    c,4 r <g' h, d, g,> r
+    c,4 r <g' h, d,> r
     <e g, g,> r <h' d, g,> r
     <c e, g,> r r2\fermata \bar "|." %424 finis
   }

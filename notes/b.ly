@@ -447,3 +447,150 @@ QuoniamBassi = {
     g'4 g, r2\fermata \bar "||" %285 finis
   }
 }
+
+CumSanctoBassi = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #286
+    g'2\fE e4 c
+    a'4. a8 f4 d
+    h'2 g4 e
+    c'2 a4 f
+    d e8 f g4 f %290
+    e c r g'~
+    g e r a~
+    a fis r h~
+    h g r c~
+    c a fis2 %295
+    g4 h,( c) a'
+    r c, d h'
+    r d, e c'
+    r e, f d'
+    h2 g %300
+    \clef "treble_8" c4 e,( g) e'
+    r g, a fis'
+    r a, h g'
+    r h, c a
+    fis2 d %305
+    \clef bass g e4 c
+    a'4. a8 f4 d
+    h'2 g4 e
+    c'2 a4 f
+    d e8 f g4 f %310
+    e c r a'
+    f d r g
+    e c r f
+    d h e d
+    c gis a f' %315
+    r a, h g'!
+    r h, c a'
+    r c, d h'
+    gis2 e
+    r r4 d~ %320
+    d b r e~
+    e c r f~
+    f d r g~
+    g e cis h!8 cis
+    d2. cis8 d %325
+    e2. d8 e
+    f2 f,
+    \clef "treble_8" d''4. d8 b4 g
+    e'2 c4 a
+    f'2 d4 b %330
+    g a8 b c4 b
+    a f \clef bass r b
+    g e r a
+    f d r g
+    e c r f~ %335
+    f e d2
+    c \clef "treble_8" r4 e
+    f d' r f,
+    g e' r g,
+    a f'8 e d c h a %340
+    gis4 gis gis2\trill
+    \clef bass a g4 e
+    c'4. c8 a4 fis
+    d'2 h4 g
+    e'2 c4 a %345
+    fis g8 a h4 a
+    g fis e fis8 gis
+    a4 g fis e
+    d2. e8 fis
+    g4 f e d %350
+    c2. d8 e
+    f4 e d e8 f
+    g4 f e f8 g
+    a4 g f g8 a
+    b4 b, d g %355
+    r c, e a
+    r d, f b
+    r e, g c
+    r f, a d
+    h!2 g %360
+    r4 c2 a4
+    r b2 g4
+    r a2 f4
+    r g2 e4
+    r f2 d4 %365
+    g2. e4
+    a2. f4
+    d e8 f g4 f
+    e c r a'
+    f d r h'! %370
+    g e r c'
+    a f r d'
+    h! g r2
+    c a
+    f d %375
+    h' g
+    e c
+    a' f
+    d h
+    e4 d c h %380
+    a2 \clef "treble_8" a'
+    f4 d h'4. h8
+    \clef bass e,2 c4 a
+    f'4. f8 d4 h
+    g'2 e4 c %385
+    a'2 f4 d
+    b'4. a8 g f e d
+    cis4 d g2~
+    g4 f e2
+    d4 r g e %390
+    c r f d
+    b r e c
+    a r d h
+    g e' c a
+    f' d h g' %395
+    e c a' f~
+    f d2 e8 f
+    g1~-\tastoE
+    g~
+    g~ %400
+    g~
+    g~
+    g~
+    g~
+    g~ %405
+    g~
+    g~
+    g~
+    g~
+    g~ %410
+    \once \tieDashed g~
+    g4 c g g,
+    c c' r2
+    r4 c\p c c
+    c2 c, %415
+    r4 c'\cresc c c
+    c2 c,
+    r4 c'\f c c
+    f,,8\ff f' f f a, a' a a
+    d, d' d d g,, g' g g %420
+    c g e c g'4 g,
+    c r h' r
+    c r g r
+    c, r r2\fermata \bar "|." %424 finis
+  }
+}

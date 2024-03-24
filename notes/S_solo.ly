@@ -216,7 +216,7 @@ CumSanctoSopranoSolo = {
     \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
       \set Score.currentBarNumber = #286
     R1*127 %412
-    r4 c8[(\p e)] e([ g)] g([ c)]
+    r4 c8[(\pE e)] e([ g)] g([ c)]
     c2 g
     r4 e8([\cresc g)] g([ c)] c([ e)] %415
     e4. c8 c2
@@ -225,9 +225,9 @@ CumSanctoSopranoSolo = {
     a'2\ff g
     fis f %420
     e4 e d2
-    c4 r g'2
-    e4 r d2
-    c4 r r2\fermata \bar "|." %424 finis
+    c4 r r2
+    R1
+    R\fermata \bar "|." %424 finis
   }
 }
 
@@ -241,9 +241,7 @@ CumSanctoSopranoSoloLyrics = \lyricmode {
   Je -- su
   Chri -- ste, %420
   Je -- su Chri --
-  ste, a --
-  men, a --
-  men. %424 finis
+  ste. %422 finis
 }
 
 AgnusSopranoSolo = {

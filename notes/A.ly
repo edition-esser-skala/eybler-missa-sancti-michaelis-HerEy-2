@@ -462,7 +462,7 @@ CumSanctoAlto = {
     cis,2 e~
     e4 d f2~ %325
     f4 e g2
-    c, r4 f~
+    c,! r4 f~
     f d r g~
     g e r a~
     a f r b~ %330
@@ -532,7 +532,7 @@ CumSanctoAlto = {
     a1
     g2 r
     h g4 e
-    c'4.^\critnote c8 a4 f %400
+    c'4. c8 a4 f %400
     d' d8 d h4 g
     e' c r c(
     d) h r h(
@@ -546,7 +546,7 @@ CumSanctoAlto = {
     r f( a) a
     g g g2
     e4 r r2
-    r4^\critnote e\p e e
+    r4 e\p e e
     e4. g8 g2 %415
     r4 g\cresc g g
     g4. c8 c2
@@ -554,9 +554,9 @@ CumSanctoAlto = {
     c2\ff cis
     d h %420
     c!4 e, g2
+    e4 r g2
     g4 r g2
-    g4 r g2
-    e4 r r2 \bar "|." %424 finis
+    e4 r r2\fermata \bar "|." %424 finis
   }
 }
 
@@ -674,11 +674,11 @@ CumSanctoAltoLyrics = \lyricmode {
   a -- men,
   a -- men, a --
   men,
-  \xE cum San -- cto
+  cum San -- cto
   Spi -- ri -- tu, %415
   cum San -- cto
   Spi -- ri -- tu
-  in glo -- ri -- a \x
+  in glo -- ri -- a
   De -- i
   Pa -- tris, %420
   a -- men, a --

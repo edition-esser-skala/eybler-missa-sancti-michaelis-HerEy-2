@@ -489,7 +489,7 @@ CumSanctoTenore = {
     r e'( c) a
     r fis'( d) h
     r g'( e) c %345
-    r2 \once \tieDashed h~
+    r2 h~
     h4 cis8[ dis] e4 d
     c h a2~
     a4 h8[ cis] d4 c
@@ -541,7 +541,7 @@ CumSanctoTenore = {
     c d8[( e] f4 e)
     d2 h
     g4 e c'4. c8
-    a4 f d'^\critnote d8 d %400
+    a4 f d' d8 d %400
     h4 g e'2
     c4 e( c) a
     r d( h) g
@@ -680,7 +680,7 @@ CumSanctoTenoreLyrics = \lyricmode {
   men, a --
   men, a --
   _ _ _ %410
-  men, a --
+  _ _
   men, a --
   men,
   cum San -- cto

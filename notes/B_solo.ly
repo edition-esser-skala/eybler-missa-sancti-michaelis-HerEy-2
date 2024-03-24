@@ -223,9 +223,9 @@ CumSanctoBassoSolo = {
     f,2\ff a
     d, g %420
     c,4 c' g2
-    c,4 r h'2
-    c4 r g2
-    c,4 r r2\fermata \bar "|." %424 finis
+    c,4 r r2
+    R1
+    R\fermata \bar "|." %424 finis
   }
 }
 
@@ -239,9 +239,7 @@ CumSanctoBassoSoloLyrics = \lyricmode {
   Je -- su
   Chri -- ste, %420
   Je -- su Chri --
-  ste, a --
-  men, a --
-  men. %424 finis
+  ste. %422 finis
 }
 
 AgnusBassoSolo = {

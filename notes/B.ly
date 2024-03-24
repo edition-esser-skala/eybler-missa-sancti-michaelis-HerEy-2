@@ -441,7 +441,7 @@ CumSanctoBasso = {
     g e r a~
     a fis r h~
     h g r c~
-    c a fis2 %295
+    c a fis2\trill %295
     g4 h,( c) a'
     r c,( d) h'
     r d,( e) c'
@@ -457,7 +457,7 @@ CumSanctoBasso = {
     f) d r g(
     e) c r f(
     d) h e( d)
-    c gis'( a) f %315
+    c gis( a) f' %315
     r a,( h) g'
     r h,( c) a'
     r c,( d) h'
@@ -475,7 +475,7 @@ CumSanctoBasso = {
     g) e r a(
     f) d r g(
     e) c r f~ %335
-    f e d2
+    f e d2\trill
     c r
     R1*4 %341
     a'2 g!4 e
@@ -509,7 +509,7 @@ CumSanctoBasso = {
     f) d r h'!( %370
     g) e r c'(
     a) f r d'(
-    h) g r2
+    h!) g r2
     c a
     f d %375
     h' g
@@ -525,7 +525,7 @@ CumSanctoBasso = {
     a'2 f4 d
     b'4 b8 a g([ f]) e([ d])
     cis4 d g2~
-    g4 f e2
+    g4 f e2\trill
     d4 r g( e) %390
     c r f( d)
     b r e( c)
@@ -658,7 +658,7 @@ CumSanctoBassoLyrics = \lyricmode {
   De -- i, in
   glo -- ri -- a De -- i __
   Pa -- tris, a --
-  _ _
+  men, a --
   men, a -- %390
   men, a --
   men, a --
@@ -671,11 +671,11 @@ CumSanctoBassoLyrics = \lyricmode {
   cum San -- cto
   Spi -- ri -- tu in %400
   glo -- ri -- a De -- i
-  Pa -- tris,
+  Pa -- _
+  _ _
+  _ tris,
+  a -- men, %405
   a -- _
-  _ _
-  _ _ %405
-  _ _
   _ _
   _ _
   _ _
