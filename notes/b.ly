@@ -594,3 +594,148 @@ CumSanctoBassi = {
     c, r r2\fermata \bar "|." %424 finis
   }
 }
+
+CredoBassi = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoCredo
+    c4\f c' g e
+    c g' e c
+    g h d g
+    h g d h
+    g g' d h %5
+    g d' h g
+    c e g c
+    e c g e
+    f a f c
+    a c a f %10
+    c' e g f
+    e g e c
+    h d g h
+    g, h d g
+    c, c' e c %15
+    g c e, g
+    c, e g c
+    h, d gis h
+    a, c e a
+    c a e c %20
+    h d g! h
+    a, c fis a
+    g, h d g
+    g d' h g
+    e g c e, %25
+    d g h d,
+    c e g c,
+    h d g h
+    a a, g g'
+    c, a d d, %30
+    g g' h g
+    d g h, d
+    g, h d g
+    fis a d, fis
+    g, h d g %35
+    h, d h g
+    c e g c
+    d, fis a d
+    g,, g' h g
+    d g h, d %40
+    g, h d g
+    f,! h d f
+    e g c g
+    e g e c
+    h d g h %45
+    d h g h
+    c, c' e c
+    g c e, g
+    c, e g c
+    a, c f a %50
+    h, h' d h
+    f h d, f
+    h, d f h
+    gis, h e gis
+    a, a' c a %55
+    e a c, e
+    a, c e a
+    g,! cis e a
+    f, a d f
+    d f h d %60
+    e c a c
+    e d e e,
+    a, a' c a
+    e a c, e
+    a, e'' c a %65
+    e h' gis e
+    a, c e a
+    c e c a
+    gis h gis e
+    a e c a %70
+    e e' gis h
+    e h gis e
+    a, c e a
+    g,! h d g
+    c, e g c %75
+    e, g c e
+    h, d g h
+    c g e c
+    g g' h g
+    d g h, d %80
+    g, h d g
+    f, h d f
+    e c' g e
+    c g' e b
+    a c f a %85
+    e g e c
+    f a f c
+    a f' c a
+    f a c f
+    a, c f a %90
+    b, b' f d
+    b d g b
+    c a f a
+    c b? c c,
+    f, f' a f %95
+    c f a, c
+    f, a c f
+    e g cis e
+    d, f a d
+    f d a f %100
+    e g c! e
+    d, f h d
+    c, e g c
+    e c g e
+    a, a' c a %105
+    g, g' h g
+    f, f' a f
+    e, e' g e
+    d g e g
+    h, g' c, g' %110
+    g, h d g
+    h g d h
+    g c e g
+    c g e c
+    g h d g %115
+    h g d h
+    g c e g
+    c g e c
+    g g' h d
+    f d h f %120
+    e g e c
+    h h' b, b'
+    a, f' c a
+    g g' fis, fis'
+    g, c e c %125
+    g h d g
+    c, c' a a,
+    d d' h h,
+    e e' c c,
+    f f' d d, %130
+    g f' d h
+    g d h g
+    c c' a, a'
+    f, f' g, g'
+    c,2 r %135
+    r r4 r8 b\f
+    b1~
+    b\fermata \bar "||" %138 finis
+  }
+}

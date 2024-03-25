@@ -684,7 +684,7 @@ CredoSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \autoBeamOff \tempoCredo
-    \mvTr g'2\f^\tutti a4 h
+    \mvTr g'2\f^\tuttiE a4 h
     c2 e
     d1
     g,2 r
@@ -729,7 +729,7 @@ CredoSoprano = {
     c g
     c e
     g1~ %45
-    g2^\critnote f
+    g2 f
     e r
     R1
     e
@@ -845,9 +845,9 @@ CredoSopranoLyrics = \lyricmode {
   do,
   cre --
   do fa --
-  cto -- rem
-  coe -- %30
-  li.
+  cto -- rem,
+  cre -- %30
+  do.
 
   Et in
   u -- num

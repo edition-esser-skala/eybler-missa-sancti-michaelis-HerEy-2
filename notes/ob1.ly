@@ -397,18 +397,18 @@ CredoOboeI = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \tempoCredo
-    g'2 a4 h
+    g'2\f a4 h
     c2 e
     d1
-    g,2 r
+    \pao g,2 r
     g h4 c %5
     d2 f
     e1
-    c2 c
-    a c
-    f a %10
-    g h,
-    c e
+    \pa c2 c \pd
+    a1
+    a' %10
+    g2 h,
+    \pao c e
     g,1~
     g2 f
     e r %15
@@ -419,7 +419,7 @@ CredoOboeI = {
     c %20
     d
     c
-    \once \tieDashed h~
+    h
     h
     c %25
     h
@@ -427,7 +427,7 @@ CredoOboeI = {
     d
     c2 h
     a1 %30
-    g2 r
+    \pao g2 r
     R1
     d'
     d
@@ -445,7 +445,7 @@ CredoOboeI = {
     g2 f
     e e,
     g c
-    e1~
+    \once \tieDashed e1~
     e2 f %50
     e d
     d1
@@ -459,14 +459,14 @@ CredoOboeI = {
     g4 f e d %60
     c1
     h
-    a2 r
+    \pao a2 r
     R1
-    a %65
+    \pao a %65
     h
-    a2 r
+    \pao a2 r
     R1
-    h
-    c %70
+    \pa h
+    c \pd %70
     h2 r
     R1
     c
@@ -491,15 +491,15 @@ CredoOboeI = {
     e!4 d c b
     a1
     g
-    f2 r %95
+    \pao f2 r %95
     R1
     a
     cis
     d2 r
     R1 %100
-    g,
+    \pao g,
     h
-    c2 r
+    c!2 r
     r g'~
     g f~ %105
     f e~
@@ -508,8 +508,8 @@ CredoOboeI = {
     h c
     d e %110
     d r
-    g1
-    g~
+    g g
+    g1~
     g~
     g2 g %115
     g g
@@ -527,13 +527,13 @@ CredoOboeI = {
     f1
     g
     a %130
-    h2 \once \tieDashed d~
+    h2 d~
     d f,
     e1
     d
-    c2 r %135
-    r r4 r8 es
-    \once \tieDashed es1~
+    \pao c2 r %135
+    r r4 r8 es\f
+    es1~
     es\fermata \bar "||" %138 finis
   }
 }

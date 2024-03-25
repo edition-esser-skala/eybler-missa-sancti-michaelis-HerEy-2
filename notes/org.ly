@@ -976,7 +976,7 @@ CredoOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 2/2 \tempoCredo
-    \mvTr c4\fE c' g e
+    \mvTr c4\f-\tutti c' g e
     c g' e c
     g h d g
     h g d h
@@ -1069,7 +1069,7 @@ CredoOrgano = {
     b, b' f d
     b d g b
     c a f a
-    c b c c,
+    c b? c c,
     f, f' a f %95
     c f a, c
     f, a c f
@@ -1159,7 +1159,7 @@ CredoBassFigures = \figuremode {
   r
   r %40
   r
-  <2>
+  <\t>
   <6>
   r
   <6> %45
@@ -1169,15 +1169,15 @@ CredoBassFigures = \figuremode {
   r
   <5>2 <8> %50
   <5 4> <6>
+  <\l>1 \bassFigureExtendersOn
+  q2. q4 \bassFigureExtendersOff
+  <6>1
+  <4>2 <6> \bassFigureExtendersOn %55
+  q2. q4 \bassFigureExtendersOff
   r1
-  r
-  <6>
-  <4>2 <6> %55
-  r1
-  r
   <4\+>
   <6>
-  r2 <5> %60
+  r2 <\fivehat> %60
   <6 4>1
   <[5] _+>
   r
@@ -1201,20 +1201,20 @@ CredoBassFigures = \figuremode {
   r
   <4>
   <6>
-  r
-  <6> %85
-  q2 <5->
+  r4 <\l>2 \once \bassFigureExtendersOn q4
+  <6>2 q %85
+  q <5->
   r1
-  r
-  <7->
-  r %90
-  r
-  r2 <8 _->
+  <\l>2. \bassFigureExtendersOn q4
+  <7->1
+  q2. q4 \bassFigureExtendersOff %90
+  r1
+  r2 <8 5>
   <6 4>1
   <5 [3]>
   r %95
-  r
-  r
+  <\l>2. \once \bassFigureExtendersOn q4
+  r1
   <6\\>
   r
   r %100
@@ -1226,35 +1226,35 @@ CredoBassFigures = \figuremode {
   <7> <6 4>
   <7> <6 4>
   <7> <6 4>
-  <6 4 3> <[6]>
-  <6 5>1 %110
+  <6 4 3> <6>
+  <[6]>1 %110
   r
   r
   <6 4>
   r
   <5 [3]> %115
+  <\l>2. \once \bassFigureExtendersOn q4
+  <6 4>1
   r
-  <6 4>
-  r
-  r
-  r %120
-  <6>
+  <[5 3]>
+  <\t \t> %120
+  <6>1
   q2 <4>
   <6>1
   <6 4>2 <6\\ 5>
   <6 4>1 %125
   <[7] 5>
-  r
+  r1
   r
   r
   r %130
   r
   r
   r
-  <[6 5]>
+  \bo <[6 5]>
   r %135
-  r2.. \bo <[6 4- _-]>8
-  \bc <[\t \t \t]>1
+  r2.. <4- _->8
+  \bc <[\t \t]>1
   r %138 finis
 }
 

@@ -52,8 +52,8 @@ KyrieTenoreLyrics = \lyricmode {
   e.
 
   E -- lei -- son, e -- lei -- son, %19
-  e -- lei -- son, \xE Chri -- %20
-  ste \x e -- lei -- son.
+  e -- lei -- son, Chri -- %20
+  ste e -- lei -- son.
   Ky -- ri -- e,
   Ky -- ri -- e
 
@@ -700,7 +700,7 @@ CredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/2 \autoBeamOff \tempoCredo
-    \mvTr c2\f^\tutti c4 c
+    \mvTr c2\f^\tuttiE c4 c
     c2 c
     h1
     h2 r
@@ -861,9 +861,9 @@ CredoTenoreLyrics = \lyricmode {
   do,
   cre --
   do fa --
-  cto -- rem
-  coe -- %30
-  li.
+  cto -- rem,
+  cre -- %30
+  do.
 
   Et in
   u -- num
@@ -952,11 +952,11 @@ CredoTenoreLyrics = \lyricmode {
   no --
   stram sa --
   lu -- tem
-  \xE de %120
+  de %120
   coe --
   lis, de
   coe --
-  lis \x de --
+  lis de --
   scen -- %125
   _
   dit. %127 finis

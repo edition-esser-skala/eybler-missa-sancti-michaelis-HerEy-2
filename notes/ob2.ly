@@ -383,7 +383,7 @@ CredoOboeII = {
     f' %10
     e2 d
     c g
-    d1~
+    \once \tieDashed d1~
     d
     c2 r %15
     R1
@@ -393,7 +393,7 @@ CredoOboeII = {
     a %20
     d,
     fis
-    \once \tieDashed g~
+    g
     g
     g %25
     g
@@ -419,11 +419,11 @@ CredoOboeII = {
     h2 d
     c c,
     e g
-    c1
+    c1~
     c %50
     h
     h
-    h
+    h~
     h
     a %55
     a2 r
@@ -453,7 +453,7 @@ CredoOboeII = {
     R1 %80
     d,
     d
-    e2 c'~
+    e2 \once \tieDashed c'~
     c c
     c a %85
     g1
@@ -461,8 +461,8 @@ CredoOboeII = {
     a2 r
     c1~
     c %90
-    b?
-    b?2 g
+    b~
+    b2 g
     f1
     e
     f2 r %95
@@ -478,7 +478,7 @@ CredoOboeII = {
     c' %105
     h
     a
-    g
+    g~
     g2 g
     g g %110
     g r
@@ -489,7 +489,7 @@ CredoOboeII = {
     g g
     g1~
     g
-    g2 \once \tieDashed g~
+    g2 g~
     g g %120
     g1~
     g2 g
@@ -506,7 +506,7 @@ CredoOboeII = {
     c1~
     c2 h
     c r %135
-    r r4 r8 g
+    r r4 r8 g\f
     g1~
     g\fermata \bar "||" %138 finis
   }

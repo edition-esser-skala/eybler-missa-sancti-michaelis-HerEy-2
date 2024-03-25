@@ -242,7 +242,7 @@ CredoClarinoI = {
     d' r
     e c4. c8
     c2 c
-    \once \tieDashed c1~
+    c1~
     c %10
     c2 d
     e r
@@ -277,16 +277,16 @@ CredoClarinoI = {
     e2 e
     e \pd r
     R1*9 %72
-    c'1^\critnote
+    c'1
     d
     e2 r %75
     r c
-    d^\critnote d
+    d d
     e1
     d2 r
     R1*3 %82
     r2 c4. c8
-    c2^\critnote c
+    c2 c
     c r %85
     R1*23 %108
     r2 c
@@ -299,9 +299,9 @@ CredoClarinoI = {
     R
     c
     e
-    d
-    d %120
-    c2 r
+    d2 d~
+    d d %120
+    c r
     r c
     c1~
     c
@@ -315,7 +315,7 @@ CredoClarinoI = {
     d
     c2 r %135
     R1
-    b1~
+    b1~\f
     b\fermata \bar "||" %138 finis
   }
 }

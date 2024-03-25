@@ -700,7 +700,7 @@ CredoBasso = {
   \relative c {
     \clef bass
     \key c \major \time 2/2 \autoBeamOff \tempoCredo
-    \mvTr c2\f^\tutti c4 c
+    \mvTr c2\f^\tuttiE c4 c
     e2 c
     g'1
     g,2 r
@@ -860,9 +860,9 @@ CredoBassoLyrics = \lyricmode {
   do,
   cre --
   do fa --
-  cto -- rem
-  coe -- %30
-  li.
+  cto -- rem,
+  cre -- %30
+  do.
 
   Et in
   u -- num
@@ -939,10 +939,10 @@ CredoBassoLyrics = \lyricmode {
   scen -- %105
   dit, de --
   scen --
-  dit \xE de
+  dit de
   coe --
   lis, de -- %110
-  scen -- dit, \x
+  scen -- dit,
 
   pro -- pter %114
   nos %115

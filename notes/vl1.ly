@@ -522,7 +522,7 @@ CredoViolinoI = {
     g8 d d d d4 h'8 g
     g d d h h g g d
     h d d d d4 h'8 d
-    d c a fis fis a a d
+    d a a fis fis a a d
     d, h' h h h4 h8 c %35
     d h h g g h h d
     e g g g g4 e8 c
@@ -539,7 +539,7 @@ CredoViolinoI = {
     c e e g g c c e
     e e, e e e4 e'8 d
     c a a c c f f e %50
-    e f, f f f4 d'8 c
+    e f, f f f4 d'8 h
     h f f d d f h d
     d d, d d d4 d'8 h
     h gis gis h h e e d
@@ -568,13 +568,13 @@ CredoViolinoI = {
     f d' d d d4 d,8 f
     e g g c c g g e
     d g, g g g4 h,8 d
-    d h h d g d d g %80
+    d h h g' g d d h' %80
     h g g g g4 h,8 d
     d g g h h d d h
     c g g g g4 c,8 e
     e g g c c e e g
     c, a' a a a4 f8 d %85
-    c b' b b g e e b
+    c b' b g g e e b
     a c c c c4 a,8 c
     c f f a a c c es
     es es, es es es4 es'8 c
@@ -624,7 +624,7 @@ CredoViolinoI = {
     e g g g c e, e e
     d c' c c g,4 h'
     c,2 r %135
-    r r4 r8 <des es,>
+    r r4 r8 <des es,>\f
     q1~
     q\fermata \bar "||" %138 finis
   }

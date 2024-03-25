@@ -299,9 +299,9 @@ CredoClarinoII = {
     R
     e
     c'
-    g
-    g %120
-    c,2 r
+    g2 g~
+    g g %120
+    c, r
     r c
     c1~
     c
@@ -315,7 +315,7 @@ CredoClarinoII = {
     c2 g
     e r %135
     R1
-    g~
+    g~\f
     g\fermata \bar "||" %138 finis
   }
 }

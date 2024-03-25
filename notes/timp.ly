@@ -199,8 +199,8 @@ CredoTimpani = {
     g r
     r c4. c8
     c2 c
-    c1\startTrillSpan
-    c %10
+    c1~\startTrillSpan
+    c~ %10
     c2\stopTrillSpan r
     R1*15 %26
     c4 c8 c c4 c
@@ -217,7 +217,7 @@ CredoTimpani = {
     g
     c2\stopTrillSpan r
     R1*26 %73
-    g1
+    g1\trill
     c2 r %75
     r c
     g g
@@ -234,12 +234,12 @@ CredoTimpani = {
     R1*3
     r2 g4. g8 %115
     g2 g
-    g1\startTrillSpan
+    g1~\startTrillSpan
     g
-    g2 r\stopTrillSpan
+    g2\stopTrillSpan r
     R1*2 %121
     r2 c
-    c1\startTrillSpan
+    c1~\startTrillSpan
     c
     g2\stopTrillSpan g4. g8 %125
     g2 g

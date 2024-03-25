@@ -691,7 +691,7 @@ CredoAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \autoBeamOff \tempoCredo
-    \mvTr e2\f^\tutti e4 e
+    \mvTr e2\f^\tuttiE e4 e
     g2 g
     g1
     g2 r
@@ -701,7 +701,7 @@ CredoAlto = {
     e2 g
     f1
     f %10
-    e2( g)
+    e2( f)
     g e
     d1
     h
@@ -723,7 +723,7 @@ CredoAlto = {
     g( fis) %30
     g r
     R1
-    g2^\critnote g
+    g2 g
     a a
     d,2. d4 %35
     d2 d(
@@ -852,9 +852,9 @@ CredoAltoLyrics = \lyricmode {
   do,
   cre --
   do fa --
-  cto -- rem
-  coe -- %30
-  li.
+  cto -- rem,
+  cre -- %30
+  do.
 
   Et in
   u -- num

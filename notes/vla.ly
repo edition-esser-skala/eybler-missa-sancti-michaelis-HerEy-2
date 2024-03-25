@@ -598,7 +598,7 @@ CredoViola = {
     b, b' f d
     b d g b
     c a f a
-    c b c c,
+    c b? c c,
     f, f' a f %95
     c f a, c
     f, a c f
@@ -640,7 +640,7 @@ CredoViola = {
     c g a e
     f d g g,
     c2 r %135
-    r r4 r8 <des es,>
+    r r4 r8 <des es,>\f
     q1~
     q\fermata \bar "||" %138 finis
   }
