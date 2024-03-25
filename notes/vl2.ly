@@ -637,46 +637,46 @@ EtIncarnatusViolinoII = {
     r8 \mvTr c\pE-\pizz r as r g
     r as as r r4 %140
     r8 c c r r c-\arco
-    \once \slurDashed c8.( b16 as8) r r4
+    c8. b16 as8 r r4
     r8 g g g g g
-    r as as( b) c16( des es e)
+    r as as([ b)] c16( des es e)
     f8 r des r r b %145
     as4( g) r
-    r8 b b r b r
+    r8 b( b) r b r
     r b b r r4
-    r8 b b r b r
+    r8 b( b) r b r
     r b b r r4 %150
     r8 as-! c-! es-! as-! es-!
     r as,-! as-! c-! f-! as-!
     as,2\> g8\! es'
     d16( c b as) g8 r as r
-    g r r4 \once \slurDashed d'8.(\> f16 %155
-    es8)\! r r4 \once \slurDashed d8.(\> f16
+    g r r4  d'8.(\> f16 %155
+    es8)\! r r4 d8.(\> f16
     es8)\! r r4 r8 b
     b8.( as16) as8 r r as16( c)
     b4. r8 r4
     r8 es4\p es es8~ %160
-    es\cresc es4 es es8
+    es es4\cresc es es8
     e[\f cis] h r h\p r
-    e16 e e e e e e e e e e e
-    \key c \major <gis h>\f q q q q q q q q q q q
-    q q q <a c> q q q q q q q q %165
-    c c c c h h h h a a a a
-    <fis a> q q q gis gis gis gis gis gis gis gis
-    gis gis gis gis gis gis a a h h gis gis
-    a a a a a a a a a a a a
-    a a a a a a a a a a a a %170
-    g g g g g g g g g g g g
-    g c c c c c c c c c c c
-    c\fz c c c h h h h a\p a a a
-    f f f f f f f f fis fis fis fis
-    e e e e e e e e e e e e %175
-    e\decresc e e e e e e e e e e e
-    f f f f f f f f d! d d d
+    \key c \major e2.:16
+    <gis h>:\f
+    q16 q q <a c> q2: %165
+    c4: h: a:
+    <fis a>: gis2:
+    gis4: gis16 gis a a h h gis gis
+    a2.:
+    a: %170
+    g:
+    g16 c c c c2:
+    c4:\fz h: a:\p
+    f2: fis4:
+    e2.: %175
+    e2.\decresc
+    f2: d!4:
     c8\pp c c c c c
     c4 c c~
-    c b8 a b4 %180
-    a2.\fermata \bar "||" %181 finis
+    c b8 a! b4 %180
+    a!2.\fermata \bar "||" %181 finis
   }
 }
 

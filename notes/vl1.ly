@@ -636,16 +636,16 @@ EtIncarnatusViolinoI = {
     \key as \major \time 3/4 \tempoEtIncarnatus
       \set Score.currentBarNumber = #139
     r8 \mvTr es\pE-\pizz r c r b
-    r as-\critnote as r r4 %140
+    r as as r r4 %140
     r8 es' es r r es-\arco
-    \once \slurDashed es8.( des16 c8) r r4
+    es8. des16 c8 r r4
     r8 b b b b b
-    r c c( g) as( as')
+    r c c([ g)] as( as')
     as r f r r des %145
-    \once \slurDashed c4( b) r
-    r8 \once \slurDashed es( d) r d r
+    c4( b) r
+    r8 es( d) r d r
     r es es r r4
-    r8 \once \slurDashed es( d) r f r
+    r8 es( d) r f r
     r es es r r4 %150
     r8 c-! es-! as-! c-! as-!
     r as,-! c-! f-! as-! f-!
@@ -654,28 +654,28 @@ EtIncarnatusViolinoI = {
     es r r4 as(\> %155
     g8)\! r r4 as(\>
     g8)\! r r4 r8 es
-    \slurDashed d8.( c16) c8 r r f16( es)
-    es8.( d16) \slurSolid d8 r r4
-    r8 ges4\p ges \once \tieDashed ges8~ %160
-    ges\cresc ges4 ges ges8
-    gis8.\f fis16 e8 r dis\p r
-    e16 e e e e e e e e e e e
-    \key c \major <d' f>\f q q q q q q q q q q q
-    q q q <c e> q q q q q q q q %165
-    e e e e d d d d c c c c
-    c c c c h h h h h h h h
-    h h h h h h a a gis gis h h
-    c c c c c c c c c c c c
-    f f f f f f f f d d c c %170
-    h h h h h h h h h h h h
-    c e e e e e e e e e e e
-    e\fz e e e d d d d c\p c c c
-    c c c c b b b b a a a a
-    a a a a gis gis gis gis gis gis gis gis %175
-    g\decresc g g g g g g g g g g g
-    f f f f f f f f f f f f
+    d8.( c16) c8 r r f16( es)
+    es8.( d16) d8 r r4
+    r8 ges4\p ges ges8~ %160
+    ges ges4\cresc ges ges8
+    as[\f ges] fes r es\p r
+    \key c \major e2.:16
+    <d' f>:\f
+    q16 q q <c e> q2: %165
+    e4: d: c:
+    c: h2:
+    h4: h16 h a a gis gis h h
+    c2.:
+    f2: d16 d c c %170
+    h2.:
+    c16 e e e e2:
+    e4:\fz d: c:\p
+    c: b: a:
+    a: gis: gis: %175
+    g2.:\decresc
+    f:
     f8\pp f f f e e
-    f4-! f( es)
+    f4 f( es)
     des2 des4 %180
     c2.\fermata \bar "||" %181 finis
   }

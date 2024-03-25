@@ -978,35 +978,36 @@ EtIncarnatusTenore = {
     b2 b4
     b~ b16[ es] g([ d)] f([ es)] d([ c)]
     b2.~
-    b4~ b16[ as] g([ as)] b([ c)] d([ es)] %150
+    b4~ b16[ as] g([\< as)] b([ c)] d([ es)] %150
     es8.([\fz c16)] as4 r8 c
-    c8.([\fzE as16)] f8 r r as'16([ f)]
-    d2(\ff es16[\pE d)] c([ b)]
+    c8.([\fz as16)] f8 r r as'16([\ff f)]
+    d2(\> es16[\! d)] c([ b)]
     b([ as)] g([ f)] es8([ g] d16[ f)] f([ as)]
     g4 r f'16([ d)] b([ as)] %155
     g8. b16 es8 g f16([ d)] b as
-    g8.([ \grace { as32[ g f g] } as16)] b8 r g b
+    % g8.([ as16)] b8 r g^\dolceE b % for MIDI
+    \after 8 _\turn g8.([ as16)] b8 r g^\dolceE b
     b8.([ as16)] as8 as16([ c)] c([ b)] as([ g)]
     \appoggiatura { f32[ g as] } g8. f16 f8 r d'8.([\p es16)]
     es2 es4 %160
-    es2.\cresc
-    e16[\f h] cis([ a)] gis4( fis8.)\pE fis16
-    e4 r r
-    \key c \major r8 \mvTr gis4\f^\markup \remark "T tutti" gis8 gis gis
+    es2.\cresc \noBreak
+    e16[\f h] cis([ a)] gis4( fis8.)\trill fis16
+    \key c \major e!4 r r \noBreak
+    \set Staff.forceClef = ##t r8 \mvTr gis4\f^\markup \remark "T tutti" gis8 gis gis
     d'8. c16 c4 r8 c %165
     c4 h a
     dis e r
     r r r8 gis,
     e'4. c8 a e'
     f4 d r8 d %170
-    d4. h8 g f'
+    d4. h8 g! d'
     e4 c r
     f\fz f r8 e\p
     e4( d) c
     c h r %175
-    b2\decresc r4
-    as r h,!
-    c2\pp c4
+    b2 r4
+    as\decresc r h,!\pp
+    c2 c4
     c2 r4
     R2. %180
     R\fermata \bar "||" %181 finis

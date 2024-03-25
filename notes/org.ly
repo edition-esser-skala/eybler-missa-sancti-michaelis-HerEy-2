@@ -1268,7 +1268,7 @@ EtIncarnatusOrgano = {
     as'8 r r4 r8 as,
     es'4( as8) r r4
     des8 r des, r r4
-    c'8 r c, r as r
+    c'8 r c, r r as
     des r f r r b, %145
     es4 es, r
     r8 g'( f) r b, r
@@ -1277,18 +1277,18 @@ EtIncarnatusOrgano = {
     r es es r r4 %150
     as8 r as, r r4
     f'8 r f, r r4
-    \hairpinDashed h2\> c8\! g
+    h2 c8 g
     as[ as'] b! r b, r
-    es r r4 \slurDashed b(\> %155
-    es8)\! r r4 b(\>
-    es8)\! \slurSolid r r4 r8 g,
-    as4 as'8 r r \once \slurDashed as,16( a)
+    es r r4 b %155
+    es8 r r4 b
+    es8 r r4 r8 g,
+    as4 as'8 r r as,16 a
     b4 b'8 r r4
     r8 es des! ces b as %160
-    ges\crescE f es des! h a
+    ges f es des! h a \noBreak
     gis[\fE a] h8 r h\pE r
-    e e e e e e
-    \key c \major \mvTr e\f-\tutti e e e e e
+    \key c \major e e e e e e \noBreak
+    \mvTr e\f-\tutti-\acc e e e e e
     e e e e e e %165
     e e e e e e
     e e e e e e
@@ -1297,13 +1297,13 @@ EtIncarnatusOrgano = {
     d d d d d d %170
     g, g' g g g g
     c, c c c c c
-    gis\fzE gis' gis gis a\pE a
+    gis gis' gis gis a\p a
     d, d d d dis dis
     e e e e e e %175
-    c\decrescE c c c c c
+    c-\senzaOrg c c c c c
     des des c c h! h
-    c\ppE c c c c c
-    f,4 r f-\tastoE
+    c c c c c c
+    f,4 r f
     f2 f4 %180
     f2.\fermata \bar "||" %181 finis
   }
@@ -1315,13 +1315,13 @@ EtIncarnatusBassFigures = \figuremode {
   <\t \t \t>4 <6 4>2 %165
   <8 6 _+>4 <7 5 \t> <6 4>
   <9\\ 7\\ 6 4> <[8] _+>2
-  <4 2\+>8 <\t \t>4 <4 2>8 <7 _+> <\t \t>
+  <4 2\+>4 \once \bassFigureExtendersOn q8 <4 2> <7 _+> <\t \t>
   r2.
   r %170
   r
   r
-  <7 6 4>4 <\t 5 3> <3>
-  <9 7> <[8] 6-> <7 [_+]>
+  <7 6 4>4 <\t 5 3>8 <\t \t \t> <3> <\t>
+  <9 7>4 <[8] 6-> <7 [_+]>
   <6 4> <[5] _+>2 %175
   <7- 5!>2.
   <5- 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff

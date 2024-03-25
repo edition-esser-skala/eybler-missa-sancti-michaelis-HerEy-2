@@ -962,42 +962,43 @@ EtIncarnatusAlto = {
     as4. b8 c des %140
     es8.([ f32 g] as8[ g)] f es
     es8.([ des16)] c8 r f16([ es)] c([ as)]
-    \afterGrace g8. { as32[ g f g] } b16 des8 r es16([ des)] b([ g)]
+    g8. b16 des8 r es16([ des)] b([ g)]
     \afterGrace as8. { b32[ as g as] } c16 es8 r r as
     as4~ as16[ e g f] es[( des)] c([ b)] %145
     as8.[( \grace { b32[ as g as] } b16]) g4 r
-    r8 es'8.([ d16)] f([ es)] d([ c)] b([ as)]
+    r8 es'~ es16[ d16] f([ es)] d([ c)] b([ as)]
     g8. as16 b4 r
-    r8 es8.([ d16)] as'([ f)] d([ b)] c([ as)]
-    g8.[( \grace { as32[ g f g] } as16]) b4 r %150
+    r8 es es16([ d as' f)] d([ b)] c([ as)]
+    % g8.[( as16]) b4 r %150 for MIDI
+    \after 8 _\turn g8.[( as16]) b4 r %150
     r8 c es8.([\fz c16)] c8 r
-    r as c8.([\fz as16)] as8 f'
-    as2(\ff g16[\pE f)] es([ d)]
+    r as c8.([\fz as16)] as8 f'\ff
+    as2(\> g16[\! f)] es([ d)]
     d([ c)] b([ as)] g8( b4) d,8
     es4 r b'8 b %155
     g'8. es16 b8 b c16([ d)] es f
-    g8.([ es16]) b8 r g'16([ f)] es([ d)]
+    g8.([ es16]) b8 r g'16([^\dolce f)] es([ d)]
     d8.([ c16)] c8 c16([ as')] as([ g)] f([ es)]
     \appoggiatura { d32[ es f] } es8. d16 d8 r f8.([\p ges16)]
     ges2 ges4 %160
-    ges2.\cresc
-    gis16[\f e] cis[( fis)] e4( dis8.)\pE dis16
-    e4 r r
-    \clef treble \key c \major r8 \mvTr h'4\f^\markup \remark "A tutti" h8 h h
+    ges2.\cresc \noBreak
+    gis16[\f e] cis[( fis)] e4( dis8.)\trill dis16
+    \key c \major e!4 r r \noBreak
+    \clef treble r8 \mvTr h'4\f^\markup \remark "A tutti" h8 h h
     gis8. a16 a4 r8 a %165
     gis4 gis a
     a gis r
     r8 gis h a gis h
     a4 e r
     r8 a f d f a %170
-    g4 d r
+    g!4 d r
     r c' c
     c8..([\fz h32)] h4 r8 a\p
     f2 fis4
     e e r %175
-    e2\decresc r4
-    f r h,!
-    c2\pp c4
+    e2 r4
+    f\decresc r h,!\pp
+    c2 c4
     c2 r4
     R2. %180
     R\fermata \bar "||" %181 finis

@@ -543,8 +543,9 @@ EtIncarnatusOboeI = {
     \clef treble
     \key as \major \time 3/4 \tempoEtIncarnatus
       \set Score.currentBarNumber = #139
-    R2.*25 %163
-    \key c \major f'2.\f
+    R2.*24 %162
+    \key c \major R2. \noBreak
+    f'2.\f
     f8. e16 e4 r8 e %165
     e4 d c
     c h h

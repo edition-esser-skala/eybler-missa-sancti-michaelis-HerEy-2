@@ -739,3 +739,60 @@ CredoBassi = {
     b\fermata \bar "||" %138 finis
   }
 }
+
+EtIncarnatusBassi = {
+  \relative c {
+    \clef bass
+    \key as \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #139
+    \mvTr as8\pE-\pizz r c r es r
+    as r as, r r4 %140
+    as'8 r r4 r8 as,-\arco
+    es'4( as8) r r4
+    des8 r des, r r4
+    c'8 r c, r r as
+    des r f r r b, %145
+    es4 es, r
+    r8 g'( f) r b, r
+    r es es r r4
+    r8 g( f) r b, r
+    r es es r r4 %150
+    as8 r as, r r4
+    f'8 r f, r r4
+    h2\> c8\! g
+    as[ as'] b! r b, r
+    es r r4 b(\> %155
+    es8)\! r r4 b(\>
+    es8)\! r r4 r8 g,
+    as4 as'8 r r as,16( a)
+    b4 b'8 r r4
+    r8 es( des! ces b as) %160
+    ges(\cresc f es des! h a) \noBreak
+    gis[(\f a]) h8 r h\p r
+    \key c \major e e e e e e \noBreak
+    e\f e e e e e
+    e e e e e e %165
+    e e e e e e
+    e e e e e e
+    f e e e e e
+    a, a a a a a
+    d d d d d d %170
+    g, g' g g g g
+    c, c c c c c
+    gis\fz gis' gis gis a\p a
+    d, d d d dis dis
+    e e e e e e %175
+    c\decresc c c c c c
+    des des c c h! h
+    c\pp c c c c c
+    f,4 r << {
+      a!^\vlc
+      b4. c8( des es) %180
+      f2.\fermata
+    } \\ {
+      f,4_\bassi
+      f2 f4 %180
+      f2. \bar "||" %181 finis
+    } >>
+  }
+}

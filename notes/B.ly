@@ -971,26 +971,28 @@ EtIncarnatusBasso = {
     es4 as8 r r4
     des4.( b8) g([ des)]
     c4. es8 as c,
-    des([ es f des] b) c16 des %145
+    des es f des b c16 des %145
     es4 es r
     r8 g([ f)] as f d
     es8. f16 g4 r
     r8 g f([ d)] b d
-    es8.([ \grace { f32[ es d es] } f16)] g4 r %150
+    % es8.([ f16)] g4 r %150 for MIDI
+    \after 8 \turn es8.([ f16)] g4 r %150
     r8 as \mvDl c8.([\fz as16)] as8 r
-    r f as8.([\fz f16)] f8 d
-    \mvDl h16([\ff c d es] f[ g a h)] c8\pE g
+    r f as8.([\fz f16)] f8 d\ff
+    h16([ c d es] f[ g a h)] c8 g
     as as, b4 b
     es8 c'16([ b)] as([ g)] f([ es)] d8. f16 %155
     es8 c'16([ b)] as([ g)] f es d([ as')] g([ f)]
-    es8.([ \grace{ f32[ es d es] } f16)] g8 b([ es,)] g
+    % es8.([ f16)] g8 b([^\dolceE es,)] g % for MIDI
+    \after 8 \turn es8.([ f16)] g8 b([^\dolceE es,)] g
     as as,4 c'16([ as)] f([ g)] as([ a)]
     b8. b,16 b8 r r4
     r8 \mvDll es'\p des![ ces b as] %160
-    ges[\cresc f es des! h a]
-    gis\f a h4 h\pE
-    e r r
-    \key c \major R2.*3 %166
+    ges[\cresc f es des! h a] \noBreak
+    gis\f a h4 h
+    \key c \major e! r r \noBreak
+    R2.*3 %166
     r4 r8 \mvTr e\f^\tutti e e
     f8. e16 e4 r
     r8 a c e c a
@@ -1000,9 +1002,9 @@ EtIncarnatusBasso = {
     gis'\fz gis, r
     r d'\p dis
     e4. e8 e e %175
-    c2\decresc c4
-    des( c) h!
-    c2\pp c4
+    c2 c4
+    des(\decresc c) h!\pp
+    c2 c4
     f,2 r4
     R2. %180
     R\fermata \bar "||" %181 finis
@@ -1016,7 +1018,7 @@ EtIncarnatusBassoLyrics = \lyricmode {
   San -- cto,
   in -- car --
   na -- tus est de
-  Spi -- ri -- tu %145
+  Spi -- ri -- tu, de Spi -- ri -- tu %145
   San -- cto
   ex __ Ma -- ri -- a
   Vir -- gi -- ne

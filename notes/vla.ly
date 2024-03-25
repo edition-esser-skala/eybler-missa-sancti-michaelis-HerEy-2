@@ -656,7 +656,7 @@ EtIncarnatusViola = {
     r8 as' as r r as-\arco
     g4( as8) r r4
     r8 es es es es es
-    r es es es as( c)
+    r es es es( as c)
     f, r f r r f %145
     es2 r4
     r8 g( as) r as r
@@ -673,23 +673,23 @@ EtIncarnatusViola = {
     es4. r8 r c'
     g8.( f16) f8 r r4
     R2. %160
-    r4 r r8 h\f
+    r4 r r8 h~\f \noBreak
     h[ a] gis r fis\p r
-    e8 e e e e e
-    \key c \major e16\f e e e e e e e e e e e
-    e e e e e e' e e e e e e %165
-    gis gis gis gis gis gis gis gis a e e e
-    dis dis dis dis e e e e e e e e
-    d d d d d d c c h h d d
-    c e e e e e e e e e e e
-    d d d d d d d d f f f f %170
-    d d d d d d d d d d d d
-    e g g g g g g g g g g g
-    f\fz f f f f f f f e\p e e e
-    e e e e d d d d c c c c
-    c c c c h h h h h h h h %175
-    c\decresc c c c c c c c c c c c
-    as as as as as as as as as as as as
+    \key c \major e8 e e e e e \noBreak
+    e2.:16\f
+    e4: e16 e' e e e4: %165
+    gis2: a16 e e e
+    dis4: e2:
+    d4: d16 d c c h h d d
+    c e e e e2:
+    d: f4: %170
+    d2.:
+    e16 g g g g2:
+    f2:\fz e4:\p
+    e: d: c:
+    c: h2: %175
+    b2.:\decresc
+    as:
     g8\pp g g g g g
     f4 a!( c)
     f,2 f4 %180

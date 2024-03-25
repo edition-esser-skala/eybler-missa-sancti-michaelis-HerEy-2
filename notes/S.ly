@@ -951,8 +951,9 @@ EtIncarnatusSoprano = {
     \clef treble
     \key as \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #139
-    R2.*25 %163
-    \key c \major r8 \mvTr f'4\f^\tutti f8 f f
+    R2.*24 %162
+    \key c \major R2. \noBreak
+    r8 \mvTr f'4\f^\tutti f8 f f
     f8. e16 e4 r8 e %165
     e4 d c
     c h r
@@ -964,9 +965,9 @@ EtIncarnatusSoprano = {
     e8..([\fz d32)] d4 r8 c\p
     c4( b) a
     a gis r %175
-    g2\decresc r4
-    f r h,!
-    c2\pp c4
+    g2 r4
+    f\decresc r h,!\pp
+    c2 c4
     c2 r4
     R2. %180
     R\fermata \bar "||" %181 finis
