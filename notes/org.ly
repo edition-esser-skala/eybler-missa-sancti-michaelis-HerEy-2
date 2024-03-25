@@ -1336,7 +1336,7 @@ EtResurrexitOrgano = {
     \clef bass
     \key c \major \time 3/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    \mvTr c8\f-\tuttiE c'4 e16 d c e d c
+    \mvTr c8\f-\tutti c'4 e16 d c e d c
     h8 g4 g16 a h c d e
     f8 f,4 e16 f g a f g
     e8 c4 e16 d c e g c %185
@@ -1359,22 +1359,22 @@ EtResurrexitOrgano = {
     c8 e'4 a,,16 h c h c a
     d8 d'4 d,16 e fis g a fis
     g8 e c a d d,
-    \mvTrr g\sfp-\unisono g g g g g %205
-    as as as as as as
-    a\crescE a a a a a
-    b b b b b b
-    h h h h h h
+    g-!\sfp^\unisono g-! g-! g-! g-! g-! %205
+    as-! as-! as-! as-! as-! as-!
+    a-! a-! a-! a-! a-! a-!
+    b-! b-! b-! b-! b-! b-!
+    h-! h-! h-! h-! h-! h-!
     c4 r r %210
     \mvTr c8\f-\tutti c c c c c
-    c\fzE c c c c c
-    c\ffE c es es g g
+    c c c c c c
+    c c es es g g
     c c g g es es
-    c8.[ c'16\p c8. c,16 c8. c16] %215
+    \mvTr c8.[\p-\solo c'16 c8. c,16 c8. c16] %215
     b8.[ b'16 b8. b,16 b8. b16]
     as8.[ as'16 as8. as,16 as8. as16]
     g8.[ g'16 g8. g,16 g8. g16]
     fis8.[ fis'16 fis8. fis,16 fis8. fis16]
-    g8 g'4\f d'16 c h! a g f %220
+    \mvTr g8\f-\tutti g'4 d'16 c h! a g f %220
     e!8 e'4 c,16 d e g e c
     h8 h'4 d16 c h a g h
     c g e c g'8 f g g,
@@ -1411,7 +1411,7 @@ EtResurrexitOrgano = {
     e r e' r h r
     c r g r a r %255
     f r g r g, r
-    c c'4\f c,16 d e d c e
+    c\f c'4 c,16 d e d c e
     f8 f,4 f'16 g a g f a
     d,8 d'4 d,16 e f e d f
     g8 g,4 g'16 a h a g h %260
@@ -1445,11 +1445,11 @@ EtResurrexitOrgano = {
     c8 c,4 e16 g c g e c
     fis8 fis,4 a16 g fis a c fis
     g4 g, r %290
-    g-!\p r r
+    \mvTr g-!\p-\solo r r
     g-! r r
     fis-! r r
-    g8 g'4\f g16 a g f! e d
-    c8 c'4 c16 h c g e c %295
+    g8\fE g'4 g16 a g f! e d
+    c8-\tutti c'4 c16 h c g e c %295
     g8 g'4 d'16 h g d h d
     g,8 g'4 h,16 a g h d g
     c,8 c'4 c16 d e c g e
@@ -1471,10 +1471,10 @@ EtResurrexitOrgano = {
     c8 c h h c c
     f f d d g g %315
     c,4 r r
-    g'\p r g,
+    \mvTrr g'\pp-\soloE r g,
     c r r
     g' r g,
-    c r gis8\f gis' %320
+    c r \mvTr gis8\f-\tutti gis' %320
     a, a' a a, d d'
     g,,! g' g g, f f'
     e c' g e c c'
@@ -1520,18 +1520,18 @@ EtResurrexitBassFigures = \figuremode {
   r
   r
   r %210
-  \bo <[8 _-]> \bassFigureExtendersOn
-  <8 _->
-  q
-  q
-  q %215
-  q
-  q
-  q
-  q2 q8. q16 \bassFigureExtendersOff
-  <_!>2. %220
+  <_->
+  r
+  r
+  r
+  r %215
+  r
+  r
+  r
+  r
+  r2. %220
   <6>
-  \bc <[6 5]>
+  <[6 5]>
   r4 <4> <3>
   r2.
   r %225
@@ -1544,20 +1544,20 @@ EtResurrexitBassFigures = \figuremode {
   r
   r
   r
-  <6>2 <2>4 %235
+  <6 _->2 <2>4 %235
   <6>2 <6 4->8 <5 3>
   <8 6>4 <\t \t> <6 5->
   r2.
   r2 <7->4
   <5\+ 3>8 <6 4-> <\t \t>2 %240
   <\t \t>2.
-  <4! 2\+>8 <5 3> <\t \t>2
+  <4! 2\+>8 <5! 3> <\t \t>2
   r2 <4! 2>4
   <6> q2
   <6 5>2. %245
   r
-  <7\\ 2>
-  <7! 3>
+  <7\\ 3>4 <\t 2>2
+  <7! 3>2.
   <6 4>
   <5 3>4 <\t \t> <6> %250
   r2 <7>4
@@ -1565,25 +1565,25 @@ EtResurrexitBassFigures = \figuremode {
   r2 <2>4
   <6>2 <6 5>4
   r4 <8 6>8 <7 5> <5>4 %255
-  <6> <6 4> \bc <[5 3]>
+  <6> <6 4> <5 3>
   r2.
   r
   r
   r %260
   <_+>
-  r4 <[6 5]> <_+>
+  r4 \bc <[6 5]> <_+>
   r2.
   <6>
   r %265
-  <6>
-  <5>8 <\t> <6!>2
+  q
+  <5>8 <\t> <6!>4. \once \bassFigureExtendersOn q8
   <6>2.
   r
-  <6> %270
-  <5>8 <\t> <6>2
-  <6>2.
+  q %270
+  <5>8 <\t> <6>4. \once \bassFigureExtendersOn q8
+  q2.
   r
-  <6>
+  q
   r %275
   <[6 5]>
   <7->8 <\t> <6> <\t> <7- 5>4
@@ -1610,15 +1610,15 @@ EtResurrexitBassFigures = \figuremode {
   r
   r
   r %300
-  <5>
+  <\fivehat>
   r
-  <3 1>8 <\t \t> <4 2>4 <_+>
+  <3 1>8 <\t \t> <4 2>4 <[5] _+>
   <6> <6\\>2
   <6 4!>2 <7 [3]>4 %305
   r2.
   r2 <7>4
   r2.
-  r2 <7>4
+  r2 q4
   r2 <6>4 %310
   <4>8 <3> r2
   <6 4>8 <5 3>4. <4>4
@@ -1633,8 +1633,8 @@ EtResurrexitBassFigures = \figuremode {
   <4>8 <3> r2
   <6 4>8 <5 3>4. <4>4
   <6>2.
-  <6>4. <5>
-  \bo <[6 5]>2 \bc <[7 _]>4 %325
+  <6>4 \once \bassFigureExtendersOn q8 <5>4.
+  <6 5>2 <_!>4 %325
   r2.
   r
   r

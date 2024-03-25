@@ -691,14 +691,14 @@ EtResurrexitViolinoI = {
     r d16 e f! e d c h8-! g'-!
     r g16 f e d c h c8-! e-! %185
     r c16 b a g f e f8-! a'-!
-    r e16 f g f e d c8 c'
-    r d,16 c h c h a g8 f'
-    r e16 f g e c g e8 c'
-    r e16 d c d c h a8 fis' %190
-    r g16 a h a g fis g8 g,
-    r fis'16 g a g fis e d8 c
-    r h16 c d c h a g8 h
-    r c16 h c a g f e8 c'
+    r e16 f g f e d c8-! c'-!
+    r d,16 c h c h a g8-! f'-!
+    r e16 f g e c g e8-! c'-!
+    r e16 d c d c h a8-! fis'-! %190
+    r g16 a h a g fis g8-! g,-!
+    r fis'16 g a g fis e d8-! c-!
+    r h16 c d c h a g8-! h-!
+    r c16 h c a g f e8-! c'-!
     r e16 d e c g e e8 e' %195
     r g16 fis g e c g e8 e'
     r d16 c h a g a h8 g'
@@ -709,22 +709,22 @@ EtResurrexitViolinoI = {
     r c,16 d e d c h a8 a'
     r fis16 g a g fis e d8 c'
     h16 fis g h, a8 g' d, fis'
-    g,,16\sfp g g g g g g g g g g g %205
-    as as as as as as as as as as as as
-    a\cresc a a a a a a a a a a a
-    b b b b b b b b b b b b
-    h h h h h h h h h h h h
-    c c c c es es es es g g g g %210
-    c\f c c c c c c c c c c c
-    es\fz es es es es es es es es es es es
-    g\ff g g g g g g g es es es es
-    c c c c g g g g es es es es
-    c8.[ es16\p es8. es'16 es8. es16] %215
+    g,,2.:16\sfp  %205
+    as:
+    a:\cresc
+    b:
+    h:
+    c4: es: g: %210
+    c2.:\f
+    es:\fz
+    g2:\ff es4:
+    c: g: es:
+    c8.[\p es16 es8. es'16 es8. es16] %215
     es8.[ es,16 es8. es'16 es8. es16]
     es8.[ es,16 es8. es'16 es8. es16]
     es8.[ es,16 es8. es'16 es8. es16]
     es8.[ es,16 es8. es'16 es8. es16]
-    d8 h!16\f c d c h a g8 h %220
+    d8\f h!16 c d c h a g8 h %220
     r c16 d e f g e c8 e
     r f16 e d c h a g8 f'
     e c' d, c' g, h'
@@ -732,12 +732,12 @@ EtResurrexitViolinoI = {
     r c16 d e d c h a8 c %225
     r a'16 b c b a g f8 a
     r f16 g a g f e d8 c
-    h16 f e c' d,8 c' g, h'
+    h!16 f e c' d,8 c' g, h'
     c, <e c'> r <e c' e> r <e c' g'>
     r <e c' b'> r <e c' g'> r <g b> %230
-    r a16\p b c b a g f8 a
+    r a16\p b c b a g f8-! a-!
     r a16 b c b a g f8 f'
-    r d16 es f es d c b8 d
+    r d16 es f es d c b8-! d-!
     r d16 es f es d c b8 b'
     r b16 a g f e d c8 e %235
     r f16 g a f c a d8 c
@@ -749,7 +749,7 @@ EtResurrexitViolinoI = {
     r c16 b a b c a f8 g
     r a16 b c d e f d8 h
     r d16 c h c d e g,8 g'
-    r f16 e f h d f, e8 c' %245
+    r f16 e f h! d f, e8 c' %245
     r d,16 e d h c a g8 h
     r a16 h c h a g fis8 a
     r h16 c d e f! d h8 d
@@ -758,29 +758,29 @@ EtResurrexitViolinoI = {
     r f16 e f e d c h8 d
     r e16 d c h a h c8 fis
     r g16 a h g d h g8 h
-    r c16 h c d e c g8 f'
+    r c16 h c d e c g8 f'!
     r e16 f g f e d c8 e %255
     r d16 f, e g c e, d8 h'
-    c e16\f f g f e d c8 e
-    r a,16 b c b a g f8 a
-    r f'16 g a g f e d8 f
-    r h,16 c d c h a g8 h %260
+    c\f e16 f g f e d c8-! e-!
+    r a,16 b c b a g f8-! a-!
+    r f'16 g a g f e d8-! f-!
+    r h,!16 c d c h a g8-! h-! %260
     r gis'16 a h a gis fis e8 d
     c a' h, a' e, gis'
     a c,16 d e c a h c8 e
     r gis16 a h a gis fis e8 e,
     r c'16 d e c a h c8 e %265
     r gis16 a h a gis fis e8 e,
-    r a16 b c a f g a8 c
+    r a16 b c a f! g! a8 c
     r e16 f g f e d c8 c,
     r a'16 b c a f g a8 c
     r e16 f g f e d c8 c, %270
     r a'16 g f e d e f8 a
-    r cis16 d e d cis h a8 a,
+    r cis16 d e d cis h! a8 a,
     r f'16 g a f d e f8 a
     r cis16 d e d cis h a8 a'
     r f16 g a g f e d8 f %275
-    r f16 d h g d' f, e8 c'
+    r f16 d h g d' f, e8 c'!
     r es16 c a g fis g a8 c
     r h16 c d h g d h8 g'
     r e16 g c g c e g8 e
@@ -799,42 +799,42 @@ EtResurrexitViolinoI = {
     r g,( f') f f f
     r c( es) es es es
     d h'16\f c d h g d h8 g'
-    r c,16 e g e c' g e'8 c %295
+    r c,16 e! g e c' g e'8 c %295
     r h16 d f d h g d8 g
     r h,16 d g h d h f'8 h,
     r c16 e g e c g e8 g
     r e'16 c f d h f e8 g'
-    r a16 f c a f c a8 f'' %300
+    r a16 f c a f c \kneeBeam a8 f'' %300
     r d16 h e c g e d8 f'
-    r g16 e h g d h g8 e''
+    r g16 e h g d h \kneeBeam g8 e''
     r c16 a d h f d cis8 e'
     d, f' e, g' f, a'
-    g16 e c g e8 g' g,, h' %305
-    c4 g8( g, e' g,)
-    d'( g, d' g, f' g,)
+    g16 e c! g e8 g' g,, h' %305
+    c4 g8( g,) e'( g,)
+    d'( g,) d'( g,) f'( g,)
     e'( g a g f e)
-    d( g, d' g, f' g,)
+    d( g,) d'( g,) f'( g,)
     e'( g) g( e) e( e') %310
     d( c) c( a) a( f')
-    e( d) d( g,) h( d)
+    e( d) d g,( h d)
     g g4 g g8
     fis16 fis fis fis f f f f e e e e
     d d d d f f f f h, h h h %315
-    c8 g,([\p g' g, e' g,)]
-    d'( g, d' g, f' g,)
+    c8 g,\p g'( g,) e'( g,)
+    d'( g,) d'( g,) f'( g,)
     e'( g a g f e)
-    d( g, d' g, f' g,)
+    d( g,) d'( g,) f'( g,)
     e'( g) g( e) e16\f e' e e %320
     d c c c c a a a a f' f f
     e d d d d h h h h g g g
     g c c c c e e e e g g g
     g f d h g h d f e c' c c
     c d, d d d c' c c g,8 h' %325
-    c,4 <c e, g,>\ff q
+    c,4 \mvDll <c e, g,>\ff q
     q <g c e> q
     q <e c' g'> q
     <g, d' h' g'> r8 g'16 a h c d e
-    f e d c h c d e f g a g %330
+    f e d c h c d e f g a h %330
     c4 <c, e, g,> q
     q r r\fermata \bar "|." %332 finis
   }

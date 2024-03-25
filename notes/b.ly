@@ -565,7 +565,7 @@ CumSanctoBassi = {
     f' d h g' %395
     e c a' f~
     f d2 e8 f
-    g1~-\tastoE
+    g1~
     g~
     g~ %400
     g~
@@ -794,5 +794,164 @@ EtIncarnatusBassi = {
       f2 f4 %180
       f2. \bar "||" %181 finis
     } >>
+  }
+}
+
+EtResurrexitBassi = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #182
+    c8\f c'4\fz e16 d c e d c
+    h8 g4\fz g16 a h c d e
+    f8 f,4\fz e16 f g a f g
+    e8 c4\fz e16 d c e g c %185
+    a8 a,4\fz a'16 g f a g f
+    e8 c'4\fz c,16 d e d e c
+    h8 h'4\fz d16 c h a g h
+    c8 c,4\fz e'16 c g c e, g
+    c,8 c'4\fz a16 h c a d c %190
+    h8 h,4\fz g'16 a h a h g
+    fis8 d'4\fz d,16 e fis g a fis
+    g8 g,4\fz d''16 c h c d f,
+    e8 c'4\fz e,16 f g f e d
+    c8 c'4\fz e16 f g f e d %195
+    c8 c,4\fz e16 d c e d c
+    g8 g'4\fz h16 a g h a g
+    fis8 d'4\fz d,16 e fis g a fis
+    g8 g,4\fz h16 a g a h c
+    d8 d'4\fz h16 g d' a fis d %200
+    g8 g,4\fz g16 a h a h g
+    c8 e'4\fz a,,16 h c h c a
+    d8 d'4\fz d,16 e fis g a fis
+    g8 e c a d d,
+    g\sfp g g g g g %205
+    as as as as as as
+    a\cresc a a a a a
+    b b b b b b
+    h h h h h h
+    c4 r r %210
+    c2.:16\f
+    c:\fz
+    c4:\ff es: g:
+    c: g: es:
+    c8.[\p c'16 c8. c,16 c8. c16] %215
+    b8.[ b'16 b8. b,16 b8. b16]
+    as8.[ as'16 as8. as,16 as8. as16]
+    g8.[ g'16 g8. g,16 g8. g16]
+    fis8.[ fis'16 fis8. fis,16 fis8. fis16]
+    g8\f g'4 d'16 c h! a g f %220
+    e!8 e'4 c,16 d e g e c
+    h8 h'4 d16 c h a g h
+    c g e c g'8 f g g,
+    c c'4 c16 d e d c h
+    a8 a,4 a'16 h c h a g %225
+    f8 f,4 f'16 g a g f e
+    d8 d'4 d,16 e f g a f
+    g8 a f d g g,
+    c r c' r c r
+    c r c, r c r %230
+    f, r a\p r c r
+    f r f, r f' r
+    b, r d r f r
+    b r b, r b' r
+    g r c r b r %235
+    a r f, r f' r
+    c r d r e r
+    f r c r a r
+    f r f' r f r
+    f, r f' r f r %240
+    f, r f' r f r
+    f, r f' r f r
+    f, r f' r f r
+    e r d r c r
+    h! r h' r c r %245
+    g, r g' r g r
+    g, r g' r g r
+    g, r g' r g r
+    g, r g' r g r
+    g, r f' r e r %250
+    d r d' r g, r
+    c, r a r d r
+    g, r g' r f! r
+    e r e' r h r
+    c r g r a r %255
+    f r g r g, r
+    c\f c'4 c,16 d e d c e
+    f8 f,4 f'16 g a g f a
+    d,8 d'4 d,16 e f e d f
+    g8 g,4 g'16 a h a g h %260
+    e,8 e'4 e,16 fis gis a h gis
+    a h c a d8 h e e,
+    a a,4 c'16 h a c h a
+    gis8 e'4 e,16 fis gis a h gis
+    a8 a,4 c'16 h a c h a %265
+    gis8 e'4 e,16 fis gis a h gis
+    a8 a,4 a'16 g f a g f
+    e8 c'4 c,16 d e f g e
+    f8 f,4 a'16 g f a g f
+    e8 c'4 c,16 d e f g e %270
+    f8 f,4 f'16 e d f e d
+    cis8 a'4 a,16 h cis d e cis
+    d8 d'4 f,16 e d f e d
+    cis8 a'4 a,16 h cis d e cis
+    d8 d'4 d,16 e f e d c %275
+    h8 h'4 a16 h c h a g
+    fis8 fis,4 a'16 g fis g a fis
+    g8 g,4 h16 d g d h g
+    c8 c'4 g16 e c e g c
+    g8 g,4 h16 d g f e d %280
+    c8 c'4 g16 e c e g c
+    g8 g,4 h'16 c d h g f
+    e8 c'4 c,16 d e f g e
+    f8 f,4 f'16 e f e f d
+    g8 g,4 g'16 f e f g e %285
+    a8 a,4 a'16 g f g a f
+    h8 h,4 h'16 a g a h g
+    c8 c,4 e16 g c g e c
+    fis8 fis,4 a16 g fis a c fis
+    g4 g, r %290
+    g\p r r
+    g r r
+    fis r r
+    g8\f g'4 g16 a g f! e d
+    c8 c'4 c16 h c g e c %295
+    g8 g'4 d'16 h g d h d
+    g,8 g'4 h,16 a g h d g
+    c,8 c'4 c16 d e c g e
+    c8 c'4 c16 h c g e c
+    f,8 f'4 f16 e f c a f %300
+    h8 h'4 h16 a h f d h
+    e,8 e'4 e16 dis e h g e
+    a8 a'4 a16 gis a b a g
+    f a g f e g f e d f e d
+    g c e c g e c e g8 g, %305
+    c4 r r
+    g' r g,
+    c r r
+    g' r g,
+    c c' gis %310
+    a a, d
+    g! g, f'
+    e d cis
+    c8 c h h c c
+    f f d d g g %315
+    c,4 r r
+    \mvTr g'\pE-\pizz r g,
+    c r r
+    g' r g,
+    c r \mvTr gis8\f-\arco gis' %320
+    a, a' a a, d d'
+    g,,! g' g g, f f'
+    e c' g e c c'
+    h, h' h h, c c'
+    f, e f d g g, %325
+    c4 c'\ff c
+    c c, c
+    c c' c
+    g r g16 a h c
+    d e f e d c h a g f e d %330
+    c4 c c
+    c r r\fermata \bar "|." %332 finis
   }
 }

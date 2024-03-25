@@ -343,8 +343,8 @@ EtResurrexitClarinoI = {
     g,4 r r
     R2.*9 %210
     c,4\f r8 c16 c c8 c
-    c4\fzE^\critnote r8 c16 c c8 c
-    c\ffE c16 c c8 c c c
+    c4 r8 c16 c c8 c
+    c\ff c16 c c8 c c c
     c4 r r
     R2.*7 %221
     r4 d'\fE r
@@ -354,9 +354,9 @@ EtResurrexitClarinoI = {
     c r r
     R2.*2
     g2.
-    g %230
+    \after 2 \! g\cresc %230
     R2.*36 %266
-    c4\f r8 c16 c c8 c
+    c4\fE r8 c16 c c8 c
     c4 r8 c16 c c8 c
     c4 c c
     c r r %270

@@ -1055,7 +1055,7 @@ EtResurrexitAlto = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    \mvTr e4\f^\tutti e e
+    \mvTr e4\f^\tuttiE e e
     g2 g4
     g g g
     g2 g4 %185
@@ -1086,7 +1086,7 @@ EtResurrexitAlto = {
     g8 g g2
     e4 r r
     R2.*21 %245
-    r4 \mvTr g\p^\solo g
+    r4 \mvTr g\pE^\solo g
     fis2 fis4
     f f f
     e4. e8 e4
@@ -1099,7 +1099,7 @@ EtResurrexitAlto = {
     a8 f e4( d)
     c r r
     R2.*4 %261
-    r4 r \mvTr e\f^\tutti
+    r4 r \mvTr e\fE^\tuttiE
     e2 e4
     e e e
     e2 e4 %265
@@ -1125,13 +1125,13 @@ EtResurrexitAlto = {
     d( g) g %285
     e( a) a
     g2 g4
-    g2.^\critnote
+    g2.
     c
     h4 r r %290
     es,2.\p
     d
     c
-    h4 r \mvTr g'\f^\critnote
+    h4 r g'\f
     g2 g4 %295
     g g r
     g g g
@@ -1250,7 +1250,7 @@ EtResurrexitAltoLyrics = \lyricmode {
   mor --
   tu --
   o --
-  rum, \xE et \x
+  rum, et
   vi -- tam, %295
   vi -- tam,
   ex -- pe -- cto

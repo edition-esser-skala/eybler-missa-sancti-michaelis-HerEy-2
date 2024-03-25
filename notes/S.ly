@@ -998,7 +998,7 @@ EtResurrexitSoprano = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    \mvTr c'4\f^\tutti c c
+    \mvTr c'4\f^\tuttiE c c
     d2 d4
     d d d
     e2 e4 %185
@@ -1029,8 +1029,8 @@ EtResurrexitSoprano = {
     e8 e d2
     c4 r r
     R2.*21 %245
-    r4 \mvTr g\p^\solo g
-    a2 a4
+    r4 \mvTr g\pE^\solo g
+    \appoggiatura h a2 a4
     h h h
     c4. g8 g4
     r d' e %250
@@ -1042,7 +1042,7 @@ EtResurrexitSoprano = {
     a8 d c4( h)
     c r r
     R2.*4 %261
-    r4 r \mvTr e\f^\tutti
+    r4 r \mvTr e\fE^\tuttiE
     e2 e4
     e e e %265
     e2 e4
@@ -1079,7 +1079,7 @@ EtResurrexitSoprano = {
     h8([ d)] f4 r
     f d h
     c8([ e)] g4 r
-    e^\critnote f g
+    e f g
     a4. f8 f4 %300
     d e f
     g4. e8 e4

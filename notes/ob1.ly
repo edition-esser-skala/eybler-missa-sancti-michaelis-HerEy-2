@@ -608,7 +608,7 @@ EtResurrexitOboeI = {
     \pao c4 e2~
     e4 c2~ %225
     c4 a2~
-    a4 \once \tieDashed f'2~
+    a4 f'2~
     f8[ e] d2\trill
     \pao c2.
     e\cresc %230
@@ -616,7 +616,7 @@ EtResurrexitOboeI = {
     R2.*25 %256
     r4 c2~\fE
     c4 a c
-    \once \tieDashed d2.~
+    d2.~
     d4 h d %260
     e2~ e8 d
     c4 h2\trill
@@ -678,7 +678,7 @@ EtResurrexitOboeI = {
     e8 d d4 \pa g,~
     g \pd c e
     g4. f8 e4
-    d2. %325
+    d2.\trill %325
     \pao c4 c\ff c
     c2.
     e

@@ -725,22 +725,22 @@ EtResurrexitViola = {
     r <c, c' e> e''
     r <d,, a' fis' c'> d''
     d,8 g, e' c a d
-    g,16\sfp g g g g g g g g g g g %205
-    as as as as as as as as as as as as
-    a\cresc a a a a a a a a a a a
-    b b b b b b b b b b b b
-    h h h h h h h h h h h h
-    c c c c es es es es g g g g %210
-    c,\f c c c c c c c c c c c
-    <g g'>\fz q q q q q q q q q q q
-    <es' c'>\ff q q q q q q q q q q q
-    q q q q g g g g es es es es
+    g,2.:16\sfp %205
+    as:
+    a:\cresc
+    b:
+    h:
+    c4: es: g: %210
+    c,2.:\f
+    <g g'>:\fz
+    <es' c'>:\ff
+    q4: g: es:
     <c es>2.~\p %215
     q~
     q~
     q~
     q
-    <h d>4 <g d' h'>\f d'' %220
+    <h d>4 \mvDl <g d' h'>\f d'' %220
     r <g,, e' c'> g'
     r <g, f' d'> d'
     c8 e g4 g,
@@ -751,33 +751,63 @@ EtResurrexitViola = {
     d,8 c a' f d f
     e <e g, c,> r q r q
     r q r q r q %230
-    f4 <c a>2~\p
-    q2.
-    <b d>
-    <f d'>
-    <g e'> %235
-    <a f'>4. a8( <b d> <a c>)
-    q2 <g b>4\trill
-    <f a> r8 a4 <g b>8
-    <a~ c>2.
-    <a cis>8 <b d> d2 %240
-    <d f> <b d>4
-    <gis h>8( <a c>) q2
-    r4 <f a> <g h>~
-    <g c>8 r r4 r
-    r <g d'> <c e> %245
-    <h d>2.~
-    <c d>
-    <d f>
-    <c e>
-    <h d>2 <c e>4 %250
-    <d f>2.
-    <c e>2 <a c>4
-    <g h>2 <h d>4
-    <g g'>2 <d' f>4
-    <c e> <h g'> c %255
-    <d f> <c e> <h d>
-    c <g e' c'>\f g'
+    f4 << {
+      c2~
+      c2.
+      d
+      d
+      e %235
+      f4. a,8( d c)
+      c2 b4\trill
+      a \once \oneVoice r8 a4 b8
+      c2.(
+      cis8) d d2 %240
+      f2 d4
+      h!8( c) c2
+      \once \oneVoice r4 a h!
+      c8 \oneVoice r r4 r
+      r \voiceOne d e %245
+      d2.~
+      d
+      f!
+      e
+      d2 e4 %250
+      f2.
+      e2 c4
+      h2 d4
+      g2 f4
+      e g c, %255
+      f e d
+      c
+    } \\ {
+      a2~\p %231
+      a2.
+      b
+      f
+      g %235
+      a4 c b8 a
+      a2 g4
+      f s8 f4 g8
+      a2.~
+      a8 b b2 %240
+      d2 b4
+      gis8( a) a2
+      s4 f g~
+      g8 s s2
+      s4 g c %245
+      h!2.
+      c
+      d
+      c
+      h2 c4 %250
+      d2.
+      c2 a4
+      g2 h4
+      g2 d'4
+      c h c %255
+      d c h
+      c\f
+    } >> <g e' c'> g'
     r <c, f a> c
     r <a f' d'> a'
     r <g, d' h'> d' %260
@@ -787,7 +817,7 @@ EtResurrexitViola = {
     r <e,, h' gis'> h''
     r <a, e' c'> e' %265
     r <e, h' gis'> h''
-    r <c, f a> c'
+    r <c, f! a> c'
     r <c,, g' e' c'> g''
     r <c, f a> c'
     r <c,, g' e' c'> g'' %270
@@ -827,8 +857,8 @@ EtResurrexitViola = {
     r <a g' e'> a
     r <g g'> <g f'> %305
     <g e'> c, e
-    \once \tieDashed g2.~
-    g4-\critnote c, e
+    g2.
+    r4 c, e
     g2.~
     g4 r e' %310
     e2 a4
@@ -839,14 +869,14 @@ EtResurrexitViola = {
     e4 c,\p e
     g2.~
     g4 c, e
-    \once \tieDashed g2.~
+    g2.
     g4 r e'16\f e e e %320
-    e e e e e e e e f f f f
-    g g g g g g g g h, h h h
-    g' g g g g g g g g g g g
-    g g g g g g g g g g g g
-    a a a a a a a a f f f f %325
-    e4 <e g, c,>\ff q
+    e2:16 f4:
+    g2: h,4:
+    g'2.:
+    g:
+    a2: f4: %325
+    e4 \mvDll <e g, c,>\ff q
     q q q
     q <c' e, g,> q
     <h d, g,> r g,16 a h c

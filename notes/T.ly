@@ -1063,7 +1063,7 @@ EtResurrexitTenore = {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    \mvTr g4\f^\tutti g g
+    \mvTr g4\f^\tuttiE g g
     h2 h4
     h h h
     c2 c4 %185
@@ -1093,30 +1093,30 @@ EtResurrexitTenore = {
     es2.
     c4 r r
     R2.
-    r4 h h %220
+    r4 h! h %220
     c( e!) e
     d r d
     c8 c c4( h)
     c r r
     R2.*6 %230
-    r4 \mvTr c\p^\solo c
+    r4 \mvTr c\pE^\solo c
     c4. b8 a4
     r d d
     d4. c8 b4
     r e e %235
     f4. a,8 d c
-    c2( b4)\trillE
+    c2( b4)\trill
     a r r
     c2 es4
     cis8([ d)] d4 r %240
     f4.( d8) f([ d)]
-    h!([ c)] c4 r
+    h!([ c!)] c4 r
     r a h!
     c8([ d)] d([ e)] e([ f)]
     f2( e4) %245
     d r r
     R2.*15 %261
-    r4 r \mvTr e\f^\tutti
+    r4 r \mvTr e\fE^\tuttiE
     e2 e4
     e e e
     e2 e4 %265
@@ -1149,7 +1149,7 @@ EtResurrexitTenore = {
     g
     a
     d,4 r g\f
-    c2 e4 %295
+    c2 e!4 %295
     d h r
     h d f
     e c r

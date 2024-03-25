@@ -708,25 +708,25 @@ EtResurrexitViolinoII = {
     <g' c e> c, r
     <d a' fis'> d r8 d'~
     d16 fis g h, a8 g' d, fis'
-    g,,16\sfp g g g g g g g g g g g %205
-    as as as as as as as as as as as as
-    a\cresc a a a a a a a a a a a
-    b b b b b b b b b b b b
-    h h h h h h h h h h h h
-    c c c c es es es es g g g g %210
-    <es g,>\f q q q q q q q q q q q
-    <es c'>\fz q q q q q q q q q q q
-    <g es'>\ff q q q q q q q q q q q
-    <es c'> q q q g g g g es es es es
-    c8.[ c16\p c8. c'16 c8. c16] %215
+    g,,2.:16\sfp  %205
+    as:
+    a:\cresc
+    b:
+    h:
+    c4: es: g: %210
+    <es g,>2.:\f
+    <es c'>:\fz
+    <g es'>:\ff
+    <es c'>4: g: es:
+    c8.[\p c16 c8. c'16 c8. c16] %215
     c8.[ c,16 c8. c'16 c8. c16]
     c8.[ c,16 c8. c'16 c8. c16]
     c8.[ c,16 c8. c'16 c8. c16]
     c8.[ c,16 c8. c'16 c8. c16]
     h!4 g,\f r %220
     <g e' c'> c r
-    <d d' f> d-\critnote r
-    <c' e> <c g'> <h g'>
+    <d d' f> g r
+    <c e> <c g'> <h g'>
     <e, c' e> e r
     <a, e' c'> c r %225
     <f a> a, r
@@ -738,18 +738,18 @@ EtResurrexitViolinoII = {
     a8-! f-! r c'16 b a c a f
     d8-! b'-! r f'16 es d c b c
     d8-! b-! r f'16 es d es d c
-    b8-! g-! r g16 f e! f g e %235
-    c8-! c'-! r a,16 c f g a f
+    b8 g r g16 f e! f g e %235
+    c8 c' r a,16 c f g a f
     e8 c r e16 f g e g e
     c8 f r a16 f c d c b
     a8 c r c'16 b a b c a
-    f8 b r f'16 es d c b d %240
+    f8-! b-! r f'16 es d c b d %240
     f,8 b r d,16 f b f b d
     f8 f, r a,16 f' a f c b
     a8 f' r a16 g f e d g
     g,8 g' r g16 f e d f e
     d8 d' r f16 d c g' e c %245
-    h8 g, r a16 c h d g h
+    h!8 g, r a16 c h d g h
     fis8 c r fis16 g a h c a
     g8 d r d16 f d' h f d
     e8 g r c16 g e' c g e
@@ -760,7 +760,7 @@ EtResurrexitViolinoII = {
     g8 g' r c,16 e d h g d
     e8 g r h16 f e e' c a %255
     a'8 f, r e16 c' h g f d
-    e4 e'\f r
+    e4\f e' r
     <c, f a> a r
     <d a' f'> f r
     <g, d' h'> h r %260
@@ -768,11 +768,11 @@ EtResurrexitViolinoII = {
     r8 a' h, a' e, gis'
     a4 c, r
     <e, h' e> e r
-    <e c' e>-\critnote c r %265
+    <e c' e> c r %265
     <e h' e> e r
     <a, a' c> c r
     <c g' c> c r
-    <a f' c'> c r
+    <a f'! c'> c r
     <c g' c> c r %270
     <a f' a> a r
     <a e' a> a r
@@ -805,31 +805,31 @@ EtResurrexitViolinoII = {
     <g' c e> r <e c' g'>
     <f c' a'> r <f c' f> %300
     <f d'> r <d d' f>
-    <e h' g'> r <g c e>
+    <e h' g'> r <g h e>
     <a, e' c'> r <a e' cis'>
     <a f' d'> r <d a' f'>
-    <e c' g'> <g, e' c'> <g d' h'> %305
-    <g e' c'> e'8( g, c g)
-    h( g h g d' g,)
+    <e c'! g'> <g, e' c'> <g d' h'> %305
+    <g e' c'> e'8( g,) c( g)
+    \slurDashed h( g) h( g) d'( g,) \slurSolid
     c( e f e d c)
-    h( g h g d' h)
+    \slurDashed h( g) h( g) d'( h)
     c( e) e( g) h( gis) %310
     e( a) a( c) f,( d')
-    c( h) h( d) g,( h)
+    c( h) h( d) g,( h) \slurSolid
     c c( h) h( b) b
     a16 a a a as as as as g g g g
     f f f f a a a a d, d d d %315
-    e8 g,([\p e' g, c g)]
-    h( g h g d' h)
+    e8 g,\p e'( g,) c( g)
+    h( g) h( g) d'( h)
     c( e f e d c)
-    h( g h g d' h)
+    h( g) h( g) d'( h)
     c( e) e( g) h16\f h h h %320
     a a a a a c c c a d d d
     c h h h h g g g g d d d
     c e e e e c' c c c e e e
     g, d' d d d g, g g g e' e e
     d c' c c c d, d c' g,8 h' %325
-    c,4 <c e, g,>\ff q
+    c,4 \mvDll <c e, g,>\ff q
     q <g c e> q
     q <e c' g'> q
     <g, d' h' g'> r8 g16 a h c d e

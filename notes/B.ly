@@ -1058,7 +1058,7 @@ EtResurrexitBasso = {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
       \set Score.currentBarNumber = #182
-    \mvTr c4\f^\tutti c c
+    \mvTr c4\f^\tuttiE c c
     g'2 g4
     g g g
     c2 c4 %185
@@ -1099,7 +1099,7 @@ EtResurrexitBasso = {
     c8 c, g'2
     c,4 r r
     R2.*6 %230
-    r4 \mvTr a'\p^\solo a
+    r4 \mvTr a'\pE^\solo a
     a4. g8 f4
     r f f
     f4. es8 d4

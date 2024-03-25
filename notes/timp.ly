@@ -277,7 +277,7 @@ EtResurrexitTimpani = {
     g4 r r
     R2.*9 %210
     c4\f r8 c16 c c8 c
-    c4\fzE r8 c16 c c8 c
+    c4 r8 c16 c c8 c
     c\ff c16 c c8 c c c
     c4 r r
     R2.*7 %221
@@ -287,11 +287,11 @@ EtResurrexitTimpani = {
     c r r %225
     c r r
     R2.*2
-    c2.\startTrillSpan
-    c %230
-    c4\stopTrillSpan r r
+    c2.~\startTrillSpan
+    c\cresc %230
+    c8\!\stopTrillSpan r r4 r
     R2.*35 %266
-    c4\f r8 c16 c c8 c
+    c4\fE r8 c16 c c8 c
     c4 r8 c16 c c8 c
     c4 c c
     c r r %270
