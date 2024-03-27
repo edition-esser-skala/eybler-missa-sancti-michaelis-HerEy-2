@@ -1042,16 +1042,16 @@ DonaViolinoI = {
     r8 d'-!\p d( e)
     r f f f
     r e e e
-    r e( d) d-!
+    r e( d) d
     r e r d %40
     r c c c
-    r f\crescE r e
+    r f r e
     r d d d
     c16\f d e f g e c b
     a gis' a e f e f d %45
     c d e c h c d h
     c e d c h a g f
-    e8\p e' e e
+    e8 e'\p e e
     r f f f
     r gis, gis gis %50
     r a a a
@@ -1060,14 +1060,14 @@ DonaViolinoI = {
     h a gis a h c d e
     c a' e c a e c a %55
     r8 fis'\p fis fis
-    r g g g
+    r g! g g
     r a a a
     r h h h
     g16\f a h c d e fis g %60
     e c g c e fis g d
     d c d, c' c h d, h'
     h g d h' a d, fis a
-    c8\p c-! c( h)
+    c8\p c c( h)
     r a a a %65
     r d-! d( c)
     r h h h
@@ -1087,10 +1087,10 @@ DonaViolinoI = {
     h, d g f e g e c
     h d g f e g e c
     e, g c e d h g f
-    e8\p e' r d
-    r16 c( h c) h( c d e) %85
-    r8 f\crescE r e
-    r16 d( cis d) cis( d e f)
+    e8 e'\p r d
+    r16 c( h c h c d e) %85
+    r8 f r e
+    r16 d( cis d cis d e f)
     g\f f e f g a b g
     a a, f' e g f e d
     c g c e h g h d %90
@@ -1114,16 +1114,16 @@ DonaViolinoI = {
     h' d c e d f e g
     f d' d d e, c' c c
     d, c' c c d,8 h' %110
-    c, c,16\ff e e g g c
+    c, c,16 e e g g c
     c4 r
     r8 e,16 g g c c e
     e4 r
-    r8 g,16 c c e e g %115
+    r8 g,16( c) c( e) e( g) %115
     g4~ g16 f( e d)
     c( h a g) fis( g a h)
     c8 r r4
     R2
-    <d, h>~\pp %120
+    <d, h>~\p %120
     q
     <c e>8 r r4
     e4 r

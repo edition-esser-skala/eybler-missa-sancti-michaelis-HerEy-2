@@ -1582,7 +1582,7 @@ DonaAlto = {
     gis gis
     a a %55
     \mvTr a4.\pE^\solo a8
-    d,4 g
+    d,4 g!
     a2
     g
     \mvTr g4\f^\tutti g %60
@@ -1621,13 +1621,13 @@ DonaAlto = {
     e8([ g)] g4
     f f
     e8([ g)] g4 %95
-    r \mvTr c~\f^\tuttiE
+    r \mvTr c~\f^\tutti
     c g
     a a
     g g
-    \mvTr fis4.\pE^\solo g8 %100
+    \mvTr fis4.\pE^\solo fis8 %100
     g4 g
-    fis4. g8
+    fis4. fis8
     g4 g
     \mvTr c4.\f^\tutti c8
     h4 e, %105
@@ -1659,7 +1659,7 @@ DonaAltoLyrics = \lyricmode {
   no -- bis
   pa -- cem,
   do -- na, %40
-  \xE do -- na \x
+  do -- na
   no -- bis
   pa -- cem,
   do -- na
@@ -1674,8 +1674,8 @@ DonaAltoLyrics = \lyricmode {
   do -- na
   no -- bis
   pa -- cem, %55
+  do -- na,
   do -- na
-  no -- bis
   pa --
   cem,
   do -- na, %60
@@ -1711,7 +1711,7 @@ DonaAltoLyrics = \lyricmode {
   pa -- %90
   cem,
   do -- na
-  \xE pa -- cem, \x
+  pa -- cem,
   no -- bis
   pa -- cem, %95
   do --
@@ -1723,7 +1723,7 @@ DonaAltoLyrics = \lyricmode {
   no -- bis
   pa -- cem,
   do -- na
-  \xE no -- bis, \x %105
+  pa -- cem, %105
   no -- bis
   pa -- cem,
   do -- na

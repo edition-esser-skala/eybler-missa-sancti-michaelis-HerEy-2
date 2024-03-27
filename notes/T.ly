@@ -1592,7 +1592,7 @@ DonaTenore = {
     h, h
     a8([ c)] e4 %55
     \mvTr fis4.\pE^\solo fis8
-    g4 d
+    g!4 d
     d2
     d
     \mvTr d4\f^\tutti d %60
@@ -1678,14 +1678,14 @@ DonaTenoreLyrics = \lyricmode {
   cem,
   do --
   na
-  no -- %50
-  bis,
+  pa -- %50
+  cem,
   do -- na,
-  \xE do -- na
-  no -- bis \x
-  pa -- cem, %55
   do -- na
-  \xE no -- bis \x
+  no -- bis
+  pa -- cem, %55
+  do -- na,
+  do -- na
   pa --
   cem,
   do -- na, %60
@@ -1697,7 +1697,7 @@ DonaTenoreLyrics = \lyricmode {
   no -- bis
   pa -- cem,
   do -- na
-  \xE pa -- cem, \x
+  pa -- cem,
   no -- bis %70
   pa -- cem,
   do -- na
@@ -1734,7 +1734,7 @@ DonaTenoreLyrics = \lyricmode {
   cem,
   do -- na
   no -- bis, %105
-  \xE no -- bis \x
+  do -- na
   pa -- cem,
   do -- na
   no -- bis

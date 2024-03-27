@@ -1505,7 +1505,7 @@ DonaSoprano = {
     gis([ a)] a4 %65
     d4. c8
     ais([ h)] h4
-    \mvTr g'4.\fE^\tutti g8
+    \mvTr g'4.\f^\tutti g8
     fis4 h,
     e4. e8 %70
     d4 g,
@@ -1586,8 +1586,8 @@ DonaSopranoLyrics = \lyricmode {
   do -- na
   no -- bis
   pa -- cem, %55
+  do -- na,
   do -- na
-  \xE no -- bis \x
   pa --
   cem,
   do -- na, %60
@@ -1595,11 +1595,11 @@ DonaSopranoLyrics = \lyricmode {
   no -- bis
   pa -- cem,
   do -- na
-  \xE pa -- cem, %65
+  pa -- cem, %65
   no -- bis
-  pa -- cem, \x
+  pa -- cem,
   do -- na
-  \xE pa -- cem, \x
+  pa -- cem,
   no -- bis %70
   pa -- cem,
   do -- na
@@ -1611,11 +1611,11 @@ DonaSopranoLyrics = \lyricmode {
   pa --
   cem,
   do -- na, %80
-  \xE do -- na \x
+  do -- na
   no -- bis
   pa -- cem,
   do -- na
-  \xE pa -- cem, \x %85
+  pa -- cem, %85
   no -- bis
   pa -- cem,
   do -- na
@@ -1635,15 +1635,15 @@ DonaSopranoLyrics = \lyricmode {
   no -- bis
   pa -- cem,
   do -- na
-  no -- bis, %105
+  pa -- cem, %105
   no -- bis
   pa -- cem,
   do -- na
   no -- bis
   pa -- %110
   cem,
-  \xE do --
-  na, \x
+  do --
+  na,
   do --
   na %115
   no --

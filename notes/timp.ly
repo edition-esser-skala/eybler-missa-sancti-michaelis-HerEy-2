@@ -424,22 +424,22 @@ DonaTimpani = {
     g8 g16 g g8 g %90
     c4 r
     R2*4 %95
-    c8\fE c16 c c8 c
+    c8\f c16 c c8 c
     c c16 c c8 c
     c4 r
     g r
     R2*4 %103
-    c4\fE r
+    c4\f r
     R2*4 %108
     g4 c
     g2\trill %110
-    c8 c16\ff c c8 c
+    c8 c16 c c8 c
     c4 r
     c8 c16 c c8 c
     c4 r
     c8 c16 c c8 c %115
-    g2\startTrillSpan\decresc
-    g
+    g2~\startTrillSpan
+    g\decresc
     c8\stopTrillSpan\! r r4
     R2*5 %123
     R2\fermata \bar "|." %124 finis

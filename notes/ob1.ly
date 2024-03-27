@@ -838,15 +838,15 @@ DonaOboeI = {
     \twofourtime \key c \major \time 2/4 \tempoDona
       \set Score.currentBarNumber = #36
     R2*8 %43
-    g''4.\f gis8
+    \pa g''4.\f gis8
     a e f d %45
     c4 \appoggiatura e8 d4
-    c r
+    c \pd r
     R2*4 %51
-    a'4\f e
+    \pa a'4\f e
     f d
     h e
-    c a %55
+    c a \pd %55
     R2*4
     d2\f %60
     e4. d8
@@ -856,9 +856,9 @@ DonaOboeI = {
     g'2\f
     fis
     e %70
-    d4 g,
+    d4 \pao g,
     R2*3
-    g2\p %75
+    \pao g2\p %75
     a4 r
     h2
     c4 r
@@ -868,30 +868,30 @@ DonaOboeI = {
     g8 f e4
     e d
     R2*4 %87
-    g2~\fE
+    \pa g2~\f
     g8 f e d
     c4 \appoggiatura e8 d4 %90
-    c r
+    c \pd r
     R2*4 %95
     g'2\f
     e
     c4 d
     h g
     R2*4 %103
-    \once \tieDashed f'2~\f
+    \pa f'2~\f
     f4 e~ %105
     e d~
     d c
     h8 c d e
     f4 e
     d2\trill %110
-    c8 c,\ffE e g
-    c4 r
+    c8 c, e g
+    c4 \pd r
     r8 e, g c
     e4 r
     r8 g, c e %115
-    g2~\decresc
-    g
+    g2~
+    g\decresc
     e8\! r r4
     R2*5 %123
     R2\fermata \bar "|." %124 finis

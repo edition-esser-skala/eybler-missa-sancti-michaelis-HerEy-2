@@ -1614,9 +1614,9 @@ DonaBasso = {
     \mvTr c\p^\tutti gis' %40
     a a,
     d\cresc fis
-    g g,
+    g! g,
     e'\f e
-    f d %45
+    f! d %45
     g( g,)
     c r
     \mvTr c2\pE^\solo
@@ -1651,16 +1651,16 @@ DonaBasso = {
     g4 r
     g2\cresc
     g4 r
-    g\fE g %80
+    g\f g %80
     g g
     g g
     g g,
     c\p gis'
     a a, %85
     d\cresc fis
-    g g,
+    g! g,
     e'\f e
-    f f
+    f! f
     g2 %90
     c,4 r
     \mvTr c\pE^\solo c
@@ -1714,14 +1714,14 @@ DonaBassoLyrics = \lyricmode {
   cem,
   do --
   na
-  no -- %50
-  bis,
+  pa -- %50
+  cem,
   do -- na,
-  \xE do -- na \x
-  no -- bis
-  pa -- cem, %55
   do -- na
   no -- bis
+  pa -- cem, %55
+  do -- na,
+  do -- na
   pa --
   cem,
   do -- na, %60
@@ -1729,7 +1729,7 @@ DonaBassoLyrics = \lyricmode {
   no -- bis
   pa -- cem,
   do -- na
-  \xE pa -- cem, \x %65
+  pa -- cem, %65
   no -- bis
   pa -- cem,
   do -- na
@@ -1740,16 +1740,16 @@ DonaBassoLyrics = \lyricmode {
   no -- bis
   pa --
   cem, %75
-  \xE pa --
+  pa --
   cem,
   pa --
-  cem, \x
+  cem,
   do -- na, %80
   do -- na
   no -- bis
   pa -- cem,
   do -- na
-  \xE pa -- cem, \x %85
+  pa -- cem, %85
   no -- bis
   pa -- cem,
   do -- na
@@ -1757,7 +1757,7 @@ DonaBassoLyrics = \lyricmode {
   pa -- %90
   cem,
   do -- na
-  \xE pa -- cem, \x
+  pa -- cem,
   no -- bis
   pa -- cem, %95
   do --

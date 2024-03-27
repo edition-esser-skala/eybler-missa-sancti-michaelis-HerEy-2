@@ -505,15 +505,15 @@ DonaClarinoII = {
     c4\f r
     R2*3 %107
     r4 g'~
-    g c
+    g c~
     c g %110
-    e8 c16\ff c e8 g
+    e8 c16 c e8 g
     c4 r
     r8 c,16 c e8 g
     c4 r
     r8 e,16 e g8 c %115
-    g2~\decresc
-    g
+    g2~
+    g\decresc
     c8\! r r4
     R2*5 %123
     R2\fermata \bar "|." %124 finis

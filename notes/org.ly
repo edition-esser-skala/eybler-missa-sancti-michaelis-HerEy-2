@@ -2022,15 +2022,15 @@ DonaOrgano = {
     g r
     g r
     g r
-    \mvTr c,8\pE-\tuttiE r gis' r %40
+    c,8 r gis' r %40
     a4 r
-    d,8\crescE r fis r
-    g4 r
-    e,8\f e' e e,
-    f f' f f, %45
+    d,8 r fis r
+    g!4 r
+    \mvTr e,8\f-\tutti e' e e,
+    f! f' f f, %45
     g g' g g,
     c16 c' h a g f e d
-    \mvTr c4\p-\solo r
+    \mvTr c4\pE-\solo r
     d r
     e r %50
     f r
@@ -2060,18 +2060,18 @@ DonaOrgano = {
     g g' g g %75
     g, g' g g
     g, g' g g
-    g,\crescE g' g g
+    g, g' g g
     g, g' g g
     g,\f g' g g %80
     g, g' g, g'
     g, g' g, g'
     g, g' g g,
-    c\p r gis' r
+    \mvTr c\p-\solo r gis' r
     a4 r %85
-    d,8\crescE r fis r
-    g4 r
-    e,8\f e' e e,
-    f f' f f,
+    d,8 r fis r
+    g!4 r
+    \mvTr e,8\f-\tutti e' e e,
+    f! f' f f,
     g g' g g, %90
     c4 r
     \mvTr c\p-\solo r
@@ -2093,7 +2093,7 @@ DonaOrgano = {
     f' e d c
     h h' c c,
     g' f g g, %110
-    c c'\ffE g e
+    c c' g e
     c4 r
     r8 c' g e
     c4 r
@@ -2117,7 +2117,7 @@ DonaBassFigures = \figuremode {
   <4>8 <3>4.
   r4 <7>
   <6 4>8 \bc <[5 3]>4.
-  <6 3>4 <\t 5->8 <6\\ \t>
+  <6 3>8 \bassFigureExtendersOn q <6 5->8 \bassFigureExtendersOff <6\\ \t>
   <5> <5\+> <6>4 %45
   <6 4!> <5 3>
   r2
@@ -2137,11 +2137,11 @@ DonaBassFigures = \figuremode {
   r4 <6 4>8 <\t 3>
   <6\\ 4> <\t 3> <4> <3>
   <6 4>4 <6\\ 4>
-  \bo <[7 5 _+]>4. <6 4>8
-  <4\+ 2\+> <5 _+>4. %65
-  <8 6 _+>4. <7 5 \t>8
-  <7\\ 4 2\+> \bc <[8 5 3]>4.
-  <6>2
+  <_+>2
+  r %65
+  <6 _+>
+  r
+  <6>
   <7 _+>4 <6 \t>
   <7> <6> %70
   <7> <6>
@@ -2158,17 +2158,17 @@ DonaBassFigures = \figuremode {
   <5 3> <6 4>
   <\t \t> <5 3>
   r <7>
-  \bo <[4]>8 \bc <[3]>4. %85
+  r2 %85
   r4 <7>
-  \bo <[6 4]>8 \bc <[5 3]>4.
+  r2
   <6>4 <6\\ 5->
-  <9 5\+ 3>8 <8 6 \t> <7 5\+> <8 6>
+  <9 5\+ 3>8 <8 6 \t> <7 2> <8 6>
   <6 4>4 <5 [3]> %90
   r2
-  <6 4>4. <[7 \t]>8
-  <5 [3]>2
-  <6 4>4. <[7 \t]>8
-  <5 [3]>2 %95
+  <6 4>
+  <5 [3]>
+  <6 4>
+  <5 [3]> %95
   <6>
   r
   <5>4 <6>
@@ -2188,7 +2188,7 @@ DonaBassFigures = \figuremode {
   r
   r
   r
-  r8 <6 4>4 \once \bassFigureExtendersOn q8 %115
-  <5 [3]>2
+  <6 4> %115
+  <5 [3]>
   r2*8 %124 finis
 }

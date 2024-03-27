@@ -1096,13 +1096,13 @@ DonaViola = {
     r g g g
     r g r f %40
     r e e e
-    r d\crescE r a'
+    r d r a'
     r d,( g) g
     r c4\f c8
     r a4 a8 %45
     r g4 g8
     e16 c' h a g f e d
-    c8\p e e e
+    c8 e\p e e
     r d d d
     r h h h %50
     r a a a
@@ -1118,7 +1118,7 @@ DonaViola = {
     e g g g,
     d' d, d d'
     d d, d d'
-    r fis,\p-\parenthesize-! \once \slurDashed fis( g)
+    r fis,\p fis g
     r d' d d %65
     r d d d
     r d d d
@@ -1129,18 +1129,29 @@ DonaViola = {
     a'\p g e fis
     g d e c
     h d a c
-    h <h d> q q %75
-    <c d>16 q q q q q q q
-    <d f!> <d f> q q q q q q
-    <e g>\cresc q q q q q q q
-    <h g'> q q q q q q q
-    <c e>8\f q q q %80
-    <h d> q <c e> q
-    <h d> q <c e> q
+    << {
+      h d d d %75
+      d d d d
+      f! f f f
+      g g g g
+      g g g g
+      e e e e %80
+      d d e e
+      d d e e
+    } \\ {
+      h h h h %75
+      c c c c
+      d d d d
+      e\cresc e e e
+      h h h h
+      c\f c c c %80
+      h h c c
+      h h c c
+    } >>
     g g' g g,
-    g\p g' r f
+    g g'\pE r f
     r <c e> q q %85
-    r a\crescE r c
+    r a r c
     r <g h> q q
     c\f c cis cis
     a a' cis, d
@@ -1165,7 +1176,7 @@ DonaViola = {
     g g' g g
     g, g' g g
     g, g' g g %110
-    e c\ffE g e
+    e c g e
     c4 r
     r8 e' c g
     e4 r
@@ -1174,7 +1185,7 @@ DonaViola = {
     d r g r
     <e c>2~\decrescE
     q
-    g4~\pp g16 f( e d) %120
+    g4~\p g16 f( e d) %120
     c( h a g) fis( g a h)
     c8 r r4
     g r

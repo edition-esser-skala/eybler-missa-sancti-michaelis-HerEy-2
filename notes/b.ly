@@ -1145,3 +1145,125 @@ AgnusBassi = {
     g2.\fermata \bar "||" %35 finis
   }
 }
+
+DonaBassi = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoDona
+      \set Score.currentBarNumber = #36
+    g'4\p r
+    g r
+    g r
+    g r
+    c,8 r gis' r %40
+    a4 r
+    d,8 r fis r
+    g!4 r
+    e,8\f e' e e,
+    f! f' f f, %45
+    g g' g g,
+    c16 c' h a g f e d
+    << {
+      c8^\vlc c c c
+      r d d d
+      r e e e %50
+      r f f f
+    } \\ {
+      \mvTr c4\pE_\bassi r
+      d r
+      e r %50
+      f r
+    } >>
+    c8\f c' c c,
+    d d' d d,
+    e e' e e,
+    a, a' a a, %55
+    << {
+      r8^\vlc c c c
+      r h h h
+      r fis' fis fis
+      r g g g
+    } \\ {
+      \mvTr c,4\p-\bassi r
+      h r
+      fis' r
+      g r
+    } >>
+    h,8\f h' h h, %60
+    c c' h h,
+    a a' g g,
+    d' d' a fis
+    << {
+      d8^\vlc d d d
+      r d d d
+      r d d d
+      r g g g
+    } \\ {
+      \mvTr d4\p_\bassi r
+      d r %65
+      d r
+      g, r
+    } >>
+    e'8\f e' e e,
+    d d' d d,
+    c c' c c, %70
+    h h' h h,
+    a\p a d d
+    g, g c c
+    d d d, d
+    g g' g g %75
+    g, g' g g
+    g, g' g g
+    g,\cresc g' g g
+    g, g' g g
+    g,\f g' g g %80
+    g, g' g, g'
+    g, g' g, g'
+    g, g' g g,
+    c\p r gis' r
+    a4 r %85
+    d,8 r fis r
+    g!4 r
+    e,8\f e' e e,
+    f! f' f f,
+    g g' g g, %90
+    c4 r
+    c\p r
+    c r
+    c r
+    c r %95
+    e8\f e' e e,
+    c c' c c,
+    a a' fis fis,
+    g h d g
+    as4\p r %100
+    g r
+    as r
+    g r
+    a,!8\f a' a a,
+    g g' g g, %105
+    f f' f f,
+    e e' e e,
+    f' e d c
+    h h' c c,
+    g' f g g, %110
+    c c' g e
+    c4 r
+    r8 c' g e
+    c4 r
+    r8 g' e c %115
+    g4 r
+    R2
+    << {
+      c,8^\vlc r e r
+      g r c r
+    } \\ {
+      \override MultiMeasureRest.staff-position = #-12 R2*2_\bassi
+    } >>
+    g8\p r h r %120
+    d r g r
+    c, r r4
+    c r
+    c2\fermata \bar "|." %124 finis
+  }
+}

@@ -487,7 +487,7 @@ DonaClarinoI = {
     R2*6 %67
     g4\f r
     R2*11 %79
-    c8\f c16 c c8^\critnote c %80
+    c8\f c16 c c8 c %80
     d4 e
     d e
     e d
@@ -507,13 +507,14 @@ DonaClarinoI = {
     r4 d~
     d e
     d2 %110
-    \pa c8 c,16\ff c e8 g
+
+    \pa c8 c,16 c e8 g
     c4 \pd r
     r8 e,16 e g8 c
     e4 r
     r8 g,16 g c8 e %115
-    d2~\decresc
-    d
+    d2~
+    d\decresc
     e8\! r r4
     R2*5 %123
     R2\fermata \bar "|." %124 finis

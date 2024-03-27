@@ -851,13 +851,13 @@ DonaOboeII = {
     g4 h8 c
     d4 c~
     c h %110
-    c8 c,\ffE e g
+    c8 c, e g
     c4 r
     r8 c, e g
     c4 r
     r8 e, g c %115
-    h2~\decresc
-    h
+    h2~
+    h\decresc
     c8\! r r4
     R2*5 %123
     R2\fermata \bar "|." %124 finis
