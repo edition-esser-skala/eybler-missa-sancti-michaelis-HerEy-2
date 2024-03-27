@@ -897,27 +897,27 @@ BenedictusViolinoII = {
   \relative c' {
     \clef treble
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
-    h'4.\p gis8
+    h'4.\fE gis8
     a4. fis8
-    g( h,) c16( d e c)
-    h8( a) r d16( e)
-    fis( g a h) c(\cresc d e fis) %5
-    g8.\f fis16 e( d c h)
-    h(\decresc a c a) a( g) g( fis)
-    fis4( g8)\pE r
-    r h,-\pizz h h
+    g!( h,) c16( d e c)
+    h8( a) r d16( e
+    fis g a h) c(\cresc d e fis)\! %5
+    g8. fis16 e( d c h)
+    h(\decresc a c a) a( g) g( fis)\!
+    fis4( g8)r
+    r \mvTr h,\pE-\pizz h h
     r a a a %10
     g h r e
     d4 r
     r8 d d d
     r d r e
     r d-\arco d d %15
-    d( h d g)
+    d h( d g)
     h( d, h gis')
     r c,( a fis')
     g h, c16( d e c)
-    h8( a) r fis'16( g) %20
-    a( h c8) c16( a) a( fis)
+    h8( a) r fis'16( g %20
+    a h) c8~ c16( a) a( fis)
     r8 g r c,
     r16 h( d g) h( g fis c)
     h8 h16( d) d( g) g( h)
@@ -928,7 +928,7 @@ BenedictusViolinoII = {
     fis( a, d fis) a( fis) fis( d)
     r h( d g) r c,( e a) %30
     h( g d h) g( g' fis c)
-    h8 \tuplet 3/2 8 { g16( h) h-! h([ d) d]-! d( g) g-!
+    h8 \tuplet 3/2 8 { g16([ h) h]-! h([ d) d]-! d( g) g-!
     g[ h h] h h h e,[ h' h] h h h
     c[ a a] a a a d,[ a' a] a a a
     g[ h, h] h h h c[ c' c] c e, c %35
@@ -940,43 +940,43 @@ BenedictusViolinoII = {
     fis( d fis a) d,( fis a c)
     h( d g d) h( d h g)
     fis( d fis a) d,( fis a c)
-    h8-\parenthesize-! g( a g)
+    h8 g([ a g)]
     r g( a g) %45
     r4 r8 dis'16( e)
     e8( c a e)
-    d4 r8 fis16( g)
+    d!4 r8 fis16( g)
     a( a, d fis) a( fis d fis)
     g( h, d g) h( d, g h) %50
     d( f d h) g( f d h)
     c8 e'4 e,8
-    \once \slurDashed d( cis d) fis
-    g c\f h ais
-    h16( h, h d) g( h a c,) %55
-    h8 r r h\pE
+    d( cis d fis!)(
+    g c\f h ais)
+    h16( g, h d) g( h a c,) %55
+    h8 r r h
     c4 r8 c
     d4 r8 d
-    e e4 \slurDashed d16( c)
-    h8( a) \slurSolid r d16( e) %60
-    fis( g a h) c(\cresc d e fis)
-    g8.\f fis16 e( d c h) \noBreak
-    h(\decresc a c a) a( g) g( fis) \bar "||"
-    \key c \major \tempoOsanna g4\pE r8 g,16(\f a \noBreak
+    e e4 d16 c
+    h8( a) r d16( e %60
+    fis g a h) c(\cresc d e fis)\!
+    g8. fis16 e( d c h) \noBreak
+    h(\decresc a c a) a( g) g( fis)\! \bar "|"
+    \key c \major \tempoOsanna g4 r8 g,16(\f a \noBreak
     h4) r8 h16( c %65
     d4) r8 g,16( a
     h8) c-! d-! e-!
     f!4 r8 d16( e
     f8) g-! a-! h-!
     c r <c g'> r %70
-    <f, c' a'> r <g, d' h'> r
+    <f, c' a'> r <g, f' h> r
     <g e' c'>4 r
     R2*2
-    r4 d'16 g g h %75
+    r4 d'16\f g g h %75
     e, g g c g h h d
     g, c c e a, d d f
     d8 g,16( fis g fis g fis)
     g4 r
     R2*3 %82
-    r4 a16 d d f
+    r4 a16\f d d f
     f d d h c e e c
     d c' c d, g,8 h' %85
     c, c,16 e e g g c

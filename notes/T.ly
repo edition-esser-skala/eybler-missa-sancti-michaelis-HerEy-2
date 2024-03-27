@@ -1427,7 +1427,7 @@ BenedictusTenore = {
     g d16([ g)] g([ h)] h([ d)]
     r8 d16 d h8 gis
     r c a fis
-    g([ a16 h] c[ d)] e([ c)] %35
+    g!([ a16 h] c[ d)] e([ c)] %35
     h8([ a)] c16([ h)] a([ g)]
     fis([ g a h)] c([ a)] a([ fis)]
     h8([ g)] e c'
@@ -1446,12 +1446,12 @@ BenedictusTenore = {
     r d h d
     g, c r c
     h([ ais h)] d
-    d c\fE h ais16 ais
+    d c\f h ais16 ais
     h4. c8 %55
     h4 r
-    R2*7 \bar "||" %63
+    R2*7 \bar "|" %63
     \key c \major \tempoOsanna R2*7 %70
-    r4 \mvTr g\fE^\tuttiE
+    r4 \mvTr g\f^\tutti
     c4. e8
     e4. g8
     g4.( f8)

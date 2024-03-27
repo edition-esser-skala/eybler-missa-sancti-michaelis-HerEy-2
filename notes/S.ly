@@ -1354,13 +1354,14 @@ BenedictusSoprano = {
     d'8.([ h16)] g8 g %50
     f'4 d8 h
     c16([ d e fis)] g([ e)] c([ a)]
-    \once \override Script.X-offset = #5 g4.\turn a8
-    h c\fE d16([ e)] fis g
+    % g4. a8 % for MIDI
+    g4. a8\turn
+    h c\f d16([ e)] fis g
     \appoggiatura g8 g,4. \appoggiatura h16 a8 %55
     g4 r
-    R2*7 \bar "||" %63
+    R2*7 \bar "|" %63
     \key c \major \tempoOsanna R2*7 %70
-    r4 \mvTr g\fE^\tuttiE
+    r4 \mvTr g\f^\tutti
     c4. e8
     e4. g8
     g4.( f8)

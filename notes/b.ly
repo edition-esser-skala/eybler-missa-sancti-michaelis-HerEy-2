@@ -1008,3 +1008,98 @@ SanctusBassi = {
     c4 r\fermata \bar "|." %49 finis
   }
 }
+
+BenedictusBassi = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \major \time 2/4 \tempoBenedictus
+    r8 h'\fE gis e
+    r a fis d
+    r e c a
+    d d' d, r
+    r d~ d16(\cresc c h a)\! %5
+    g8 g' r g,
+    c\decresc c' d d,\!
+    g d g, r
+    r \mvTr h'\pE-\pizz gis e
+    r a fis d %10
+    r e c a
+    d d' d, r
+    r d d c
+    r h r c
+    r d d d %15
+    g,4 r
+    r8 h'(-\arco gis e)
+    r a( fis d)
+    r e( c a)
+    d d' d, r %20
+    r d d c
+    r h r c
+    r d d d,
+    g4 r
+    h'8 r e, r %25
+    a r d, r
+    e r a, r
+    d r d, r
+    d' r c r
+    h r c r %30
+    d r d, r
+    g g'd h
+    g h' gis e
+    r a fis d
+    r e c a %35
+    d d' d, r
+    r d d c
+    r h r c
+    r d d d,
+    g r g' r %40
+    d, r d' r
+    g, r g' r
+    d, r d' r
+    g, g'([ fis g)]
+    r g( fis g) %45
+    r4 r8 h,
+    c( e) a( c)
+    d, d' d, r
+    r d d c
+    h h' r4 %50
+    r8 g, g' f
+    e c r c
+    d( es d) d,
+    g e'(\f d cis)
+    d r d, r %55
+    g r r g
+    a a' r a,
+    h h' r h,
+    c c' r c,
+    d d' d, r %60
+    r d~ d16(\crescE c h a)\!
+    g8 g' r g, \noBreak
+    c\decrescE c' d d,\! \bar "||"
+    \key c \major \tempoOsanna g4 r8 g,16(\f a \noBreak
+    h4) r8 h16( c %65
+    \once \stemUp d4) r8 g,16( a
+    h8) c-! d-! e-!
+    f!4 r8 d16( e
+    f8) g-! a-! h-!
+    c r e, r %70
+    f r g r
+    c,4 r
+    R2*2
+    r4 g8 g' %75
+    e g h, g'
+    c, c' f,, f'
+    g, g' d h
+    g4 r
+    R2*3 %82
+    r4 d'8 d'
+    g,, g' c, c'
+    g f g g, %85
+    c g' e c
+    g d' h g
+    c g' e c
+    g d'' h g
+    c4 c,16( h c h) %90
+    c4 r\fermata \bar "|." %91 finis
+  }
+}

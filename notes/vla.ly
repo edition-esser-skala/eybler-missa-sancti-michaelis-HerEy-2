@@ -943,22 +943,22 @@ BenedictusViola = {
   \relative c' {
     \clef alto
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
-    r8 d\pE h'4
-    e,8.( fis32 g) a8 c,
+    r8 d(\fE h'4)
+    e,8. fis32 g a8 c,
     h( g') e16( d c e)
-    d4 r8 c16( h)
-    a( g fis e) d8\cresc d %5
-    d16(\fE g h d) g8 r
-    r \once \slurDashed e(\decresc d c)
-    c4( h8)\pE r
-    r8 d,-\pizz h' e
+    d4 r8 c16( h
+    a g fis e) d8\cresc d~\! %5
+    d16 g( h d) g8 r
+    r e\decresc d c\!
+    c4( h8) r
+    r8 \mvTr d,\pE-\pizz h' e
     r c, a' d %10
     h g r c
     h a r4
     r8 a a a
     r g r c
-    r h-\arco h( c) %15
-    h( d h g)
+    r h-\arco h c %15
+    h d( h g)
     d h'4 h8
     c a4 c8
     h g e'16( d c e)
@@ -969,12 +969,12 @@ BenedictusViola = {
     g8 d16( h) h( g) g( d)
     r8 h'' gis e~ %25
     e a fis d
-    r e c a
+    r e( c a)
     r d~ d16( e fis g)
     a( c a fis) d( fis) fis( a)
     g( d h g) e( e' c a) %30
-    r d( h g) \once \slurDashed d( h' a fis')
-    g8 \tuplet 3/2 8 { h16( g) g-! g[( d) d]-! d( h) h-! }
+    r d( h g) d( h' a fis')
+    g8 \tuplet 3/2 8 { h16[( g) g]-! g[( d) d]-! d( h) h-! }
     g8 r \tuplet 3/2 8 { r16 e' e e[ e e] }
     a8 r \tuplet 3/2 8 { r16 d, d d[ d d] }
     g8 r \tuplet 3/2 8 { r16 a a a[ a a] } %35
@@ -982,15 +982,23 @@ BenedictusViola = {
     d8 r \tuplet 3/2 8 { r16 d' d d[ d d] }
     d8 r \tuplet 3/2 8 { r16 a' a a[ a a] }
     g8 r \tuplet 3/2 8 { r16 d d d[ d d] }
-    h8 <g h>4 q8 %40
-    <fis a>4. <a c>8
-    <g h> q4 q8
-    <fis a>4. <a c>8
-    <g h> d'4 d8
+    h8 << {
+      h4 h8 %40
+      a4. c8
+      h h4 h8
+      a4. c8
+      h
+    } \\ {
+      g4 g8 %40
+      fis4. a8
+      g g4 g8
+      fis4. a8
+      g
+    } >> d'4 d8
     r d4 d8 %45
     r4 r8 g,16( g')
     g4 e8 c
-    \once \slurDashed h( a) r4
+    h a r4
     r8 a fis a
     r d h g %50
     r g4 g8
@@ -998,17 +1006,18 @@ BenedictusViola = {
     h( ais h) d
     d <g, g'>4\f <g e'>8
     <g d'> d'4 fis8 %55
-    g g,\pE e'4
+    g g, e'4
     r8 a, fis'4
     r8 h, g'4
-    r8 c,4 \once \slurDashed h16( a)
-    d4 r8 c16( h) %60
-    a( g fis e) d8\cresc d
-    d16(\f g h d) g8 r \noBreak
-    r e(\decresc d c) \bar "||"
-    \key c \major \tempoOsanna h4\pE r8 g16(\f a \noBreak
+    r8 c,4 h16 a
+    d4 r8 c16( h %60
+    a g fis e) d8\cresc d~\!
+    d16 g( h d) g8 r \noBreak
+    r e(\decresc d c)\! \bar "|"
+    \key c \major \tempoOsanna h4 r8 g16(\f a \noBreak
     h4) r8 h16( c %65
-    d4) r8 g,16( a
+
+    \once \stemUp d4) r8 g,16_( a
     h8) c-! d-! e-!
     f!4 r8 d16( e
     f8) g-! a-! h-!
@@ -1016,13 +1025,13 @@ BenedictusViola = {
     <c, f a> r <g d' h'> r
     <c, g' e' c'>4 r
     R2*2
-    r4 g''8 g, %75
+    r4 g''8\f g, %75
     g g' g g,
     g g' a, a'
     g g, h d
     g4 r
     R2*3 %82
-    r4 d'8 d,
+    r4 d'8\f d,
     d' d, c c'
     g f g g, %85
     c g' e c

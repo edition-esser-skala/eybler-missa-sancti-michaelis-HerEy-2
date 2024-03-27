@@ -1431,7 +1431,7 @@ BenedictusBasso = {
     g8 d16([ g)] g([ h)] h([ d)]
     r8 d16 d h8 gis
     r c a fis
-    g([ a16 h] c[ d)] e([ c)]
+    g!([ a16 h] c[ d)] e([ c)]
     h8([ a)] c16([ h)] a([ g)] %20
     fis([ g a h)] c([ a)] a([ fis)]
     h8([ g)] e c'
@@ -1466,12 +1466,12 @@ BenedictusBasso = {
     r h, d f
     e c r c
     d([ es d)] d
-    g e\fE d cis16 cis
+    g e\f d cis16 cis
     d4. d8 %55
     g,4 r
-    R2*7 \bar "||" %63
+    R2*7 \bar "|" %63
     \key c \major \tempoOsanna R2*7 %70
-    r4 \mvTr g'\fE^\tuttiE
+    r4 \mvTr g'\f^\tutti
     c,4. c'8
     c4. e8
     e4.( d8)

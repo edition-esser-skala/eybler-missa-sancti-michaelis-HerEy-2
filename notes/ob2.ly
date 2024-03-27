@@ -717,17 +717,17 @@ BenedictusOboeII = {
     \clef treble
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
     R2*3
-    r4 r8 \once \slurDashed d16(\pE e)
-    fis( g a h) c(\cresc d e fis) %5
-    g4\fE r
+    r4 r8 d16\pE e
+    fis( g a h c\cresc d e fis) %5
+    g4\! r
     R2*25 %31
-    r8 d,4\pE g8
+    r8 d,4 g8
     r h4 gis8
     r a4 fis8
-    r g a16( h c a) %35
-    \once \slurDashed g8( fis) d16( e fis g)
+    r g! a16( h c a) %35
+    g8 fis d16( e fis g)
     r8 a4 fis8
-    h r a-\critnote r
+    h r a r
     g h4 a8
     g g4 g8 %40
     fis4. a8
@@ -746,22 +746,22 @@ BenedictusOboeII = {
     r8 g4\f g8
     g r r4 %55
     R2*4
-    r4 r8 \once \slurDashed d16(\pE e) %60
-    fis( g a h) c(\cresc d e fis)
-    g4\fE r \noBreak
-    R2 \bar "||"
+    r4 r8 d16( e %60
+    fis g a h c\cresc d e fis)
+    g4\! r \noBreak
+    R2 \bar "|"
     \key c \major \tempoOsanna R2*6 %69
     r4 c,8\fE r %70
     c r f, r
     e4 r
     R2*2
-    r4 g %75
+    r4 g\f %75
     g g
     g a
     h h8. h16
     h4 r
     R2*3 %82
-    r4 d
+    r4 d\f
     h c~
     c h %85
     c r
@@ -769,7 +769,7 @@ BenedictusOboeII = {
     c4 r
     h2
     c4 c,8. c16 %90
-    c4 r\fermata \bar "|." %49 finis
+    c4 r\fermata \bar "|." %91 finis
   }
 }
 

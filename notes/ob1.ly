@@ -743,26 +743,27 @@ BenedictusOboeI = {
     \clef treble
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
     R2*3
-    r4 r8 \once \slurDashed fis16(\p g)
-    a( h c d) e(\cresc fis g a) %5
-    h4\fE r
+    r4 r8 fis16\pE g
+    a( h c d e\cresc fis g a) %5
+    h4\! r
     R2*18 %24
-    \mvTr d,4.\pE-\solo e8 %25
-    \once \override Script.X-offset = #3 a,8._\turn h16 c8 d
+    d,4.-\solo e8 %25
+    % a,8. h16 c8 d % for MIDI
+    \after 8 _\turn a,8. h16 c8 d
     g,4 a16( h c a)
-    g8( fis) r \once \slurDashed a16( h)
+    g8( fis) r a16 h
     c8. a16 fis8 d
-    \once \slurDashed d'8.( cis16) c( h a e') %30
+    d'8.( cis16) c( h a e') %30
     \appoggiatura e8 g,4. \appoggiatura h16 a8
-    g8 d g h
+    \pa g8 d g h \pd
     r d4 e8
     r c4 d8
     r h c16( d e c) %35
-    \once \slurDashed h8( a) fis16( g a h)
+    h8 a fis16( g a h)
     r8 c4 a8
     d r c r
     h d4 fis,8
-    g h4 h8 %40
+    \pao g h4 h8 %40
     a4. c8
     h d4 h8
     a4. c8
@@ -774,35 +775,35 @@ BenedictusOboeI = {
     c8 r r4
     R2 %50
     f!4 d8 h
-    c8 r r4
+    g8 r r4
     R2
-    r8 c(\fE h ais)
+    r8 c(\f h ais)
     h r r4 %55
     R2*4
-    r4 r8 \once \slurDashed fis16(\pE g) %60
-    a( h c d) e(\cresc fis g a)
-    h4\fE r \noBreak
-    R2 \bar "||"
+    r4 r8 fis16( g %60
+    a h c d e\cresc fis g a)
+    h4\! r \noBreak
+    R2 \bar "|"
     \key c \major \tempoOsanna R2*6 %69
     r4 g8\fE r %70
     a r h, r
     c4 r
     R2*2
-    r4 h %75
+    r4 h\f %75
     c d
     e f
     d g8. g16
     g4 r
     R2*3 %82
-    r4 f~
+    r4 f~\f
     f e
     d2\trill %85
-    c4 r
+    \pao c4 r
     d2
     e4 r
     g2
-    e4 c,8. c16 %90
-    c4 r\fermata \bar "|." %49 finis
+    e4 \pa c,8. c16 %90
+    c4 \pd r\fermata \bar "|." %91 finis
   }
 }
 

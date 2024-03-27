@@ -448,19 +448,19 @@ BenedictusClarinoI = {
   \relative c' {
     \clef treble
     \twofourtime \key c \major \time 2/4 \tempoBenedictus
-    R2*63 \bar "||" %63
+    R2*63 \bar "|" %63
     \tempoOsanna R2*6 %69
     r4 c'8\f r %70
     c r g r
     e4 r
     R2*2
-    r4 \pao g %75
+    r4 \pao g\f %75
     c d
     e f
     d g,8. g16
     g4 r
     R2*4 %83
-    d'4 e
+    d'4\f e
     d2 %85
     c4 r
     g8 g16 g g8 g

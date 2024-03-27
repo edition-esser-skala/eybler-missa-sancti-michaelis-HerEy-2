@@ -1751,15 +1751,15 @@ BenedictusOrgano = {
   \relative c {
     \clef bass
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
-    r8 \mvTr h'\pE-\solo gis e
+    r8-\critnote \mvTr h'\fE-\solo gis e
     r a fis d
     r e c a
     d d' d, r
-    r d~ d16(\crescE c h a) %5
-    g8\fE g' r g,
-    c\decrescE c' d d,
-    g d g,\pE r
-    r h' gis e
+    r d~ d16( c h a) %5
+    g8 g' r g,
+    c c' d d,
+    g d g, r
+    r h'\pE gis e
     r a fis d %10
     r e c a
     d d' d, r
@@ -1806,31 +1806,31 @@ BenedictusOrgano = {
     d( es d) d,
     g e'(\f d cis)
     d r d, r %55
-    g r r g\pE
+    g r r g
     a a' r a,
     h h' r h,
     c c' r c,
     d d' d, r %60
-    r \once \tieDashed d~ d16(\crescE c h a)
-    g8\fE g' r g, \noBreak
-    c\decrescE c' d d, \bar "||"
-    \key c \major \tempoOsanna g4\pE r8 \slurDashed \mvTr g,16(\f-\unisonoE a \noBreak
-    h4) r8 h16( c %65
-    d4) r8 g,16( a
-    h8) \parOn c-\parenthesize-! d-! \parOff e-\parenthesize-!
-    f!4 r8 d16( e
-    f8) \slurSolid \parOn g-\parenthesize-! a-! \parOff h\parenthesize-!
+    r d~ d16( c h a)
+    g8 g' r g, \noBreak
+    c c' d d, \bar "|"
+    \key c \major \tempoOsanna g4 r8 g,16\f a \noBreak
+    h4 r8 h16 c %65
+    d4 r8 g,16 a
+    h8 c d e
+    f!4 r8 d16 e
+    f8 g a h
     c r e, r %70
     f r g r
     c,4 r
     R2*2
-    r4 g8-\tutti g' %75
+    r4 \mvTr g8\fE-\tutti g' %75
     e g h, g'
     c, c' f,, f'
     g, g' d h
     g4 r
     R2*3 %82
-    r4 d'8 d'
+    r4 d'8\f d'
     g,, g' c, c'
     g f g g, %85
     c g' e c
@@ -1915,23 +1915,22 @@ BenedictusBassFigures = \figuremode {
   r4 <6> %70
   r <7>
   r2
-  r
-  r
-  r %75
+  r2*2
+  r2 %75
   <6>4 <6 [5]>
   r <6>
   r2
   r
-  r2*3 %82
-  r2
-  <7>4 <3>
-  <4> <3> %85
-  r2
+  r2*3 %81
+  r4 <5>
+  <7> <3>
+  <4> <3>
+  r2 %85
   r
   r
   r
-  r %90
-  r %91 finis
+  r
+  r %90 finis
 }
 
 AgnusOrgano = {
