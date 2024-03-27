@@ -1648,28 +1648,29 @@ SanctusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoSanctus
-    \once \slurDashed \mvTr c4(\pE-\tuttiE-\senzaOrg e c)
-    \parOn h-\parenthesize-! \parOff g'-\parenthesize-! r
-    \once \slurDashed b,( g' b,)
-    \parOn a-\parenthesize-!\crescE \parOff a'-\parenthesize-! r
-    \once \slurDashed a( f cis) %5
-    d8\fE d d' d gis, gis
+    \mvTr c4\pE-\senzaOrg e c
+    h g' r
+    b, g' b,
+    a f' r
+    a f cis %5
+    \mvTr d8\f-\tutti-\acc d d' d gis, gis
     a a a, a g! g
     f f f' f d d
     g4 g, r
     g8\fE g' g g g g %10
     g4 r r
-    g,8\pp g g g g g
+    g,8-!\pp g-! g-! g-! g-! g-!
     g4 g g \noBreak
     g2.\fermata \bar "||"
-    \twofourtime \time 2/4 \tempoPleni g8\fE h d g \noBreak %15
+    \twofourtime \time 2/4 \tempoPleni
+      \mvTr g8\f-\tutti h d g \noBreak %15
     g, c e g
     h, h' c c,
     g' g, g' f
     e e, e e'
     f d e f %20
     g g, g g'
-    c, c' r c,-\solo
+    c,-\solo c' r c,
     d d' r d,
     e e' r e,
     f f' r f, %25
@@ -1679,13 +1680,13 @@ SanctusOrgano = {
     f r g r
     c,4 r %30
     R2*2
-    r4 g8-\tutti g'
+    r4 \mvTr g8\fE-\tutti g'
     e g h, g'
     c, c' f,, f' %35
     g, g' d h
     g4 r
     R2*3 %40
-    r4 d'8 d'
+    r4 d'8\f d'
     g,, g' c, c'
     g f g g,
     c g' e c
@@ -1706,9 +1707,9 @@ SanctusBassFigures = \figuremode {
   r2 <7>4
   r2 <7 _->8 <6 \t>
   r2.
-  <_!>
+  <[_!]>
   <7\\ 6- 4 2> %10
-  <8 3>
+  <_!>
   <7\\ 4 2>
   <8 3>
   r

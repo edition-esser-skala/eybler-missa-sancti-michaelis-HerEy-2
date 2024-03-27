@@ -852,11 +852,11 @@ SanctusViolinoI = {
     d8\f f' f f f f
     e e e e f g
     a16( gis a gis) a( g f e) d( c h a)
-    \appoggiatura c h( a h c) d g,,( h d) \slurDashed g( h d g)
-    fis(\f c' a fis) es( c a fis) \slurSolid a( c es fis) %10
-    g(\decresc d h' a) g( fis e d) c( h a g)
+    \appoggiatura c h( a h c) d( g,, h d) g( h d g)
+    fis(\f c' a fis) es( c a fis) a( c es fis) %10
+    g( d h' a) g(\decresc fis e d) c( h a g)
     fis(\pp g a h) c( h a g) fis( e d c)
-    h8.[ c16 d8. e16 d8. e16] \noBreak
+    h8.[( c16 d8. e16 d8. e16]) \noBreak
     d2.\fermata \bar "||"
     \twofourtime \time 2/4 \tempoPleni
       d'16\f h h g g d d h \noBreak %15
@@ -876,14 +876,14 @@ SanctusViolinoI = {
     <f c' a'> r <g, d' h'> r
     <g e' c'>4 r %30
     R2*2
-    r4 h'16 g g d
+    r4 h'16\f g g d
     c' g g e d' h h g
     e' c c g f' d d a %35
     h8 g'16( fis g fis g fis)
     g4 r
     R2*3 %40
-    r4 f16 d d a
-    h d d^\critnote f e g g c
+    r4 f16\f d d a
+    h d d f e g g c
     c d, d c' g,8 h'
     c,,16 e e g g c c e
     d, g g h h d d g %45

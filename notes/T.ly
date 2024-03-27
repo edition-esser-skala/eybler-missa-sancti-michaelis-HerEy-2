@@ -1321,7 +1321,7 @@ SanctusTenore = {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoSanctus
     R2.
-    \mvTr g2.\p^\tutti
+    \mvTr g2.\p^\tuttiE
     g4 r r
     c2.\cresc
     c4 r r %5

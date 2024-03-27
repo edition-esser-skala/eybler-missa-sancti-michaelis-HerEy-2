@@ -358,12 +358,12 @@ SanctusTimpani = {
     c r g r
     c4 r %30
     R2*3
-    r4 g
+    r4 g\fE
     c r %35
     r8 g16 g g8 g
     g4 r
     R2*4 %41
-    r4 c
+    r4 c\f
     g8 g16 g g8 g
     c4 r
     R2*2 %46

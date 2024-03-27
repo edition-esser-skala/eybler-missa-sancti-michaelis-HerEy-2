@@ -896,7 +896,7 @@ SanctusViola = {
     a-! f'-! r
     a( f cis) %5
     d8\f d' d d d d
-    c c, c c d e
+    c! c, c c d e
     f f f f f f
     d d h h g g
     <a' c>\f q q q q q %10
@@ -907,7 +907,7 @@ SanctusViola = {
     \twofourtime \time 2/4 \tempoPleni g'8\f d h g \noBreak %15
     g' e c g
     g' g, g g'
-    g d h g
+    g d h d
     c c' cis cis,
     d f g a %20
     g g, g g'
@@ -921,13 +921,13 @@ SanctusViola = {
     <c f a> r <g d' h'> r
     <c, g' e' c'>4 r %30
     R2*2
-    r4 g''8 g,
+    r4 g''8\f g,
     g g' g g,
     g g' a, a' %35
     g g, h d
     g4 r
     R2*3 %40
-    r4 d'8 d,
+    r4 d'8\f d,
     d' d, c c'
     g f g g,
     c g' e c

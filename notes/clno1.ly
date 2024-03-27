@@ -415,7 +415,7 @@ SanctusClarinoI = {
     \pao g4 r r
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \twofourtime \time 2/4 \tempoPleni d'4\fE d8 d \noBreak %15
+    \twofourtime \time 2/4 \tempoPleni d'4\f d8 d \noBreak %15
     e4 e8 e
     d4 e8 e
     d4 r
@@ -427,13 +427,13 @@ SanctusClarinoI = {
     c r g r
     e4 r %30
     R2*2
-    r4 \pao g
+    r4 \pao g\f
     c d
     e f %35
     d g,8. g16
     g4 r
     R2*4 %41
-    d'4 e
+    d'4\f e
     d2
     c4 r
     g8 g16 g g8 g %45

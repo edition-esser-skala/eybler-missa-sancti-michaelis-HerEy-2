@@ -672,7 +672,7 @@ SanctusOboeII = {
     c2 d8 e
     f4 a, d
     h r r
-    es2\f es8 c %10
+    es2~\f es8 c %10
     h4 r r
     fis2.\pp
     g4 r r \noBreak
@@ -694,13 +694,13 @@ SanctusOboeII = {
     c r f, r
     e4 r %30
     R2*2
-    r4 g
+    r4 g\f
     g g
     g a %35
     h h8. h16
     h4 r
     R2*3 %40
-    r4 d
+    r4 d\f
     h c~
     c h
     c r

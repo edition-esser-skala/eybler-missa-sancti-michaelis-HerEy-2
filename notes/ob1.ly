@@ -706,35 +706,35 @@ SanctusOboeI = {
     \twofourtime \time 2/4 \tempoPleni d2\f \noBreak %15
     e
     f4 e
-    d8 g, h d
+    \pa d8 g, h d
     g2~
-    g8 f e d %20
-    c4 h
-    c8 e c a
+    g8 f e d \pd %20
+    c4 h!
+    \pa c8 e c a
     r f' d h
     r g' e c
     r a' f d %25
     h c d e
     f g a h
-    c r c, r
+    c \pd r \pao c, r
     a' r h, r
     c4 r %30
     R2*2
-    r4 h
+    r4 h\f
     c d
     e f %35
     d g8. g16
     g4 r
     R2*3 %40
-    r4 f~
+    r4 f~\f
     f e
     d2\trill
-    c4 r
+    \pao c4 r
     d2 %45
     e4 r
     g2
-    e4 c,8. c16
-    c4 r\fermata \bar "|." %49 finis
+    e4 \pa c,8. c16
+    c4 \pd r\fermata \bar "|." %49 finis
   }
 }
 

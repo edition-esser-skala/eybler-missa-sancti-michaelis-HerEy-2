@@ -955,3 +955,56 @@ EtResurrexitBassi = {
     c r r\fermata \bar "|." %332 finis
   }
 }
+
+SanctusBassi = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    c4(\p e c)
+    h-! g'-! r
+    b,(\cresc g' b,)
+    a-! f'-! r
+    a( f cis) %5
+    d8\f d d' d gis, gis
+    a a a, a g! g
+    f f f' f d d
+    g4 g, r
+    g8\f g' g g g g %10
+    g4 r r
+    g,8\pp g g g g g
+    g4 g g \noBreak
+    g2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoPleni g8\f h d g \noBreak %15
+    g, c e g
+    h, h' c c,
+    g' g, g' f
+    e e, e e'
+    f d e f %20
+    g g, g g'
+    c, c' r c,
+    d d' r d,
+    e e' r e,
+    f f' r f, %25
+    g a h c
+    d e f d
+    e r e, r
+    f r g r
+    c,4 r %30
+    R2*2
+    r4 g8\f g'
+    e g h, g'
+    c, c' f,, f' %35
+    g, g' d h
+    g4 r
+    R2*3 %40
+    r4 d'8\f d'
+    g,, g' c, c'
+    g f g g,
+    c g' e c
+    g d' h g %45
+    c g' e c
+    g d'' h g
+    c4 c,16( h c h)
+    c4 r\fermata \bar "|." %49 finis
+  }
+}

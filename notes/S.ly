@@ -1238,14 +1238,14 @@ SanctusSoprano = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoSanctus
     R2.
-    \mvTr g'2.\p^\tutti
+    \mvTr g'2.\p^\tuttiE
     c4 r r
     c2.\cresc
     f4 r r %5
     f2\f f4
     e2 f8 g
     a4( a,) d
-    h8. c16 d4 r
+    h!8. c16 d4 r
     fis2.\f %10
     g4 r r
     c,2.\pp

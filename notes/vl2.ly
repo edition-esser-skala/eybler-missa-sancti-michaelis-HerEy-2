@@ -851,11 +851,11 @@ SanctusViolinoII = {
     d8\f a' a a h h
     c c c c b b
     a16( gis a gis) a( g f e) f( e d c)
-    \appoggiatura c h( a h c) d g,( h d) g( h d g)
+    \appoggiatura c h( a h c) d( g, h d) g( h d g)
     fis(\f es c a) fis( a c es) fis( es c a) %10
-    h(\decresc d, h' a) g( fis e d) c( h a g)
+    h( d, h' a) g(\decresc fis e d) c( h a g)
     a(\pp h c h) a( h c h) a( c h a)
-    g8.[ a16 h8. c16 h8. c16] \noBreak
+    g8.[( a16 h8. c16 h8. c16]) \noBreak
     h2.\fermata \bar "||"
     \twofourtime \time 2/4 \tempoPleni
       h16\f d d g g h h d \noBreak %15
@@ -872,16 +872,16 @@ SanctusViolinoII = {
     d, h c a d h e c
     f d g e a f h g
     c8 r <g c> r
-    <f c' a'> r <g, d' h'> r
-    <g e' c'>4-\critnote r %30
+    <f c' a'> r <g, f' h> r
+    <g e' c'>4 r %30
     R2*2
-    r4 d'16 g g h
+    r4 d'16\f g g h
     e, g g c g h h d
     g, c c e a, d d f %35
     d8 g,16( fis g fis g fis)
     g4 r
     R2*3 %40
-    r4 a16 d d f
+    r4 a16\f d d f
     f d d h c e e c
     d c' c d, g,8 h'
     c, c,16 e e g g c

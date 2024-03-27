@@ -1325,7 +1325,7 @@ SanctusBasso = {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoSanctus
     R2.
-    \mvTr h2.\p^\tutti
+    \mvTr h2.\p^\tuttiE
     b4 r r
     a2.\cresc
     a'4 r r %5
@@ -1364,7 +1364,7 @@ SanctusBasso = {
     g'2
     c,4 r
     g'4. g8 %45
-    c4 \mvTr e^\critnote
+    c4 e
     g,4. g8
     c4 c,
     R2\fermata \bar "|." %49 finis

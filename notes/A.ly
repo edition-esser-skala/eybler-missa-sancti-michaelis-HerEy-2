@@ -1295,7 +1295,7 @@ SanctusAlto = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoSanctus
     R2.
-    \mvTr d2.\p^\tutti
+    \mvTr d2.\p^\tuttiE
     e4 r r
     f2.\cresc
     f4 r r %5
