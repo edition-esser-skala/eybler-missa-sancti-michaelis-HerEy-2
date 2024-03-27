@@ -254,7 +254,7 @@ AgnusSopranoSolo = {
     f16([ es)] d c c([ b)] as g f([ c')] b([ as)]
     fis8 g r4 es'16([ g)] es([ c)]
     c8.([ h16)] h4 g8. f'16 %30
-    f8.([ d16)] es4 d8^\critnote d
+    f8.([ d16)] es4 es8 d
     c16([ b!)] as!([ g)] fis4 fis
     g2~ g8[ fis]
     g4 r r
@@ -266,8 +266,8 @@ AgnusSopranoSoloLyrics = \lyricmode {
   A -- gnus %26
   De -- i, qui
   tol -- lis, qui tol -- lis pec -- ca -- ta
-  mun -- di: Mi -- se --
-  re -- re, A -- gnus %30
+  mun -- di: Do -- na
+  pa -- cem, A -- gnus %30
   De -- i, do -- na,
   do -- na no -- bis
   pa --

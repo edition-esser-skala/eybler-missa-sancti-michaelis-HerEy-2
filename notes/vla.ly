@@ -1047,8 +1047,8 @@ AgnusViola = {
   \relative c' {
     \clef alto
     \key c \minor \time 3/4 \tempoAgnus
-    \mvTr c8\fE-\markup \remark "con sordino" r g' r es r
-    c8\pE c c c f f
+    \mvTr c8\p-\conSord r g' r es r
+    c8 c c c f f
     f f es es es es
     d d d d es es
     es d d d d d %5
@@ -1056,11 +1056,11 @@ AgnusViola = {
     d c c\fz c d\p d
     c c b! b a a
     g g b\cresc b es\f es
-    d\decresc d es es g,\pp g %10
+    d d es\decresc es g,\pp g %10
     c c b b c c
-    b cis(\cresc d c d fis)
-    g <g b,>4\f q8 <fis a,> q
-    <g g,> d\p d d c c
+    b( cis d c\cresc d fis)
+    g <g b,>4\f q8( <fis a,>) q
+    <g g,>\p d d d c c
     c c b b b b %15
     a a a a b b
     b a a a a a
@@ -1068,15 +1068,15 @@ AgnusViola = {
     a g es'\fz es e\p e
     f c b b b b %20
     b b a\cresc a as\f as
-    as\decresc as g g b\pp b
+    as as g\decresc g b\pp b
     as c b( g f as)
-    g c(\cresc f, d' es f)
+    g( c f, d'\cresc es f)
     g es4\f <es g,>8 <d f,> q %25
-    <es g,> es\p b b as as
+    <es g,>\p es b b as! as
     as as g g b! b
     as c b b b b
     b b b h c c
-    as' as as as g g %30
+    as'! as as as g g %30
     g g g g f f
     es16( d c d) es8 es([ d c)]
     h g4 g' es8

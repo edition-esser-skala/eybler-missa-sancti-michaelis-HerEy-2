@@ -252,11 +252,11 @@ AgnusBassoSolo = {
     a16([ b c d)] es8 d16([ c)] c([ b)] a([ g)]
     g8 fis r4 a16([ c)] a([ fis)]
     es!8.([ d16)] d8 r d'8. a16
-    c8 b es4~\fzE es16[ des] c([ b)]
-    b([ as)] g([ f)] es4( f)\trill %20
+    c8 b es4~\fz es16[ des] c([ b)]
+    b([ as!)] g([ f)] es4( f)\trill %20
     es r r
     R2.*10 %31
-    as4.\pE as8 as as
+    as,4.\pE as8 as as
     g2.
     g4 r r
     R2.\fermata \bar "||" %35 finis
@@ -268,8 +268,8 @@ AgnusBassoSoloLyrics = \lyricmode {
   De -- i, qui %15
   tol -- lis pec -- ca -- ta
   mun -- di: Mi -- se --
-  re -- re, \xE A -- gnus
-  De -- i, \x no -- bis
+  re -- re, A -- gnus
+  De -- i, no -- bis
   mi -- se -- re -- %20
   re.
 

@@ -992,8 +992,8 @@ AgnusViolinoII = {
   \relative c' {
     \clef treble
     \key c \minor \time 3/4 \tempoAgnus
-    \mvTr c8\fE-\markup \remark "con sordino" r g' r es r
-    c\p es es es as! as
+    \mvTr c8\p-\conSord r g' r es r
+    c es es es as! as
     as as g g g g
     as as as as a a
     g g g g g g %5
@@ -1001,23 +1001,23 @@ AgnusViolinoII = {
     f es fis\fz fis g\p g
     es es d d d d
     d d cis\cresc cis c\f c
-    c\decresc c b b d\pp d %10
+    c c b\decresc b d\pp d %10
     es es d d d d
-    d e(\cresc a, fis' g a)
-    b cis\f d b, c c
-    b b\p b b es es
+    d( e a, fis'\cresc g a)
+    b( cis\f d) b,( c) c
+    b\p b b b es es
     es es d d d d %15
     es es es es e e
     d d d d d d
     c c c c c c
     c b b'\fz b b\p b
-    as f es es d d %20
+    as! f es es d d %20
     es es es\cresc es ces\f ces
-    b\decresc b c c es\pp es
+    b b c\decresc c es\pp es
     c es es( b b d)
-    es a,(\cresc b h c d)
-    es a\f b g, as as %25
-    g g\p es' es d d
+    es( a, b h\cresc c d)
+    es a(\f b g,) as as %25
+    g\p g es' es d d
     h h c c es es
     c es es es d d
     d es es es es g

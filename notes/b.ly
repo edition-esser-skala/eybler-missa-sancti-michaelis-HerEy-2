@@ -1103,3 +1103,45 @@ BenedictusBassi = {
     c4 r\fermata \bar "|." %91 finis
   }
 }
+
+AgnusBassi = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoAgnus
+    c8\p r g' r es r
+    c c c c d d
+    es es es es es es
+    f f f f fis fis
+    g g g g g g %5
+    h, h h h h h
+    c c a'\fz a b!\p b
+    c c d d d, d
+    es es e\cresc e fis\f fis
+    g g es\decresc es b\pp b %10
+    c c d d d, d
+    g( g' fis a\cresc g c)
+    b( es\f d) d d, d
+    g,\p g g g a a
+    b b b b b b %15
+    c c c c cis cis
+    d d d d d d
+    fis, fis fis fis fis fis
+    g g g'\fz g g,\p g
+    as! as' b b b, b %20
+    ces ces c\cresc c d\f d
+    es es c\decresc c g\pp g
+    as as b b b b
+    es,( es' d f\cresc es as!)
+    g( c\f b) b b, b %25
+    es\p es es' es h h
+    c c c c g g
+    as! as b! b b, b
+    es es es es es es
+    d d d d h h %30
+    c c c' c g g
+    as4 as, as
+    g2.~
+    g4 g g
+    g2.\fermata \bar "||" %35 finis
+  }
+}

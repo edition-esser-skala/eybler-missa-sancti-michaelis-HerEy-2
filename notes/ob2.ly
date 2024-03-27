@@ -779,16 +779,16 @@ AgnusOboeII = {
     \key c \minor \time 3/4 \tempoAgnus
     R2.*7 %7
     r4 r fis\p
-    << { \oneVoice g2 a4~ a8. g16 g4 r } \\
-       { s4 s\cresc s\f s2\decresc s4\! } >> %10
+    g2\cresc a4~\f
+    a8.\decresc g16 g4\! r %10
     R2.
     r4 r r8 fis
     g b4\f g8 a fis
     g4 r r
     R2.*5 %19
     r4 r d\p %20
-    << { \oneVoice es2 f4~ f8. es16 es4 r } \\
-       { s4 s\cresc s\f s2\decresc s4\! } >>
+    es2\cresc f4~\f
+    f8.\decresc es16 es4\! r
     R2.
     r4 r r8 d
     es es4\f es8 f d %25

@@ -813,20 +813,20 @@ AgnusOboeI = {
     \key c \minor \time 3/4 \tempoAgnus
     R2.*7 %7
     r4 r d'~\p
-    d8. cis16 cis4\crescE c~\fE
+    d8.\cresc cis16 cis4 c~\f
     c8.\decresc b16 b4\! r %10
     R2.
     r4 r r8 es8
     d( cis\f d b c a)
-    g4 r r
+    \pao g4 r r
     R2.*5 %19
     r4 r b~\p %20
-    b8. a16 a4\cresc \once \tieDashed as~\f
+    b8. a16 a4\cresc as~\f
     as8.\decresc g16 g4\! r
     R2.
     r4 r r8 c
-    b( a\f b g as f) %25
-    es4 r r
+    \pa b a\f b g as f %25
+    es4 \pd r r
     R2.*8 %34
     R2.\fermata \bar "||" %35 finis
   }

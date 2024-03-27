@@ -1937,39 +1937,39 @@ AgnusOrgano = {
   \relative c {
     \clef bass
     \key c \minor \time 3/4 \tempoAgnus
-    \mvTr c8-!\fE-\solo r g'-! r es-! r
-    c\pE c c c d d
+    \mvTr c8-!\p-\solo r g'-! r es-! r
+    c c c c d d
     es es es es es es
     f f f f fis fis
     g g g g g g %5
     h, h h h h h
-    c c a'\fzE a b!\pE b
-    c c d d d,-\tutti d
+    c c a' a b! b
+    c c d d \mvTr d,\p-\tutti d
     es es e\cresc e fis\f fis
-    g\decresc g es es b\pp b %10
+    g g es\decresc es b\pp b %10
     c c d d d, d
-    g g'(-\solo\crescE fis a g c)
-    b es\fE d d d, d
-    g, g\p g g a a
+    g(-\solo g' fis a g c)
+    b es d d d, d
+    g,\p g g g a a
     b b b b b b %15
     c c c c cis cis
     d d d d d d
     fis, fis fis fis fis fis
     g g g'\fz g g,\p g
-    as! as' b b b,-\tutti b %20
+    as! as' b b \mvTr b,\p-\tutti b %20
     ces ces c\cresc c d\f d
-    es\decresc es c c g\pp g
+    es es c\decresc c g\pp g
     as as b b b b
-    es, es'(\crescE-\solo d f es as)
-    g c\fE b b b, b %25
-    es es\pE es' es h h
+    es,(-\solo es' d f es as!)
+    g c b b b, b %25
+    es es es' es h h
     c c c c g g
     as! as b! b b, b
     es es es es es es
     d d d d h h %30
     c c c' c g g
     as4 as, as
-    \mvTr g2.~-\tastoE
+    g2.~
     g4 g g
     g2.\fermata \bar "||" %35 finis
   }
@@ -1977,20 +1977,20 @@ AgnusOrgano = {
 
 AgnusBassFigures = \figuremode {
   r2.
-  r2 \bo <[6! 5- 3]>4
-  <\t \t \t> <6>2
+  r2 \bo <[6! 5-]>4
+  <\t \t> <6>2
   <6 5> <7 _!>4
   <6 4>8 <5 _!> r2 %5
   <7- 5>4 <6 \t>2
   <9 4>8 <8 3> <6\\ 5>4 <6>
-  <6!> \bc <[6 4 _]> <[5!] _+>
-  <7> <6\\ 5> <7 5! [_!]>
+  <6!> \bc <[6 4]> <[5!] _+>
+  <7> <6\\ 5-> <7 5! [_!]>
   <9! 4> <5> <6> %10
   <6-> <6 4> <7 [5!] _+>
   r8 \bo <[6! 4\+ 3]>8 <6 _!> <6\\ 4 _!>4 <6! 4\+ 3>8
   <6> <6\\> <6 4>4 <7! 5! _+>
-  r2 <6\\ 5 3>4
-  <\t \t \t> <6>2 %15
+  r2 <6\\ 5>4
+  <\t \t> <6>2 %15
   <6! 5> <7 5 _!>4
   <6 4>8 <5! _+> r2
   <7- 5 _!>4 <6 \t \t>2
@@ -2006,8 +2006,8 @@ AgnusBassFigures = \figuremode {
   r <6 4> <5 3>
   <7 2\+>8 <8 3>4 <5!>8 <6>4
   <7 5> <6! \t> <6 5> %30
-  <9 4> <8 3> <7 _!>
-  <5> <6\\>2
+  <9 4> <8 3> <6 _!>8 <5 \t>
+  r4 <6\\>2
   \bc <[5 _!]>2.
   r
   r %35 finis

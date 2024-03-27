@@ -175,11 +175,11 @@ AgnusTenoreSolo = {
     c8 h r4 d16([ f)] d([ h)] %5
     as!8.([ g16)] g8 r d'8. f,16
     f8 es es'4~\fz es16[ d] c([ b)]
-    b([ a)] c([ a)] g4( a)
+    b([ a)] c([ a)] g4( a)\trill
     g r r
     R2.*22 %31
     c8\pE d \afterGrace es4( { f16[ es] } d8) c
-    \once \tieDashed g2~ g8[ c]
+    g2~ g8[ c]
     h4 r r
     R2.\fermata \bar "||" %35 finis
   }

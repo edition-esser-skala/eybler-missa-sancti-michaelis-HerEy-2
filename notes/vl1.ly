@@ -994,8 +994,8 @@ AgnusViolinoI = {
   \relative c' {
     \clef treble
     \key c \minor \time 3/4 \tempoAgnus
-    \mvTr c8\f-\markup \remark "con sordino" r g' r es r
-    c\p g' g g h h
+    \mvTr c8\p-\conSord r g' r es r
+    c g' g g h h
     h h c c c c
     c c c c c c
     c h h h h h %5
@@ -1003,30 +1003,32 @@ AgnusViolinoI = {
     g g c\fz c b!\p b
     a a g g fis fis
     g g g\cresc g a\f a
-    a\decresc a g g g\pp g %10
+    a a g g\decresc g\pp g %10
     as as g g fis fis
-    g b(\cresc a d b es)
-    d[ \afterGrace g16.\f { a32[ g fis g] } a32] b16( g d b) a( es' d fis,)
-    g8 g\p g g fis fis
+    g( b a c\cresc b es)
+    % d g16.\f a32 b16( g d b) a( es' d fis,) % for MIDI
+    d \after 16 \turn g16.\f a32 b16( g d b) a( es' d fis,)
+    g8\p g g g fis fis
     fis fis g g g g %15
     g g g g g g
     g fis fis fis fis fis
-    es es d d d d
+    es! es d d d d
     d d es'\fz es des\p des
-    c as g g f f %20
+    c as! g g f f %20
     es es ges\cresc ges f\f f
-    f\decresc f es es b'\pp b
+    f f es\decresc es b'\pp b
     c as g( es d f)
-    es g(\cresc f as! g c)
-    b[ \afterGrace es16.\f { f32[ es d es] } f32] g16( es b g) f( c' b d,) %25
-    es8 es\p g g f f
+    es( g f as!\cresc g c)
+    % b es16.\f f32 g16( es b g) f( c' b d,) %25 for MIDI
+    b \after 16 \turn es16.\f f32 g16( es b g) f( c' b d,) %25
+    es8\p es g g f f
     d d es es b' b
     c as g g f f
     fis g g g g c
     c c h h f' f %30
-    d d es es d d
-    \once \slurDashed c16( b! as! g) fis8 fis4 fis8
-    g8 d'( es h c fis,)
+    d d es es es d
+    c16( b! as! g) fis8 fis4 fis8
+    g8( d' es h c fis,)
     g4 <g g,> q
     q2.\fermata \bar "||" %35 finis
   }
