@@ -1,9 +1,15 @@
 \version "2.24.2"
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
+% \include "ees_articulate.ly"
+
+
+acc = \markup \remark "acc."
+fivehatflat = \markup { \concat { \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) \raise #.3 \fontsize #-5 \flat } }
+hA = \once \override Accidental.stencil = ##f
+mvDlh = \once \override DynamicText.X-offset = #-2.5
 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
@@ -38,4 +44,5 @@ tempoAgnus = \tempoMarkup "Adagio"
 \include "notes/A.ly"
 \include "notes/T.ly"
 \include "notes/B.ly"
+\include "notes/b.ly"
 \include "notes/org.ly"

@@ -17,19 +17,12 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Oboe"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \KyrieOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \KyrieOboeII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = "Oboe I, II"
+            \partCombine #'(0 . 10)\KyrieOboeI \KyrieOboeII
           >>
         >>
         \new StaffGroup <<
@@ -45,7 +38,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola"
+            \set Staff.instrumentName = "Viole"
             \KyrieViola
           }
         >>
@@ -103,11 +96,15 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
-            % \transpose c c,
-            \KyrieOrgano
+            \set Staff.instrumentName = \markup \center-column { "Violoncello" "e Bassi" }
+            \KyrieBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "Organo"
+          % \transpose c c,
+          \KyrieOrgano
+        }
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
@@ -117,26 +114,26 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "ob 1"
-            \partCombine \GloriaOboeI \GloriaOboeII
+            \partCombine #'(0 . 10) \GloriaOboeI \GloriaOboeII
           }
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \GloriaClarinoI \GloriaClarinoII
+            \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
           >>
         >>
-        \new Staff {
+        \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = "timp"
           \GloriaTimpani
         }
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
@@ -153,7 +150,7 @@
             \GloriaViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #15 } <<
+        \new ChoirStaff \with { \setGroupDistance #12 #12 } <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -205,13 +202,17 @@
           }
           \new Lyrics \lyricsto Basso \GloriaBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \GloriaOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \GloriaBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \GloriaOrgano
+        }
         \new FiguredBass { \GloriaBassFigures }
       >>
       \layout { }
@@ -221,25 +222,19 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuiTollisOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuiTollisOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \QuiTollisOboeI \QuiTollisOboeII
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \QuiTollisClarinoI \QuiTollisClarinoII
+            \partCombine #'(0 . 10) \QuiTollisClarinoI \QuiTollisClarinoII
           >>
         >>
         \new Staff {
@@ -296,41 +291,38 @@
           }
           \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \QuiTollisOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \QuiTollisBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \QuiTollisOrgano
+        }
         \new FiguredBass { \QuiTollisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 45 }
+      \midi { \tempo 2 = 40 }
     }
   }
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuoniamOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuoniamOboeII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \QuoniamOboeI \QuoniamOboeII
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \QuoniamClarinoI \QuoniamClarinoII
+            \partCombine #'(0 . 10) \QuoniamClarinoI \QuoniamClarinoII
           >>
         >>
         \new Staff {
@@ -387,13 +379,17 @@
           }
           \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \QuoniamOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \QuoniamBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \QuoniamOrgano
+        }
         \new FiguredBass { \QuoniamBassFigures }
       >>
       \layout { }
@@ -403,26 +399,26 @@
   \bookpart {
     \subsection "Cum Sancto Spiritu"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "ob 1"
-            \partCombine \CumSanctoOboeI \CumSanctoOboeII
+            \partCombine #'(0 . 10) \CumSanctoOboeI \CumSanctoOboeII
           }
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \CumSanctoClarinoI \CumSanctoClarinoII
+            \partCombine #'(0 . 10) \CumSanctoClarinoI \CumSanctoClarinoII
           >>
         >>
-        \new Staff {
+        \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = "timp"
           \CumSanctoTimpani
         }
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
@@ -439,7 +435,7 @@
             \CumSanctoViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #15 } <<
+        \new ChoirStaff \with { \setGroupDistance #12 #12 } <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -491,13 +487,17 @@
           }
           \new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \CumSanctoOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \CumSanctoBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \CumSanctoOrgano
+        }
         \new FiguredBass { \CumSanctoBassFigures }
       >>
       \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
@@ -507,25 +507,27 @@
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+    }
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \CredoOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \CredoOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \CredoOboeI \CredoOboeII
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \CredoClarinoI \CredoClarinoII
+            \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
           >>
         >>
         \new Staff {
@@ -574,36 +576,42 @@
           }
           \new Lyrics \lyricsto Basso \CredoBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \CredoOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \CredoBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \CredoOrgano
+        }
         \new FiguredBass { \CredoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 100 }
+      \midi { \tempo 2 = 110 }
     }
   }
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+    }
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \EtIncarnatusOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \EtIncarnatusOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \EtIncarnatusOboeI \EtIncarnatusOboeII
+          }
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -647,13 +655,17 @@
           }
           \new Lyrics \lyricsto Basso \EtIncarnatusBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \EtIncarnatusOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \EtIncarnatusBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \EtIncarnatusOrgano
+        }
         \new FiguredBass { \EtIncarnatusBassFigures }
       >>
       \layout { }
@@ -663,25 +675,27 @@
   \bookpart {
     \subsection "Et resurrexit"
     \addTocEntry
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+    }
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \EtResurrexitOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \EtResurrexitOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \EtResurrexitOboeI \EtResurrexitOboeII
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \EtResurrexitClarinoI \EtResurrexitClarinoII
+            \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
           >>
         >>
         \new Staff {
@@ -730,13 +744,17 @@
           }
           \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \EtResurrexitOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \EtResurrexitBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \EtResurrexitOrgano
+        }
         \new FiguredBass { \EtResurrexitBassFigures }
       >>
       \layout { }
@@ -746,25 +764,27 @@
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+    }
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SanctusOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SanctusOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \SanctusOboeI \SanctusOboeII
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \SanctusClarinoI \SanctusClarinoII
+            \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
         >>
         \new Staff {
@@ -813,41 +833,47 @@
           }
           \new Lyrics \lyricsto Basso \SanctusBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \SanctusOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \SanctusBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \SanctusOrgano
+        }
         \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } % 120
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+    }
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \BenedictusOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \BenedictusOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \BenedictusOboeI \BenedictusOboeII
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \BenedictusClarinoI \BenedictusClarinoII
+            \partCombine #'(0 . 10) \BenedictusClarinoI \BenedictusClarinoII
           >>
         >>
         \new Staff {
@@ -896,36 +922,34 @@
           }
           \new Lyrics \lyricsto Basso \BenedictusBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \BenedictusOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \BenedictusBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \BenedictusOrgano
+        }
         \new FiguredBass { \BenedictusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 55 }
+      \midi { \tempo 4 = 60 } %120
     }
   }
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \AgnusOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \AgnusOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \AgnusOboeI \AgnusOboeII
+          }
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -944,7 +968,7 @@
             \AgnusViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #15 } <<
+        \new ChoirStaff <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "Soli" }
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -970,7 +994,7 @@
           }
           \new Lyrics \lyricsto BassoSolo \AgnusBassoSoloLyrics
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #15 } <<
+        \new ChoirStaff <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "Tutti" }
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -996,13 +1020,17 @@
           }
           \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \AgnusOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \AgnusBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \AgnusOrgano
+        }
         \new FiguredBass { \AgnusBassFigures }
       >>
       \layout { }
@@ -1012,25 +1040,27 @@
   \bookpart {
     \subsection "Dona nobis pacem"
     \addTocEntry
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+    }
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DonaOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DonaOboeII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \partCombine #'(0 . 10) \DonaOboeI \DonaOboeII
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \DonaClarinoI \DonaClarinoII
+            \partCombine #'(0 . 10) \DonaClarinoI \DonaClarinoII
           >>
         >>
         \new Staff {
@@ -1079,13 +1109,17 @@
           }
           \new Lyrics \lyricsto Basso \DonaBassoLyrics
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \DonaOrgano
+            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+            \DonaBassi
           }
         >>
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          % \transpose c c,
+          \DonaOrgano
+        }
         \new FiguredBass { \DonaBassFigures }
       >>
       \layout { }
