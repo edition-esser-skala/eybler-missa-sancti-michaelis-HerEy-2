@@ -23,7 +23,7 @@ KyrieOrgano = {
     e f f f c c c c f f f f d d g g
     g as as as es es es es f f f f f, f fis fis
     g g' g g g-\tasto g g g g g g g g g g g
-    g g g g g g g g \mvTr g,\f-\tutti g' g g g g g g %20
+    g g g g g g g g \mvDl g,\f-\tutti g' g g g g g g %20
     g\p g g-\tasto g g g g g g g g, g a! a h! h
     c8( e! g c) \mvTr d,2\f-\tutti
     \mvTr d8(\p-\unisono-\solo f h d) \mvTr e,2\f-\tutti

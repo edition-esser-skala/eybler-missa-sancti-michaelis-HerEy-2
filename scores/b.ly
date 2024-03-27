@@ -1,7 +1,7 @@
 \version "2.24.2"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name (markup #:center-column ("vlc" "b")))
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = \markup \center-column { "Violoncello" "e Bassi" }
+          \KyrieBassi
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaBassi }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisBassi }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamBassi }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CumSanctoOrgano }
+        \new Staff { \CumSanctoBassi }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoBassi }
       >>
     }
   }
@@ -69,7 +69,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \EtIncarnatusOrgano }
+        \new Staff { \EtIncarnatusBassi }
       >>
     }
   }
@@ -78,7 +78,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitBassi }
       >>
     }
   }
@@ -88,7 +88,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusBassi }
       >>
     }
   }
@@ -97,7 +97,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusBassi }
       >>
     }
   }
@@ -107,7 +107,7 @@
     \paper { systems-per-page = #8 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusBassi }
       >>
     }
   }
@@ -116,7 +116,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DonaOrgano }
+        \new Staff { \DonaBassi }
       >>
     }
   }

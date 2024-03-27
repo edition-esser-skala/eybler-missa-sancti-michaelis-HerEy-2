@@ -116,6 +116,7 @@
         \new Staff { \CredoTimpani }
       >>
     }
+    \tacet "subsection" "Et incarnatus est"
   }
   \bookpart {
     \subsection "Et resurrexit"
@@ -162,7 +163,7 @@
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
         \new StaffGroup <<
@@ -180,6 +181,7 @@
         \new Staff { \BenedictusTimpani }
       >>
     }
+    \tacet "section" "Agnus Dei"
   }
   \bookpart {
     \subsection "Dona nobis pacem"
